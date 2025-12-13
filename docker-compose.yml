@@ -1,0 +1,91 @@
+version: "3.8"
+
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: ngbss-minio
+    ports:
+      - "9010:9000"
+      - "9011:9001"
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+      - MINIO_SERVER_URL=http://127.0.0.1:9010
+      - MINIO_BROWSER_REDIRECT_URL=http://127.0.0.1:9011
+    volumes:
+      - minio_data:/data
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks: [forsa-net]
+
+  retrieval-api:
+    build:
+      context: ./forsa-endpoints
+      dockerfile: Dockerfile
+    container_name: ngbss-retrieval-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./forsa-endpoints/indexes:/app/indexes
+      - ./forsa-endpoints/data:/app/data:ro
+      - ./forsa-endpoints/config:/app/config:ro
+      - ./forsa-endpoints/S3_Storage:/app/S3_Storage
+      - ./forsa-endpoints/logs:/app/logs
+      - ./forsa-endpoints/docs:/app/docs:ro
+    environment:
+      - S3_ENDPOINT=minio:9000
+      - S3_EXTERNAL_ENDPOINT=localhost:9010
+      - S3_ACCESS_KEY=minioadmin
+      - S3_SECRET_KEY=minioadmin
+      - S3_SECURE=false
+      - S3_BUCKET=forsa-documents
+      - FRONTEND_ORIGIN=http://localhost:5173
+    depends_on:
+      minio:
+        condition: service_healthy
+    networks: [forsa-net]
+
+  chatbot-api:
+    build:
+      context: ./chat-bot-algerie-telecom
+      dockerfile: Dockerfile
+    container_name: forsa-chatbot-api
+    ports:
+      - "8001:8000"
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - DEEPSEEK_API_URL=${DEEPSEEK_API_URL:-https://api.modelarts-maas.com/v2/chat/completions}
+      - S3_INDEX_PATH=/app/s3_index.json
+    volumes:
+      - ./chat-bot-algerie-telecom:/app:Z
+      - ./forsa-endpoints/S3_Storage/s3_index.json:/app/s3_index.json:ro
+    depends_on: [retrieval-api]
+    networks: [forsa-net]
+
+  frontend:
+    build:
+      context: ./forsa-frontend
+      dockerfile: Dockerfile
+    container_name: forsa-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000
+      - VITE_CHAT_API_BASE_URL=http://localhost:8001
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./forsa-frontend:/app:Z
+      - /app/node_modules
+    depends_on: [retrieval-api, chatbot-api]
+    networks: [forsa-net]
+
+networks:
+  forsa-net:
+    driver: bridge
+
+volumes:
+  minio_data:
