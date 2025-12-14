@@ -1,9 +1,0 @@
-to test the depot pipeline use this command in chat-bot-algeria-telecom/pipelines/depot/depot_code
-python3 scripts/process_qa.py     tests/sample_questions.json     results/qa_results.json
-
-to test the offers pipeline use this command in testing scripts/offers_script5/offers_script
-put the input in example_input file 
-
-
-python processor.py
-
