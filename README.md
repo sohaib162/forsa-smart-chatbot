@@ -1,4 +1,4 @@
-# Forsa samrt chat bot 
+# Forsa smart chat bot 
 
 This is a chatbot application for Algeria Telecom that provides assistance with telecom-related queries using a document-based knowledge system. It was developed during the **Forsa hackathon organized by Algeria Telecom.**
 
