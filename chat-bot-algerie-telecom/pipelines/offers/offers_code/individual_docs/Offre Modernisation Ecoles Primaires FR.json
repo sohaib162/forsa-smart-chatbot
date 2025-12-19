@@ -1,0 +1,191 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/132/2024 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/132/2024",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "modernisation_ecoles_primaires_publiques",
+  "technology": [
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "public_primary_schools",
+    "education",
+    "public_sector"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet",
+    "education"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد لتحديث الانترنت المدارس الابتدائية العمومية نحو Idoom Fibre",
+    "title_fr": "Nouvelle Offre Modernisation Ecoles Primaires Publiques",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2024-12-14"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد لتحديث الانترنت المدارس الابتدائية العمومية نحو Idoom Fibre",
+    "name_fr": "Nouvelle Offre Modernisation Ecoles Primaires Publiques",
+    "description_ar": "في إطار عصرنة المدارس الابتدائية العمومية وتمكين هذه المؤسسات من الاستفادة من شبكة IDOOM FIBRE، تقترح اتصالات الجزائر عرضاً خاصاً موجهاً للمدارس الابتدائية العمومية. يمنح هذا العرض تدفقاً عالياً للإنترنت يقدر بـ 300 Mbps عبر الألياف البصرية، بسعر 0 دج، مع توفير مودم بصري وتركيب مجاني للمؤسسة التربوية. للاستفادة من العرض، يجب أن تكون قيمة الديون الهاتفية 0 دج، وأن يكون هناك رصيد إنترنت إيجابي، مع تحويل رصيد الإنترنت للأيام المتبقية إلى العرض الجديد، ويجب على المسؤول عن المدرسة التوجه إلى الوكالة التجارية لاتصالات الجزائر لتفعيل العرض.",
+    "description_fr": "Dans le cadre de la modernisation des écoles primaires publiques et afin de leur permettre de bénéficier du réseau IDOOM FIBRE, Algérie Télécom propose une offre dédiée, spécialement conçue pour répondre aux besoins de ces établissements. L’offre accorde un accès Idoom Fibre à 300 Mbps au tarif de 0 DA, avec modem optique et installation gratuits. L’éligibilité repose sur l’absence de créances téléphoniques, une balance internet positive et le transfert de la balance internet des jours restants.",
+    "conditions_ar": [
+      "العرض موجه حصرياً للمدارس الابتدائية العمومية في إطار عصرنة المؤسسات التربوية.",
+      "التدفق المقترح في إطار هذا العرض هو 300 Mbps عبر شبكة IDOOM FIBRE.",
+      "سعر خدمة الإنترنت في هذا العرض هو 0 دج للتدفق 300 Mbps.",
+      "يشترط للاستفادة من العرض أن تكون قيمة الديون الهاتفية على خط المدرسة 0 دج.",
+      "يشترط أن يكون للمدرسة رصيد إنترنت إيجابي قبل الانتقال إلى العرض.",
+      "يجب تحويل رصيد الإنترنت للأيام المتبقية من العرض القديم إلى العرض الجديد حتى لا تضيع الأيام المتبقية.",
+      "الاستفادة من العرض تتم حصرياً عبر توجه المسؤول عن المؤسسة التربوية إلى الوكالة التجارية لاتصالات الجزائر وطلب تفعيل عرض العصرنة.",
+      "المزايا الممنوحة (مودم بصري، تركيب مجاني، تحويل رصيد الإنترنت) تأتي في إطار عرض العصرنة المخصص للمدارس الابتدائية العمومية."
+    ],
+    "conditions_fr": [
+      "Offre de modernisation réservée aux écoles primaires publiques.",
+      "Débit proposé : 300 Mbps sur le réseau IDOOM FIBRE.",
+      "Tarif de l’offre : 0 DA pour le service internet à 300 Mbps.",
+      "L’établissement doit avoir 0 DA de créances téléphonique pour bénéficier de l’offre.",
+      "L’établissement doit disposer d’une balance internet positive.",
+      "L’établissement doit transférer la balance internet des jours restants vers la nouvelle offre.",
+      "Le responsable de l’établissement scolaire doit se présenter au niveau de l’agence commerciale d’Algérie Télécom pour bénéficier de l’offre.",
+      "Les avantages (modem optique, installation gratuite, transfert de la balance internet) sont accordés dans le cadre de l’offre de modernisation pour les écoles primaires publiques."
+    ],
+    "benefits_ar": [
+      "تمكين المدارس الابتدائية العمومية من الاستفادة من شبكة الألياف البصرية IDOOM FIBRE ضمن عرض مخصص للعصرنة.",
+      "توفير تدفق إنترنت عالي السرعة يقدر بـ 300 Mbps يناسب احتياجات المؤسسة التربوية التعليمية والإدارية.",
+      "الاستفادة من الإنترنت بتدفق 300 Mbps بسعر 0 دج، أي دون رسوم اشتراك شهرية على خدمة الإنترنت في إطار هذا العرض.",
+      "تزويد المدرسة بمودم بصري (ONT) مجاني في إطار العرض.",
+      "التركيب مجاني لخط الألياف البصرية والمودم البصري ضمن هذا العرض الخاص بالعصرنة.",
+      "تحويل رصيد الإنترنت للأيام المتبقية من العرض السابق إلى العرض الجديد، بما يضمن عدم ضياع الأيام المتبقية من اشتراك الإنترنت.",
+      "المحافظة على رصيد إنترنت إيجابي للمؤسسة في إطار عرض العصرنة، مع عدم وجود ديون هاتفية، مما يساهم في استمرارية الخدمة بشكل منتظم."
+    ],
+    "benefits_fr": [
+      "Accès au réseau IDOOM FIBRE pour les écoles primaires publiques.",
+      "Débit internet de 300 Mbps pour l’établissement scolaire.",
+      "Tarif internet de 0 DA pour le débit 300 Mbps.",
+      "Fourniture d’un modem optique pour l’école.",
+      "Installation gratuite de la ligne et du modem optique.",
+      "Transfert de la balance internet des jours restants vers la nouvelle offre afin d’éviter toute perte de jours.",
+      "Maintien d’une balance internet positive pour l’établissement dans le cadre de l’offre."
+    ],
+    "pricing_summary_ar": "يمنح عرض عصرنة المدارس الابتدائية العمومية اتصالاً بالإنترنت عبر شبكة Idoom Fibre بتدفق 300 Mbps بسعر 0 دج، مع الحصول على مودم بصري وتركيب مجاني، وذلك شريطة أن تكون الديون الهاتفية 0 دج، وأن يكون رصيد الإنترنت إيجابياً، مع تحويل رصيد الإنترنت للأيام المتبقية إلى العرض الجديد.",
+    "pricing_summary_fr": "L’offre de modernisation accorde aux écoles primaires publiques un accès Idoom Fibre à 300 Mbps au tarif de 0 DA, avec modem optique et installation gratuits, sous réserve d’une créance téléphonique à 0 DA, d’une balance internet positive et du transfert de la balance internet des jours restants."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "لمن يُوجَّه هذا العرض الخاص بعصرنة المدارس الابتدائية؟",
+      "answer": "المؤسسات التربوية المستهدفة بهذا العرض هي المدارس الابتدائية العمومية، حيث يهدف العرض إلى عصرنة هذه المدارس وتمكينها من الاستفادة من شبكة IDOOM FIBRE."
+    },
+    {
+      "question": "ما هي تفاصيل عرض العصرنة الموجه للمدارس الابتدائية العمومية؟",
+      "answer": "يعتمد العرض على توفير تدفق إنترنت عالي السرعة يقدر بـ 300 Mbps عبر شبكة Idoom Fibre بسعر 0 دج للمدرسة، مع منح مودم بصري وتركيب مجاني. إضافة إلى ذلك، يتم الحفاظ على رصيد الإنترنت الإيجابي وتحويل رصيد الأيام المتبقية من العرض السابق إلى العرض الجديد حتى لا تضيع أي أيام مدفوعة."
+    },
+    {
+      "question": "ما هي الشروط المطلوبة للاستفادة من عرض العصرنة؟",
+      "answer": "للاستفادة من العرض يجب أن تتوفر الشروط التالية: أن تكون قيمة الديون الهاتفية على خط المدرسة 0 دج، وجود رصيد إنترنت إيجابي قبل الانتقال إلى العرض، وتحويل رصيد الإنترنت للأيام المتبقية من العرض القديم إلى العرض الجديد."
+    },
+    {
+      "question": "كيف يمكن للمؤسسة التربوية الاستفادة عملياً من عرض العصرنة؟",
+      "answer": "للاستفادة من عرض العصرنة، يجب على المسؤول عن المؤسسة التربوية التوجه إلى الوكالة التجارية لاتصالات الجزائر وطلب تفعيل العرض المخصص لعصرنة المدارس الابتدائية العمومية، مع التأكد من استيفاء شروط عدم وجود ديون هاتفية ورصيد إنترنت إيجابي وتحويل رصيد الأيام المتبقية."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "À qui est destinée cette offre de modernisation ?",
+      "answer": "Les établissements scolaires ciblés par cette offre de modernisation sont les écoles primaires publiques."
+    },
+    {
+      "question": "Quels sont les détails de l’offre ?",
+      "answer": "L’offre de modernisation propose un débit de 300 Mbps sur le réseau IDOOM FIBRE au tarif de 0 DA pour les écoles primaires publiques. Elle inclut un modem optique, l’installation gratuite, 0 DA de créances téléphonique, une balance internet positive et le transfert de la balance internet des jours restants de l’ancienne offre vers la nouvelle."
+    },
+    {
+      "question": "Quelles sont les conditions requises pour bénéficier de cette offre ?",
+      "answer": "Pour que l’établissement scolaire puisse bénéficier de l’offre, il doit avoir 0 DA de créances téléphonique, disposer d’une balance internet positive et procéder au transfert de la balance internet des jours restants vers la nouvelle offre de modernisation."
+    },
+    {
+      "question": "Comment doit-on procéder pour bénéficier de l’offre de modernisation ?",
+      "answer": "Pour bénéficier de l’offre de modernisation, le responsable de l’établissement scolaire doit se rendre au niveau de l’agence commerciale d’Algérie Télécom et demander l’activation de l’offre dédiée aux écoles primaires publiques."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهم: نذكّر أن بريد «Feedback» على العنوان FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية ولتوضيحات حول المذكرات أو الإجراءات المعتمدة، كما يمكن للمسؤول عن المؤسسة التربوية التقرب من الوكالة التجارية لاتصالات الجزائر أو الاتصال بالرقم 12 لأي استفسار يتعلق بهذا العرض.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. Pour toute autre information ou besoin relatif à cette offre de modernisation, il est recommandé de se rapprocher de l’agence commerciale d’Algérie Télécom ou d’appeler le 12."
+  },
+
+  "keywords_ar": [
+    "عرض عصرنة المدارس الابتدائية العمومية",
+    "تحديث الإنترنت للمدارس الابتدائية",
+    "المدارس الابتدائية العمومية",
+    "المؤسسات التربوية",
+    "IDOOM FIBRE",
+    "الألياف البصرية",
+    "إنترنت 300 Mbps",
+    "300 Mbps",
+    "0 دج",
+    "مودم بصري",
+    "تركيب مجاني",
+    "0 دج من الديون الهاتفية",
+    "رصيد إنترنت إيجابي",
+    "تحويل رصيد الإنترنت للأيام المتبقية",
+    "عصرنة القطاع التربوي",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Offre modernisation écoles primaires publiques",
+    "écoles primaires publiques",
+    "établissements scolaires",
+    "IDOOM FIBRE",
+    "fibre optique",
+    "300 Mbps",
+    "0 DA",
+    "modem optique",
+    "installation gratuite",
+    "0 DA de créances téléphonique",
+    "balance internet positive",
+    "transfert de la balance internet des jours restants",
+    "offre dédiée éducation",
+    "Algérie Télécom"
+  ],
+  "keywords": [
+    "Offre modernisation écoles primaires publiques",
+    "écoles primaires publiques",
+    "établissements scolaires",
+    "IDOOM FIBRE",
+    "fibre optique",
+    "300 Mbps",
+    "0 DA",
+    "modem optique",
+    "installation gratuite",
+    "0 DA de créances téléphonique",
+    "balance internet positive",
+    "transfert de la balance internet des jours restants",
+    "offre dédiée éducation",
+    "Algérie Télécom",
+    "عرض عصرنة المدارس الابتدائية العمومية",
+    "تحديث الإنترنت للمدارس الابتدائية",
+    "المدارس الابتدائية العمومية",
+    "المؤسسات التربوية",
+    "إنترنت 300 Mbps",
+    "0 دج",
+    "مودم بصري",
+    "تركيب مجاني",
+    "0 دج من الديون الهاتفية",
+    "رصيد إنترنت إيجابي",
+    "تحويل رصيد الإنترنت للأيام المتبقية",
+    "عصرنة القطاع التربوي",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "العرض الجديد لتحديث الانترنت المدارس الابتدائية العمومية نحو Idoom Fibre هو عرض عصرنة مخصص للمدارس الابتدائية العمومية، يهدف إلى تمكين هذه المؤسسات التربوية من الاستفادة من شبكة الألياف البصرية IDOOM FIBRE. تفاصيل العرض: تدفق 300 Mbps بسعر 0 دج، مع مودم بصري وتركيب مجاني، بالإضافة إلى الحفاظ على رصيد إنترنت إيجابي وتحويل رصيد الأيام المتبقية من العرض القديم إلى العرض الجديد. الشروط المطلوبة للاستفادة من العرض: أن تكون قيمة الديون الهاتفية 0 دج، وجود رصيد إنترنت إيجابي، وتحويل رصيد الإنترنت للأيام المتبقية. كيفية الاستفادة: يتوجب على المسؤول عن المؤسسة التربوية التوجه إلى الوكالة التجارية لاتصالات الجزائر لطلب تفعيل العرض. مهم: بريد Feedback على العنوان FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية ولتوضيحات حول المذكرات أو الإجراءات. Nouvelle Offre Modernisation Ecoles Primaires Publiques. Dans le cadre de la modernisation des écoles primaires publiques et afin de leur permettre de bénéficier du réseau IDOOM FIBRE, Algérie Télécom propose une offre dédiée spécialement conçue pour répondre aux besoins des écoles primaires. L’offre est destinée aux écoles primaires publiques et propose un débit de 300 Mbps à 0 DA sur le réseau Idoom Fibre. Avantages : modem optique fourni, installation gratuite, 0 DA de créances téléphonique, balance internet positive, transfert de la balance internet des jours restants vers la nouvelle offre. Conditions pour bénéficier de l’offre : l’établissement doit avoir 0 DA de créances téléphonique, disposer d’une balance internet positive et transférer la balance internet des jours restants. Pour bénéficier de l’offre, le responsable de l’établissement doit se présenter à l’agence commerciale d’Algérie Télécom et demander l’activation de l’offre de modernisation. Contact et information : la messagerie Feedback FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et clarifications sur les notes ou procédures ; les agences commerciales et le numéro 12 restent les principaux canaux pour toute autre demande.",
+  "dense_text_primary": "هذا المستند يقدّم «العرض الجديد لتحديث الانترنت المدارس الابتدائية العمومية نحو Idoom Fibre»، وهو عرض عصرنة خاص من اتصالات الجزائر موجّه حصرياً للمدارس الابتدائية العمومية. يهدف العرض إلى تمكين هذه المؤسسات من الاستفادة من شبكة الألياف البصرية IDOOM FIBRE من خلال توفير تدفق إنترنت عالٍ يقدّر بـ 300 Mbps بسعر 0 دج، مع منح مودم بصري (ONT) وتركيب مجاني للخط والمعدات. للاستفادة من العرض، يجب أن تكون قيمة الديون الهاتفية على خط المؤسسة 0 دج، وأن تتوفر للمدرسة رصيد إنترنت إيجابي، مع تحويل رصيد الإنترنت للأيام المتبقية من العرض القديم إلى العرض الجديد حتى لا تضيع الأيام المدفوعة. يتعين على المسؤول عن المؤسسة التربوية التوجه إلى الوكالة التجارية لاتصالات الجزائر لطلب تفعيل العرض. كما يذكّر المستند بأن بريد Feedback على العنوان FB@algerietelecom.dz مخصص حصرياً لطلبات المعلومات التجارية والتوضيحات حول المذكرات والإجراءات المعتمدة.\n\nCe document décrit également la « Nouvelle Offre Modernisation Ecoles Primaires Publiques » d’Algérie Télécom, une offre dédiée à la modernisation des écoles primaires publiques via le réseau IDOOM FIBRE. L’offre accorde un débit internet de 300 Mbps à 0 DA, avec fourniture d’un modem optique et installation gratuite. Elle est strictement réservée aux écoles primaires publiques et son éligibilité impose trois conditions : 0 DA de créances téléphonique, une balance internet positive et le transfert de la balance internet des jours restants vers la nouvelle offre. Pour bénéficier de cette offre, le responsable de l’établissement scolaire doit se présenter en agence commerciale Algérie Télécom et demander l’activation de l’offre de modernisation. La messagerie « Feedback » FB@algerietelecom.dz est destinée aux demandes d’informations commerciales et aux clarifications concernant les notes ou procédures, tandis que les agences commerciales et le numéro 12 constituent les canaux principaux pour tout besoin opérationnel lié à l’offre."
+}

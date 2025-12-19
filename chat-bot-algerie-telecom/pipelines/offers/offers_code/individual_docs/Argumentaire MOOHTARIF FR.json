@@ -1,0 +1,457 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "moohtarif",
+  "technology": [
+    "adsl",
+    "vdsl",
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "tpe",
+    "professions_liberales",
+    "artisans",
+    "commercants",
+    "auto_entrepreneurs",
+    "startups",
+    "associations"
+  ],
+  "commitment_type": "12_month_commitment",
+  "usage_focus": [
+    "internet",
+    "fixed_voice",
+    "small_business_connectivity"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد محترف",
+    "title_fr": "Nouvelle Offre MOOHTARIF",
+    "company": "Algérie Télécom",
+    "version": "3.0",
+    "effective_date": "2025-01-07"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد محترف",
+    "name_fr": "Nouvelle Offre MOOHTARIF",
+    "description_ar": "العرض الجديد «محترف» من اتصالات الجزائر هو تحديث لعرض محترف الموجّه للمؤسسات الصغيرة جداً (TPE) والمهن الحرة، سواء كانوا زبائن حاليين أو جدد. يهدف هذا التحديث إلى توفير تجربة إنترنت عالية الأداء من خلال مراجعة تدفقات وعروض Idoom ADSL وVDSL وIdoom Fibre، مع تحسين السرعات لتصل إلى 1.2 جيجابت/ثانية ومراجعة الأسعار بما يتلاءم مع احتياجات المهنيين. كما يتضمن العرض مزايا إضافية مثل مكالمات غير محدودة نحو شبكة اتصالات الجزائر، إمكانية الحصول على عنوان IP ثابت، وتخفيضات على بعض التجهيزات والحلول المهنية.",
+    "description_fr": "La nouvelle offre MOOHTARIF d’Algérie Télécom est une mise à jour de l’offre destinée aux très petites entreprises (TPE) et aux professions libérales, clients existants ou nouveaux. Elle révise les grilles tarifaires Idoom ADSL, VDSL et Idoom Fibre, avec des débits améliorés jusqu’à 1,2 Gbps et des prix ajustés. L’offre inclut des avantages additionnels tels que des appels illimités vers le réseau Algérie Télécom, des options d’IP fixe, des facilités d’acquisition d’équipements (ONT, modem, routeurs Tenda) et des remises sur des solutions de cybersécurité et de facturation.",
+    "conditions_ar": [
+      "عرض محترف موجّه للمؤسسات الصغيرة جداً (TPE) والمهن الحرة، سواء كانوا زبائن حاليين أو جدد.",
+      "يتم تقديم طلب الاشتراك في عرض محترف حصرياً على مستوى الوكالة التجارية لاتصالات الجزائر.",
+      "بالنسبة لاشتراك Idoom ADSL وVDSL، تكون الأسعار الشهرية كالتالي: 15 ميغابت/ثا بـ 2 500 دج/شهر، 20 ميغابت/ثا بـ 2 650 دج/شهر (بدلاً من 2 700 دج)، 50 ميغابت/ثا بـ 2 850 دج/شهر (بدلاً من 2 900 دج)، و100 ميغابت/ثا بـ 3 050 دج/شهر (بدلاً من 3 100 دج).",
+      "عروض 50 VDSL و100 VDSL ميغابت/ثا متاحة حسب أهلية الخط.",
+      "بالنسبة لاشتراك Idoom Fibre، يتم تحويل التدفقات والأسعار القديمة إلى تدفقات وأسعار جديدة كما يلي: 15 ميغابت/ثا تبقى 15 ميغابت/ثا بـ 2 500 دج/شهر، 20 ميغابت/ثا تتحول إلى 30 ميغابت/ثا بـ 2 700 دج/شهر، 50 ميغابت/ثا تتحول إلى 60 ميغابت/ثا بـ 2 900 دج/شهر، 100 ميغابت/ثا تتحول إلى 120 ميغابت/ثا بـ 3 100 دج/شهر، 200 ميغابت/ثا تتحول إلى 240 ميغابت/ثا بـ 3 300 دج/شهر، 300 ميغابت/ثا تبقى 300 ميغابت/ثا بـ 3 500 دج/شهر، 500 ميغابت/ثا تبقى 500 ميغابت/ثا بـ 4 500 دج/شهر، و1 جيجابت/ثا تتحول إلى 1.2 جيجابت/ثا بـ 5 200 دج/شهر.",
+      "السرعة القصوى 1.2 جيجابت/ثانية متاحة حسب الأهلية التقنية للخط.",
+      "توفير سرعة رفع (Upload) تعادل 30% من سرعة التنزيل للزبائن الذين لديهم سرعة 30 ميغابت/ثا فما فوق على عرض Idoom Fibre محترف.",
+      "العرض الجديد محترف يلغي ويعوض العرض الحالي لمحترف.",
+      "زبون الألياف البصرية: سعر جهاز ONT هو 14 200 دج، وتكاليف التركيب 6 000 دج، وعند الاشتراك لمدة 3 أشهر أو أكثر تمنح تكاليف التركيب وجهاز ONT مجاناً.",
+      "زبون Idoom ADSL / VDSL: جهاز المودم يكون على عاتق الزبون، وتكاليف التركيب 2 000 دج، وعند الاشتراك لمدة 3 أشهر أو أكثر تمنح تكاليف التركيب مجاناً.",
+      "مدة الالتزام في عرض محترف هي 12 شهراً، ولا يمكن للزبون النزول إلى عرض أقل خلال فترة الالتزام.",
+      "عرض Idoom Fibre بسرعة 1.2 جيجابت/ثا مشروط باستعمال جهاز ONT من الجيل WiFi 6.",
+      "لكل زبون محترف الحق في اقتناء منتج واحد فقط من منتجات وتجهيزات وحلول dépôt-vente بسعر مخفض عند الاشتراك في عرض إنترنت بتدفق 20 ميغابت/ثانية أو أكثر، سواء كان زبوناً جديداً أو حالياً.",
+      "وكالات التأمين المعتمدة يجب أن تشترك في العرض المهني وليس عرض محترف.",
+      "للاستفادة من العرض، يجب تقديم ملف إداري يتضمن: نسخة من بطاقة التعريف الوطنية، إثبات عنوان، ووثيقة تثبت الانتماء إلى إحدى الفئات المستهدفة مثل سجل تجاري، بطاقة مهنية، اعتماد، أو اتفاقية ANSEJ أو CNAC أو ANGEM أو نسخة من البطاقة الجبائية."
+    ],
+    "conditions_fr": [
+      "L’offre MOOHTARIF cible les très petites entreprises (TPE) et les professions libérales, qu’ils soient des clients existants ou de nouveaux clients.",
+      "La demande pour l’offre MOOHTARIF s’effectue uniquement au niveau de l’agence commerciale d’Algérie Télécom.",
+      "Pour l’abonnement Idoom ADSL et VDSL, les nouveaux tarifs mensuels sont les suivants : 15 Mbps à 2 500 DA/mois, 20 Mbps à 2 650 DA/mois (au lieu de 2 700 DA/mois), 50 Mbps à 2 850 DA/mois (au lieu de 2 900 DA/mois) et 100 Mbps à 3 050 DA/mois (au lieu de 3 100 DA/mois).",
+      "Les offres VDSL 50 Mbps et 100 Mbps sont proposées selon l’éligibilité de la ligne.",
+      "Pour l’abonnement Idoom Fibre, les anciens débits et tarifs sont migrés vers de nouveaux débits et une nouvelle tarification : 15 Mbps reste à 15 Mbps pour 2 500 DA/mois ; 20 Mbps passe à 30 Mbps pour 2 700 DA/mois ; 50 Mbps passe à 60 Mbps pour 2 900 DA/mois ; 100 Mbps passe à 120 Mbps pour 3 100 DA/mois ; 200 Mbps passe à 240 Mbps pour 3 300 DA/mois ; 300 Mbps reste à 300 Mbps pour 3 500 DA/mois ; 500 Mbps reste à 500 Mbps pour 4 500 DA/mois ; 1 Gbps passe à 1,2 Gbps pour 5 200 DA/mois.",
+      "Le débit de 1,2 Gbps en Idoom Fibre est proposé selon l’éligibilité technique de la ligne.",
+      "Un upload équivalent à 30 % du débit descendant (download) est offert aux clients MOOHTARIF Idoom Fibre disposant d’un débit de 30 Mbps et plus.",
+      "La nouvelle offre MOOHTARIF annule et remplace l’offre MOOHTARIF actuelle.",
+      "Pour les clients Idoom Fibre, le prix d’acquisition du pack est composé de l’ONT à 14 200 DA et des frais d’installation à 6 000 DA ; pour toute souscription de 3 mois ou plus, les frais d’installation et d’équipement ONT sont offerts.",
+      "Pour les clients Idoom ADSL et VDSL, le modem est à la charge du client et les frais d’installation sont de 2 000 DA ; pour toute souscription de 3 mois ou plus, les frais d’installation sont offerts.",
+      "Toute nouvelle souscription à l’offre MOOHTARIF est assortie d’un engagement de 12 mois durant lequel le client ne peut pas descendre à une offre inférieure à celle souscrite.",
+      "Les offres Idoom Fibre à 1,2 Gbps sont conditionnées par l’utilisation d’un ONT de génération WiFi 6.",
+      "La nouvelle tarification de l’offre MOOHTARIF Idoom ADSL et VDSL s’applique automatiquement aux clients existants, sans démarche particulière.",
+      "La mise à jour des débits de l’offre MOOHTARIF Idoom Fibre est effectuée automatiquement pour les clients existants qui sont basculés vers les nouveaux débits.",
+      "Chaque client MOOHTARIF ouvre droit à une seule acquisition de produits et solutions en mode dépôt-vente à tarifs remisés lorsqu’il souscrit à une offre internet de 20 Mbps ou plus, qu’il soit nouveau client ou déjà client.",
+      "Les agences d’assurances agréées doivent souscrire à l’offre professionnelle et non à l’offre MOOHTARIF.",
+      "Pour bénéficier de l’offre, le client doit fournir un dossier administratif comprenant une copie de la pièce d’identité nationale, un justificatif d’adresse et une preuve d’appartenance à l’une des catégories cibles (extrait de registre de commerce, carte professionnelle, agrément, convention ANSEJ/CNAC/ANGEM, copie de la carte fiscale, etc.)."
+    ],
+    "benefits_ar": [
+      "تحسين تدفقات الإنترنت عبر تقنيات Idoom ADSL وVDSL وIdoom Fibre مع أسعار شهرية مُراجعة لفائدة المؤسسات الصغيرة جداً والمهن الحرة.",
+      "إمكانية الحصول على تدفقات عبر الألياف البصرية تصل إلى 1.2 جيجابت/ثا حسب الأهلية التقنية.",
+      "توفير سرعة رفع تعادل 30% من سرعة التنزيل لفائدة زبائن Idoom Fibre محترف الذين لديهم سرعة 30 ميغابت/ثا فما فوق.",
+      "مكالمات غير محدودة نحو شبكة اتصالات الجزائر في إطار عرض محترف.",
+      "إمكانية الحصول على عنوان IP ثابت مقابل 500 دج شهرياً.",
+      "إدماج خدمة الهاتف الثابت ضمن العرض مع اشتراك إلزامي في إحدى عروض Idoom Fixe 250 دج، 500 دج أو 750 دج حسب احتياجات الزبون.",
+      "بالنسبة لزبائن الألياف البصرية، الاستفادة من جهاز ONT وتكاليف التركيب مجاناً عند الاشتراك لمدة 3 أشهر أو أكثر.",
+      "بالنسبة لزبائن ADSL/VDSL، الاستفادة من تكاليف التركيب مجاناً (2 000 دج) عند الاشتراك لمدة 3 أشهر أو أكثر.",
+      "امتياز خاص لزبائن محترف الذين يعتمدون وسيلة الدفع الإلكتروني: أي زبون يقدم شهادة من بريد الجزائر أو من بنك تثبت اقتناء جهاز الدفع الإلكتروني TPE يستفيد من جهاز ONT وتركيب مجاني عند الاشتراك في عرض Idoom Fibre أو ADSL/VDSL لمدة شهر واحد فقط بدلاً من 3 أشهر.",
+      "استفادة زبائن محترف من أسعار تفضيلية على معدات الشبكة Tenda على شكل dépôt-vente عند الاشتراك في عرض إنترنت بتدفق 20 ميغابت/ثا أو أكثر، مثل جهاز Tenda V12 بسعر 11 000 دج بدلاً من 11 500 دج وجهاز Tenda AC23 بسعر 13 000 دج بدلاً من 13 500 دج.",
+      "استفادة من تخفيضات على حلول الأمن السيبراني Shirudo (لعبة تعليمية) عبر رخص سنوية أو متعددة السنوات بأسعار تفضيلية مقارنة بالأسعار الحالية.",
+      "استفادة من تخفيض على برنامج الفوترة Fatoura حيث يصبح السعر 45 000 دج بدلاً من 50 000 دج.",
+      "لكل زبون محترف الحق في اقتناء منتج واحد فقط بسعر مخفض من بين هذه المنتجات والحلول عند الاشتراك في عرض إنترنت 20 ميغابت/ثانية أو أكثر."
+    ],
+    "benefits_fr": [
+      "Débits internet ADSL, VDSL et Fibre améliorés avec des tarifs mensuels révisés pour offrir une meilleure connectivité aux TPE et professions libérales.",
+      "Possibilité de bénéficier de débits fibre jusqu’à 1,2 Gbps, avec un upload de 30 % du débit descendant pour les clients Idoom Fibre MOOHTARIF disposant d’un débit de 30 Mbps et plus.",
+      "Appels illimités vers le réseau d’Algérie Télécom pour les clients Idoom ADSL, VDSL et Idoom Fibre souscrivant à l’offre MOOHTARIF.",
+      "Adresse IP fixe proposée en option à 500 DA/mois.",
+      "Téléphonie intégrée : le client peut souscrire à une offre Idoom Fixe 250 DA, 500 DA ou 750 DA selon ses besoins.",
+      "Pour les clients Idoom Fibre, l’ONT et les frais d’installation sont offerts pour toute souscription de 3 mois ou plus.",
+      "Pour les clients Idoom ADSL et VDSL, les frais d’installation de 2 000 DA sont offerts pour toute souscription de 3 mois ou plus.",
+      "Avantage supplémentaire pour les clients adoptant le paiement électronique : tout client MOOHTARIF présentant une attestation d’Algérie Poste ou d’une banque justifiant l’acquisition d’un terminal de paiement électronique (TPE) dans son commerce, bénéficie d’un modem ONT et d’une installation gratuits, lors de la souscription à une offre Idoom Fibre ou Idoom ADSL/VDSL d’une durée minimale de 1 mois au lieu de 3 mois.",
+      "Tarification privilégiée sur les équipements réseaux Tenda en dépôt-vente pour les clients MOOHTARIF disposant d’une offre internet de 20 Mbps ou plus : Tenda V12 (WiFi 5 VDSL/ADSL + routeur) à 11 000 DA au lieu de 11 500 DA ; Tenda AC23 (WiFi 5 routeur sans fil) à 13 000 DA au lieu de 13 500 DA.",
+      "Remises sur les solutions de cybersécurité Shirudo (Serious Game) : licence 1 user 1 an à 44 000 DA au lieu de 46 410 DA ; 1 user 2 ans à 80 000 DA au lieu de 89 964 DA ; 1 user 3 ans à 111 000 DA au lieu de 128 520 DA.",
+      "Remise sur le logiciel de facturation FATOURA : 45 000 DA au lieu de 50 000 DA.",
+      "Possibilité pour chaque client MOOHTARIF de bénéficier une seule fois de ces tarifs remisés en dépôt-vente lors d’une souscription à une offre internet de 20 Mbps ou plus."
+    ],
+    "pricing_summary_ar": "بالنسبة لاشتراك Idoom ADSL وVDSL في عرض محترف، تكون الأسعار الشهرية الجديدة 2 500 دج لـ 15 ميغابت/ثا، 2 650 دج لـ 20 ميغابت/ثا، 2 850 دج لـ 50 ميغابت/ثا، و3 050 دج لـ 100 ميغابت/ثا (عروض VDSL حسب الأهلية). أما في Idoom Fibre، فتنتقل التدفقات القديمة إلى تدفقات جديدة مع أسعار مرتبطة بها، حتى 1.2 جيجابت/ثا بـ 5 200 دج/شهر، مع توفير سرعة رفع تساوي 30% من سرعة التنزيل انطلاقاً من 30 ميغابت/ثا. سعر حزمة الألياف يشمل جهاز ONT بـ 14 200 دج وتكاليف تركيب بـ 6 000 دج، يتم منحهما مجاناً عند الاشتراك لمدة 3 أشهر أو أكثر، بينما تبلغ تكاليف التركيب لـ ADSL/VDSL مبلغ 2 000 دج وتكون مجانية ابتداءً من اشتراك لمدة 3 أشهر.",
+    "pricing_summary_fr": "Pour Idoom ADSL et VDSL, les nouveaux tarifs MOOHTARIF sont de 2 500 DA/mois pour 15 Mbps, 2 650 DA/mois pour 20 Mbps, 2 850 DA/mois pour 50 Mbps et 3 050 DA/mois pour 100 Mbps (VDSL 50 et 100 Mbps selon éligibilité). Pour Idoom Fibre, les anciens débits et tarifs sont migrés vers une nouvelle grille : jusqu’à 1,2 Gbps à 5 200 DA/mois, avec upload fixé à 30 % du download à partir de 30 Mbps. Le pack fibre inclut un ONT à 14 200 DA et des frais d’installation à 6 000 DA, offerts dès 3 mois de souscription, tandis que pour l’ADSL/VDSL le modem est à la charge du client et les frais d’installation de 2 000 DA sont offerts à partir de 3 mois de souscription."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من هي الفئة المستهدفة من عرض محترف؟",
+      "answer": "عرض محترف موجه للمؤسسات الصغيرة جداً (TPE) والمهن الحرة، سواء كانوا زبائن حاليين أو جدد، بما في ذلك المستفيدين من أجهزة دعم التشغيل مثل ANSEJ وCNAC وANGEM، والحرفيين والتجار والجمعيات وغيرهم."
+    },
+    {
+      "question": "هل يمكن طلب عرض محترف فقط على مستوى الوكالة؟",
+      "answer": "نعم، يتم تقديم طلب الاشتراك في عرض محترف حصرياً على مستوى الوكالة التجارية لاتصالات الجزائر، حيث يقوم المستشارون التجاريون بدراسة الأهلية وتسجيل الطلب."
+    },
+    {
+      "question": "ما هي تفاصيل عرض محترف من حيث الأسعار والتدفقات؟",
+      "answer": "بالنسبة لـ Idoom ADSL/VDSL، الأسعار هي 2 500 دج/شهر لـ 15 ميغابت/ثا، 2 650 دج/شهر لـ 20 ميغابت/ثا، 2 850 دج/شهر لـ 50 ميغابت/ثا و3 050 دج/شهر لـ 100 ميغابت/ثا (حسب الأهلية لـ VDSL). وبالنسبة لـ Idoom Fibre، يتم تحويل التدفقات القديمة إلى تدفقات جديدة مع أسعار مرافقة: 15 ميغابت/ثا بـ 2 500 دج/شهر، 30 ميغابت/ثا بـ 2 700 دج/شهر، 60 ميغابت/ثا بـ 2 900 دج/شهر، 120 ميغابت/ثا بـ 3 100 دج/شهر، 240 ميغابت/ثا بـ 3 300 دج/شهر، 300 ميغابت/ثا بـ 3 500 دج/شهر، 500 ميغابت/ثا بـ 4 500 دج/شهر و1.2 جيجابت/ثا بـ 5 200 دج/شهر حسب الأهلية."
+    },
+    {
+      "question": "ما هي أسعار اقتناء حزمة محترف؟",
+      "answer": "لزبون الألياف البصرية، سعر جهاز ONT هو 14 200 دج وتكاليف التركيب 6 000 دج، وتمنح مجاناً عند الاشتراك لمدة 3 أشهر أو أكثر. أما زبون ADSL/VDSL، فالمودم على عاتقه وتكاليف التركيب 2 000 دج، وتُمنح مجاناً ابتداءً من اشتراك لمدة 3 أشهر."
+    },
+    {
+      "question": "ما هي مزايا عرض محترف؟",
+      "answer": "يوفر العرض مكالمات غير محدودة نحو شبكة اتصالات الجزائر، إمكانية الحصول على عنوان IP ثابت بـ 500 دج شهرياً، اشتراكاً في عروض Idoom Fixe للهاتف الثابت (250/500/750 دج)، بالإضافة إلى تحسينات في التدفق وأسعار الألياف وADSL/VDSL وتخفيضات على معدات الشبكة وحلول الأمن السيبراني وبرامج الفوترة."
+    },
+    {
+      "question": "ما معنى الرفع Upload؟",
+      "answer": "الرفع هو سرعة إرسال البيانات من جهازك نحو شبكة الإنترنت، مثل إرسال الملفات أو المشاركة في مكالمات الفيديو أو البث المباشر."
+    },
+    {
+      "question": "من يمكنه الاستفادة من عرض محترف بالتفصيل؟",
+      "answer": "يمكن أن يستفيد من عرض محترف: المستفيدون من برامج ANSEJ وCNAC وANGEM، المهن الحرة، الحرفيون، التجار في جميع القطاعات، تجار الجملة، الموزعون، الجمعيات، وكالات السفر، الوكالات العقارية، مكاتب الدراسات الجزائرية، المؤسسات الصغيرة جداً TPE، الشركات الناشئة Startups وأصحاب الأنشطة الفردية Auto-entrepreneurs. وكالات التأمين المعتمدة ملزمة بالاشتراك في العرض المهني وليس عرض محترف."
+    },
+    {
+      "question": "ما هي الامتيازات عند اعتماد وسيلة دفع إلكتروني (TPE)؟",
+      "answer": "كل زبون محترف يقدم شهادة صادرة عن بريد الجزائر أو عن بنك تثبت اقتناء جهاز الدفع الإلكتروني TPE في محله، يستفيد من جهاز ONT وتركيب مجاني عند الاشتراك في عرض Idoom Fibre أو ADSL/VDSL لمدة شهر واحد فقط بدلاً من 3 أشهر."
+    },
+    {
+      "question": "ما هي مدة الالتزام في عرض محترف؟",
+      "answer": "مدة الالتزام هي 12 شهراً، ولا يمكن للزبون خلال هذه الفترة النزول إلى عرض أقل من العرض الذي تم الاشتراك فيه."
+    },
+    {
+      "question": "أنا مشترك حالياً في عرض ADSL أو VDSL محترف، كيف أستفيد من التسعيرة الجديدة؟",
+      "answer": "التسعيرة الجديدة تطبق تلقائياً على الزبائن الحاليين في عرض محترف ADSL/VDSL ولا يتطلب الأمر أي إجراء من طرف الزبون."
+    },
+    {
+      "question": "أنا مشترك حالياً في عرض Fibre محترف، كيف أستفيد من تحديث السرعة؟",
+      "answer": "تحديث السرعات يتم تلقائياً لفائدة زبائن عرض محترف على الألياف البصرية، حيث يتم تحويلهم إلى التدفقات الجديدة بدون الحاجة لتقديم طلب."
+    },
+    {
+      "question": "ما هي المنتجات والحلول المتاحة في إطار dépôt-vente؟",
+      "answer": "يستفيد زبائن محترف من أسعار تفضيلية على معدات الشبكة Tenda V12 وTenda AC23، وعلى رخص تكوين في الأمن السيبراني Shirudo لمدة سنة أو سنتين أو ثلاث سنوات، وعلى برنامج الفاتورة Fatoura، مع إمكانية اقتناء منتج واحد فقط بسعر مخفض عند الاشتراك في عرض إنترنت بـ 20 ميغابت/ثانية أو أكثر."
+    },
+    {
+      "question": "ما هي الوثائق الإدارية المطلوبة للاشتراك؟",
+      "answer": "الملف الإداري يتضمن: نسخة من بطاقة التعريف الوطنية، إثبات عنوان (مثل فاتورة خدمات)، بالإضافة إلى وثيقة تثبت الانتماء إلى إحدى الفئات المستهدفة مثل سجل تجاري، بطاقة مهنية، اعتماد، اتفاقيات ANSEJ أو CNAC أو ANGEM، أو نسخة من البطاقة الجبائية."
+    },
+    {
+      "question": "لدي مشكلة، من أتصل؟",
+      "answer": "لأي استفسار أو شكوى، يمكنكم التوجه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو المحمول، حيث يتكفل مستشار هاتفي بطلبكم. كما يمكنكم استعمال بريد Feedback على العنوان FB@algerietelecom.dz لطلب معلومات تجارية أو توضيحات حول المذكرات أو الإجراءات المعتمدة."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Quelle est la cible de l’offre MOOHTARIF ?",
+      "answer": "L’offre MOOHTARIF cible les très petites entreprises (TPE) ainsi que les professions libérales, qu’ils soient des clients existants ou de nouveaux clients."
+    },
+    {
+      "question": "Peut-on demander l’offre MOOHTARIF uniquement au niveau de l’agence ?",
+      "answer": "Oui. La demande pour l’offre MOOHTARIF se fait uniquement au niveau de l’agence commerciale d’Algérie Télécom."
+    },
+    {
+      "question": "Quels sont les détails de l’offre MOOHTARIF ?",
+      "answer": "L’offre MOOHTARIF comprend une révision des grilles tarifaires Idoom ADSL, VDSL et Idoom Fibre avec des débits améliorés. Pour ADSL/VDSL : 15 Mbps à 2 500 DA/mois, 20 Mbps à 2 650 DA/mois, 50 Mbps à 2 850 DA/mois et 100 Mbps à 3 050 DA/mois (VDSL 50 et 100 Mbps selon éligibilité). Pour la fibre : 15 Mbps à 2 500 DA/mois, 30 Mbps à 2 700 DA/mois, 60 Mbps à 2 900 DA/mois, 120 Mbps à 3 100 DA/mois, 240 Mbps à 3 300 DA/mois, 300 Mbps à 3 500 DA/mois, 500 Mbps à 4 500 DA/mois et 1,2 Gbps à 5 200 DA/mois selon éligibilité, avec upload à 30 % du download à partir de 30 Mbps. La nouvelle offre annule et remplace l’ancienne offre MOOHTARIF."
+    },
+    {
+      "question": "Quels sont les prix d’acquisition du pack Moohtarif ?",
+      "answer": "Pour un client Idoom Fibre, le pack Moohtarif comprend un ONT à 14 200 DA et des frais d’installation de 6 000 DA ; pour toute souscription de 3 mois ou plus, ces frais d’installation et d’équipement sont offerts. Pour un client Idoom ADSL/VDSL, le modem est à la charge du client et les frais d’installation sont de 2 000 DA, offerts pour une souscription de 3 mois ou plus."
+    },
+    {
+      "question": "Quels sont les avantages de l’offre MOOHTARIF ?",
+      "answer": "Les principaux avantages sont : des débits internet améliorés avec des tarifs révisés, des appels illimités vers le réseau d’Algérie Télécom pour les clients ADSL, VDSL et Fibre, la possibilité de souscrire à une adresse IP fixe à 500 DA/mois et la souscription à une des offres Idoom Fixe 250 DA, 500 DA ou 750 DA pour la téléphonie. Des remises sont également proposées sur des équipements réseaux et des solutions professionnelles en mode dépôt-vente."
+    },
+    {
+      "question": "C’est quoi l’upload ?",
+      "answer": "L’upload est la vitesse à laquelle vous envoyez des données depuis votre appareil vers Internet (par exemple lors de l’envoi de fichiers, de la visioconférence ou du streaming en direct)."
+    },
+    {
+      "question": "Qui peut bénéficier de l’offre MOOHTARIF ?",
+      "answer": "Peuvent bénéficier de l’offre MOOHTARIF les TPE et professions libérales suivantes : bénéficiaires ANSEJ, CNAC, ANGEM, professions libérales, artisans, commerçants tous secteurs confondus, commerces de gros, distributeurs, associations, agences de voyage, agences immobilières, bureaux d’études algériens (avec registre de commerce algérien), TPE, startups et auto-entrepreneurs. Les agences d’assurances agréées doivent quant à elles souscrire à l’offre professionnelle."
+    },
+    {
+      "question": "Quels avantages bénéficiera un client MOOHTARIF en adoptant un mode de paiement électronique ?",
+      "answer": "Tout client MOOHTARIF présentant une attestation délivrée par Algérie Poste ou par une banque, justifiant de l’acquisition d’un terminal de paiement électronique (TPE) dans son commerce, bénéficie d’un modem ONT et d’une installation gratuits. Cette facilité est accordée lors de la souscription à une offre Idoom Fibre ou Idoom ADSL/VDSL d’une durée minimale de 1 mois au lieu de 3 mois."
+    },
+    {
+      "question": "Quelle est la durée de l’engagement ?",
+      "answer": "La durée de l’engagement est de 12 mois. Pendant cette période, le client ne peut pas passer à une offre inférieure à celle initialement souscrite."
+    },
+    {
+      "question": "Je suis déjà abonné à l’offre MOOHTARIF Idoom ADSL ou VDSL, quelle est la démarche à suivre pour bénéficier de la nouvelle tarification ?",
+      "answer": "La nouvelle tarification de l’offre MOOHTARIF Idoom ADSL et VDSL s’applique automatiquement aux clients existants, sans démarche particulière de leur part."
+    },
+    {
+      "question": "Je suis déjà abonné à l’offre MOOHTARIF Idoom Fibre, quelle est la démarche à suivre pour bénéficier de la mise à jour des débits ?",
+      "answer": "La mise à jour des débits de l’offre MOOHTARIF Idoom Fibre est effectuée automatiquement pour les clients existants, qui sont basculés vers les nouveaux débits sans demande spécifique."
+    },
+    {
+      "question": "Quel est le dossier administratif à fournir ?",
+      "answer": "Le dossier administratif à fournir comprend une copie de la pièce d’identité nationale, un justificatif d’adresse ainsi qu’un document prouvant l’appartenance à l’une des catégories cibles (par exemple : extrait de registre de commerce, carte professionnelle, agrément, convention ANSEJ, CNAC ou ANGEM, copie de la carte fiscale, etc.)."
+    },
+    {
+      "question": "Quelles sont les conditions liées à cette offre MOOHTARIF ?",
+      "answer": "Les principales conditions sont : engagement de 12 mois pour toute nouvelle souscription avec impossibilité de descendre à une offre inférieure, débits fibre 1,2 Gbps conditionnés par la génération de l’ONT WiFi 6, et droit à une seule acquisition de produits et solutions en mode dépôt-vente à tarifs remisés par client, lorsqu’il souscrit à une offre internet de 20 Mbps ou plus."
+    },
+    {
+      "question": "J’ai un problème, qui dois-je contacter ?",
+      "answer": "Pour toute information ou réclamation, il est recommandé de se rapprocher de l’agence commerciale la plus proche ou d’appeler le 12 à partir des lignes fixes ou mobiles. Un téléconseiller prendra en charge la demande."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "لأي معلومات إضافية أو شكاوى، يرجى التوجه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو المحمول، حيث سيتكفل مستشار هاتفي بطلبكم. مهم: نذكّركم أن بريد \"Feedback\" على العنوان الإلكتروني FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات حول المذكرات أو الإجراءات المعتمدة.",
+    "notes_fr": "Pour toute autre information et/ou réclamation, veuillez-vous rapprocher de votre agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+
+  "keywords_ar": [
+    "العرض الجديد محترف",
+    "عرض محترف",
+    "محترف",
+    "MOOHTARIF",
+    "عرض محترف للمؤسسات الصغيرة جدا",
+    "المؤسسات الصغيرة جدا TPE",
+    "المهن الحرة",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "الألياف البصرية",
+    "FTTH",
+    "15 ميغابت في الثانية",
+    "20 ميغابت في الثانية",
+    "50 ميغابت في الثانية",
+    "100 ميغابت في الثانية",
+    "200 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "300 ميغابت في الثانية",
+    "500 ميغابت في الثانية",
+    "1 جيجابت في الثانية",
+    "1.2 جيجابت في الثانية",
+    "2500 دج",
+    "2650 دج",
+    "2850 دج",
+    "3050 دج",
+    "2700 دج",
+    "2900 دج",
+    "3100 دج",
+    "3300 دج",
+    "3500 دج",
+    "4500 دج",
+    "5200 دج",
+    "سرعة الرفع 30 بالمئة",
+    "جهاز ONT 14200 دج",
+    "تكاليف التركيب 6000 دج",
+    "تكاليف التركيب 2000 دج",
+    "مكالمات غير محدودة نحو اتصالات الجزائر",
+    "عنوان IP ثابت 500 دج",
+    "Idoom Fixe 250 دج",
+    "Idoom Fixe 500 دج",
+    "Idoom Fixe 750 دج",
+    "جهاز الدفع الإلكتروني TPE",
+    "التزام 12 شهرا",
+    "معدات Tenda V12",
+    "معدات Tenda AC23",
+    "حل Shirudo للأمن السيبراني",
+    "برنامج الفوترة Fatoura"
+  ],
+  "keywords_fr": [
+    "Nouvelle Offre MOOHTARIF",
+    "MOOHTARIF",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "TPE",
+    "très petites entreprises",
+    "professions libérales",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "artisans",
+    "commerçants",
+    "commerces de gros",
+    "distributeurs",
+    "associations",
+    "agences de voyage",
+    "agences immobilières",
+    "bureaux d’études",
+    "startup",
+    "auto-entrepreneurs",
+    "15 Mbps",
+    "20 Mbps",
+    "50 Mbps",
+    "100 Mbps",
+    "200 Mbps",
+    "240 Mbps",
+    "300 Mbps",
+    "500 Mbps",
+    "1 Gbps",
+    "1,2 Gbps",
+    "2500 DA",
+    "2650 DA",
+    "2850 DA",
+    "3050 DA",
+    "2700 DA",
+    "2900 DA",
+    "3100 DA",
+    "3300 DA",
+    "3500 DA",
+    "4500 DA",
+    "5200 DA",
+    "upload 30 %",
+    "ONT 14200 DA",
+    "frais installation 6000 DA",
+    "frais installation 2000 DA",
+    "Tenda V12",
+    "Tenda AC23",
+    "Shirudo",
+    "FATOURA",
+    "IP fixe 500 DA",
+    "Idoom Fixe 250 DA",
+    "Idoom Fixe 500 DA",
+    "Idoom Fixe 750 DA",
+    "terminal de paiement électronique",
+    "TPE",
+    "engagement 12 mois"
+  ],
+  "keywords": [
+    "Nouvelle Offre MOOHTARIF",
+    "MOOHTARIF",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "TPE",
+    "très petites entreprises",
+    "professions libérales",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "artisans",
+    "commerçants",
+    "commerces de gros",
+    "distributeurs",
+    "associations",
+    "agences de voyage",
+    "agences immobilières",
+    "bureaux d’études",
+    "startup",
+    "auto-entrepreneurs",
+    "15 Mbps",
+    "20 Mbps",
+    "50 Mbps",
+    "100 Mbps",
+    "200 Mbps",
+    "240 Mbps",
+    "300 Mbps",
+    "500 Mbps",
+    "1 Gbps",
+    "1,2 Gbps",
+    "2500 DA",
+    "2650 DA",
+    "2850 DA",
+    "3050 DA",
+    "2700 DA",
+    "2900 DA",
+    "3100 DA",
+    "3300 DA",
+    "3500 DA",
+    "4500 DA",
+    "5200 DA",
+    "upload 30 %",
+    "ONT 14200 DA",
+    "frais installation 6000 DA",
+    "frais installation 2000 DA",
+    "Tenda V12",
+    "Tenda AC23",
+    "Shirudo",
+    "FATOURA",
+    "IP fixe 500 DA",
+    "Idoom Fixe 250 DA",
+    "Idoom Fixe 500 DA",
+    "Idoom Fixe 750 DA",
+    "terminal de paiement électronique",
+    "engagement 12 mois",
+    "العرض الجديد محترف",
+    "عرض محترف",
+    "محترف",
+    "عرض محترف للمؤسسات الصغيرة جدا",
+    "المؤسسات الصغيرة جدا TPE",
+    "المهن الحرة",
+    "الألياف البصرية",
+    "FTTH",
+    "15 ميغابت في الثانية",
+    "20 ميغابت في الثانية",
+    "50 ميغابت في الثانية",
+    "100 ميغابت في الثانية",
+    "200 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "300 ميغابت في الثانية",
+    "500 ميغابت في الثانية",
+    "1 جيجابت في الثانية",
+    "1.2 جيجابت في الثانية",
+    "2500 دج",
+    "2650 دج",
+    "2850 دج",
+    "3050 دج",
+    "2700 دج",
+    "2900 دج",
+    "3100 دج",
+    "3300 دج",
+    "3500 دج",
+    "4500 دج",
+    "5200 دج",
+    "سرعة الرفع 30 بالمئة",
+    "جهاز ONT 14200 دج",
+    "تكاليف التركيب 6000 دج",
+    "تكاليف التركيب 2000 دج",
+    "مكالمات غير محدودة نحو اتصالات الجزائر",
+    "عنوان IP ثابت 500 دج",
+    "Idoom Fixe 250 دج",
+    "Idoom Fixe 500 دج",
+    "Idoom Fixe 750 دج",
+    "جهاز الدفع الإلكتروني TPE",
+    "التزام 12 شهرا",
+    "معدات Tenda V12",
+    "معدات Tenda AC23",
+    "حل Shirudo للأمن السيبراني",
+    "برنامج الفوترة Fatoura"
+  ],
+
+  "search_text": "العرض الجديد محترف من اتصالات الجزائر هو مراجعة شاملة لعرض محترف الموجّه للمؤسسات الصغيرة جداً (TPE) والمهن الحرة، زبائن حاليين أو جدد. يوفّر العرض اشتراكات Idoom ADSL وVDSL بتدفقات 15 و20 و50 و100 ميغابت/ثا بأسعار شهرية 2 500 دج، 2 650 دج، 2 850 دج و3 050 دج على التوالي، مع كون عروض VDSL 50 و100 ميغابت/ثا حسب الأهلية. كما يوفّر اشتراك Idoom Fibre بتحديث تلقائي للتدفقات: 15 ميغابت/ثا بـ 2 500 دج/شهر، 30 ميغابت/ثا بـ 2 700 دج/شهر، 60 ميغابت/ثا بـ 2 900 دج/شهر، 120 ميغابت/ثا بـ 3 100 دج/شهر، 240 ميغابت/ثا بـ 3 300 دج/شهر، 300 ميغابت/ثا بـ 3 500 دج/شهر، 500 ميغابت/ثا بـ 4 500 دج/شهر و1.2 جيجابت/ثا بـ 5 200 دج/شهر حسب الأهلية مع سرعة رفع تعادل 30% من سرعة التنزيل للزبائن الذين لديهم سرعة 30 ميغابت/ثا فما فوق. حزمة محترف للألياف تشمل جهاز ONT بسعر 14 200 دج وتكاليف تركيب 6 000 دج، تمنح مجاناً عند الاشتراك لمدة 3 أشهر أو أكثر، بينما تكاليف تركيب ADSL/VDSL هي 2 000 دج وتصبح مجانية عند اشتراك 3 أشهر أو أكثر.\nيوفر العرض مزايا إضافية: مكالمات غير محدودة نحو شبكة اتصالات الجزائر، عنوان IP ثابت مقابل 500 دج شهرياً، والاشتراك في عروض Idoom Fixe 250 أو 500 أو 750 دج للهاتف الثابت. يستهدف العرض فئات مثل ANSEJ، CNAC، ANGEM، المهن الحرة، الحرفيين، التجار، تجار الجملة، الموزعين، الجمعيات، وكالات السفر، الوكالات العقارية، مكاتب الدراسات الجزائرية، المؤسسات الصغيرة جداً TPE، الشركات الناشئة Startups وأصحاب الأنشطة الفردية Auto-entrepreneurs، مع إلزام وكالات التأمين بالاشتراك في العرض المهني وليس عرض محترف. كما يقدّم تخفيضات على معدات الشبكة Tenda V12 وTenda AC23، وعلى رخص تكوين الأمن السيبراني Shirudo، وعلى برنامج الفوترة Fatoura، مع حق كل زبون في اقتناء منتج واحد فقط بسعر مخفض عند الاشتراك في عرض إنترنت بـ 20 ميغابت/ثا أو أكثر.\nأسئلة متكررة: من هي الفئة المستهدفة من عرض محترف؟ كيف يتم طلب العرض؟ ما هي الأسعار والتدفقات في ADSL/VDSL والألياف؟ ما هي أسعار حزمة الألياف وحزمة ADSL/VDSL؟ ما هي مدة الالتزام (12 شهراً)؟ كيف يستفيد الزبائن الحاليون من التسعيرة الجديدة أو من تحديث السرعات؟ ما هي الوثائق الإدارية المطلوبة (بطاقة تعريف، إثبات عنوان، سجل تجاري أو وثائق ANSEJ/CNAC/ANGEM أو بطاقة جبائية)؟ وكيفية الاستفادة من امتياز الدفع الإلكتروني TPE (جهاز ONT وتركيب مجانيان لمدة شهر واحد بدلاً من 3 أشهر). لأي استفسار أو شكوى، يمكن الاتصال بالرقم 12 أو التوجه إلى الوكالة التجارية أو مراسلة البريد Feedback على FB@algerietelecom.dz.\n\nNouvelle Offre MOOHTARIF. Dans le cadre de la révision de l’offre MOOHTARIF pour les très petites entreprises (TPE) et les professions libérales, Algérie Télécom met à jour l’offre afin de garantir une connectivité haut débit de qualité avec des débits améliorés et des tarifs révisés. L’offre s’adresse aux bénéficiaires ANSEJ, CNAC, ANGEM, aux artisans, commerçants tous secteurs confondus, commerces de gros, distributeurs, associations, agences de voyage, agences immobilières, bureaux d’études algériens, TPE, startups et auto-entrepreneurs, à l’exclusion des agences d’assurances agréées qui doivent souscrire à l’offre professionnelle. La demande se fait uniquement en agence commerciale.\nDétails ADSL/VDSL : 15 Mbps à 2 500 DA/mois, 20 Mbps à 2 650 DA/mois (au lieu de 2 700 DA), 50 Mbps à 2 850 DA/mois (au lieu de 2 900 DA) et 100 Mbps à 3 050 DA/mois (au lieu de 3 100 DA), les offres VDSL 50 et 100 Mbps étant soumises à l’éligibilité. Détails Fibre : 15 Mbps à 2 500 DA/mois, 30 Mbps à 2 700 DA/mois, 60 Mbps à 2 900 DA/mois, 120 Mbps à 3 100 DA/mois, 240 Mbps à 3 300 DA/mois, 300 Mbps à 3 500 DA/mois, 500 Mbps à 4 500 DA/mois et 1,2 Gbps à 5 200 DA/mois selon éligibilité, avec upload à 30 % du download à partir de 30 Mbps. La nouvelle offre annule et remplace l’ancienne offre MOOHTARIF.\nPack d’acquisition : pour Idoom Fibre, ONT à 14 200 DA et frais d’installation à 6 000 DA, offerts pour toute souscription de 3 mois ou plus ; pour Idoom ADSL/VDSL, modem à la charge du client et frais d’installation de 2 000 DA offerts pour 3 mois de souscription ou plus. Avantages : appels illimités vers le réseau Algérie Télécom, option IP fixe à 500 DA/mois, souscription à Idoom Fixe 250, 500 ou 750 DA pour la téléphonie. Avantage paiement électronique : tout client MOOHTARIF présentant une attestation d’Algérie Poste ou d’une banque confirmant l’acquisition d’un TPE bénéficie d’un modem ONT et d’une installation gratuits pour une offre Idoom Fibre ou ADSL/VDSL dès 1 mois de souscription au lieu de 3. Dépôt-vente : tarifs remisés sur Tenda V12, Tenda AC23, les licences Shirudo (1, 2, 3 ans) et le logiciel de facturation FATOURA, chaque client pouvant en bénéficier une seule fois lors d’une souscription à une offre internet de 20 Mbps ou plus. Engagement de 12 mois avec impossibilité de descendre à une offre inférieure, et débits fibre 1,2 Gbps conditionnés par un ONT WiFi 6. Les nouvelles tarifications ADSL/VDSL et les nouveaux débits fibre sont appliqués automatiquement aux clients MOOHTARIF existants. En cas de problème, le client peut se rapprocher de son agence commerciale, appeler le 12 ou utiliser la messagerie Feedback FB@algerietelecom.dz pour les demandes d’informations commerciales et clarifications sur les notes ou procédures.",
+
+  "dense_text_primary": "هذا المستند يقدّم «العرض الجديد محترف» (MOOHTARIF)، وهو تحديث شامل لعرض محترف الذي تقترحه اتصالات الجزائر لفائدة المؤسسات الصغيرة جداً (TPE) والمهن الحرة، سواء كانوا زبائن حاليين أو جدد. يراجع العرض التدفقات والأسعار الخاصة باشتراكات Idoom ADSL وVDSL وIdoom Fibre، حيث تصبح أسعار ADSL/VDSL 2 500 دج لـ 15 ميغابت/ثا، 2 650 دج لـ 20 ميغابت/ثا، 2 850 دج لـ 50 ميغابت/ثا، و3 050 دج لـ 100 ميغابت/ثا، بينما توفر الألياف البصرية تدفقات من 15 إلى 1.2 جيجابت/ثا بأسعار تتراوح بين 2 500 دج و5 200 دج شهرياً حسب التدفق والأهلية، مع سرعة رفع تساوي 30% من سرعة التنزيل انطلاقاً من 30 ميغابت/ثا. يستفيد زبون الألياف من جهاز ONT وتكاليف تركيب يمكن أن تكون مجانية عند الاشتراك لمدة 3 أشهر أو أكثر، في حين يستفيد زبون ADSL/VDSL من إعفاء من تكاليف التركيب ابتداءً من اشتراك 3 أشهر. يشمل العرض أيضاً مكالمات غير محدودة نحو شبكة اتصالات الجزائر، إمكانية الحصول على عنوان IP ثابت بـ 500 دج شهرياً، والاشتراك في عروض Idoom Fixe 250/500/750 دج.\n\nيستهدف العرض فئات مهنية متعدّدة مثل ANSEJ، CNAC، ANGEM، الحرفيين، التجار، الجمعيات، وكالات السفر، الوكالات العقارية، مكاتب الدراسات، المؤسسات الصغيرة جداً TPE، الشركات الناشئة Startups وأصحاب الأنشطة الفردية Auto-entrepreneurs، مع استثناء وكالات التأمين المعتمدة التي يجب أن تشترك في العرض المهني. كما يمنح امتيازات مرتبطة بالدفع الإلكتروني، إذ يمكن لأي زبون محترف يثبت اقتناء جهاز الدفع الإلكتروني TPE الاستفادة من جهاز ONT وتركيب مجانيين عند الاشتراك في عرض Idoom Fibre أو ADSL/VDSL لمدة شهر واحد بدلاً من 3 أشهر. إضافة إلى ذلك، يمكن لكل زبون اقتناء منتج واحد فقط من بين معدات الشبكة Tenda V12 وTenda AC23، ورخص تكوين Shirudo، وبرنامج الفوترة Fatoura بأسعار تفضيلية عند الاشتراك في عرض إنترنت بتدفق 20 ميغابت/ثا أو أكثر. مدة الالتزام 12 شهراً ولا يمكن للزبون النزول إلى عرض أقل خلال هذه الفترة، كما أن تدفق 1.2 جيجابت/ثا مشروط باستعمال جهاز ONT WiFi 6؛ في حين يتم تطبيق التسعيرة الجديدة وتحديث السرعات تلقائياً على الزبائن الحاليين.\n\nCe document décrit également en français la « Nouvelle Offre MOOHTARIF » d’Algérie Télécom, version 3, destinée aux très petites entreprises (TPE) et aux professions libérales. Il détaille les nouvelles grilles tarifaires ADSL/VDSL et Fibre, les débits jusqu’à 1,2 Gbps, l’upload à 30 % du download à partir de 30 Mbps, les conditions d’acquisition du pack fibre (ONT 14 200 DA, installation 6 000 DA offerts dès 3 mois), ainsi que les avantages tels que les appels illimités vers le réseau d’Algérie Télécom, l’IP fixe à 500 DA/mois et les remises sur les équipements réseaux Tenda, les licences de cybersécurité Shirudo et le logiciel de facturation FATOURA. L’offre prévoit un engagement de 12 mois, avec application automatique des nouvelles tarifications et des nouveaux débits pour les clients existants, et un dossier administratif à fournir (pièce d’identité, justificatif d’adresse, preuve d’appartenance à une catégorie cible)."
+}

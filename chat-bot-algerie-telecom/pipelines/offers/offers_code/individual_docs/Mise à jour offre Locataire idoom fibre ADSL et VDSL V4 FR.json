@@ -1,0 +1,367 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_adsl_vdsl_locataire",
+  "technology": [
+    "adsl",
+    "vdsl",
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential",
+    "tenants_without_proof_of_address"
+  ],
+  "commitment_type": "12_month_commitment",
+  "usage_focus": [
+    "internet",
+    "fixed_voice",
+    "general"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre وADSL وVDSL",
+    "title_fr": "Nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL",
+    "company": "Algérie Télécom",
+    "version": "4.0",
+    "effective_date": "2025-07-15"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre وADSL وVDSL",
+    "name_fr": "Nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL",
+    "description_ar": "العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre وADSL وVDSL هو تحديث لعروض Idoom Fixe و Idoom ADSL و VDSL و Fibre، موجه خصيصاً للزبائن الخواص الذين لا يملكون وثيقة لإثبات السكن ويرغبون في الاشتراك في خدمات الهاتف الثابت والإنترنت دون تقديم وثيقة إثبات العنوان. يقدم العرض جداول سعرية جديدة لعروض Idoom ADSL و VDSL بصيغة DATA & VOIX مع الحفاظ على الأسعار أو تخفيضها قليلاً لبعض التدفقات، بالإضافة إلى عرض جديد لخدمة الألياف البصرية Idoom FTTH DATA & VOIX مع زيادة في التدفقات حتى 1.5 جيجابت في الثانية، مع دمج خدمة الهاتف الثابت في السعر واشتراك Idoom Fixe بقيمة 250 دج شهرياً مضمّن، وتحديد سرعة الإرسال Upload في عروض الألياف بنسبة 30٪ من سرعة التحميل.",
+    "description_fr": "La nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL d’Algérie Télécom est une mise à jour des offres Idoom Fixe et Idoom ADSL, VDSL et Fibre, destinée aux clients résidentiels ne possédant pas de justificatif d’adresse. Elle introduit de nouveaux paliers de débits pour les abonnements Idoom ADSL&VDSL DATA&VOIX avec une légère baisse de tarifs sur certains débits, ainsi qu’une nouvelle grille pour Idoom FTTH DATA & VOIX avec des débits augmentés jusqu’à 1,5 Gbps. L’offre inclut simultanément l’internet et la téléphonie, intègre un accès Idoom fixe facturé 250 DA/Mois dans le prix global et applique un upload fixé à 30 % du débit choisi sur l’offre Idoom Fibre.",
+    "conditions_ar": [
+      "هذا العرض مخصص لكل الزبائن الخواص الراغبين في الاشتراك في إحدى عروض الهاتف الثابت والإنترنت دون الحاجة إلى تقديم أي وثيقة لإثبات العنوان.",
+      "الجداول السعرية توضح بالتفصيل الأسعار القديمة والجديدة والتدفقات المرتبطة بعروض Idoom ADSL و VDSL و Fibre الموجهة لفئة locataires résidentiels.",
+      "يكون استعمال خدمات الهاتف والإنترنت تحت المسؤولية الكاملة لصاحب العقد.",
+      "الأسعار المذكورة في الجداول تشمل في نفس الوقت خدمات الإنترنت والهاتف الثابت معاً.",
+      "تدفقي VDSL 50 ميغابت و100 ميغابت، وكذلك التدفقات 1 جيجابت في الثانية و1.5 جيجابت في الثانية في الألياف، تبقى خاضعة لإمكانية التأهيل التقني للخط.",
+      "في عروض Idoom Fibre، تعادل سرعة الرفع Upload نسبة 30 بالمائة من سرعة التنزيل Download المختارة.",
+      "لن يتم بعد الآن تسويق التدفقين 10 و15 ميغابت في الألياف البصرية.",
+      "هذا العرض يلغي ويستبدل العرض السابق الخاص بالمستأجرين résidentiel LOCATAIRE.",
+      "الالتزام: يتعين على كل زبون جديد يستفيد من عرض locataire الالتزام بعقد لمدة 12 شهراً، ولا يمكنه خلال هذه المدة الانتقال إلى عرض أدنى من العرض الأولي الذي تم اختياره.",
+      "تتضمن عروض locataire قيوداً على الاتصالات نحو الهواتف النقالة ونحو الخارج.",
+      "للاستفادة من العرض الموجه للزبائن بدون عقد إيجار، يجب تقديم نسخة من وثيقة الهوية (بطاقة تعريف وطنية أو جواز سفر ساري المفعول) وأي وثيقة متاحة لدى الزبون يمكنها تأكيد عنوان التركيب."
+    ],
+    "conditions_fr": [
+      "Offre destinée à tous les clients résidentiels désirant souscrire à une offre voix et internet sans avoir à présenter un justificatif d’adresse.",
+      "Les tableaux tarifaires présentent les anciennes et nouvelles tarifications ainsi que les débits associés à la nouvelle offre en Idoom ADSL, VDSL et Fibre.",
+      "Les accès voix et internet sont sous la responsabilité du contractant.",
+      "Les prix indiqués dans les tableaux incluent simultanément les tarifs des services internet et de téléphonie.",
+      "Les paliers Idoom VDSL 50 Mbps et 100 Mbps ainsi que les débits Idoom Fibre 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité de la ligne.",
+      "L’upload est de 30 % du débit choisi pour l’offre Idoom Fibre.",
+      "Les paliers de 10 Mbps et 15 Mbps de l’offre Idoom Fibre ne seront plus commercialisés.",
+      "Cette offre remplace et annule l’offre précédente.",
+      "Engagement : pour toute nouvelle souscription à l’offre locataire, un engagement de 12 mois est requis et il n’est pas possible de passer à une offre inférieure durant cette période.",
+      "Les offres locataire incluent des restrictions sur les communications vers les mobiles et vers l’international.",
+      "Pour bénéficier de l’offre destinée aux clients sans bail, il faut fournir une copie d’une pièce d’identité (carte nationale d’identité ou passeport en cours de validité) et un document pouvant confirmer l’adresse d’installation."
+    ],
+    "benefits_ar": [
+      "إمكانية اشتراك الزبائن الخواص في خدمة الهاتف الثابت والإنترنت دون الحاجة إلى تقديم وثيقة إثبات السكن، ما يجعل العرض مناسباً للمستأجرين بدون عقد إيجار.",
+      "يتضمن العرض اشتراك Idoom Fixe بقيمة 250 دج شهرياً مدمجة ضمن السعر الإجمالي للاشتراك دون فوترة منفصلة.",
+      "يتضمن العرض تقييداً للمكالمات الدولية بقيمة 50 دج شهرياً وتقييداً للمكالمات نحو الهواتف النقالة في إطار نفس اشتراك locataire، ما يساعد على التحكم في فاتورة الاتصالات.",
+      "تحديث جداول Idoom ADSL و VDSL بصيغة DATA & VOIX مع الحفاظ على الأسعار أو تخفيضها قليلاً لبعض التدفقات مثل 20 ميغابت من 2500 إلى 2450 دج/شهر و50 ميغابت من 2700 إلى 2650 دج/شهر و100 ميغابت من 2900 إلى 2850 دج/شهر.",
+      "إطلاق جيل جديد من التدفقات في عرض Idoom FTTH DATA & VOIX، حيث يصبح التدفق القديم 30 ميغابت في الثانية 60 ميغابت في الثانية بسعر 2500 دج/شهر مع مودم بصري وشهر إنترنت وتركيب، بينما 60 ميغابت يصبح 120 ميغابت بسعر 2700 دج/شهر، و120 ميغابت يصبح 240 ميغابت بسعر 2900 دج/شهر، و240 ميغابت يصبح 480 ميغابت بسعر 3100 دج/شهر، و300 ميغابت يصبح 600 ميغابت بسعر 3300 دج/شهر، و500 ميغابت يصبح 1 جيجابت بسعر 3900 دج/شهر، و1.2 جيجابت يصبح 1.5 جيجابت بسعر 4500 دج/شهر.",
+      "تحويل الزبائن الحاليين في عرض Idoom Fibre locataire الذين لديهم التدفقات 30 و60 و120 و240 و300 و500 ميغابت في الثانية تلقائياً إلى التدفقات الجديدة 60 و120 و240 و480 و600 ميغابت في الثانية و1 جيجابت و1.5 جيجابت في الثانية دون الحاجة إلى طلب خاص.",
+      "سرعة الرفع Upload في عروض الألياف تعادل 30% من سرعة التنزيل، ما يضمن توازناً معقولاً بين تحميل البيانات ورفعها خاصة للاستخدامات المنزلية العامة.",
+      "توفير عدة وسائل مريحة لإعادة شحن الإنترنت ودفع الفواتير، منها الدفع في الوكالات التجارية ونقاط البيع، فضاء الزبون الإلكتروني، تطبيق My Idoom، تطبيق Algérie Télécom، تطبيق Baridimob، تطبيق BNA Wimpay وأجهزة الدفع الإلكتروني TPE.",
+      "تقديم إرشادات واضحة لمساعدة الزبون على اختيار العرض الأنسب له استناداً إلى عدد أفراد الأسرة المتصلين في نفس الوقت وطبيعة الاستخدام وتأهيل الخط."
+    ],
+    "benefits_fr": [
+      "Accès internet pour les clients résidentiels locataires sans justificatif d’adresse.",
+      "Accès Idoom fixe inclus dans l’offre avec un coût de 250 DA/Mois intégré dans le prix global.",
+      "Restriction vers l’international facturée 50 DA/Mois, intégrée dans l’offre locataire.",
+      "Restriction vers les mobiles incluse dans l’offre, contribuant à la maîtrise des coûts de communication.",
+      "Nouvelle grille Idoom ADSL&VDSL DATA&VOIX avec maintien ou légère baisse des tarifs : 10 Mbps à 1 900 DA/Mois, 15 Mbps à 2 300 DA/Mois, 20 Mbps à 2 450 DA/Mois (au lieu de 2 500 DA/Mois), 50 Mbps à 2 650 DA/Mois (au lieu de 2 700 DA/Mois) et 100 Mbps à 2 850 DA/Mois (au lieu de 2 900 DA/Mois).",
+      "Nouvelle grille Idoom FTTH DATA & VOIX avec augmentation de débits et nouveaux tarifs : ancien 30 Mbps devient 60 Mbps à 2 500 DA/Mois (modem optique + 1 mois de connexion + frais d’installation inclus), ancien 60 Mbps devient 120 Mbps à 2 700 DA/Mois, ancien 120 Mbps devient 240 Mbps à 2 900 DA/Mois, ancien 240 Mbps devient 480 Mbps à 3 100 DA/Mois, ancien 300 Mbps devient 600 Mbps à 3 300 DA/Mois, ancien 500 Mbps devient 1 Gbps à 3 900 DA/Mois, ancien 1,2 Gbps devient 1,5 Gbps à 4 500 DA/Mois.",
+      "Les clients actuels de l’offre Idoom Fibre locataire disposant des paliers 30, 60, 120, 240, 300 et 500 Mbps seront automatiquement basculés vers les nouveaux paliers 60, 120, 240, 480, 600 Mbps, 1 Gbps et 1,5 Gbps.",
+      "Large choix de modes de rechargement : paiement des factures internet dans les points de vente (Actel et PP), via l’espace client en ligne avec carte Edahabia ou CIB, via l’application My Idoom, l’application Algérie Télécom, Baridimob, BNA Wimpay ou TPE.",
+      "Conseils pour choisir l’offre la plus adaptée en fonction du nombre de personnes connectées simultanément, des usages principaux (téléchargement, streaming, transfert de données, etc.) et de l’éligibilité de la ligne."
+    ],
+    "pricing_summary_ar": "بالنسبة لاشتراك Idoom ADSL و VDSL بصيغة DATA & VOIX، تصبح الأسعار الشهرية 1900 دج لتدفق 10 ميغابت، و2300 دج لتدفق 15 ميغابت، و2450 دج لتدفق 20 ميغابت بدلاً من 2500 دج، و2650 دج لتدفق 50 ميغابت بدلاً من 2700 دج، و2850 دج لتدفق 100 ميغابت بدلاً من 2900 دج. أما بالنسبة لاشتراك Idoom FTTH بصيغة DATA & VOIX، فتتمثل التدفقات والأسعار الجديدة في 60 ميغابت بسعر 2500 دج، و120 ميغابت بسعر 2700 دج، و240 ميغابت بسعر 2900 دج، و480 ميغابت بسعر 3100 دج، و600 ميغابت بسعر 3300 دج، و1 جيجابت بسعر 3900 دج، و1.5 جيجابت بسعر 4500 دج شهرياً، مع العلم أن الأسعار تشمل خدمات الإنترنت والهاتف معاً وأن سرعة الرفع في الألياف تعادل 30% من سرعة التحميل.",
+    "pricing_summary_fr": "Pour l’abonnement Idoom ADSL&VDSL DATA&VOIX, les tarifs mensuels sont de 1 900 DA pour 10 Mbps, 2 300 DA pour 15 Mbps, 2 450 DA pour 20 Mbps au lieu de 2 500 DA, 2 650 DA pour 50 Mbps au lieu de 2 700 DA et 2 850 DA pour 100 Mbps au lieu de 2 900 DA. Pour l’abonnement Idoom FTTH DATA & VOIX, les nouveaux paliers et tarifs mensuels sont : 60 Mbps à 2 500 DA, 120 Mbps à 2 700 DA, 240 Mbps à 2 900 DA, 480 Mbps à 3 100 DA, 600 Mbps à 3 300 DA, 1 Gbps à 3 900 DA et 1,5 Gbps à 4 500 DA, les prix incluant simultanément internet et téléphonie ainsi que, pour le palier 60 Mbps, le modem optique, 1 mois de connexion et les frais d’installation."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من يمكنه الاستفادة من عرض LOCATAIRE résidentiel؟",
+      "answer": "عرض locataire résidentiel مخصص لكل الزبائن الخواص الذين يرغبون في الاشتراك في إحدى عروض الهاتف الثابت والإنترنت الخاصة باتصالات الجزائر دون الحاجة إلى تقديم أي وثيقة لإثبات العنوان، وهو موجه بشكل خاص للمستأجرين الذين لا يملكون عقد إيجار أو وثيقة سكن رسمية."
+    },
+    {
+      "question": "ما هي تفاصيل عرض الإنترنت؟",
+      "answer": "تفاصيل عرض الإنترنت مبيّنة في الجداول السعرية التي توضح للزبائن المستأجرين المستفيدين من العرض الأسعار القديمة والجديدة والتدفقات المرتبطة بعروض Idoom ADSL و VDSL و Fibre، سواء بالنسبة لاشتراكات Idoom ADSL و VDSL بصيغة DATA & VOIX أو بالنسبة لعروض الألياف البصرية Idoom FTTH DATA & VOIX."
+    },
+    {
+      "question": "ما هو محتوى عرض LOCATAIRE résidentiel؟",
+      "answer": "يشمل عرض locataire résidentiel الولوج إلى الإنترنت، واشتراكاً في الهاتف الثابت Idoom Fixe بقيمة 250 دج شهرياً مضمّن في السعر الإجمالي، بالإضافة إلى تقييد المكالمات الدولية بقيمة 50 دج شهرياً وتقييد المكالمات نحو الهواتف النقالة."
+    },
+    {
+      "question": "هل سيتم تحويل الزبائن الحاليين في عرض Idoom Fibre locataire تلقائياً نحو العرض الجديد؟",
+      "answer": "نعم، سيتم تحويل الزبائن الحاليين في عرض Idoom Fibre locataire الذين لديهم تدفقات 30 و60 و120 و240 و300 و500 ميغابت في الثانية تلقائياً إلى التدفقات الجديدة المقابلة وهي 60 و120 و240 و480 و600 ميغابت في الثانية و1 جيجابت و1.5 جيجابت في الثانية دون الحاجة إلى أي إجراء من طرف الزبون."
+    },
+    {
+      "question": "ما هي الشروط المرتبطة بعرض LOCATAIRE؟",
+      "answer": "تتمثل الشروط المرتبطة بعرض locataire في أن كل اشتراك جديد يتطلب التزاماً لمدة 12 شهراً، ولا يمكن خلال هذه الفترة الانتقال إلى عرض أدنى من العرض الذي تم اختياره في البداية. كما تتضمن العروض قيوداً على الاتصالات نحو الهواتف النقالة والاتصالات الدولية بهدف التحكم في الفاتورة."
+    },
+    {
+      "question": "ما هو الملف المطلوب للاستفادة من العرض الموجه للزبائن بدون عقد إيجار؟",
+      "answer": "للاستفادة من العرض الموجه للزبائن بدون عقد إيجار، يجب تقديم نسخة من وثيقة الهوية (بطاقة التعريف الوطنية أو جواز السفر ساري المفعول) بالإضافة إلى أي وثيقة متاحة لدى الزبون يمكنها تأكيد عنوان التركيب."
+    },
+    {
+      "question": "ما هي طرق إعادة الشحن التي تقترحها اتصالات الجزائر؟",
+      "answer": "تقترح اتصالات الجزائر عدة وسائل لإعادة شحن الإنترنت ودفع الفواتير، من بينها: الدفع على مستوى نقاط البيع والوكالات التجارية، استخدام فضاء الزبون عبر الموقع client.algerietelecom.dz بواسطة بطاقة الذهبية أو CIB، استخدام تطبيق My Idoom، تطبيق Algérie Télécom، تطبيق Baridimob، تطبيق BNA Wimpay، وكذلك أجهزة الدفع الإلكتروني TPE."
+    },
+    {
+      "question": "ما هو العرض الأنسب لي؟",
+      "answer": "لتحديد العرض الأنسب، يجب أخذ عدة عناصر بعين الاعتبار، من بينها عدد أفراد الأسرة المتصلين في نفس الوقت بالإنترنت، وطبيعة الاستخدامات الأساسية مثل التحميل والبث المباشر ونقل البيانات، بالإضافة إلى تأهيل الخط أي السرعة القصوى التي يمكن أن يتحملها خطكم ADSL أو VDSL أو Fibre."
+    },
+    {
+      "question": "لدي مشكل، من يجب عليّ الاتصال؟",
+      "answer": "لأي استفسار أو شكوى أو اقتراح، يُنصح بالتقرب من وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو النقال، حيث سيتكفل بكم مستشار عبر الهاتف ويتولى معالجة طلبكم. كما يمكنكم استخدام بريد Feedback@algerietelecom.dz المخصص للاستفسارات التجارية والملاحظات المتعلقة بالمذكرات والإجراءات."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Qui peut bénéficier de l’offre LOCATAIRE résidentiel ?",
+      "answer": "L’offre locataire résidentiel est destinée à tous les clients résidentiels qui souhaitent souscrire à l’une des offres voix et internet d’Algérie Télécom sans avoir à présenter un justificatif d’adresse."
+    },
+    {
+      "question": "Quels sont les détails de l’offre internet ?",
+      "answer": "Les détails de l’offre internet sont présentés dans les tableaux tarifaires qui précisent, pour les clients locataires résidentiels, les anciennes et les nouvelles tarifications ainsi que les débits associés à la nouvelle offre en Idoom ADSL, VDSL et Fibre, aussi bien pour les abonnements Idoom ADSL&VDSL DATA&VOIX que pour Idoom FTTH DATA & VOIX."
+    },
+    {
+      "question": "Quel est le contenu de l’offre LOCATAIRE résidentiel ?",
+      "answer": "L’offre locataire résidentiel comprend l’accès internet, un accès Idoom fixe facturé 250 DA/Mois inclus dans le prix global, une restriction vers l’international facturée 50 DA/Mois et une restriction vers les mobiles."
+    },
+    {
+      "question": "Les clients actuels de l’offre Idoom Fibre locataire seront-ils automatiquement transférés vers la nouvelle offre ?",
+      "answer": "Oui. Les clients actuels de l’offre Idoom Fibre locataire disposant des paliers 30, 60, 120, 240, 300 et 500 Mbps seront automatiquement basculés vers les nouveaux paliers correspondants : 60, 120, 240, 480, 600 Mbps, 1 Gbps et 1,5 Gbps."
+    },
+    {
+      "question": "Quelles sont les conditions liées à l’offre LOCATAIRE ?",
+      "answer": "Les conditions liées à l’offre locataire sont les suivantes : pour toute nouvelle souscription, un engagement de 12 mois est requis et il ne sera pas possible de passer à une offre inférieure à celle initialement choisie durant cette période. Les offres incluent également des restrictions sur les communications vers les mobiles et vers l’international."
+    },
+    {
+      "question": "Quel est le dossier à fournir pour bénéficier de l’offre destinée aux clients sans bail ?",
+      "answer": "Pour bénéficier de l’offre destinée aux clients sans bail, il suffit de fournir une copie de la pièce d’identité (carte nationale d’identité ou passeport en cours de validité) ainsi qu’un document dont dispose le client pouvant confirmer l’adresse d’installation."
+    },
+    {
+      "question": "Quelles sont les types de rechargements proposées par Algérie Télécom ?",
+      "answer": "Algérie Télécom propose plusieurs types de rechargements pour les offres internet : paiement des factures internet au niveau des points de ventes (Actel et PP), utilisation de l’espace client d’Algérie Télécom via le site https://client.algerietelecom.dz avec la carte Edahabia ou CIB, utilisation de l’application My Idoom (Google Play, App Store et Huawei AppGallery), de l’application Algérie Télécom, de l’application Baridimob, de l’application BNA Wimpay, ainsi que le paiement via TPE."
+    },
+    {
+      "question": "Quelle est l’offre la plus adaptée pour moi ?",
+      "answer": "Pour connaître l’offre la plus adaptée, il faut déterminer le nombre de personnes du foyer se connectant simultanément, les principaux usages (fréquence des téléchargements, streaming, transfert de données, etc.) et l’éligibilité de la ligne, c’est-à-dire le débit maximum que la ligne Idoom fibre, VDSL ou ADSL est en mesure de supporter."
+    },
+    {
+      "question": "J’ai un problème, qui dois-je contacter ?",
+      "answer": "Pour toute information, réclamation ou proposition, il est recommandé de se rapprocher de l’agence commerciale la plus proche ou d’appeler le 12 à partir des lignes fixes ou mobiles, où un téléconseiller prendra en charge la demande."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "لأي استفسار أو شكوى أو اقتراح، يرجى التقرب من وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو النقال، حيث سيتكفل بكم مستشار عبر الهاتف. نذكّركم أيضاً بأن بريد Feedback@algerietelecom.dz مخصص حصرياً لطلبات المعلومات التجارية والاستفسارات حول المذكرات والإجراءات المعتمدة، فلا تترددوا في مراسلتنا عند الضرورة.",
+    "notes_fr": "Pour toute autre information, réclamation ou proposition, veuillez-vous rapprocher de votre agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+
+  "keywords_ar": [
+    "عرض locataire résidentiel",
+    "عرض المستأجرين",
+    "عرض Idoom Fibre locataire",
+    "عرض Idoom ADSL locataire",
+    "عرض Idoom VDSL locataire",
+    "خدمات الهاتف الثابت والإنترنت",
+    "المستأجرون بدون عقد إيجار",
+    "الزبائن بدون وثيقة إثبات السكن",
+    "Idoom Fixe",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom FTTH",
+    "10 ميغابت في الثانية",
+    "15 ميغابت في الثانية",
+    "20 ميغابت في الثانية",
+    "50 ميغابت في الثانية",
+    "100 ميغابت في الثانية",
+    "60 ميغابت في الثانية",
+    "120 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "480 ميغابت في الثانية",
+    "600 ميغابت في الثانية",
+    "1 جيجابت في الثانية",
+    "1.5 جيجابت في الثانية",
+    "1900 دج/شهر",
+    "2300 دج/شهر",
+    "2450 دج/شهر",
+    "2650 دج/شهر",
+    "2850 دج/شهر",
+    "2500 دج/شهر",
+    "2700 دج/شهر",
+    "2900 دج/شهر",
+    "3100 دج/شهر",
+    "3300 دج/شهر",
+    "3900 دج/شهر",
+    "4500 دج/شهر",
+    "سرعة رفع 30%",
+    "Upload 30%",
+    "التزام 12 شهراً",
+    "تقييد المكالمات الدولية",
+    "تقييد المكالمات نحو الهواتف النقالة",
+    "اشتراك Idoom Fixe 250 دج",
+    "إعادة الشحن عبر My Idoom",
+    "فضاء الزبون",
+    "تطبيق Algérie Télécom",
+    "Baridimob",
+    "BNA Wimpay",
+    "أجهزة الدفع الإلكتروني TPE",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Idoom Fibre locataire",
+    "Idoom ADSL locataire",
+    "Idoom VDSL locataire",
+    "offre locataire résidentiel",
+    "clients résidentiels sans justificatif d’adresse",
+    "clients sans bail",
+    "Idoom Fixe",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom FTTH",
+    "10 Mbps",
+    "15 Mbps",
+    "20 Mbps",
+    "50 Mbps",
+    "100 Mbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "1900 DA/Mois",
+    "2300 DA/Mois",
+    "2450 DA/Mois",
+    "2650 DA/Mois",
+    "2850 DA/Mois",
+    "2500 DA/Mois",
+    "2700 DA/Mois",
+    "2900 DA/Mois",
+    "3100 DA/Mois",
+    "3300 DA/Mois",
+    "3900 DA/Mois",
+    "4500 DA/Mois",
+    "upload 30 %",
+    "engagement 12 mois",
+    "restriction vers l’international",
+    "restriction vers les mobiles",
+    "Accès Idoom fixe 250 DA",
+    "rechargement My Idoom",
+    "espace client Algérie Télécom",
+    "Baridimob",
+    "BNA Wimpay",
+    "TPE",
+    "Algérie Télécom"
+  ],
+  "keywords": [
+    "Idoom Fibre locataire",
+    "Idoom ADSL locataire",
+    "Idoom VDSL locataire",
+    "offre locataire résidentiel",
+    "clients résidentiels sans justificatif d’adresse",
+    "clients sans bail",
+    "Idoom Fixe",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom FTTH",
+    "10 Mbps",
+    "15 Mbps",
+    "20 Mbps",
+    "50 Mbps",
+    "100 Mbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "1900 DA/Mois",
+    "2300 DA/Mois",
+    "2450 DA/Mois",
+    "2650 DA/Mois",
+    "2850 DA/Mois",
+    "2500 DA/Mois",
+    "2700 DA/Mois",
+    "2900 DA/Mois",
+    "3100 DA/Mois",
+    "3300 DA/Mois",
+    "3900 DA/Mois",
+    "4500 DA/Mois",
+    "upload 30 %",
+    "engagement 12 mois",
+    "restriction vers l’international",
+    "restriction vers les mobiles",
+    "Accès Idoom fixe 250 DA",
+    "rechargement My Idoom",
+    "espace client Algérie Télécom",
+    "Baridimob",
+    "BNA Wimpay",
+    "TPE",
+    "Algérie Télécom",
+    "عرض locataire résidentيل",
+    "عرض المستأجرين",
+    "عرض Idoom Fibre locataire",
+    "عرض Idoom ADSL locataire",
+    "عرض Idoom VDSL locataire",
+    "خدمات الهاتف الثابت والإنترنت",
+    "المستأجرون بدون عقد إيجار",
+    "الزبائن بدون وثيقة إثبات السكن",
+    "10 ميغابت في الثانية",
+    "15 ميغابت في الثانية",
+    "20 ميغابت في الثانية",
+    "50 ميغابت في الثانية",
+    "100 ميغابت في الثانية",
+    "60 ميغابت في الثانية",
+    "120 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "480 ميغابت في الثانية",
+    "600 ميغابت في الثانية",
+    "1 جيجابت في الثانية",
+    "1.5 جيجابت في الثانية",
+    "1900 دج/شهر",
+    "2300 دج/شهر",
+    "2450 دج/شهر",
+    "2650 دج/شهر",
+    "2850 دج/شهر",
+    "2500 دج/شهر",
+    "2700 دج/شهر",
+    "2900 دج/شهر",
+    "3100 دج/شهر",
+    "3300 دج/شهر",
+    "3900 دج/شهر",
+    "4500 دج/شهر",
+    "سرعة رفع 30%",
+    "Upload 30%",
+    "التزام 12 شهراً",
+    "تقييد المكالمات الدولية",
+    "تقييد المكالمات نحو الهواتف النقالة",
+    "اشتراك Idoom Fixe 250 دج",
+    "إعادة الشحن عبر My Idoom",
+    "فضاء الزبون",
+    "أجهزة الدفع الإلكتروني TPE",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre وADSL وVDSL هو تحديث لعروض Idoom Fixe و Idoom ADSL و VDSL و Fibre، موجه للزبائن الخواص الذين لا يملكون وثيقة لإثبات السكن ويرغبون في الاشتراك في خدمات الهاتف الثابت والإنترنت دون تقديم وثيقة إثبات العنوان. تقدم الجداول السعرية تفاصيل عروض الإنترنت للمستأجرين مع الأسعار القديمة والجديدة والتدفقات الخاصة بعروض Idoom ADSL و VDSL بصيغة DATA & VOIX، وكذلك عروض الألياف البصرية Idoom FTTH DATA & VOIX مع رفع التدفقات حتى 1.5 جيجابت في الثانية. لاشتراك Idoom ADSL و VDSL DATA & VOIX، الأسعار هي 1900 دج/شهر لتدفق 10 ميغابت، و2300 دج/شهر لتدفق 15 ميغابت، و2450 دج/شهر لتدفق 20 ميغابت بدلاً من 2500 دج، و2650 دج/شهر لتدفق 50 ميغابت بدلاً من 2700 دج، و2850 دج/شهر لتدفق 100 ميغابت بدلاً من 2900 دج. أما اشتراك Idoom FTTH DATA & VOIX، فالتدفقات والأسعار الجديدة هي 60 ميغابت بسعر 2500 دج، 120 ميغابت بسعر 2700 دج، 240 ميغابت بسعر 2900 دج، 480 ميغابت بسعر 3100 دج، 600 ميغابت بسعر 3300 دج، 1 جيجابت بسعر 3900 دج و1.5 جيجابت بسعر 4500 دج، مع أن الأسعار تشمل الإنترنت والهاتف معاً وأن سرعة الرفع Upload في الألياف تعادل 30% من سرعة التنزيل Download. يشمل عرض locataire résidentiel الولوج إلى الإنترنت واشتراك Idoom Fixe بقيمة 250 دج/شهر مضمّن في السعر، وتقييد المكالمات الدولية بقيمة 50 دج/شهر، وتقييد المكالمات نحو الهواتف النقالة. يتم تحويل الزبائن الحاليين في عرض Idoom Fibre locataire الذين يملكون تدفقات 30 و60 و120 و240 و300 و500 ميغابت تلقائياً إلى التدفقات الجديدة 60 و120 و240 و480 و600 ميغابت و1 جيجابت و1.5 جيجابت. من شروط العرض الالتزام لمدة 12 شهراً لطلبات الاشتراك الجديدة وعدم إمكانية النزول إلى عرض أدنى خلال هذه الفترة، إضافة إلى كون استعمال الهاتف والإنترنت تحت مسؤولية صاحب العقد. للاستفادة من العرض الموجه للزبائن بدون عقد إيجار، يجب تقديم نسخة من وثيقة الهوية وأي وثيقة يمكن أن تؤكد عنوان التركيب. تقترح اتصالات الجزائر عدة طرق لإعادة الشحن ودفع الفواتير مثل الوكالات التجارية ونقاط البيع، فضاء الزبون عبر الموقع client.algerietelecom.dz، وتطبيقات My Idoom و Algérie Télécom و Baridimob و BNA Wimpay وأجهزة الدفع الإلكتروني TPE. لاختيار العرض الأنسب، يجب مراعاة عدد أفراد الأسرة المتصلين في نفس الوقت وطبيعة الاستخدام وتأهيل الخط. لأي استفسار أو شكوى أو اقتراح، يمكن التقرب من الوكالة التجارية أو الاتصال بالرقم 12 أو استعمال بريد Feedback@algerietelecom.dz المخصص لطلبات المعلومات التجارية. Nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL. Dans le cadre de la commercialisation des offres Idoom Fixe et Idoom ADSL, VDSL et Fibre, Algérie Télécom introduit une mise à jour avec lancement de nouveaux paliers destinée aux clients résidentiels ne possédant pas de justificatif d’adresse. L’offre locataire est destinée à tous les clients résidentiels désirant souscrire à une offre voix et internet sans justificatif d’adresse. Les tableaux tarifaires présentent les anciennes et nouvelles tarifications ainsi que les débits associés à la nouvelle offre en Idoom ADSL, VDSL et Fibre. Abonnement Idoom ADSL&VDSL DATA&VOIX : 10 Mbps à 1 900 DA/Mois, 15 Mbps à 2 300 DA/Mois, 20 Mbps à 2 450 DA/Mois (au lieu de 2 500 DA/Mois), 50 Mbps à 2 650 DA/Mois (au lieu de 2 700 DA/Mois) et 100 Mbps à 2 850 DA/Mois (au lieu de 2 900 DA/Mois). Abonnement Idoom FTTH DATA & VOIX : ancien 30 Mbps devient 60 Mbps à 2 500 DA/Mois avec modem optique, 1 mois de connexion et frais d’installation inclus, ancien 60 Mbps devient 120 Mbps à 2 700 DA/Mois, ancien 120 Mbps devient 240 Mbps à 2 900 DA/Mois, ancien 240 Mbps devient 480 Mbps à 3 100 DA/Mois, ancien 300 Mbps devient 600 Mbps à 3 300 DA/Mois, ancien 500 Mbps devient 1 Gbps à 3 900 DA/Mois, ancien 1,2 Gbps devient 1,5 Gbps à 4 500 DA/Mois. Les accès voix et internet sont sous la responsabilité du contractant et les prix incluent simultanément les services internet et de téléphonie. Les paliers Idoom VDSL 50 et 100 Mbps ainsi que les débits Idoom Fibre 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité. L’upload est de 30 % du débit choisi pour l’offre Idoom Fibre et les paliers 10 Mbps et 15 Mbps de l’offre Idoom Fibre ne seront plus commercialisés. Contenu de l’offre locataire : accès internet, accès Idoom fixe 250 DA/Mois inclus, restriction vers l’international 50 DA/Mois, restriction vers les mobiles. Les clients actuels de l’offre Idoom Fibre locataire disposant des paliers 30, 60, 120, 240, 300 et 500 Mbps seront automatiquement basculés vers les nouveaux paliers 60, 120, 240, 480, 600 Mbps, 1 Gbps et 1,5 Gbps. Conditions : engagement de 12 mois pour toute nouvelle souscription, impossibilité de passer à une offre inférieure durant cette période, restrictions sur les communications vers les mobiles et l’international. Pour bénéficier de l’offre destinée aux clients sans bail, le client doit fournir une copie de sa pièce d’identité et un document pouvant confirmer l’adresse d’installation. Algérie Télécom propose plusieurs modes de rechargement : paiement des factures internet dans les points de ventes (Actel et PP), espace client https://client.algerietelecom.dz avec carte Edahabia ou CIB, application My Idoom, application Algérie Télécom, Baridimob, BNA Wimpay et TPE. Pour choisir l’offre la plus adaptée, il faut tenir compte du nombre de personnes se connectant simultanément, des usages (téléchargements, streaming, transferts de données) et de l’éligibilité de la ligne. En cas de problème, le client doit se rapprocher de son agence commerciale ou appeler le 12 ; la messagerie Feedback FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies.",
+  "dense_text_primary": "يقدم هذا المستند العرض الجديد للمستأجرين الخواص لخدمات Idoom Fibre وADSL وVDSL من اتصالات الجزائر، وهو عرض موجه للزبائن الخواص الذين لا يملكون وثيقة لإثبات السكن ويرغبون في الاشتراك في خدمات الهاتف الثابت والإنترنت دون تقديم وثيقة إثبات العنوان. يتضمن العرض تحديثاً لعروض Idoom Fixe و Idoom ADSL و VDSL و Fibre مع جداول سعرية جديدة لعروض Idoom ADSL و VDSL بصيغة DATA & VOIX وتدفقات جديدة في خدمة الألياف البصرية Idoom FTTH DATA & VOIX تصل إلى 1.5 جيجابت في الثانية. في عروض ADSL و VDSL، تكون الأسعار الشهرية 1900 دج لتدفق 10 ميغابت، و2300 دج لـ 15 ميغابت، و2450 دج لـ 20 ميغابت، و2650 دج لـ 50 ميغابت، و2850 دج لـ 100 ميغابت، بينما في عروض الألياف FTTH تكون التدفقات الجديدة 60 و120 و240 و480 و600 ميغابت في الثانية و1 جيجابت و1.5 جيجابت بأسعار تتراوح بين 2500 و4500 دج شهرياً مع دمج خدمة الهاتف. يشمل العرض اشتراك Idoom Fixe بقيمة 250 دج شهرياً وتقييد المكالمات الدولية بقيمة 50 دج شهرياً وتقييد المكالمات نحو الهواتف النقالة، مع التزام لمدة 12 شهراً للزبائن الجدد وتحويل تلقائي للزبائن الحاليين في عرض Idoom Fibre locataire نحو التدفقات الجديدة. سرعة الرفع Upload في الألياف تعادل 30% من سرعة التنزيل، كما يوفر العرض عدة قنوات لإعادة الشحن والدفع مثل فضاء الزبون وتطبيقات My Idoom و Algérie Télécom و Baridimob و BNA Wimpay و TPE. Ce document présente également la nouvelle offre résidentielle LOCATAIRE Idoom fibre, ADSL et VDSL d’Algérie Télécom, qui met à jour les offres Idoom Fixe et Idoom ADSL, VDSL et Fibre pour les clients résidentiels ne disposant pas de justificatif d’adresse. L’offre permet de souscrire à des services voix et internet sans justificatif d’adresse et introduit une nouvelle grille de débits et de tarifs pour les abonnements Idoom ADSL&VDSL DATA&VOIX ainsi qu’une nouvelle grille Idoom FTTH DATA & VOIX avec des débits relevés jusqu’à 1,5 Gbps. Les tarifs mensuels en ADSL&VDSL sont de 1 900 DA pour 10 Mbps, 2 300 DA pour 15 Mbps, 2 450 DA pour 20 Mbps, 2 650 DA pour 50 Mbps et 2 850 DA pour 100 Mbps, tandis que les débits fibre passent à 60, 120, 240, 480 et 600 Mbps, 1 Gbps et 1,5 Gbps avec des tarifs allant de 2 500 à 4 500 DA/Mois incluant internet et téléphonie, le palier 60 Mbps intégrant en plus le modem optique, un mois de connexion et les frais d’installation. L’offre locataire inclut un accès Idoom fixe facturé 250 DA/Mois, une restriction vers l’international de 50 DA/Mois et des restrictions vers les mobiles, et impose un engagement de 12 mois pour les nouvelles souscriptions, avec basculement automatique des clients actuels de l’offre Idoom Fibre locataire vers les nouveaux paliers. L’upload est fixé à 30 % du débit choisi pour l’offre Idoom Fibre, et Algérie Télécom propose plusieurs modes de rechargement (espace client, My Idoom, Algérie Télécom, Baridimob, BNA Wimpay, TPE) afin de faciliter le paiement des factures et le rechargement. En cas de besoin, les clients peuvent contacter l’agence commerciale ou appeler le 12, tandis que la messagerie Feedback FB@algerietelecom.dz est dédiée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures."
+}

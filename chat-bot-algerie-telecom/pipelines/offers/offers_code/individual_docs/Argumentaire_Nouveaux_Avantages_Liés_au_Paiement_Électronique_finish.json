@@ -1,0 +1,355 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_adsl_vdsl_fibre",
+  "technology": [
+    "adsl",
+    "vdsl",
+    "fibre_optique",
+    "paiement_electronique"
+  ],
+  "customer_segment": [
+    "residential",
+    "residential_locataire",
+    "residential_conventionne"
+  ],
+  "commitment_type": "none",
+  "usage_focus": [
+    "internet",
+    "payment",
+    "bonus_days",
+    "loyalty",
+    "digitalization"
+  ],
+
+  "metadata": {
+    "title_ar": "المزايا الجديدة للدفع الإلكتروني لخدمات Idoom ADSL وVDSL وIdoom Fibre",
+    "title_fr": "Nouveaux Avantages des Paiement Électronique Idoom ADSL, VDSL et Idoom FIBRE",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2024-12-30"
+  },
+
+  "offer_core": {
+    "name_ar": "المزايا الجديدة للدفع الإلكتروني لخدمات Idoom ADSL وVDSL وIdoom Fibre",
+    "name_fr": "Nouveaux avantages liés au paiement électronique Idoom ADSL, VDSL et Idoom Fibre",
+    "description_ar": "يقدم هذا العرض مزايا جديدة لفائدة الزبائن الخواص المشتركين في خدمات Idoom ADSL وIdoom VDSL وIdoom FTTH، حيث يستفيدون من أيام مجانية للاتصال مقابل كل عملية تعبئة تُنجز عبر وسيلة دفع إلكتروني. على سبيل المثال، تعبئة شهر واحد عبر قنوات الدفع الإلكتروني تمنح 3 أيام إضافية، بينما تمنح تعبئة 12 شهرًا 48 يومًا مجانيًا. يهدف هذا النظام إلى تمكين الزبون من الاقتصاد في التكاليف وتحسين تجربته مع الإنترنت، مع تشجيع استعمال وسائل الدفع الإلكتروني في إطار التحول الرقمي في الجزائر.",
+    "description_fr": "Cette offre accorde des journées de connexion gratuites aux clients résidentiels Idoom ADSL, VDSL et Idoom FTTH qui règlent leurs rechargements via un moyen de paiement électronique. Pour chaque durée rechargée, un bonus de jours est accordé : 3 jours gratuits pour 1 mois payé, 12 jours pour 3 mois, 24 jours pour 6 mois et 48 jours pour 12 mois. L’offre remplace les anciens avantages liés au paiement électronique de l’internet filaire, tout en conservant inchangés les bonus associés aux factures téléphoniques et aux abonnements Idoom 4G LTE. Les bonus sont cumulables entre opérations et s’appliquent automatiquement dès qu’un paiement électronique éligible est effectué.",
+    "conditions_ar": [
+      "العرض موجه حصريًا للزبائن الخواص المشتركين في خدمات Idoom ADSL وIdoom VDSL وIdoom FTTH (الألياف البصرية).",
+      "الزبائن الخواص من فئة الكراء والزبائن المستفيدون من أسعار تفضيلية في إطار اتفاقيات معنيون أيضًا ويستفيدون من مزايا الدفع الإلكتروني.",
+      "يتم منح الأيام المجانية فقط على عمليات التعبئة التي تتم عبر وسيلة دفع إلكتروني معتمدة من اتصالات الجزائر.",
+      "تُمنح الأيام الإضافية حسب مدة التعبئة المنجزة عبر الدفع الإلكتروني: تعبئة شهر واحد تمنح 3 أيام، 3 أشهر تمنح 12 يومًا، 6 أشهر تمنح 24 يومًا، و12 شهرًا تمنح 48 يومًا مجانيًا.",
+      "يتم استبدال المزايا الحالية المتعلقة بالدفع الإلكتروني للإنترنت الثابت Idoom ADSL وVDSL وIdoom Fibre بهذا العرض الجديد.",
+      "المزايا الخاصة بالدفع الإلكتروني لفواتير الهاتف الثابت واشتراكات Idoom 4G LTE تبقى دون تغيير ولا تتأثر بهذا العرض.",
+      "عدد عمليات التعبئة غير محدود، بشرط احترام العلاوة (البونـس) المخصصة لكل مدة، كما هو مبين في جدول المنح.",
+      "يمكن جمع المزايا الناتجة عن عمليات تعبئة متعددة، حيث تُضاف الأيام المجانية إلى مدة صلاحية الاشتراك.",
+      "يجب على الزبائن استعمال إحدى وسائل الدفع الإلكتروني التي توفرها اتصالات الجزائر (فضاء الزبون، التطبيقات، أجهزة الدفع الإلكتروني TPE...) للاستفادة من العلاوة.",
+      "يتم احتساب العلاوة وتطبيق الأيام المجانية تلقائيًا وفق مدة التعبئة، دون الحاجة لأي إجراء إضافي من طرف الزبون.",
+      "يبقى العرض ساري المفعول إلى غاية صدور تحديث أو تعديل جديد من طرف اتصالات الجزائر، مع دعوة الزبائن لاعتماد وسائل الدفع الإلكتروني منذ الآن للاستفادة من مزاياه."
+    ],
+    "conditions_fr": [
+      "L’offre est réservée exclusivement aux clients résidentiels des services Idoom ADSL, VDSL et Idoom FTTH (Fibre).",
+      "Les clients résidentiels locataires et conventionnés sont également éligibles aux avantages liés au paiement électronique.",
+      "Les bonus de jours gratuits sont accordés uniquement pour les rechargements effectués via un moyen de paiement électronique.",
+      "Les bonus sont définis en fonction de la durée rechargée : 1 mois payé donne droit à 3 jours gratuits, 3 mois payés donnent 12 jours gratuits, 6 mois payés donnent 24 jours gratuits et 12 mois payés donnent 48 jours gratuits.",
+      "Les avantages actuellement en vigueur liés au paiement électronique de l’internet filaire Idoom ADSL, VDSL et Idoom Fibre sont remplacés par cette nouvelle offre.",
+      "Les bonus pour le paiement électronique des factures téléphoniques et des abonnements Idoom 4G LTE restent inchangés et ne sont pas modifiés par cette offre.",
+      "Le nombre d’opérations de rechargement n’est pas limité, à condition de respecter le bonus attribué pour chaque durée rechargée conformément au tableau des bonus.",
+      "Le bonus est cumulable entre les différentes opérations de rechargement effectuées par le client.",
+      "Les clients doivent utiliser l’un des moyens de paiement électronique proposés par Algérie Télécom (Espace client, applications mobiles, TPE, etc.) pour bénéficier automatiquement des bonus.",
+      "Les bonus sont appliqués automatiquement en fonction de la durée rechargée, sans démarche supplémentaire de la part du client.",
+      "L’offre est valable jusqu’à une éventuelle mise à jour ou modification communiquée officiellement par Algérie Télécom.",
+      "Les clients sont encouragés à utiliser les moyens de paiement électronique dès maintenant afin de profiter des avantages de cette offre."
+    ],
+    "benefits_ar": [
+      "الاستفادة من أيام مجانية للاتصال مقابل كل عملية تعبئة عبر وسيلة دفع إلكتروني (3 أيام لشهر واحد، 12 يومًا لـ3 أشهر، 24 يومًا لـ6 أشهر، و48 يومًا لـ12 شهرًا).",
+      "تمكين الزبون من تحقيق اقتصاد في التكاليف بفضل تمديد مدة الاستفادة من خدمة الإنترنت مقابل نفس مبلغ التعبئة.",
+      "إمكانية جمع الأيام الإضافية الناتجة عن عمليات تعبئة متعددة، مما يسمح بزيادة معتبرة في مدة صلاحية الاشتراك.",
+      "استفادة الزبون من عملية بسيطة وآلية، حيث تُحتسب العلاوة وتُطبّق الأيام المجانية تلقائيًا دون أي إجراء إضافي.",
+      "توفير تجربة دفع سريعة وآمنة وعصرية عبر قنوات رقمية متعددة مثل فضاء الزبون والتطبيقات المختلفة وأجهزة الدفع الإلكتروني.",
+      "المساهمة في التحول الرقمي ورقمنة مسار الزبون من خلال تشجيع استعمال وسائل الدفع الإلكتروني بدل الدفع النقدي.",
+      "تقديم عرض موحد وواضح للمزايا المتعلقة بالدفع الإلكتروني لخدمات الإنترنت الثابت، مع الحفاظ على المزايا القائمة للفواتير الهاتفية واشتراكات Idoom 4G LTE."
+    ],
+    "benefits_fr": [
+      "Octroi de jours de connexion gratuits pour chaque rechargement effectué via un moyen de paiement électronique (3 jours pour 1 mois, 12 jours pour 3 mois, 24 jours pour 6 mois, 48 jours pour 12 mois).",
+      "Possibilité pour le client de réaliser des économies et d’optimiser son expérience internet grâce à l’extension de la durée de connexion obtenue pour le même montant payé.",
+      "Cumul des bonus entre opérations de rechargement, permettant d’accumuler davantage de jours gratuits au fil des paiements électroniques.",
+      "Processus simple et automatisé : les bonus sont appliqués automatiquement dès qu’un paiement éligible est effectué, sans intervention supplémentaire du client.",
+      "Accès à une expérience de paiement rapide, sécurisée et moderne via des canaux digitaux variés (Espace client, applications mobiles, TPE, etc.).",
+      "Participation à la transformation numérique en Algérie en privilégiant les moyens de paiement électroniques plutôt que les paiements en espèces.",
+      "Remplacement des anciens avantages internet filaire par un barème unique, lisible et avantageux pour Idoom ADSL, VDSL et Idoom Fibre tout en conservant les bonus existants sur la téléphonie fixe et l’Idoom 4G LTE."
+    ],
+    "pricing_summary_ar": "يمنح نظام العلاوة المرتبط بالدفع الإلكتروني 3 أيام مجانية مقابل تعبئة شهر واحد، و12 يومًا مجانية مقابل تعبئة 3 أشهر، و24 يومًا مجانية مقابل تعبئة 6 أشهر، و48 يومًا مجانية مقابل تعبئة 12 شهرًا، وتُطبّق هذه الأيام تلقائيًا على اشتراكات زبائن Idoom ADSL وVDSL وIdoom Fibre عند كل عملية تعبئة إلكترونية.",
+    "pricing_summary_fr": "Le système de bonus lié au paiement électronique accorde 3 jours gratuits pour un rechargement de 1 mois, 12 jours gratuits pour 3 mois, 24 jours gratuits pour 6 mois et 48 jours gratuits pour 12 mois, ces bonus s’appliquant automatiquement pour chaque paiement électronique effectué par les clients résidentiels Idoom ADSL, VDSL et Idoom Fibre."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "ما هي مزايا هذا العرض الجديد لفائدة الزبائن ؟",
+      "answer": "يستفيد الزبائن من أيام مجانية للاتصال مقابل كل عملية تعبئة تتم عبر وسيلة دفع إلكتروني. فعلى سبيل المثال، تعبئة شهر واحد عبر قنوات الدفع الإلكتروني تمنح 3 أيام إضافية، بينما تمنح تعبئة لمدة 12 شهرًا 48 يومًا مجانيًا. يسمح ذلك للزبون بالاقتصاد وتحسين تجربته مع الإنترنت."
+    },
+    {
+      "question": "ما هي الأهداف وراء إطلاق مبادرة الدفع الإلكتروني ؟",
+      "answer": "يهدف هذا العرض إلى تشجيع التحول الرقمي، ترقية استعمال وسائل الدفع الإلكتروني، تحسين تجربة الزبون، تقليص الخسائر المالية، رفع رقم الأعمال وتعزيز ولاء المشتركين."
+    },
+    {
+      "question": "هل العرض موجه لفئة معينة من الزبائن ؟",
+      "answer": "نعم، العرض موجه حصريًا للزبائن الخواص المشتركين في خدمات Idoom ADSL وIdoom VDSL وIdoom FTTH."
+    },
+    {
+      "question": "كيف يعمل نظام المنح (العلاوة) ؟",
+      "answer": "يتحصل الزبون على أيام إضافية حسب مدة التعبئة المنجزة عبر الدفع الإلكتروني وفق الجدول التالي: تعبئة 1 شهر تمنح 3 أيام، تعبئة 3 أشهر تمنح 12 يومًا، تعبئة 6 أشهر تمنح 24 يومًا وتعبئة 12 شهرًا تمنح 48 يومًا. عدد العمليات غير محدود مع احترام العلاوة المخصصة لكل مدة."
+    },
+    {
+      "question": "هل مزايا العرض قابلة للجمع ؟",
+      "answer": "نعم، يمكن جمع مزايا العرض الناتجة عن عمليات تعبئة متعددة، حيث تُضاف الأيام المجانية إلى مدة صلاحية الاشتراك عند كل عملية تعبئة إلكترونية."
+    },
+    {
+      "question": "هل الزبائن الخواص من فئة \"الكراء\" أو \"المستفيدين باتفاقيات\" معنيون أيضًا بالعرض ؟",
+      "answer": "نعم، الزبائن الخواص من فئة الكراء والمستفيدين من أسعار تفضيلية في إطار اتفاقية معنيون ويستفيدون من مزايا الدفع الإلكتروني بنفس شروط باقي الزبائن الخواص."
+    },
+    {
+      "question": "ما هي وسائل الدفع الإلكتروني المعنية بهذا العرض ؟",
+      "answer": "توفر اتصالات الجزائر عدة منصات للدفع الإلكتروني باستعمال بطاقتي الذهبية وCIB، وهي: فضاء الزبون، تطبيق My Idoom، تطبيق Algérie Télécom للدفع (paiement.at.dz)، تطبيق Baridimob، تطبيق BNA Wimpay والدفع عبر أجهزة الدفع الإلكتروني (TPE) المتوفرة في الوكالات التجارية ونقاط الحضور."
+    },
+    {
+      "question": "ما هي الأهداف الأساسية لهذا العرض بالنسبة لاتصالات الجزائر ؟",
+      "answer": "يهدف هذا العرض إلى رقمنة مسار الزبون وتحسين تجربة الزبون من خلال تشجيع استعمال وسائل الدفع الإلكتروني وتبسيط عمليات التسديد."
+    },
+    {
+      "question": "ما هي القيمة المضافة للزبون ؟",
+      "answer": "باختيار الدفع الإلكتروني، يستفيد الزبون من أيام مجانية للاتصال إضافة إلى تجربة دفع سريعة، آمنة وعصرية، ما يجعلها حلاً عمليًا يلائم احتياجات الزبائن."
+    },
+    {
+      "question": "كيف يمكن للزبائن الاستفادة من هذا العرض ؟",
+      "answer": "يكفي للزبون القيام بعملية الدفع عبر إحدى وسائل الدفع الإلكتروني المعتمدة من اتصالات الجزائر، ليتم احتساب العلاوة تلقائيًا حسب مدة التعبئة دون أي إجراء إضافي."
+    },
+    {
+      "question": "هل هناك مدة زمنية محددة للاستفادة من العرض ؟",
+      "answer": "يظل العرض ساريًا إلى غاية صدور تحديث أو تعديل جديد من اتصالات الجزائر، وينصح الزبائن بالاستفادة من وسائل الدفع الإلكتروني منذ الآن للاستفادة من مزايا العرض."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Quels sont les avantages de cette nouvelle offre pour les clients ?",
+      "answer": "Les clients bénéficient de journées de connexion gratuites pour chaque recharge effectuée via un moyen de paiement électronique. Par exemple, un paiement de 1 mois via les canaux du paiement électronique donne droit à 3 jours supplémentaires, tandis qu’un paiement électronique de 12 mois offre 48 jours gratuits. Cela leur permet d’économiser et d’optimiser leur expérience internet."
+    },
+    {
+      "question": "Quels sont les objectifs derrière le lancement de cette initiative de paiement électronique ?",
+      "answer": "Cette offre vise à encourager la transformation numérique et à promouvoir l’utilisation des moyens de paiement électroniques. Elle permet également d’améliorer l’expérience client, de réduire le manque à gagner et d’augmenter le chiffre d’affaires tout en fidélisant les abonnés."
+    },
+    {
+      "question": "Cette offre est-elle limitée à certains types de clients ?",
+      "answer": "Oui, elle s’adresse exclusivement aux clients résidentiels des services Idoom ADSL, VDSL et Idoom FTTH. Les clients résidentiels locataires et conventionnés sont également éligibles aux avantages liés au paiement électronique."
+    },
+    {
+      "question": "Comment fonctionne le système de bonus ?",
+      "answer": "Les clients reçoivent des jours supplémentaires en fonction de la durée de leurs paiements effectués via un moyen de paiement électronique. Le barème est le suivant : pour 1 mois rechargé, le bonus est de 3 jours ; pour 3 mois rechargés, le bonus est de 12 jours ; pour 6 mois rechargés, le bonus est de 24 jours ; pour 12 mois rechargés, le bonus est de 48 jours. Les bonus sont appliqués automatiquement."
+    },
+    {
+      "question": "Les avantages actuels liés au paiement électronique sont-ils modifiés ?",
+      "answer": "Les avantages actuels liés au paiement électronique de l’internet filaire Idoom ADSL, VDSL et Idoom Fibre sont remplacés par cette nouvelle offre. Cependant, les bonus pour le paiement électronique des factures téléphoniques et des abonnements Idoom 4G LTE restent inchangés."
+    },
+    {
+      "question": "Y a-t-il une limite au nombre d’opérations de rechargement donnant droit au bonus ?",
+      "answer": "Le nombre des opérations n’est pas limité, à condition de respecter le bonus attribué pour chaque durée rechargée, comme indiqué dans le tableau des bonus. Chaque rechargement électronique éligible génère son bonus correspondant."
+    },
+    {
+      "question": "Est-ce que le bonus est cumulable ?",
+      "answer": "Oui, le bonus est cumulable entre les opérations de rechargement. Les jours gratuits obtenus lors de différents paiements électroniques s’ajoutent, ce qui permet au client de prolonger significativement sa durée de connexion."
+    },
+    {
+      "question": "Les clients résidentiels locataires et conventionnés sont-ils également éligibles aux avantages de l’offre de paiement électronique ?",
+      "answer": "Oui, les clients résidentiels locataires et conventionnés sont éligibles aux avantages liés au paiement électronique, au même titre que les autres clients résidentiels Idoom ADSL, VDSL et Idoom FTTH."
+    },
+    {
+      "question": "Quels sont les moyens de paiement électronique concernés par cette offre ?",
+      "answer": "Algérie Télécom propose plusieurs plateformes de paiement électronique via les cartes Eddahabia et CIB : l’Espace client d’Algérie Télécom accessible à l’adresse https://client.algerietelecom.dz, l’application My Idoom disponible sur Google Play, App Store et Huawei AppGallery, l’application Algérie Télécom accessible via https://paiement.at.dz/, l’application Baridimob, l’application BNA Wimpay, ainsi que les paiements via les terminaux de paiement électronique (TPE) au sein des agences commerciales et des points de présence."
+    },
+    {
+      "question": "Quels sont les objectifs principaux de cette offre pour Algérie Télécom ?",
+      "answer": "Les objectifs principaux sont de digitaliser le parcours client et d’améliorer l’expérience client. En encourageant le recours aux paiements électroniques, Algérie Télécom facilite les démarches, réduit la manipulation d’espèces et renforce l’efficacité de son modèle économique."
+    },
+    {
+      "question": "Quelle est la valeur ajoutée pour le client ?",
+      "answer": "En optant pour le paiement électronique, le client bénéficie de jours de connexion gratuits tout en profitant d’une expérience rapide, sécurisée et moderne. C’est une solution pratique qui répond aux besoins des clients connectés et améliore la gestion de leur abonnement internet."
+    },
+    {
+      "question": "Comment les clients peuvent-ils profiter de cette offre ?",
+      "answer": "Pour profiter de cette offre, les clients n’ont qu’à effectuer leurs rechargements via un moyen de paiement électronique parmi ceux proposés par Algérie Télécom. Les bonus sont automatiquement appliqués en fonction de la durée rechargée, sans aucune démarche supplémentaire."
+    },
+    {
+      "question": "Y a-t-il une limite dans le temps pour profiter de cette offre ?",
+      "answer": "L’offre est valable jusqu’à une éventuelle mise à jour ou modification communiquée par Algérie Télécom. Les clients sont encouragés à utiliser les moyens de paiement électronique dès maintenant pour bénéficier des bonus de jours gratuits."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهم: نذكّركم بأن بريد Feedback@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات المتعلقة بالملاحظات أو الإجراءات المعمول بها. لا تترددوا في التواصل معنا عند الضرورة.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies, y compris celles relatives aux nouveaux avantages liés au paiement électronique Idoom ADSL, VDSL et Idoom Fibre."
+  },
+
+  "keywords_ar": [
+    "المزايا الجديدة للدفع الإلكتروني",
+    "الدفع الإلكتروني",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "Idoom FTTH",
+    "الإنترنت الثابت",
+    "إعادة الشحن",
+    "أيام مجانية",
+    "3 أيام مجانية",
+    "12 يومًا مجانيًا",
+    "24 يومًا مجانيًا",
+    "48 يومًا مجانيًا",
+    "1 شهر",
+    "3 أشهر",
+    "6 أشهر",
+    "12 شهرًا",
+    "الزبائن الخواص",
+    "فئة الكراء",
+    "اتفاقيات",
+    "بطاقة الذهبية",
+    "بطاقة CIB",
+    "فضاء الزبون",
+    "تطبيق My Idoom",
+    "تطبيق Algérie Télécom",
+    "تطبيق Baridimob",
+    "تطبيق BNA Wimpay",
+    "أجهزة الدفع الإلكتروني",
+    "TPE",
+    "التحول الرقمي",
+    "رقمنة مسار الزبون",
+    "تحسين تجربة الزبون",
+    "تقليص الخسائر المالية",
+    "رفع رقم الأعمال",
+    "تعزيز ولاء المشتركين",
+    "اتصالات الجزائر",
+    "Feedback@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "paiement électronique",
+    "nouveaux avantages paiement électronique",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "Idoom FTTH",
+    "clients résidentiels",
+    "clients résidentiels locataires",
+    "clients résidentiels conventionnés",
+    "rechargement internet",
+    "jours gratuits",
+    "bonus 3 jours",
+    "bonus 12 jours",
+    "bonus 24 jours",
+    "bonus 48 jours",
+    "1 mois",
+    "3 mois",
+    "6 mois",
+    "12 mois",
+    "internet filaire",
+    "avantages remplacés",
+    "factures téléphoniques",
+    "Idoom 4G LTE",
+    "bonus cumulable",
+    "Espace client",
+    "My Idoom",
+    "application Algérie Télécom",
+    "Baridimob",
+    "BNA Wimpay",
+    "TPE",
+    "Eddahabia",
+    "CIB",
+    "digitalisation du parcours client",
+    "amélioration de l’expérience client",
+    "transformation numérique",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "paiement électronique",
+    "nouveaux avantages paiement électronique",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "Idoom FTTH",
+    "clients résidentiels",
+    "clients résidentiels locataires",
+    "clients résidentiels conventionnés",
+    "rechargement internet",
+    "jours gratuits",
+    "bonus 3 jours",
+    "bonus 12 jours",
+    "bonus 24 jours",
+    "bonus 48 jours",
+    "1 mois",
+    "3 mois",
+    "6 mois",
+    "12 mois",
+    "internet filaire",
+    "avantages remplacés",
+    "factures téléphoniques",
+    "Idoom 4G LTE",
+    "bonus cumulable",
+    "Espace client",
+    "My Idoom",
+    "application Algérie Télécom",
+    "Baridimob",
+    "BNA Wimpay",
+    "TPE",
+    "Eddahabia",
+    "CIB",
+    "digitalisation du parcours client",
+    "amélioration de l’expérience client",
+    "transformation numérique",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "المزايا الجديدة للدفع الإلكتروني",
+    "الدفع الإلكتروني",
+    "الإنترنت الثابت",
+    "إعادة الشحن",
+    "أيام مجانية",
+    "3 أيام مجانية",
+    "12 يومًا مجانيًا",
+    "24 يومًا مجانيًا",
+    "48 يومًا مجانيًا",
+    "1 شهر",
+    "3 أشهر",
+    "6 أشهر",
+    "12 شهرًا",
+    "الزبائن الخواص",
+    "فئة الكراء",
+    "اتفاقيات",
+    "بطاقة الذهبية",
+    "بطاقة CIB",
+    "فضاء الزبون",
+    "تطبيق My Idoom",
+    "تطبيق Algérie Télécom",
+    "تطبيق Baridimob",
+    "تطبيق BNA Wimpay",
+    "أجهزة الدفع الإلكتروني",
+    "التحول الرقمي",
+    "رقمنة مسار الزبون",
+    "تحسين تجربة الزبون",
+    "تقليص الخسائر المالية",
+    "رفع رقم الأعمال",
+    "تعزيز ولاء المشتركين",
+    "اتصالات الجزائر",
+    "Feedback@algerietelecom.dz"
+  ],
+
+  "search_text": "Nouveaux Avantages des Paiement Électronique Idoom ADSL, VDSL et Idoom FIBRE. Version 1. Cette offre d’Algérie Télécom s’adresse aux clients résidentiels des services Idoom ADSL, VDSL et Idoom FTTH, y compris les clients résidentiels locataires et conventionnés. Elle accorde des journées de connexion gratuites pour chaque rechargement internet effectué via un moyen de paiement électronique. Le barème des bonus est le suivant : 1 mois payé donne droit à 3 jours gratuits, 3 mois payés donnent 12 jours gratuits, 6 mois payés donnent 24 jours gratuits et 12 mois payés donnent 48 jours gratuits. Les avantages antérieurs liés au paiement électronique de l’internet filaire Idoom ADSL, VDSL et Idoom Fibre sont remplacés par ce nouveau dispositif, tandis que les bonus pour le paiement électronique des factures téléphoniques et des abonnements Idoom 4G LTE restent inchangés. Le nombre d’opérations de rechargement n’est pas limité ; chaque rechargement électronique éligible génère son bonus correspondant, qui est cumulable avec les bonus obtenus lors d’autres opérations. L’offre vise à encourager la transformation numérique, à promouvoir l’usage des moyens de paiement électroniques, à améliorer l’expérience client, à réduire le manque à gagner, à augmenter le chiffre d’affaires et à fidéliser les abonnés. Les moyens de paiement électronique concernés comprennent l’Espace client d’Algérie Télécom (https://client.algerietelecom.dz) via les cartes Eddahabia et CIB, l’application My Idoom, l’application Algérie Télécom (https://paiement.at.dz/), l’application Baridimob, l’application BNA Wimpay et les TPE disponibles dans les agences commerciales et les points de présence. Pour profiter de l’offre, le client n’a qu’à effectuer ses rechargements via l’un de ces canaux ; les bonus sont appliqués automatiquement en fonction de la durée rechargée. L’offre est valable jusqu’à une éventuelle mise à jour ou modification communiquée par Algérie Télécom. En choisissant le paiement électronique, le client bénéficie d’une expérience de paiement rapide, sécurisée et moderne, ainsi que de jours gratuits qui prolongent la durée de son abonnement internet. La messagerie « Feedback » FB@algerietelecom.dz est dédiée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures.\n\nالمزايا الجديدة للدفع الإلكتروني لخدمات Idoom ADSL وVDSL وIdoom Fibre. يشرح هذا العرض من اتصالات الجزائر كيف يستفيد الزبائن الخواص المشتركين في خدمات Idoom ADSL وIdoom VDSL وIdoom FTTH من أيام مجانية للاتصال عند القيام بعمليات تعبئة عبر وسائل الدفع الإلكتروني. يستفيد الزبون من 3 أيام مجانية عند تعبئة شهر واحد، و12 يومًا مجانية عند تعبئة 3 أشهر، و24 يومًا عند تعبئة 6 أشهر، و48 يومًا مجانية عند تعبئة 12 شهرًا، ويُطبّق هذا النظام على كل عملية تعبئة إلكترونية مؤهلة. العرض موجه حصريًا للزبائن الخواص، بما في ذلك زبائن فئة الكراء والمستفيدين من أسعار تفضيلية في إطار اتفاقيات. يتم استبدال المزايا الحالية المتعلقة بالدفع الإلكتروني للإنترنت الثابت Idoom ADSL وVDSL وIdoom Fibre بهذا العرض الجديد، بينما تبقى المزايا الخاصة بالدفع الإلكتروني لفواتير الهاتف الثابت واشتراكات Idoom 4G LTE دون تغيير. عدد عمليات التعبئة غير محدود، ويمكن جمع المزايا الناتجة عن عمليات تعبئة متعددة بحيث تُضاف الأيام المجانية إلى مدة صلاحية الاشتراك. من بين وسائل الدفع الإلكتروني المعنية: فضاء الزبون، تطبيق My Idoom، تطبيق Algérie Télécom للدفع (paiement.at.dz)، تطبيق Baridimob، تطبيق BNA Wimpay، بالإضافة إلى أجهزة الدفع الإلكتروني TPE المتوفرة في الوكالات التجارية ونقاط الحضور. يهدف العرض إلى رقمنة مسار الزبون وتحسين تجربته، من خلال تشجيع استعمال وسائل الدفع الإلكتروني وتقديم حل عملي وسريع وآمن وعصري. يكفي للزبون القيام بالدفع الإلكتروني ليتم احتساب العلاوة تلقائيًا حسب مدة التعبئة. يظل العرض ساريًا إلى غاية صدور تحديث أو تعديل جديد من اتصالات الجزائر، ويُنصح الزبائن باعتماد وسائل الدفع الإلكتروني للاستفادة من أيام مجانية إضافية وتحسين تجربتهم مع خدمة الإنترنت.",
+
+  "dense_text_primary": "Ce document présente l’offre « Nouveaux Avantages des Paiement Électronique Idoom ADSL, VDSL et Idoom FIBRE » d’Algérie Télécom, destinée aux clients résidentiels des services Idoom ADSL, VDSL et Idoom FTTH, y compris les clients locataires et conventionnés. L’offre récompense les rechargements effectués via les moyens de paiement électroniques (Eddahabia, CIB, Espace client, My Idoom, application Algérie Télécom, Baridimob, BNA Wimpay, TPE) par l’octroi de jours de connexion gratuits, selon un barème précis : 3 jours pour 1 mois rechargé, 12 jours pour 3 mois, 24 jours pour 6 mois et 48 jours pour 12 mois. Les bonus sont appliqués automatiquement, sans démarche supplémentaire, et sont cumulables entre les différentes opérations de rechargement. La nouvelle offre remplace les anciens avantages liés au paiement électronique de l’internet filaire Idoom ADSL, VDSL et Idoom Fibre, tout en maintenant inchangés les bonus sur le paiement électronique des factures téléphoniques et des abonnements Idoom 4G LTE. Elle s’inscrit dans une stratégie de transformation numérique visant à digitaliser le parcours client, à améliorer l’expérience utilisateur, à réduire le manque à gagner et à augmenter le chiffre d’affaires, tout en renforçant la fidélité des abonnés.\n\nعلى الجانب العربي، يوضح المستند أن «المزايا الجديدة للدفع الإلكتروني لخدمات Idoom ADSL وVDSL وIdoom Fibre» موجهة للزبائن الخواص المشتركين في الإنترنت الثابت، بما في ذلك زبائن فئة الكراء والمستفيدين من أسعار تفضيلية في إطار اتفاقيات. يستفيد هؤلاء الزبائن من أيام مجانية للاتصال تُحتسب تلقائيًا عند كل عملية تعبئة تُنجز عبر وسيلة دفع إلكتروني معتمدة، وفق جدول يمنح 3 أيام مجانية لشهر واحد، و12 يومًا لـ3 أشهر، و24 يومًا لـ6 أشهر، و48 يومًا لـ12 شهرًا. العرض يستبدل المزايا السابقة المرتبطة بالدفع الإلكتروني للإنترنت الثابت، دون المساس بالمزايا الخاصة بفواتير الهاتف الثابت واشتراكات Idoom 4G LTE. عدد عمليات التعبئة غير محدود، ويمكن جمع الأيام الإضافية الناتجة عن عمليات تعبئة متعددة، مما يسمح بتمديد مدة صلاحية الاشتراك وتقليل التكلفة الفعلية للخدمة. تهدف هذه المبادرة إلى تشجيع التحول الرقمي، رقمنة مسار الزبون وتحسين تجربة الدفع من خلال قنوات سريعة وآمنة وعصرية، مع توفير حافز ملموس يتمثل في أيام مجانية إضافية للإنترنت."
+}

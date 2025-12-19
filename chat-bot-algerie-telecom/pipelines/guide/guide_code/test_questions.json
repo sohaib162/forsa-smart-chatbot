@@ -1,0 +1,254 @@
+[
+    {
+        "question": "Comment créer une demande d'enquête pour une ligne fixe (PSTN) ?",
+        "source_document": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre"
+    },
+    {
+        "question": "Quels sont les frais d'accès pour un nouveau Pack IDOOM Fibre ?",
+        "source_document": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre"
+    },
+    {
+        "question": "Comment enregistrer un paiement effectué à la poste sur NGBSS ?",
+        "source_document": "Encaissement des factures payées au niveau de bureau de Poste"
+    },
+    {
+        "question": "Comment extraire la facture détaillée sur NGBSS ?",
+        "source_document": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée"
+    },
+    {
+        "question": "Comment distribuer un lot de cartes de recharge vers une ACTEL ?",
+        "source_document": "Guide d'Utilisation NGBSS << Inventaire »"
+    },
+    {
+        "question": "Comment réactiver un abonné 4G LTE pré-désactivé sur NGBSS ?",
+        "source_document": "Guide NGBSS Réactivation Abonné 4G LTE"
+    },
+    {
+        "question": "Comment annuler une vente de modem pour un client sur NGBSS ?",
+        "source_document": "Guide d'Utilisation NGBSS Retour ressource"
+    },
+    {
+        "question": "Quelles sont les conditions pour créer un échéancier (AOD) sur NGBSS ?",
+        "source_document": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-"
+    },
+    {
+        "question": "Que faire si l'enquête technique revient avec une réponse négative ?",
+        "source_document": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre"
+    },
+    {
+        "question": "Comment enregistrer une facture complémentaire de TVA 2% sur NGBSS ?",
+        "source_document": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%"
+    },
+    {
+        "question": "Comment transformer des cartes unitaires en lot sur NGBSS ?",
+        "source_document": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)"
+    },
+    {
+        "question": "Comment réimprimer une facture duplicata sur NGBSS ?",
+        "source_document": "Guide d'utilisation NGBSS Edition facture duplicata"
+    },
+    {
+        "question": "Comment créer une ligne temporaire pour des élections ?",
+        "source_document": "Guide d'Utilisation NGBSS << Ligne temporaire >>"
+    },
+    {
+        "question": "Comment effectuer une recharge par bon de commande pour un membre d'un groupe ?",
+        "source_document": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-"
+    },
+    {
+        "question": "Comment synchroniser l'ONT lors de la création d'un abonnement FTTH ?",
+        "source_document": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre"
+    },
+    {
+        "question": "Quelle description mettre pour un encaissement externe (bureau de poste) ?",
+        "source_document": "Encaissement des factures payées au niveau de bureau de Poste"
+    },
+    {
+        "question": "Quelle est la procédure pour ajouter l'offre FADET ?",
+        "source_document": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée"
+    },
+    {
+        "question": "Quelle est la procédure pour imprimer une note de transfert de stock ?",
+        "source_document": "Guide d'Utilisation NGBSS << Inventaire »"
+    },
+    {
+        "question": "Quel est le coût de la réactivation d'un abonnement 4G LTE ?",
+        "source_document": "Guide NGBSS Réactivation Abonné 4G LTE"
+    },
+    {
+        "question": "Quelle est la procédure pour rembourser un non-client après un retour de marchandise ?",
+        "source_document": "Guide d'Utilisation NGBSS Retour ressource"
+    },
+    {
+        "question": "Comment valider une demande d'arrangement de paiement ?",
+        "source_document": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-"
+    },
+    {
+        "question": "Comment utiliser la fonction Redispatch dans la gestion d'ordre ?",
+        "source_document": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre"
+    },
+    {
+        "question": "Quelle est la procédure pour forcer un débit (ajustement) sur un compte client ?",
+        "source_document": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%"
+    },
+    {
+        "question": "Quelle est la procédure pour vendre des cartes à un Cybercafé (KMS) ?",
+        "source_document": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)"
+    },
+    {
+        "question": "Où trouver le lien de téléchargement d'une facture réimprimée ?",
+        "source_document": "Guide d'utilisation NGBSS Edition facture duplicata"
+    },
+    {
+        "question": "Quelle est la procédure pour prolonger la durée d'une ligne temporaire ?",
+        "source_document": "Guide d'Utilisation NGBSS << Ligne temporaire >>"
+    },
+    {
+        "question": "Quelle est la procédure si le compte groupe est en « Paiement complet » ?",
+        "source_document": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-"
+    },
+    {
+        "question": "Quelle est la procédure pour ajouter l'offre internet FTTX après la VOIP ?",
+        "source_document": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre"
+    },
+    {
+        "question": "Comment finaliser un paiement après la soumission ?",
+        "source_document": "Encaissement des factures payées au niveau de bureau de Poste"
+    },
+    {
+        "question": "Comment consulter l'historique des appels (CDR) pour un client ?",
+        "source_document": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée"
+    },
+    {
+        "question": "Comment réceptionner des ressources envoyées par le magasin ?",
+        "source_document": "Guide d'Utilisation NGBSS << Inventaire »"
+    },
+    {
+        "question": "Comment encaisser les frais de réactivation 4G LTE ?",
+        "source_document": "Guide NGBSS Réactivation Abonné 4G LTE"
+    },
+    {
+        "question": "Que faire si la ressource retournée est défectueuse ?",
+        "source_document": "Guide d'Utilisation NGBSS Retour ressource"
+    },
+    {
+        "question": "Quel est le montant minimum du premier versement pour un échéancier ?",
+        "source_document": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-"
+    },
+    {
+        "question": "Où consulter les ordres d'enquêtes en attente ?",
+        "source_document": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre"
+    },
+    {
+        "question": "Comment encaisser une facture complémentaire après ajustement ?",
+        "source_document": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%"
+    },
+    {
+        "question": "Comment importer un fichier de numéros de série pour une vente par lot ?",
+        "source_document": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)"
+    },
+    {
+        "question": "Quelles sont les étapes pour éditer un duplicata de facture ?",
+        "source_document": "Guide d'utilisation NGBSS Edition facture duplicata"
+    },
+    {
+        "question": "Comment transformer une ligne temporaire en ligne permanente ?",
+        "source_document": "Guide d'Utilisation NGBSS << Ligne temporaire >>"
+    },
+    {
+        "question": "Comment changer le compte de paiement lors d'une vente de ressource NGBSS ?",
+        "source_document": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-"
+    },
+    {
+        "question": "Faut-il ajouter une offre supplémentaire pour le FTTH ? (Non, offre primaire uniquement)",
+        "source_document": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre"
+    },
+    {
+        "question": "Où trouver l'option pour encaisser une facture via MSISDN ?",
+        "source_document": "Encaissement des factures payées au niveau de bureau de Poste"
+    },
+    {
+        "question": "Quel est le prix de l'option FADET sur demande ?",
+        "source_document": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée"
+    },
+    {
+        "question": "Comment utiliser la méthode 'Par rang' pour sélectionner des cartes ?",
+        "source_document": "Guide d'Utilisation NGBSS << Inventaire »"
+    },
+    {
+        "question": "Quelle est l'étape suivant la soumission de la réactivation ?",
+        "source_document": "Guide NGBSS Réactivation Abonné 4G LTE"
+    },
+    {
+        "question": "Quels sont les prérequis pour effectuer un retour ressource ?",
+        "source_document": "Guide d'Utilisation NGBSS Retour ressource"
+    },
+    {
+        "question": "Comment encaisser une échéance d'un arrangement de paiement ?",
+        "source_document": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-"
+    },
+    {
+        "question": "Comment modifier l'adresse d'installation suite à un rejet OSS ?",
+        "source_document": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre"
+    },
+    {
+        "question": "Quel commentaire ajouter lors de l'enregistrement de la TVA 2% ?",
+        "source_document": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%"
+    },
+    {
+        "question": "Quel est le montant maximum pour un paiement en espèce lors d'une vente par lot ?",
+        "source_document": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)"
+    },
+    {
+        "question": "Comment vérifier si une demande de duplicata a réussi ?",
+        "source_document": "Guide d'utilisation NGBSS Edition facture duplicata"
+    },
+    {
+        "question": "Quelles sont les catégories de clients éligibles aux lignes temporaires ?",
+        "source_document": "Guide d'Utilisation NGBSS << Ligne temporaire >>"
+    },
+    {
+        "question": "Peut-on utiliser un bon de commande pour un abonné prépayé dans un groupe ?",
+        "source_document": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-"
+    },
+    {
+        "question": "Quand peut-on effectuer la première recharge FTTH ?",
+        "source_document": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre"
+    },
+    {
+        "question": "Comment valider le paiement d'une facture détaillée en espèces ?",
+        "source_document": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée"
+    },
+    {
+        "question": "Comment attacher la note signée dans NGBSS ?",
+        "source_document": "Guide d'Utilisation NGBSS << Inventaire »"
+    },
+    {
+        "question": "Où vérifier que l'abonné est bien repassé à l'état Actif ?",
+        "source_document": "Guide NGBSS Réactivation Abonné 4G LTE"
+    },
+    {
+        "question": "Comment trouver une ressource vendue pour l'annuler ?",
+        "source_document": "Guide d'Utilisation NGBSS Retour ressource"
+    },
+    {
+        "question": "Quelle est la différence entre AOD et Promesse de paiement ?",
+        "source_document": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-"
+    },
+    {
+        "question": "Comment changer l'article d'une ressource Voucher Card ?",
+        "source_document": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)"
+    },
+    {
+        "question": "Peut-on réimprimer une facture pour un client postpayé ?",
+        "source_document": "Guide d'utilisation NGBSS Edition facture duplicata"
+    },
+    {
+        "question": "Comment définir le nombre de cycles pour une ligne temporaire ?",
+        "source_document": "Guide d'Utilisation NGBSS << Ligne temporaire >>"
+    },
+    {
+        "question": "Comment sélectionner le compte spécifique d'un abonné lors de la facturation ?",
+        "source_document": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-"
+    }
+]

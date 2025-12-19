@@ -1,0 +1,123 @@
+{
+  "equipe": "IDevelop",
+  "question": {
+  "Modernisation vers Idoom Fibre (ADSL/VDSL/4G → Idoom Fibre)": {
+    
+      "1": "Quelles sont les conditions de modernisation vers une nouvelle ligne Fibre ?",
+      "2": "Que se passe-t-il si les conditions ne sont pas remplies ?",
+      "3": "Les jours restants sont-ils conservés ?",
+      "4": "Le palier 15 Mbps Fibre est-il disponible ?",
+      "5": "Quelles sont les conditions pour moderniser 4G LTE vers Fibre ?"
+    },
+  "Offre Résidentielle « Locataire » (Fibre / ADSL / VDSL)": {
+    
+      "1": "Qui peut bénéficier de l’offre Locataire ?",
+      "2": "Y a-t-il un engagement ?",
+      "3": "Que couvrent les prix indiqués dans l’offre résidentiel locataire ?",
+      "4": "Y a-t-il des restrictions dans l’offre résidentielle locataire ?",
+      "5": "Quels sont les modes de paiement disponibles ?"
+    },
+  "ONT GPON Wi-Fi 6 & ONT XGS-PON Wi-Fi 6": {
+    
+      "1": "Qui peut acheter ces modems ONT ?",
+      "2": "Quelles sont les conditions pour l'aquisition de l’ONT XGS-PON ?",
+      "3": "Quel est le prix des modems ?",
+      "4": "Le titulaire doit-il être présent pour restituer l’ONT ?"
+    },
+  "IDOOM Medium Business": {
+    
+      "1": "Qui peut bénéficier de l’offre IDOOM Medium Business ?",
+      "2": "Y a-t-il un engagement ?",
+      "4": "Quels sont les débits et tarifs mensuels disponibles ?",
+      "5": "Quels avantages sont inclus dans l’offre ?",
+      "6": "Quel est le débit en upload ?",
+      "7": "Quel est le dossier à fournir ?",
+      "8": "Qui est éligible à la modernisation vers Medium Business ?",
+      "9": "Que doit régler le client avant une modernisation ?",
+      "10": "Le client peut-il choisir librement entre l’offre MOOHTARIF et l’offre Medium Business ?"
+    },
+  "Nouveaux Avantages des Paiement Électronique Idoom ADSL, VDSL et Idoom FIBRE": {
+    
+      "1":  "Quels sont les avantages du paiement électronique pour les clients Idoom ADSL, VDSL et Idoom FIBRE?",
+      "2": "Quels sont les objectifs du paiement électronique ?",
+      "3": "Qui est éligible à l'offre paiement électronique ?",
+      "4": "Comment fonctionne le système de bonus de l'offre paiement électronique ?   Un client qui recharge un montant inférieur à son abonnement (xDSL ou FTTH) via paiement électronique peut-il bénéficier du bonus ?",
+      "5": "Quels moyens de paiement électronique sont concernés ?",
+      "6": "Quelle est la valeur ajoutée pour le client par rapport a l'offre paiement électronique ?",
+      "7": "Comment profiter des avantages liés au paiement électronique ?",
+      "8": "Un client qui recharge un montant inférieur à son abonnement (xDSLou FTTH) via paiement électronique peut-il bénéficier du bonus ?",
+      "9": "Y a-t-il une limite dans le temps pour profiter de l’offre ?"
+  
+    },
+  "Nouvelle offre Idoom 4G LTE sans engagement": {
+    
+      "1": "En quoi consiste la nouvelle offre Idoom 4G LTE sans engagement ?",
+      "2": "Peut-on recharger avant la fin des 90 jours ?",
+      "3": "Les étudiants en cité universitaire peuvent-ils  bénéficier de l'offre 4G sans engagement ?",
+      "4": "Quels documents sont nécessaires pour bénéficier de l'offre 4G sans engagement ?",
+      "5": "Documents spécifiques pour les étudiants en cité universitaire bénéficier de l'offre 4G sans engagement,",
+      "6": "Quels sont les moyens de paiement disponibles ?"
+    },
+  "Nouvelle offre Idoom Fibre Gamers": {
+    
+      "1": "En quoi consiste l'offre Idoom Fibre Gamers ?",
+      "2": "À qui est destinée l’offre Idoom Fibre Gamers ?",
+      "3": "Est-ce que le débit Internet est important dans l’offre Idoom Fibre Gamers ?",
+      "4":"Les nouveaux abonnés doivent-ils s’engager ?"
+    },
+  "Nouvelle offre Idoom Fibre Gamers Locataire":{
+      "1": "En quoi consiste l’offre Idoom Fibre Gamers Locataire?",
+      "2": "À qui est destinée l’offre Idoom Fibre Gamers Locataire?",
+      "3": "L’offre « Idoom Fibre Gamers Locataire » est-elle soumise à un engagement de 12 mois ?",  
+      "4": "Quels sont les documents à fournir pour bénéficier de l’offre Idoom Fibre Gamers ?"
+    },
+  "Mode opératoire Commercialisation des Kits de branchements FTTH": {
+    
+      "1": "Que faire si un client rencontre un problème avec son kit FTTH ?",
+      "2": "Comment faut-il procéder en cas de défectuosité du kit de branchement ?",
+      "3": "Que fait l’équipe technique à domicile en cas de kit de branchement défectueux ?",
+      "4": "Quand le client doit-il acheter le kit de branchement ?",
+      "5": "Quel est le délai d’intervention après l’achat du kit ?",
+      "6": "Quels documents ou informations sont suivis pour la qualité du service ?"
+    },
+  "Nouvelle offre parrainage":{
+      "1":"Quelle est la cible de l’offre Parrainage ?",
+      "2": "Qui est le parrain et le parrainé ?",
+      "3": "En quoi consiste l’offre Parrainage ?:",
+      "4": "Quelles sont les conditions principales de l'offre Parrainage?",
+      "5":"Quelles sont les règles importantes de l'offre Parrainage?",
+      "6":"Quelles sont les étapes pour le parrain ?",
+      "7":"Quelles sont les étapes pour le parrainé ?"
+    }},
+  "Le droit timbre fiscal conformément à la nouvelle loi de finance 2025": {
+    
+      "1": "Qu’est-ce que le droit de timbre fiscal chez Algérie Télécom ?",
+      "2": "Pourquoi Algérie Télécom l’applique-t-elle ?",
+      "3": "Comment le droit de timbre fiscal est-il calculé selon la loi de finances 2025 ?",
+      "4": "Quels services sont concernés ?",
+      "5": "Où payer le droit de timbre ?",
+      "6": "Quels avantages pour le client ?"
+    },
+  "Nouvelle Offre WEEKEND BOOST": {
+    
+      "1": "Qui peut bénéficier de l’offre WEEKEND BOOST ?",
+      "2": "Quand et comment activer l’offre WEEKEND BOOST ?",
+      "3": "Quels sont les débits disponibles pour l'offre WEEKEND BOOST ?",
+      "4": "Quelle est la durée et la validité de l’offre WEEKEND BOOST ?",
+      "5": "Quels sont les principaux avantages de l’offre WEEKEND BOOST ?",
+      "6": "Quels sont les conditions d’éligibilité  de l’offre WEEKEND BOOST ?"
+    },
+  "Offre Moohtarif": {
+    
+      "1": "Qui est concerné par l’offre Moohtarif ?",
+      "2": "Les agences d’assurances peuvent-elles souscrire à Moohtarif ?"
+    },
+  "14-Guide Ngbss": {
+    
+      "1": "Comment saisir une facture détaillée ?",
+      "2": "Comment saisir les frais d’une facture détaillée ?",
+      "3": "Comment choisir l’offre primaire, lors de la création d’un nouveau compte client Idoom FTTH?",
+      "4": "Comment effectuer un paiement internet FTTH ?",
+      "5": "Comment valider un paiement de facture téléphonique effectué au niveau des bureaux de poste ?"
+    }
+  }

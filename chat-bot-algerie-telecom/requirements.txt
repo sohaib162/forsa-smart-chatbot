@@ -1,0 +1,28 @@
+# --- API & Web Server ---
+fastapi
+uvicorn
+pydantic
+requests
+
+# --- Retrieval & AI (Teammate's Code) ---
+# Specific versions pinned to ensure stability with Python 3.10
+# --- AI & Embeddings ---
+torch>=2.0.0
+sentence-transformers>=2.2.2
+transformers>=4.19.0
+numpy>=1.21.0
+
+# --- Retrieval Algorithms ---
+rank-bm25>=0.2.2
+
+# --- Vector Database & Storage ---
+qdrant-client>=1.7.0
+minio>=7.2.0
+
+# --- Utilities ---
+python-dateutil>=2.8.2
+colorlog>=6.7.0
+
+# --- Testing & Dev ---
+pytest>=7.0.0
+pytest-cov>=4.0.0

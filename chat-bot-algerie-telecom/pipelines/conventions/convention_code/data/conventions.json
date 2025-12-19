@@ -1,0 +1,3592 @@
+[
+  {
+    "filename": "Convention AT & L_établissement P.docx",
+    "establishment": "L’établissement P",
+    "partner_type": "Public Institution",
+    "purpose": "Mise en place des tarifs préférentiels accordés au personnel (cadres, employés, retraités) de L’établissement P.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Cadres supérieurs, personnel actif et retraités de L’établissement P.",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "ONT Wi-Fi 6"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Cadres Supérieurs",
+        "offer_type": "Idoom ADSL",
+        "speed": "20 Mbps",
+        "price": "Gratuit (0 DA)",
+        "benefits": "1 accès gratuit"
+      },
+      {
+        "category_segment": "Cadres Supérieurs",
+        "offer_type": "Idoom VDSL",
+        "speed": "100 Mbps",
+        "price": "Gratuit (0 DA)",
+        "benefits": "1 accès gratuit"
+      },
+      {
+        "category_segment": "Cadres Supérieurs",
+        "offer_type": "Idoom Fibre",
+        "speed": "1.5 Gbps",
+        "price": "Gratuit (0 DA)",
+        "benefits": "1 accès gratuit"
+      },
+      {
+        "category_segment": "Personnel et Retraités",
+        "offer_type": "Idoom ADSL",
+        "speed": "20 Mbps",
+        "price": "800 DA",
+        "benefits": "Tarif réduit"
+      },
+      {
+        "category_segment": "Personnel et Retraités",
+        "offer_type": "Idoom VDSL",
+        "speed": "100 Mbps",
+        "price": "800 DA",
+        "benefits": "Tarif réduit"
+      },
+      {
+        "category_segment": "Personnel et Retraités",
+        "offer_type": "Idoom Fibre",
+        "speed": "1.5 Gbps",
+        "price": "1 100 DA",
+        "benefits": "Tarif réduit"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [
+      {
+        "table_name": "Tarifs ONT Wi-Fi 6 (Mise à niveau)",
+        "data": [
+          {
+            "Catégorie": "Cadres supérieurs",
+            "Tarif": "3 500 Da"
+          },
+          {
+            "Catégorie": "Salariés catégories < A",
+            "Tarif": "2 000 Da"
+          },
+          {
+            "Catégorie": "Retraités",
+            "Tarif": "3 500 Da"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Pièce d'identité",
+      "Attestation de travail (< 3 mois) pour actifs",
+      "Certificat de travail pour retraités"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail (< 3 mois) pour actifs",
+      "Certificat de travail pour retraités"
+    ],
+    "notes": [
+      "Un seul changement d'ONT autorisé par employé.",
+      "Restitution obligatoire de l'ancien modem (Wi-Fi 4/5) et de l'adaptateur.",
+      "Présence du titulaire obligatoire pour l'échange.",
+      "Si la pigtail n'est pas restituée, le nouvel ONT est remis sans pigtail."
+    ],
+    "keywords": [
+      "L’établissement P",
+      "Cadres supérieurs",
+      "Gratuité internet",
+      "ONT Wi-Fi 6",
+      "Retraités",
+      "1.5 Gbps"
+    ],
+    "categories": [
+      "Secteur Public",
+      "Avantages Cadres"
+    ],
+    "dates": {
+      "signature_date": "2025-11-13",
+      "effective_date": null
+    },
+    "restrictions": "Feedback mail (FB@algerietelecom.dz) réservé aux infos commerciales.",
+    "s3_key": "Conventions/Convention AT & L_établissement P OK/Convention AT & L_établissement P.docx"
+  },
+  {
+    "filename": "Convention AT & L_établissement V.docx",
+    "establishment": "L’établissement V",
+    "partner_type": "Public/Administrative",
+    "purpose": "Mesures préférentielles pour la fourniture de services de télécommunication (téléphonie et Internet) au personnel en activité.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité de L’établissement V.",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 075 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "FIBRE",
+        "speed": "30 Mbps",
+        "price": "1 100 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 175 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 200 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 275 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "1 500 Da",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "2 100 Da",
+        "benefits": "Remise 50%"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250",
+        "price": "225 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%"
+      },
+      {
+        "offer": "Forfait 500",
+        "price": "400 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%"
+      },
+      {
+        "offer": "Forfait 750",
+        "price": "525 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Copie carte professionnelle ou CNI",
+      "Attestation de travail",
+      "Demande manuscrite signée",
+      "Justification de l'adresse"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou document d'éligibilité signé par RH"
+    ],
+    "notes": [],
+    "keywords": [
+      "L’établissement V",
+      "Personnel actif",
+      "1.2 Gbps",
+      "Basculement",
+      "Tarif préférentiel"
+    ],
+    "categories": [
+      "Secteur Public",
+      "Entreprise"
+    ],
+    "dates": {
+      "signature_date": "2024-11-18",
+      "effective_date": null
+    },
+    "restrictions": null,
+    "s3_key": "Conventions/Convention AT & L_établissemnt V OK/Convention AT & L_établissement V.docx"
+  },
+  {
+    "filename": "Convention AT- & L’établissement F.docx",
+    "establishment": "L’Établissement F",
+    "partner_type": "Public/Administrative",
+    "purpose": "Mise à jour de la convention pour offrir des tarifs préférentiels sur la téléphonie et l'internet aux employés.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Tous les employés en activité et en retraite de L’Établissement F.",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 150 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 350 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 2 550 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "1 620 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "1 890 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250",
+        "price": "200 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 04 DA/min vers Mobile"
+      },
+      {
+        "offer": "Forfait 500",
+        "price": "350 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 03 DA/min vers Mobile"
+      },
+      {
+        "offer": "Forfait 750",
+        "price": "450 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 02 DA/min vers Mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Bon d’ouverture de droit signé par le responsable habilité de L’Établissement F",
+      "Copie de la pièce d’identité",
+      "Justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Bon d’ouverture de droit signé par le responsable habilité de L’Établissement F"
+    ],
+    "notes": [
+      "La messagerie 'Feedback' FB@algerietelecom.dz est réservée aux demandes d'informations commerciales."
+    ],
+    "keywords": [
+      "L’Établissement F",
+      "Retraités",
+      "Bon d’ouverture de droit",
+      "1.2 Gbps",
+      "Tarifs préférentiels"
+    ],
+    "categories": [
+      "Secteur Public",
+      "Bilingue"
+    ],
+    "dates": {
+      "signature_date": "2025-04-23",
+      "effective_date": null
+    },
+    "restrictions": null,
+    "s3_key": "Conventions/Convention AT -& L’établissement F en version AR ET FR/Convention AT- & L’établissement F.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement A.docx",
+    "establishment": "L’établissement A",
+    "partner_type": "Institution/Entreprise",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de prestations de télécommunication (téléphonie et Internet) au profit des personnels actifs et retraités.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité et en retraite de L’établissement A.",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "15 Mbps",
+        "price": "1 000 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 000 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 100 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 200 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 400 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 300 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 600 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 100 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 200 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 400 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 300 Da/Mois",
+        "benefits": "Remise 50% (Tarif public: 2 600 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Remise 60% (Tarif public: 2 800 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Remise 60% (Tarif public: 3 000 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 440 Da/Mois",
+        "benefits": "Remise 60% (Tarif public: 3 600 Da)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "1 680 Da/Mois",
+        "benefits": "Remise 60% (Tarif public: 4 200 Da)"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250",
+        "price": "200 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 04 DA/min vers Mobile"
+      },
+      {
+        "offer": "Forfait 500",
+        "price": "350 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 03 DA/min vers Mobile"
+      },
+      {
+        "offer": "Forfait 750",
+        "price": "450 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité local/national, 02 DA/min vers Mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une copie de la carte professionnelle ou la carte nationale d’identité",
+      "Attestation de travail",
+      "Une justification de l'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail dument signé par les ressources humaines"
+    ],
+    "notes": [
+      "Dans le cadre de la digitalisation, la demande manuscrite n’est plus requise pour toute nouvelle souscription.",
+      "Un Test d'éligibilité sur la ligne est obligatoire."
+    ],
+    "keywords": [
+      "L’établissement A",
+      "Retraités",
+      "Remise 60%",
+      "Digitalisation",
+      "1.5 Gbps"
+    ],
+    "categories": [
+      "Secteur Public",
+      "Remise Elevée"
+    ],
+    "dates": {
+      "signature_date": "2025-07-29",
+      "effective_date": null
+    },
+    "restrictions": null,
+    "s3_key": "Conventions/Convention AT -& L’établissement A en version AR ET FR/Convention  AT & L’établissement A.docx"
+  },
+  {
+    "filename": "Convention_AT___L_établissement_N.docx",
+    "establishment": "L'établissement N",
+    "partner_type": "Other",
+    "purpose": "Établir des tarifs préférentiels pour les services Idoom ADSL et Fibre au profit du personnel en activité",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité de L'établissement N",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 615 DA/Mois",
+        "benefits": "Prix public: 2 150 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 765 DA/Mois",
+        "benefits": "Prix public: 2 350 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 913 DA/Mois",
+        "benefits": "Prix public: 2 550 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 950 DA/Mois",
+        "benefits": "Prix public: 2 600 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 960 DA/Mois",
+        "benefits": "Prix public: 2 800 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Prix public: 3 000 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "2 340 DA/Mois",
+        "benefits": "Prix public: 3 600 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "2 520 DA/Mois",
+        "benefits": "Prix public: 4 200 DA/Mois"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Offre 1",
+        "price": "200 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Local illimité, National compteur (3 DA/min), Mobile compteur (8 DA/min), 1 numéro favori à 4 DA/min, Réduction 20%, Abonnement inclus"
+      },
+      {
+        "offer": "Offre 2",
+        "price": "350 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Local et National illimité, Mobile compteur (8 DA/min), 2 numéros favoris à 3 DA/min, Réduction 30%, Abonnement inclus"
+      },
+      {
+        "offer": "Offre 3",
+        "price": "600 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Local et National illimité, Mobile et International à tarifs préférentiels, 5 numéros favoris à 2 DA/min, Réduction 40%, Abonnement inclus"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Réductions internationales sur tarifs mobiles",
+        "data": [
+          {
+            "reduction": "15%",
+            "pays": "Arabie Saoudite, Belgique, France, Maroc, Tunisie, Turquie"
+          },
+          {
+            "reduction": "10%",
+            "pays": "Allemagne, Chine, Emirats Arabes Unis, Espagne, Italie, Royaume-Uni"
+          },
+          {
+            "reduction": "20%",
+            "pays": "Canada, Etats Unis, Suisse"
+          },
+          {
+            "reduction": "30%",
+            "pays": null
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Bon d'ouverture de droit (formulaire de souscription) renseigné et signé par le responsable habilité de L'établissement N",
+      "Attestation de travail ou fiche de paie",
+      "Copie de la pièce d'identité",
+      "Justification d'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Bon d'ouverture de droit (formulaire de souscription) renseigné et signé par le responsable habilité de L'établissement N",
+      "Attestation de travail ou fiche de paie"
+    ],
+    "notes": [
+      "Les tarifs préférentiels Idoom Fixe restent inchangés selon la convention précédemment établie",
+      "Les clients déjà bénéficiaires de la convention ne sont pas tenus de présenter un nouveau dossier"
+    ],
+    "keywords": [
+      "L'établissement N",
+      "Personnel en activité",
+      "Tarifs préférentiels",
+      "Idoom ADSL",
+      "Idoom Fibre",
+      "1.2 Gbps",
+      "1 615 DA",
+      "Idoom Fixe",
+      "Réduction 40%",
+      "Algérie Télécom"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Conventien AT & L_établissement  N OK/Convention AT & L’établissement N.docx"
+  },
+  {
+    "filename": "Convention_AT___L_établissement_O.docx",
+    "establishment": "L'établissement O",
+    "partner_type": "Other",
+    "purpose": "Fournir des mesures préférentielles pour les services de télécommunications (Internet et téléphonie fixe) au profit du personnel en activité",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité de L'établissement O",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 600 DA/Mois",
+        "benefits": "Prix public: 2 150 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "2 000 DA/Mois",
+        "benefits": "Prix public: 2 550 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "2 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 600 DA/Mois",
+        "benefits": "Prix public: 3 000 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "3 000 DA/Mois",
+        "benefits": "Prix public: 3 600 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "3 600 DA/Mois",
+        "benefits": "Prix public: 4 200 DA/Mois"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 DA/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 04 DA/Min vers le Mobile"
+      },
+      {
+        "offer": "Forfait 500 DA/Mois",
+        "price": "450 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 03 DA/Min vers le Mobile"
+      },
+      {
+        "offer": "Forfait 750 DA/Mois",
+        "price": "675 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 02 DA/Min vers le Mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Copie de la carte professionnelle ou la carte nationale d'identité, le cas échéant",
+      "Attestation de travail",
+      "Justification de l'adresse de l'employé"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou tout autre document d'éligibilité aux tarifs préférentiels dûment signé par les ressources humaines"
+    ],
+    "notes": [
+      "La messagerie Feedback <FB@algerietelecom.dz> est exclusivement réservée aux demandes d'informations commerciales et aux clarifications sur les notes ou procédures établies"
+    ],
+    "keywords": [
+      "L'établissement O",
+      "Personnel en activité",
+      "Tarifs préférentiels",
+      "Idoom ADSL",
+      "Idoom Fibre",
+      "1.2 Gbps",
+      "1 600 DA",
+      "Idoom Fixe",
+      "Forfait",
+      "Algérie Télécom"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement O OK/Convention AT & L’établissement O.docx"
+  },
+  {
+    "filename": "Convention_AT-___L_établissement_I.docx",
+    "establishment": "L'Établissement I",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de l'Internet Idoom ADSL, VDSL et Idoom Fibre au profit du personnel en activité",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité de L'Établissement I",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "800 DA/Mois",
+        "benefits": "Tarif préférentiel"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "800 DA/Mois",
+        "benefits": "Tarif préférentiel"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "FTTH - Tarif préférentiel"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Copie de la carte nationale d'identité (Vérification de l'identité du demandeur)",
+      "Attestation de travail (Vérification de la situation professionnelle du demandeur)",
+      "Justificatif de l'adresse de l'employé (Confirmation du lieu de résidence du demandeur)"
+    ],
+    "required_documents_switch": [
+      "Copie de la carte nationale d'identité",
+      "Attestation de travail ou tout autre document d'éligibilité aux tarifs préférentiels dûment signé par les ressources humaines"
+    ],
+    "notes": [
+      "Le personnel doit se présenter au niveau des Agences Commerciales d'Algérie Télécom pour bénéficier des mesures préférentielles",
+      "La messagerie Feedback <FB@algerietelecom.dz> est exclusivement réservée aux demandes d'informations commerciales et aux clarifications sur les notes ou procédures établies"
+    ],
+    "keywords": [
+      "L'Établissement I",
+      "Personnel en activité",
+      "Tarifs préférentiels",
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "1.5 Gbps",
+      "800 DA",
+      "FTTH",
+      "Algérie Télécom"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement I en version AR ET FR/Convention AT- & L’établissement I.docx"
+  },
+  {
+    "filename": "Convention AT- & L’établissement D.docx",
+    "establishment": "L’établissement D",
+    "partner_type": "Other",
+    "purpose": "Définir les modalités et conditions pour accorder des avantages préférentiels sur les services de télécommunications (internet et téléphonie) aux employés actifs de l’Établissement D.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel actif",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "xDSL/Fibre",
+        "speed": "20 Mbps",
+        "price": "2 080 DA/Mois",
+        "benefits": "Tarif préférentiel"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "xDSL/Fibre",
+        "speed": "50 Mbps",
+        "price": "2 240 DA/Mois",
+        "benefits": "Tarif préférentiel"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "100 Mbps",
+        "price": "2 400 DA/Mois",
+        "benefits": "Tarif préférentiel"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "200 Mbps",
+        "price": "2 700 DA/Mois",
+        "benefits": "Prix public: 2800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "300 Mbps",
+        "price": "2 800 DA/Mois",
+        "benefits": "Prix public: 3000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "500 Mbps",
+        "price": "3 000 DA/Mois",
+        "benefits": "Prix public: 3600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "1 Gbps",
+        "price": "3 600 DA/Mois",
+        "benefits": "Prix public: 4200 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 DA/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise de 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 DA/Mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise de 20%, 04 Da/Min vers le Mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 DA/Mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise de 30%, 02 Da/Min vers le Mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une attestation de travail dument signée, ou un bulletin de paie récent signé",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse de l’employé"
+    ],
+    "required_documents_switch": [
+      "Une attestation de travail dument signée, ou un bulletin de paie récent signé"
+    ],
+    "notes": [
+      "Les nouvelles mesures préférentielles annulent et remplacent les mesures préférentielles existantes."
+    ],
+    "keywords": [
+      "Convention",
+      "Personnel actif",
+      "Tarifs préférentiels",
+      "Idoom Fibre",
+      "Idoom Fixe",
+      "1 Gbps",
+      "Remise"
+    ],
+    "dates": {
+      "signature_date": "2024-10-16",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement D en version AR ET FR/Convention AT- & L’établissement D.docx"
+  },
+  {
+    "filename": "Convention_AT_-__L_établissement_G.docx",
+    "establishment": "L'établissement G",
+    "partner_type": "Other",
+    "purpose": "Définir les modalités et conditions pour accorder aux employés des avantages préférentiels concernant les services de télécommunications (téléphonie et internet)",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel adhérant ou membre de L'établissement G",
+    "offers_concerned": [
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "2 000 DA/Mois",
+        "benefits": "Prix public: 2 600 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "2 200 DA/Mois",
+        "benefits": "Prix public: 2 800 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "2 400 DA/Mois",
+        "benefits": "Prix public: 3 000 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "2 600 DA/Mois",
+        "benefits": "Prix public: 3 600 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "2 800 DA/Mois",
+        "benefits": "Prix public: 4 200 DA/Mois"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 DA/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 04 DA/Min vers le Mobile, Remise de 10% sur le forfait"
+      },
+      {
+        "offer": "Forfait 500 DA/Mois",
+        "price": "450 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 03 DA/Min vers le Mobile, Remise de 10% sur le forfait"
+      },
+      {
+        "offer": "Forfait 750 DA/Mois",
+        "price": "675 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national, 02 DA/Min vers le Mobile, Remise de 10% sur le forfait"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Copie de la carte nationale d'identité",
+      "Carte d'adhésion ou carte de membre délivrées par L'établissement G",
+      "Justification de l'adresse de l'employé demandeur"
+    ],
+    "required_documents_switch": [
+      "Carte d'adhésion ou carte de membre délivrées par L'établissement G"
+    ],
+    "notes": [
+      "La convention est destinée à tous les employés au profit du personnel adhérant ou membre de L'établissement G"
+    ],
+    "keywords": [
+      "L'établissement G",
+      "Personnel adhérant",
+      "Membre",
+      "Tarifs préférentiels",
+      "Idoom Fibre",
+      "Idoom Fixe",
+      "1.5 Gbps",
+      "Remise 10%",
+      "Carte d'adhésion",
+      "Algérie Télécom"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement G en version AR ET FR/Convention AT -& L’établissement G.docx"
+  },
+  {
+    "filename": "Convention AT -& L’établissement C.docx",
+    "establishment": "L’établissement C",
+    "partner_type": "Security",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de l’Internet (ADSL, VDSL & Fibre) au profit du personnel Actif, civils, et retraités de L’établissement C.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel Actif, civils, et retraités",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "15 Mbps",
+        "price": "1 000 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 600 DA/Mois",
+        "benefits": "Remise 55,56%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "1 680 DA/Mois",
+        "benefits": "Remise 60%"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une recommandation signée par l’une des structures habilitées de L’établissement C selon la liste des signataires en vigueur",
+      "Une copie de la pièce d’identité",
+      "Un justificatif d’adresse"
+    ],
+    "required_documents_switch": [
+      "Une recommandation signée par l’une des structures habilitées de L’établissement C selon la liste des signataires en vigueur",
+      "Une copie de la pièce d’identité"
+    ],
+    "notes": [
+      "Il est strictement interdit de demander la présentation de la carte professionnelle par les conseillers clients au profit du personnel de L’établissement C bénéficiant de la convention.",
+      "Les avantages appliqués aux bénéficiaires de cette convention pour les offres IDOOM ADSL et VDSL restent inchangés."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement C",
+      "Retraités",
+      "Civils",
+      "1.5 Gbps",
+      "Remise 60%",
+      "Recommandation",
+      "1 680 DA"
+    ],
+    "dates": {
+      "signature_date": "2025-07-29",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement C en version AR ET FR/Convention AT -& L’établissement C.docx"
+  },
+  {
+    "filename": "Convention AT - & L’établissement H.docx",
+    "establishment": "L’Établissement H",
+    "partner_type": "Other",
+    "purpose": "Définir les termes, conditions et modalités pour accorder des mesures préférentielles sur les prestations de télécommunications (Téléphonie et Internet) aux employés en activité de L’Établissement H.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel actif",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 075 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 175 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 275 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "30 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Remise 50%"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 DA/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 DA/Mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "04 Da/Min vers le Mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 DA/Mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "02 Da/Min vers le Mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Attestation de travail ou tout autre document d’éligibilité aux tarifs préférentiels arrété par L’Établissement H, dument signé par les Ressources Humaines",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse de l’employé",
+      "Formulaire d’attribution des mesures préférentielles pour les employé dûment complété et signé"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou tout autre document d’éligibilité aux tarifs préférentiels arrêté par L’Établissement H, dûment signé par les Ressources Humaines",
+      "Formulaire d’attribution des mesures préférentielles pour les employés dûment complété et signé"
+    ],
+    "notes": [
+      "Les employés de L’Établissement H ayant déjà souscrit aux offres seront automatiquement basculés vers les nouvelles offres."
+    ],
+    "keywords": [
+      "Convention",
+      "L’Établissement H",
+      "1.2 Gbps",
+      "Remise 50%",
+      "Personnel actif",
+      "Idoom Fibre",
+      "Basculement automatique"
+    ],
+    "dates": {
+      "signature_date": "2025-07-31",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement H en version AR ET FR/Convention AT - & L’établissement H.docx"
+  },
+  {
+    "filename": "Convention_AT_-__L_établissement_E.docx",
+    "establishment": "L'Établissement E",
+    "partner_type": "Other",
+    "purpose": "Mise en place des mesures préférentielles pour la fourniture de prestations de télécommunications Internet au profit du personnel en activité",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité relevant de L'Établissement E",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "2 000 DA/Mois",
+        "benefits": "xDSL/FTTH - Prix public: 2 599 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "2 200 DA/Mois",
+        "benefits": "xDSL/FTTH - Prix public: 2 799 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "100 Mbps",
+        "price": "2 400 DA/Mois",
+        "benefits": "FTTH - Prix public: 2 999 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "200 Mbps",
+        "price": "2 600 DA/Mois",
+        "benefits": "FTTH - Prix public: 3 599 DA/Mois"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 800 DA/Mois",
+        "benefits": "FTTH - Prix public: 3 999 DA/Mois"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Copie de la carte professionnelle ou la carte nationale d'identité, le cas échéant",
+      "Attestation de travail",
+      "Demande manuscrite",
+      "Justification de l'adresse de l'employé"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou tout autre document d'éligibilité aux tarifs préférentiels dûment signé par les ressources humaines"
+    ],
+    "notes": [
+      "Il est demandé aux conseillers clients de convaincre les clients actuellement bénéficiant d'une connexion internet à des vitesses de 10 et 15 Mbps de passer à une vitesse de 20 Mbps",
+      "Discours commercial: Optimisez Votre Expérience Xdsl & FTTH! Passez à 20 Mbps ou plus pour bénéficier des avantages préférentiels exclusifs",
+      "Argument de vente: Profitez d'une connexion plus rapide pour télécharger des documents instantanément, gérer vos tâches en ligne avec une efficacité renforcée, pour une tarification exceptionnelle"
+    ],
+    "keywords": [
+      "L'Établissement E",
+      "Personnel en activité",
+      "Tarifs préférentiels",
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "xDSL",
+      "FTTH",
+      "20 Mbps",
+      "Demande manuscrite"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement E en version AR ET FR/Convention AT -& L’établissement E.docx"
+  },
+  {
+    "filename": "Convention_AT_-__L_établissement_J.docx",
+    "establishment": "L'établissement J",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la tarification de l'Internet (Idoom ADSL, VDSL & Idoom Fibre) au profit du personnel en activité",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité relevant de l'établissement J",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "2 000 DA/Mois",
+        "benefits": "Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "2 200 DA/Mois",
+        "benefits": "Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 920 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "2 080 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "2 200 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "2 300 DA/Mois",
+        "benefits": "FTTH - Nouvelle tarification"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Carte professionnelle, attestation de travail ou bulletin de paie récent dûment signé par les ressources humaines (exigé)",
+      "Copie de la pièce d'identité",
+      "Justificatif d'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Carte professionnelle, attestation de travail ou bulletin de paie récent dûment signé par les ressources humaines (exigé)"
+    ],
+    "notes": [
+      "La nouvelle offre internet annule et remplace l'offre actuelle",
+      "Un test d'éligibilité sur la ligne est obligatoire",
+      "Mise à jour tarifaire de la convention existante",
+      "La messagerie Feedback <FB@algerietelecom.dz> est exclusivement réservée aux demandes d'informations commerciales et aux clarifications sur les notes ou procédures établies"
+    ],
+    "keywords": [
+      "L'établissement J",
+      "Personnel en activité",
+      "Tarifs préférentiels",
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "1.2 Gbps",
+      "Test éligibilité",
+      "Mise à jour tarifaire",
+      "Algérie Télécom"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT -& L’établissement J en version AR ET FR/Convention AT -& L’établissement J.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement Z.docx",
+    "establishment": "L’établissement Z",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de l’Internet et de la téléphonie au profit du personnel (actif et retraité) de L’établissement Z ainsi que de leurs filiales.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité et retraités, ainsi que celui de leurs filiales",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL / VDSL / FIBRE",
+        "speed": "Palier 1",
+        "price": "1 799 DA/Mois",
+        "benefits": "Remise 10% (Tarif public: 1 999 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL / VDSL / FIBRE",
+        "speed": "Palier 2",
+        "price": "2 209 DA/Mois",
+        "benefits": "Remise 15% (Tarif public: 2 599 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "Palier 3",
+        "price": "2 519 DA/Mois",
+        "benefits": "Remise 30% (Tarif public: 3 599 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "Palier 4",
+        "price": "3 500 DA/Mois",
+        "benefits": "Remise 50% (Tarif public: 6 999 DA)"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Idoom fixe Aloo (Forfait 250 Da/Mois)",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Idoom fixe Khood (Forfait 500 Da/Mois)",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus 500 Da vers le mobile, 01 Numéro favori vers le mobile à 4 Da/Min"
+      },
+      {
+        "offer": "Idoom fixe Gool (Forfait 750 Da/Mois)",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 1 500 Da vers le mobile, 02 Numéros favoris à 3 Da/Min"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une attestation de travail (pour le personnel en activité) ou un certificat de travail (pour le personnel en retraite), ou tout autre document d’éligibilité signé par les ressources humaines",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [],
+    "notes": [
+      "La convention couvre également le personnel des filiales de L'établissement Z."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement Z",
+      "Filiales",
+      "Retraités",
+      "Palier 4",
+      "Remise 50%",
+      "Idoom Fixe",
+      "3 500 DA"
+    ],
+    "dates": {
+      "signature_date": null,
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement Z OK/Convention Algérie Télécom & L’établissement Z.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement Y.docx",
+    "establishment": "L’établissement Y",
+    "partner_type": "Other",
+    "purpose": "Reconduite de la convention portant sur les mesures préférentielles pour les services de télécommunications (internet et téléphonie) au profit des employés, retraités et ayants droit de L’établissement Y.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Employés, retraités et leurs ayants droit (père, mère, conjoint et enfants)",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL & FIBRE",
+        "speed": "20 Mbps",
+        "price": "2 079 DA/Mois",
+        "benefits": "Prix public: 2 599 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "50 Mbps",
+        "price": "2 239 DA/Mois",
+        "benefits": "Prix public: 2 799 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "100 Mbps",
+        "price": "2 399 DA/Mois",
+        "benefits": "Prix public: 2 999 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "200 Mbps",
+        "price": "2 699 DA/Mois",
+        "benefits": "Prix public: 3 599 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 999 DA/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Idoom fixe Aloo (Forfait 250 Da/Mois)",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Idoom fixe Khood (Forfait 500 Da/Mois)",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus 1 500 Da vers le mobile, 5 Da/Min vers le mobile"
+      },
+      {
+        "offer": "Idoom fixe Gool (Forfait 750 Da/Mois)",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 3 000 Da vers le mobile, 3 Da/Min vers le mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une pièce d’identité en cours de validité",
+      "La carte d’adhésion de l’offre signé par le bénéficiaire et le responsable désigné par L’établissement Y",
+      "La résidence"
+    ],
+    "required_documents_switch": [],
+    "notes": [
+      "Les avantages s'étendent aux ayants droit (père, mère, conjoint et enfants) sans dépasser cinq souscriptions."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement Y",
+      "Ayants droit",
+      "Carte d’adhésion",
+      "Retraités",
+      "300 Mbps",
+      "Remise"
+    ],
+    "dates": {
+      "signature_date": "2023-06-18",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT& L_établissemnt Y OK/Convention Algérie Télécom & L’établissement Y.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement X.docx",
+    "establishment": "L’établissement X",
+    "partner_type": "Other",
+    "purpose": "Définir les termes, conditions et modalités pour accorder des mesures préférentielles sur les prestations de télécommunications (Téléphonie et Internet) aux employés de L’établissement X.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL & FIBRE",
+        "speed": "20 Mbps",
+        "price": "2 080 DA/Mois",
+        "benefits": "Prix public: 2 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "50 Mbps",
+        "price": "2 240 DA/Mois",
+        "benefits": "Prix public: 2 400 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "100 Mbps",
+        "price": "2 400 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "200 Mbps",
+        "price": "2 700 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "2 800 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "3 000 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "3 600 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 Da/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 Da/Mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, 4 Da/Min vers le mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 Da/Mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, 2 Da/Min vers le mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Une attestation de travail dument signée ou tout autre document d’éligibilité (un bulletin de paie récent signé)",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse de l’employé"
+    ],
+    "required_documents_switch": [
+      "Une attestation de travail dument signée ou tout autre document d’éligibilité (un bulletin de paie récent signé)"
+    ],
+    "notes": [],
+    "keywords": [
+      "Convention",
+      "L’établissement X",
+      "Personnel en activité",
+      "1 Gbps",
+      "Remise",
+      "Bulletin de paie",
+      "Idoom Fixe"
+    ],
+    "dates": {
+      "signature_date": "2024-08-28",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement X OK/Convention Algérie Télécom & L’établissement X.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement AB.docx",
+    "establishment": "L’établissement AB",
+    "partner_type": "Other",
+    "purpose": "Définir les termes, conditions et modalités pour accorder des mesures préférentielles sur les prestations de Télécommunications (Téléphonie et Internet) aux employés de L’établissement AB.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Employés en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom FTTH",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL ; VDSL & Fibre",
+        "speed": "20 Mbps",
+        "price": "2 099 DA/Mois",
+        "benefits": "Prix public: 2 599 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL ; VDSL & Fibre",
+        "speed": "50 Mbps",
+        "price": "2 299 DA/Mois",
+        "benefits": "Prix public: 2 799 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "100 Mbps",
+        "price": "2 399 DA/Mois",
+        "benefits": "Prix public: 2 999 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "200 Mbps",
+        "price": "2 599 DA/Mois",
+        "benefits": "Prix public: 3 699 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "Fibre",
+        "speed": "300 Mbps",
+        "price": "2 799 DA/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Idoom 250 Da/mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Bonus 500 Da vers mobile, 1 numéro Favori (4 Da/Min)"
+      },
+      {
+        "offer": "Idoom 500 Da/mois",
+        "price": "350 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 1 500 Da vers mobile, 20% réduction international, 2 jours connexion offerts, 2 numéros Favoris (3 Da/Min)"
+      },
+      {
+        "offer": "Idoom 750 Da/mois",
+        "price": "375 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 50%, Bonus 3 000 Da vers mobile, 30% réduction international, 5 jours connexion offerts, 5 numéros Favoris (2 Da/Min)"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Attestation de travail ou tout autre document d’éligibilité aux tarifs préférentiels arrêté par L’établissement AB, dument signé par les Ressources Humaines",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse de l’employé"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou tout autre document d’éligibilité aux tarifs préférentiels arrêté par L’établissement AB, dûment signé par les Ressources Humaines"
+    ],
+    "notes": [],
+    "keywords": [
+      "Convention",
+      "L’établissement AB",
+      "Personnel actif",
+      "Remise 50%",
+      "Idoom Fixe",
+      "300 Mbps"
+    ],
+    "dates": {
+      "signature_date": "2023-09-14",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT  & L_établissement AB OK/Convention Algérie Télécom & L’établissement AB.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement Q.docx",
+    "establishment": "L’établissement Q",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de services Internet (ADSL, VDSL et Fibre) au profit du personnel en activité de L’établissement Q.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 075 DA/Mois",
+        "benefits": "Prix public: 2 150 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 175 DA/Mois",
+        "benefits": "Prix public: 2 350 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 275 DA/Mois",
+        "benefits": "Prix public: 2 550 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "30 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Prix public: 2 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "60 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Prix public: 2 400 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "120 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "240 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "300 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "500 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "1.2 Gbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Le bon d’ouverture de droit (formulaire de souscription) renseigné et signé par le responsable habilité de L’établissement Q",
+      "L’attestation de travail ou fiche de paie",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le bon d’ouverture de droit (formulaire de souscription) renseigné et signé par le responsable habilité de L’établissement Q",
+      "L’attestation de travail ou fiche de paie"
+    ],
+    "notes": [
+      "Dans le cadre de la digitalisation, la demande manuscrite n’est plus requise pour toute nouvelle souscription."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement Q",
+      "Bon d’ouverture de droit",
+      "Digitalisation",
+      "1.2 Gbps",
+      "Personnel actif"
+    ],
+    "dates": {
+      "signature_date": "2025-01-13",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement Q OK/Convention AT & L’établissement Q.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement AC.docx",
+    "establishment": "L’établissement AC",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de prestations de télécommunication (téléphonie, internet) au profit du personnel en activité, en retraite et ascendants de L’établissement AC.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité, retraités et ascendants (parents)",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Personnel en activité et retraité",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 650 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 950 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 650 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 950 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "2 250 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "2 700 DA/Mois",
+        "benefits": "Remise 25%"
+      },
+      {
+        "category_segment": "Ascendants du personnel",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "3 150 DA/Mois",
+        "benefits": "Remise 25%"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Offre 1 (Résidentiel)",
+        "price": "200 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, 1 Numéro favori à 4 DA/min"
+      },
+      {
+        "offer": "Offre 2 (Résidentiel)",
+        "price": "350 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, 2 Numéros favoris à 3 DA/min"
+      },
+      {
+        "offer": "Offre 3 (Résidentiel)",
+        "price": "600 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 40%, 5 Numéros favoris à 2 DA/min, Réduction 10-30% vers international"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Remises International & Mobile (Idoom Fixe 1000 DA)",
+        "data": [
+          {
+            "key": "Réduction 15%",
+            "value": "Mobile"
+          },
+          {
+            "key": "Réduction 10%",
+            "value": "Arabie Saoudite, Belgique, France, Maroc, Tunisie, Turquie"
+          },
+          {
+            "key": "Réduction 20%",
+            "value": "Allemagne, Chine, Emirats Arabes Unis, Espagne, Italie, Royaume-Uni"
+          },
+          {
+            "key": "Réduction 30%",
+            "value": "Canada, Etats Unis, Suisse"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Le bon d'ouverture de droit (formulaire de souscription), renseigné et signé par le responsable de l'action sociale, habilité",
+      "Une copie de la pièce d'identité",
+      "Une justification de l'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le bon d'ouverture de droit (formulaire de souscription), renseigné et signé par le responsable de l'action sociale, habilité"
+    ],
+    "notes": [
+      "La convention couvre les ascendants (parents) du personnel avec une remise spécifique de 25%.",
+      "Les avantages pour les offres ADSL et VDSL restent inchangés."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement AC",
+      "Ascendants",
+      "Retraités",
+      "1.5 Gbps",
+      "Remise 50%",
+      "Remise 25%",
+      "Action sociale"
+    ],
+    "dates": {
+      "signature_date": "2025-07-30",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissemnt AC OK/Convention Algérie Télécom & L’établissement AC.docx"
+  },
+  {
+    "filename": "Convention Algérie Télécom & L’établissement AD.docx",
+    "establishment": "L’établissement AD",
+    "partner_type": "Other",
+    "purpose": "Mise en place de nouvelles mesures préférentielles pour la fourniture de services de télécommunication (téléphonie, internet) au profit du personnel actif de L’établissement AD.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel actif",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL & FIBRE",
+        "speed": "20 Mbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Prix public: 2 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "50 Mbps",
+        "price": "1 200 DA/Mois",
+        "benefits": "Prix public: 2 400 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FIBRE",
+        "speed": "100 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "200 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 DA/Mois",
+        "price": "200 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 DA/Mois",
+        "price": "350 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, 04 Da/Min vers le mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 DA/Mois",
+        "price": "450 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 40%, 02 Da/Min vers le mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Le bon d'ouverture de droit (formulaire de souscription) renseigné et signé par le responsable de l'action social habilité au niveau des services de L’établissement AD",
+      "Une demande manuscrite",
+      "Une copie de la pièce d'identité",
+      "Une justification de l'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le bon d'ouverture de droit (formulaire de souscription) renseigné et signé par le responsable habilité au niveau des services de L’établissement AD",
+      "Une demande manuscrite"
+    ],
+    "notes": [
+      "Les mesures sont strictement destinées au personnel actif."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement AD",
+      "Personnel actif",
+      "Remise 50%",
+      "1 Gbps",
+      "Idoom Fixe",
+      "Action sociale"
+    ],
+    "dates": {
+      "signature_date": "2024-08-20",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement AD OK/Convention Algérie Télécom & L’établissement AD.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement U.docx",
+    "establishment": "L’établissement U",
+    "partner_type": "Public",
+    "purpose": "Mise en place de mesures préférentielles pour les services de télécommunication (téléphonie et internet) au profit du personnel en activité.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité (Personnel AADL et Cadres dirigeants)",
+    "offers_concerned": [
+      "Idoom Fixe",
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 1 (15 Mbps)",
+        "price": "1 199,40 Da/Mois",
+        "benefits": "Prix public: 1 999 Da"
+      },
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 2",
+        "price": "1 559,40 Da/Mois",
+        "benefits": "Prix public: 2 599 Da"
+      },
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 3",
+        "price": "1 679,40 Da/Mois",
+        "benefits": "Prix public: 2 799 Da"
+      },
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "FTTH",
+        "speed": "Palier 4",
+        "price": "1 799,40 Da/Mois",
+        "benefits": "Prix public: 2 999 Da"
+      },
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "FTTH",
+        "speed": "Palier 5",
+        "price": "2 159,40 DA/Mois",
+        "benefits": "Prix public: 3 599 Da"
+      },
+      {
+        "category_segment": "Personnel AADL",
+        "offer_type": "FTTH",
+        "speed": "Palier 6",
+        "price": "2 399,40 DA/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 1 (15 Mbps)",
+        "price": "999,50 Da/Mois",
+        "benefits": "Prix public: 1 999 Da"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 2",
+        "price": "1 299,50 Da/Mois",
+        "benefits": "Prix public: 2 599 Da"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "xDSL & FTTH",
+        "speed": "Palier 3",
+        "price": "1 399,50 Da/Mois",
+        "benefits": "Prix public: 2 799 Da"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "FTTH",
+        "speed": "Palier 4",
+        "price": "1 499,50 Da/Mois",
+        "benefits": "Prix public: 2 999 Da"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "FTTH",
+        "speed": "Palier 5",
+        "price": "1 799,50 Da/Mois",
+        "benefits": "Prix public: 3 599 Da"
+      },
+      {
+        "category_segment": "Cadre dirigeant",
+        "offer_type": "FTTH",
+        "speed": "Palier 6",
+        "price": "1 999,50 Da/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 Da/Mois",
+        "price": "225 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité local/national, 08 Da vers mobile, 1 Numéro favori (4 Da/Min)"
+      },
+      {
+        "offer": "Forfait 500 Da/Mois",
+        "price": "400 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Illimité local/national, 05 Da vers mobile, 2 Jours connexion offerts, 2 Numéros favoris (3 Da/Min)"
+      },
+      {
+        "offer": "Forfait 750 Da/Mois",
+        "price": "525 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Illimité local/national, 03 Da vers mobile, 5 jours connexion offerts, 5 Numéros favoris (2 Da/Min)"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Compte messagerie Direction Générale",
+        "data": [
+          {
+            "key": "Offre",
+            "value": "100 comptes / 1 Giga avec Mobilité"
+          },
+          {
+            "key": "Bénéficiaire",
+            "value": "Direction Générale de L’établissement U"
+          },
+          {
+            "key": "Remise",
+            "value": "100% (Gratuit)"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Attestation de travail récente (portant la mention 'Cadre dirigeant' pour les cadres)",
+      "Une demande manuscrite",
+      "Une copie de la pièce d'identité",
+      "Une justification d'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail récente (portant la mention 'Cadre dirigeant' pour les cadres)"
+    ],
+    "notes": [
+      "Le premier forfait (Palier 1) correspond à l'offre Idoom Internet à partir de 15 Mbps.",
+      "L’attestation de travail fournie doit porter la mention 'Cadre dirigeant' pour bénéficier du tarif spécifique."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement U",
+      "Personnel AADL",
+      "Cadre dirigeant",
+      "Messagerie",
+      "100%",
+      "Palier 6",
+      "xDSL"
+    ],
+    "dates": {
+      "signature_date": "2024-03-11",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement U OK/Convention AT & L’établissement U.docx"
+  },
+  {
+    "filename": "Convention AT & L_établissement T.docx",
+    "establishment": "L’établissement T",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de prestations de télécommunication (téléphonie et internet) au profit du personnel en activité de L’établissement T.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 100 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 100 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 300 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 400 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 500 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 800 Da/Mois",
+        "benefits": "Remise 50%"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "2 100 Da/Mois",
+        "benefits": "Remise 50%"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Offre 1 (Résidentiel 250 DA)",
+        "price": "212 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 15%, Bonus mobile 500 DA, 1 Numéro favori (4 DA/min)"
+      },
+      {
+        "offer": "Offre 2 (Résidentiel 500 DA)",
+        "price": "400 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus mobile 1500 DA, Réduction 20% vers international, 2 Numéros favoris (3 DA/min)"
+      },
+      {
+        "offer": "Offre 3 (Résidentiel 750 DA)",
+        "price": "562 DA/mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 25%, Bonus mobile 3000 DA, Réduction 30% vers international, 5 Numéros favoris (2 DA/min)"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Remises International & Mobile (Idoom Fixe 750 DA)",
+        "data": [
+          {
+            "key": "Réduction 15%",
+            "value": "Sur les tarifs des mobiles"
+          },
+          {
+            "key": "Réduction 10%",
+            "value": "Arabie Saoudite, Belgique, France, Maroc, Tunisie, Turquie"
+          },
+          {
+            "key": "Réduction 20%",
+            "value": "Allemagne, Chine, Emirats Arabes Unis, Espagne, Italie, Royaume-Uni"
+          },
+          {
+            "key": "Réduction 30%",
+            "value": "Canada, Etats Unis, Suisse"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Le bon d'ouverture de droit (formulaire de souscription en annexe), renseigné et signé par le responsable de l'action sociale, habilité",
+      "Une copie de la pièce d'identité",
+      "Une justification de l'adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le bon d'ouverture de droit (formulaire de souscription en annexe), renseigné et signé par le responsable de l'action sociale, habilité"
+    ],
+    "notes": [
+      "Les avantages appliqués aux bénéficiaires de cette convention pour les offres IDOOM ADSL et VDSL restent inchangés par rapport aux conventions précédentes."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement T",
+      "1.5 Gbps",
+      "Remise 50%",
+      "Action sociale",
+      "Personnel actif",
+      "Idoom Fixe"
+    ],
+    "dates": {
+      "signature_date": "2025-07-29",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement T OK/Convention AT & L_établissement T.docx"
+  },
+  {
+    "filename": "Convention AT &  L’établissement R.docx",
+    "establishment": "L’établissement R",
+    "partner_type": "Public",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture des services de télécommunication (téléphonie et internet) au profit des établissements R (démunies et non démunies).",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Établissements R démunies et non démunies",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe",
+      "Idoom 4G LTE"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Établissements démunies",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "2 700 DA/Mois",
+        "benefits": "Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      },
+      {
+        "category_segment": "Établissements démunies",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "2 900 DA/Mois",
+        "benefits": "Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      },
+      {
+        "category_segment": "Établissements démunies",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "3 100 DA/Mois",
+        "benefits": "Modem Optique Offert, Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      },
+      {
+        "category_segment": "Établissements restantes",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "3 100 DA/Mois",
+        "benefits": "Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      },
+      {
+        "category_segment": "Établissements restantes",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "3 600 DA/Mois",
+        "benefits": "Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      },
+      {
+        "category_segment": "Établissements restantes",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "4 000 DA/Mois",
+        "benefits": "Modem Optique Offert, Frais d’installation gratuits, 01 Adresse IP Internet Fixe offerte, 01 Boite mail 1 Go"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Téléphonie Fixe",
+        "price": "450 DA/Mois",
+        "billing_cycle": "Bimestriel",
+        "benefits": "Appels illimités vers le local, national et volte ; Restriction gratuite des appels vers le mobile et l’international"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Offre Idoom 4G LTE",
+        "data": [
+          {
+            "key": "Tarif Souscription / Rechargement",
+            "value": "2 900 DA"
+          },
+          {
+            "key": "Volume",
+            "value": "500 Go"
+          },
+          {
+            "key": "Validité",
+            "value": "30 jours"
+          },
+          {
+            "key": "Avantages",
+            "value": "CPE offert (souscription), Appels illimités vers le réseau AT, Adresse IP fixe, Boite Mail 01 Go"
+          },
+          {
+            "key": "Condition",
+            "value": "Réservé uniquement pour les clients résidant sur les régions non desservies par la technologie filaire"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Un bon de commande signé par l'ordonnateur de L’établissement R",
+      "Une demande pour bénéficier des offres, comportant essentiellement la dénomination et l’adresse de L’établissement R"
+    ],
+    "required_documents_switch": [],
+    "notes": [
+      "Pour la 4G LTE, le paiement sera annuel.",
+      "Les factures téléphoniques sont payées tous les deux mois (Paiement bimestriel).",
+      "L'offre Idoom 4G LTE est proposée aux clients non desservis par la technologie filaire."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement R",
+      "Démunies",
+      "IP Fixe",
+      "300 Mbps",
+      "4G LTE",
+      "500 Go",
+      "Paiement annuel"
+    ],
+    "dates": {
+      "signature_date": "2024-07-04",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement R OK/Convention AT &  L’établissement R.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement W.docx",
+    "establishment": "L’établissement W",
+    "partner_type": "Other",
+    "purpose": "Mise en place des mesures préférentielles pour la fourniture de prestations de télécommunications (Téléphone fixe et Internet) au profit du personnel en activité de L’établissement W.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "1 100 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "800 DA/Mois",
+        "benefits": "Prix public: 2 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "800 DA/Mois",
+        "benefits": "Prix public: 2 400 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 Da/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 Da/Mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus 1 500 Da vers le mobile, 5 Da/Min vers le mobile"
+      },
+      {
+        "offer": "Forfait 750 Da/Mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 3 000 Da vers le mobile, 3 Da/Min vers le mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Le bon d’ouverture de droit (Formulaire de souscription) renseigné et signé par le responsable de l’action social habilité de L’établissement W",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le bon d’ouverture de droit (Formulaire de souscription) renseigné et signé par le responsable de l’action social habilité de L’établissement W"
+    ],
+    "notes": [
+      "Les abonnés déjà existants bénéficiant de 1 Gbps sont automatiquement transférés vers le nouveau palier à 1.2 Gbps.",
+      "Les avantages pour les offres Idoom ADSL et VDSL restent inchangés."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement W",
+      "1.5 Gbps",
+      "800 DA",
+      "Personnel actif",
+      "Action sociale",
+      "Mise à niveau débit"
+    ],
+    "dates": {
+      "signature_date": "2025-07-29",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissemnt W OK/Convention AT & L’établissement W.docx"
+  },
+  {
+    "filename": "Convetion AT & L’établissement S.docx",
+    "establishment": "L’établissement S",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture des services de télécommunication (téléphonie et internet) au bénéfice du personnel en activité et en retraite.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité et en retraite",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "xDSL & FIBRE",
+        "speed": "Palier 1",
+        "price": "1 799 DA/Mois",
+        "benefits": "Remise 10% (Prix public 1 999 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "xDSL & FIBRE",
+        "speed": "Palier 2",
+        "price": "2 209 DA/Mois",
+        "benefits": "Remise 15% (Prix public 2 599 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "Palier 3",
+        "price": "2 519 DA/Mois",
+        "benefits": "Remise 30% (Prix public 3 599 DA)"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "Palier 4",
+        "price": "3 500 DA/Mois",
+        "benefits": "Remise 50% (Prix public 6 999 DA)"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Idoom fixe Aloo (Forfait 250 Da/Mois)",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Idoom fixe Khood (Forfait 500 Da/Mois)",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus 1 500 Da vers le mobile, 5 Da/Min vers le mobile"
+      },
+      {
+        "offer": "Idoom fixe Gool (Forfait 750 Da/Mois)",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 3 000 Da vers le mobile, 3 Da/Min vers le mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Attestation de travail ou tout autre document d’éligibilité aux tarifs préférentiels dument signé par les ressources humaines ou structures habilités pour les retraités",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [],
+    "notes": [
+      "Le paiement peut être effectué via cartes de recharge, tickets, EDDAHABIA ou CIB via le site web d'Algérie Télécom."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement S",
+      "Retraités",
+      "Palier 4",
+      "Remise 50%",
+      "Paiement électronique",
+      "Idoom Fixe"
+    ],
+    "dates": {
+      "signature_date": "2022-02-27",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L_établissement S OK/Convetion AT & L’établissement S.docx"
+  },
+  {
+    "filename": "Convention AT &L’établissement L.docx",
+    "establishment": "L’établissement L",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture des services de télécommunication (internet) au bénéfice du personnel en activité et des ayants droit (ascendants et descendants).",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité et ayants droit (ascendants et descendants)",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "xDSL",
+        "speed": "Palier 01",
+        "price": "1 075 DA/Mois",
+        "benefits": "Prix public: 2 150 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "Palier 02",
+        "price": "1 100 DA/Mois",
+        "benefits": "Prix public: 2 200 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FTTH",
+        "speed": "Palier 03",
+        "price": "1 200 DA/Mois",
+        "benefits": "Prix public: 2 400 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL & FTTH",
+        "speed": "Palier 04",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "Palier 05",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "Palier 06",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "Palier 07",
+        "price": "1 800 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FTTH",
+        "speed": "Palier 08",
+        "price": "2 100 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [],
+    "other_tables": [],
+    "required_documents_new": [
+      "Attestation de travail ou un bulletin de paie récent ou carte professionnelle",
+      "Une copie de la pièce d’identité valide",
+      "Un justificatif d’adresse du bénéficiaire",
+      "Une fiche familiale pour les ascendants et les descendants"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail ou un bulletin de paie récent dument signé par les ressources humaines",
+      "Une fiche familiale pour les ascendants et les descendants"
+    ],
+    "notes": [
+      "Dans le cadre de la digitalisation, la demande manuscrite n’est plus requise pour toute nouvelle souscription.",
+      "L'offre couvre également les ascendants et descendants (ayants droit)."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement L",
+      "Ascendants",
+      "Descendants",
+      "Ayants droit",
+      "Digitalisation",
+      "Palier 08",
+      "Remise 50%"
+    ],
+    "dates": {
+      "signature_date": "2025-02-12",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Conventien AT & L_établissement L OK/Convention AT &L’établissement L.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement B.docx",
+    "establishment": "L’établissement B",
+    "partner_type": "Other",
+    "purpose": "Définir les termes et conditions pour l'octroi de mesures préférentielles sur les prestations de télécommunications et produits dépôt-vente au profit du personnel actif, retraité, invalide et veuve de L’établissement B.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel actif, retraité, invalide et veuve",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe",
+      "Produits Dépôt-Vente"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "ADSL",
+        "speed": "15 Mbps",
+        "price": "1 000 Da/Mois",
+        "benefits": "Prix public: 2 000 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 075 Da/Mois",
+        "benefits": "Prix public: 2 150 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Prix public: 2 350 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Prix public: 2 550 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "60 Mbps",
+        "price": "1 100 Da/Mois",
+        "benefits": "Prix public: 2 200 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Prix public: 2 400 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Prix public: 2 600 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 120 Da/Mois",
+        "benefits": "Prix public: 2 800 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 200 Da/Mois",
+        "benefits": "Prix public: 3 000 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 440 Da/Mois",
+        "benefits": "Prix public: 3 600 Da"
+      },
+      {
+        "category_segment": "Premier accès (Tous bénéficiaires)",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "1 680 Da/Mois",
+        "benefits": "Prix public: 4 200 Da"
+      },
+      {
+        "category_segment": "Deuxième accès (Personnel Actif uniquement)",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 300 Da/Mois",
+        "benefits": "Prix public: 2 600 Da"
+      },
+      {
+        "category_segment": "Deuxième accès (Personnel Actif uniquement)",
+        "offer_type": "FIBRE",
+        "speed": "480 Mbps",
+        "price": "1 400 Da/Mois",
+        "benefits": "Prix public: 2 800 Da"
+      },
+      {
+        "category_segment": "Deuxième accès (Personnel Actif uniquement)",
+        "offer_type": "FIBRE",
+        "speed": "600 Mbps",
+        "price": "1 500 Da/Mois",
+        "benefits": "Prix public: 3 000 Da"
+      },
+      {
+        "category_segment": "Deuxième accès (Personnel Actif uniquement)",
+        "offer_type": "FIBRE",
+        "speed": "1 Gbps",
+        "price": "1 800 Da/Mois",
+        "benefits": "Prix public: 3 600 Da"
+      },
+      {
+        "category_segment": "Deuxième accès (Personnel Actif uniquement)",
+        "offer_type": "FIBRE",
+        "speed": "1.5 Gbps",
+        "price": "2 100 Da/Mois",
+        "benefits": "Prix public: 4 200 Da"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 Da/Mois",
+        "price": "200 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 Da/Mois",
+        "price": "350 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, 04 Da/Min vers le Mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 Da/Mois",
+        "price": "450 Da/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 40%, 02 Da/Min vers le Mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [
+      {
+        "table_name": "Produits Dépôt Vente - COMPNET (Tarifs Préférentiels)",
+        "data": [
+          {
+            "key": "Modem ADSL/VDSL DSL-124",
+            "value": "3 800,00 DA"
+          },
+          {
+            "key": "Modem ADSL/VDSL DSL-2750",
+            "value": "4 430,00 DA"
+          },
+          {
+            "key": "Modem ADSL/VDSL DSL-G2452DG",
+            "value": "8 130,00 DA"
+          },
+          {
+            "key": "Point d'accès DAP-1610",
+            "value": "5 500,00 DA"
+          },
+          {
+            "key": "Répéteur Wifi DIR-612",
+            "value": "3 440,00 DA"
+          }
+        ]
+      },
+      {
+        "table_name": "Produits Dépôt Vente - UPGRADE CC (Tenda)",
+        "data": [
+          {
+            "key": "Modem ADSL D305",
+            "value": "4 700,00 DA"
+          },
+          {
+            "key": "Modem ADSL D301",
+            "value": "3 650,00 DA"
+          },
+          {
+            "key": "Modem ADSL/VDSL V300",
+            "value": "4 780,00 DA"
+          },
+          {
+            "key": "Modem ADSL/VDSL V12",
+            "value": "9 660,00 DA"
+          },
+          {
+            "key": "Routeur AC 23",
+            "value": "11 340,00 DA"
+          },
+          {
+            "key": "Routeur F6",
+            "value": "3 610,00 DA"
+          }
+        ]
+      },
+      {
+        "table_name": "E-Learning - DOROUSCOM",
+        "data": [
+          {
+            "key": "Abonnement Mensuel",
+            "value": "450,00 DA"
+          },
+          {
+            "key": "Abonnement Trimestriel",
+            "value": "1 080,00 DA"
+          },
+          {
+            "key": "Abonnement Annuel",
+            "value": "2 890,00 DA"
+          },
+          {
+            "key": "Cours Intensifs",
+            "value": "1 800,00 DA"
+          }
+        ]
+      },
+      {
+        "table_name": "E-Learning - MOALIM",
+        "data": [
+          {
+            "key": "Maths-Physique-Sciences Trimestriel",
+            "value": "3 160,00 DA"
+          },
+          {
+            "key": "Arabe-Français-Anglais Trimestriel",
+            "value": "2 260,00 DA"
+          },
+          {
+            "key": "Maths-Physique-Sciences Annuel",
+            "value": "9 490,00 DA"
+          },
+          {
+            "key": "Arabe-Français-Anglais Annuel",
+            "value": "6 780,00 DA"
+          }
+        ]
+      }
+    ],
+    "required_documents_new": [
+      "Le formulaire de souscription renseigné et signé par le responsable habilité de l’établissement B",
+      "Une copie de la carte nationale d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le formulaire de souscription renseigné et signé par le responsable habilité de l’établissement B"
+    ],
+    "notes": [
+      "Le personnel retraité, invalide et veuves n’ouvrent pas droit à bénéficier d’un deuxième accès.",
+      "Le deuxième accès (actif uniquement) propose des tarifs spécifiques à partir de 240 Mbps.",
+      "L'achat de produits dépôt-vente est limité à un seul produit par famille.",
+      "Les mesures préférentielles de la téléphonie sont valables uniquement pour le premier accès."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement B",
+      "Deuxième accès",
+      "1.5 Gbps",
+      "Invalide",
+      "Veuve",
+      "COMPNET",
+      "Tenda",
+      "DOROUSCOM",
+      "MOALIM"
+    ],
+    "dates": {
+      "signature_date": "2025-07-29",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention Algérie Télécom & l_établissement B en version AR ET FR/Convention AT & L’établissement B.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement M.docx",
+    "establishment": "L’établissement M",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de prestations de télécommunications (téléphonie et Internet) au profit du personnel en activité et en retraite.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité et en retraite",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "xDSL & Fibre",
+        "speed": "Palier 1",
+        "price": "1 299 DA/Mois",
+        "benefits": "Prix public: 2 599 DA"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "xDSL & Fibre",
+        "speed": "Palier 2",
+        "price": "1 399 DA/Mois",
+        "benefits": "Prix public: 2 799 DA"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "Fibre",
+        "speed": "Palier 3",
+        "price": "1 499 DA/Mois",
+        "benefits": "Prix public: 2 999 DA"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "Fibre",
+        "speed": "Palier 4",
+        "price": "1 799 DA/Mois",
+        "benefits": "Prix public: 3 699 DA"
+      },
+      {
+        "category_segment": "Personnel Actif",
+        "offer_type": "Fibre",
+        "speed": "Palier 5",
+        "price": "1 599 DA/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "xDSL & Fibre",
+        "speed": "Palier 1",
+        "price": "1 799 DA/Mois",
+        "benefits": "Prix public: 1 999 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "xDSL & Fibre",
+        "speed": "Palier 2",
+        "price": "2 099 DA/Mois",
+        "benefits": "Prix public: 2 599 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "xDSL & Fibre",
+        "speed": "Palier 3",
+        "price": "2 299 DA/Mois",
+        "benefits": "Prix public: 2 799 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "Fibre",
+        "speed": "Palier 4",
+        "price": "2 399 DA/Mois",
+        "benefits": "Prix public: 2 999 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "Fibre",
+        "speed": "Palier 5",
+        "price": "2 599 DA/Mois",
+        "benefits": "Prix public: 3 699 DA"
+      },
+      {
+        "category_segment": "Personnel Retraité",
+        "offer_type": "Fibre",
+        "speed": "Palier 6",
+        "price": "2 799 DA/Mois",
+        "benefits": "Prix public: 3 999 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Idoom 250 Da/mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Idoom 500 Da/mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, Bonus 1 500 Da vers le mobile, 5 Da/Min vers le mobile"
+      },
+      {
+        "offer": "Idoom 750 Da/mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, Bonus 3 000 Da vers le mobile, 3 Da/Min vers le mobile"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Attestation de travail (personnel en activité) ou décision de retraite (retraités) ou tout autre document d’éligibilité signé par les Ressources Humaines",
+      "Une demande manuscrite",
+      "Une copie de la pièce d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Attestation de travail (personnel en activité) ou décision de retraite (retraités) ou tout autre document d’éligibilité signé par les Ressources Humaines"
+    ],
+    "notes": [
+      "La convention distingue les tarifs pour le personnel actif et le personnel retraité."
+    ],
+    "keywords": [
+      "Convention",
+      "L’établissement M",
+      "Retraités",
+      "Personnel actif",
+      "Palier 5",
+      "Remise",
+      "Idoom Fixe"
+    ],
+    "dates": {
+      "signature_date": "2023-12-05",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Conventien AT & L_établissement M OK/Convention AT & L’établissement M.docx"
+  },
+  {
+    "filename": "Convention AT & L’établissement k.docx",
+    "establishment": "L’établissement k",
+    "partner_type": "Other",
+    "purpose": "Mise en place de mesures préférentielles pour la fourniture de services de télécommunications (téléphonie fixe et accès à Internet) en faveur du personnel en activité de L’établissement k.",
+    "validity": null,
+    "language": "French",
+    "beneficiaries": "Personnel en activité",
+    "offers_concerned": [
+      "Idoom ADSL",
+      "Idoom VDSL",
+      "Idoom Fibre",
+      "Idoom Fixe"
+    ],
+    "internet_offers_table": [
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "ADSL",
+        "speed": "20 Mbps",
+        "price": "1 075 DA/Mois",
+        "benefits": "Prix public: 2 150 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "50 Mbps",
+        "price": "1 175 DA/Mois",
+        "benefits": "Prix public: 2 350 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "VDSL",
+        "speed": "100 Mbps",
+        "price": "1 275 DA/Mois",
+        "benefits": "Prix public: 2 550 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "120 Mbps",
+        "price": "1 300 DA/Mois",
+        "benefits": "Prix public: 2 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "240 Mbps",
+        "price": "1 400 DA/Mois",
+        "benefits": "Prix public: 2 800 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "300 Mbps",
+        "price": "1 500 DA/Mois",
+        "benefits": "Prix public: 3 000 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "500 Mbps",
+        "price": "1 800 DA/Mois",
+        "benefits": "Prix public: 3 600 DA"
+      },
+      {
+        "category_segment": "Tous bénéficiaires",
+        "offer_type": "FIBRE",
+        "speed": "1.2 Gbps",
+        "price": "2 100 DA/Mois",
+        "benefits": "Prix public: 4 200 DA"
+      }
+    ],
+    "telephony_offers_table": [
+      {
+        "offer": "Forfait 250 Da/Mois",
+        "price": "225 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 10%, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 500 Da/Mois",
+        "price": "400 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 20%, 04 Da/Min vers le Mobile, Illimité vers le local et national"
+      },
+      {
+        "offer": "Forfait 750 Da/Mois",
+        "price": "525 DA/Mois",
+        "billing_cycle": "Mensuel",
+        "benefits": "Remise 30%, 02 Da/Min vers le Mobile, Illimité vers le local et national"
+      }
+    ],
+    "other_tables": [],
+    "required_documents_new": [
+      "Le formulaire de souscription renseigné et signé par le responsable habilité de L’établissement k",
+      "Une copie de la carte nationale d’identité",
+      "Une justification de l’adresse du bénéficiaire"
+    ],
+    "required_documents_switch": [
+      "Le formulaire de souscription renseigné et signé par le responsable habilité de L’établissement k"
+    ],
+    "notes": [],
+    "keywords": [
+      "Convention",
+      "L’établissement k",
+      "Personnel en activité",
+      "1.2 Gbps",
+      "Remise 50%",
+      "Idoom Fixe",
+      "Formulaire de souscription"
+    ],
+    "dates": {
+      "signature_date": "2025-04-13",
+      "effective_date": null
+    },
+    "s3_key": "Conventions/Convention AT & L’établissement K OK/Convention AT & L’établissement k.docx"
+  }
+]

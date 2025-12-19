@@ -1,0 +1,262 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "modernisation_clients_moohtarif",
+  "technology": [
+    "adsl",
+    "vdsl",
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "moohtarif",
+    "moohtarif_locataire"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد لتحديث الزبائن MOOHTARIF وMOOHTARIF للمستأجرين",
+    "title_fr": "Nouvelle Offre Modernisation Clients MOOHTARIF",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2025-01-07"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد لتحديث الزبائن MOOHTARIF وMOOHTARIF للمستأجرين",
+    "name_fr": "Nouvelle Offre Modernisation Clients MOOHTARIF",
+    "description_ar": "في إطار التحديث المتواصل، تضع اتصالات الجزائر عرضًا جديدًا موجّهًا لزبائن «محترف» و«محترف إيجاري» المستفيدين حاليًا من اشتراك IDOOM ADSL أو VDSL، بهدف ترقيتهم إلى تقنية IDOOM FIBRE (FTTH) ومنحهم تجربة إنترنت أفضل مع تدفقات أعلى. يسمح العرض بالانتقال إلى الألياف البصرية مع حثّ الزبائن على اختيار تدفق أدنى بـ 30 ميغابت/ثا على الأقل للاستفادة من مودم بصري وتركيب مجانيين، مع الإبقاء على خيار 15 ميغابت/ثا وفق صيغ اقتناء خاصة تشمل تسديد اشتراكات شهرية أو دفع مبلغ إجمالي موحد.",
+    "description_fr": "Dans le cadre de la modernisation continue, Algérie Télécom met à disposition une nouvelle offre destinée aux clients MOOHTARIF et MOOHTARIF LOCATAIRE bénéficiant déjà d’une connexion Idoom ADSL ou VDSL. Cette offre vise à migrer ces clients vers la technologie Idoom Fibre (FTTH) afin de leur fournir une expérience internet inégalée, avec un upselling vers un débit minimum de 30 Mbps. Elle prévoit une option de modernisation avec modem optique et installation gratuits à partir de 30 Mbps, ainsi que des modalités spécifiques pour les clients optant pour 15 Mbps.",
+    "conditions_ar": [
+      "العرض موجه حصريًا للزبائن الحاليين «محترف» و«محترف إيجاري» المشتركين في خدمة IDOOM ADSL أو VDSL.",
+      "للاستفادة من عرض التحديث، يجب على الزبون المحترف ADSL/VDSL التوجه إلى الوكالة التجارية التابعة له لإيداع طلب الانتقال إلى تقنية IDOOM FIBRE (FTTH).",
+      "يُشجَّع الزبون على اختيار تدفق أدنى بـ 30 ميغابت/ثا على الأقل للاستفادة من مزايا التحديث (مودم بصري + تركيب مجاني).",
+      "يجب أن يكون الإنترنت مفعّلًا بتاريخ الانتقال إلى الألياف البصرية.",
+      "تُحوَّل الأيام المتبقية من الاشتراك الحالي حسب التدفق الجديد الذي يختاره الزبون على عرض الألياف.",
+      "يشترط عدم وجود ديون متعلقة بالهاتف الثابت (0 دج) للاستفادة من العرض.",
+      "عرض 1.2 Gbps متوفر حسب قابلية وأهلية الخط من الناحية التقنية.",
+      "عرض التحديث الجديد للانتقال من MSAN إلى FTTH يلغي ويعوض عرض التحديث السابق الخاص بـ «محترف».",
+      "نفس الشروط مطبقة على عرض «محترف إيجاري» كما هو الحال بالنسبة لعرض «محترف»."
+    ],
+    "conditions_fr": [
+      "Offre de modernisation destinée aux clients MOOHTARIF et MOOHTARIF LOCATAIRE déjà existants bénéficiant d’une connexion Idoom ADSL ou VDSL.",
+      "Pour bénéficier de l’offre, le client MOOHTARIF ADSL/VDSL doit se rendre à l’agence commerciale de son rattachement afin de déposer une demande de migration vers la technologie Idoom Fibre.",
+      "Un débit minimum de 30 Mbps est requis pour profiter pleinement des avantages de modernisation (modem optique et installation offerts).",
+      "Internet doit être actif à la date du basculement vers Idoom Fibre.",
+      "La balance des jours restants sur l’ancien abonnement sera convertie en fonction du débit choisi par le client sur le nouvel abonnement.",
+      "Le client doit avoir 0 DA de créances téléphoniques pour bénéficier de l’offre de modernisation.",
+      "L’offre 1,2 Gbps est valable selon l’éligibilité technique.",
+      "La nouvelle offre de modernisation (basculement MSAN vers FTTH) annule et remplace l’offre de modernisation actuelle pour « Moohtarif ».",
+      "Les mêmes conditions s’appliquent à l’offre Moohtarif Locataire."
+    ],
+    "benefits_ar": [
+      "تمكين زبائن «محترف» و«محترف إيجاري» من الانتقال من ADSL/VDSL إلى تقنية الألياف البصرية IDOOM FIBRE (FTTH) للحصول على جودة إنترنت أفضل.",
+      "الترقية نحو تدفقات أعلى انطلاقًا من 30 ميغابت/ثا لتحسين تجربة التصفح، التحميل، والاجتماعات عبر الإنترنت والخدمات المهنية الأخرى.",
+      "بالنسبة للتدفق 15 ميغابت/ثا، يمكن للزبون اقتناء مودم بصري بقيمة 14 200 دج مع رسوم تركيب قدرها 6 000 دج، أي بمجموع 20 200 دج، في إطار عرض التحديث.",
+      "إمكانية استفادة الزبون المحترف الذي يختار تدفق 15 ميغابت/ثا من مودم بصري مجاني وتركيب مجاني بعد دفع ثلاثة اشتراكات شهرية بقيمة 2 500 دج لكل اشتراك.",
+      "بالنسبة للتدفقات التي تساوي أو تفوق 30 ميغابت/ثا، يكون سعر التحديث 0 دج مع الحصول على المودم البصري والتركيب مجانًا، شريطة توافر الشروط (إنترنت مفعّل، عدم وجود ديون هاتفية، تحويل رصيد الأيام المتبقية).",
+      "تحويل الأيام المتبقية من الاشتراك ADSL/VDSL الحالي تلقائيًا حسب التدفق الجديد المختار على اشتراك الألياف، ما يضمن عدم ضياع الرصيد المتبقي.",
+      "توفر عدة تدفقات على الألياف في إطار التحديث: 30، 60، 120، 240، 300، 500 ميغابت/ثا و1.2 جيجابت/ثا (حسب قابلية التأهيل التقني)."
+    ],
+    "benefits_fr": [
+      "Migration des clients MOOHTARIF et MOOHTARIF LOCATAIRE d’Idoom ADSL/VDSL vers la technologie Idoom Fibre (FTTH).",
+      "Upselling des clients vers un débit minimum de 30 Mbps pour bénéficier d’une meilleure expérience internet.",
+      "Pour les débits supérieurs ou égaux à 30 Mbps, le pack de modernisation prévoit un tarif de 0 DA avec modem optique et installation gratuits, sous réserve des conditions d’éligibilité (internet actif, 0 DA de créances téléphoniques, conversion de la balance des jours restants).",
+      "Possibilité pour le client MOOHTARIF qui opte pour un débit de 15 Mbps de bénéficier du modem optique gratuit et de l’installation offerte après règlement de trois mensualités de 2 500 DA chacune.",
+      "Option alternative pour le client MOOHTARIF qui décline ces facilités : règlement d’un montant de 20 200 DA couvrant le coût du modem optique (14 200 DA) et les frais d’installation (6 000 DA).",
+      "Conversion de la balance des jours restants de l’ancien abonnement en fonction du débit choisi sur le nouvel abonnement, évitant la perte de jours de connexion.",
+      "Disponibilité de plusieurs débits en fibre dans le cadre de la modernisation : 30 Mbps, 60 Mbps, 120 Mbps, 240 Mbps, 300 Mbps, 500 Mbps et 1,2 Gbps (ce dernier selon éligibilité)."
+    ],
+    "pricing_summary_ar": "في إطار عرض التحديث، يبلغ سعر حزمة التحديث لتدفق 15 ميغابت/ثا 20 200 دج (14 200 دج ثمن المودم البصري و6 000 دج رسوم التركيب). ويمكن للزبون المحترف الذي يختار 15 ميغابت/ثا أن يستفيد من مودم بصري وتركيب مجانيين بعد دفع ثلاثة اشتراكات شهرية بقيمة 2 500 دج لكل اشتراك. أما بالنسبة للتدفقات التي تساوي أو تفوق 30 ميغابت/ثا، فإن التحديث يكون بسعر 0 دج مع مودم بصري وتركيب مجانيين، بشرط أن يكون الإنترنت مفعّلًا عند تاريخ الانتقال، وألا تكون هناك ديون هاتفية، وأن يتم تحويل رصيد الأيام المتبقية حسب التدفق الجديد المختار.",
+    "pricing_summary_fr": "Pour le débit 15 Mbps, le pack de modernisation est facturé 20 200 DA (modem ONT 14 200 DA et frais d’installation 6 000 DA), avec une alternative permettant d’obtenir modem optique et installation gratuits après règlement de trois mensualités de 2 500 DA chacune. Pour les débits supérieurs ou égaux à 30 Mbps, l’offre de modernisation prévoit un tarif de 0 DA avec modem optique et installation gratuits, sous réserve d’un internet actif, d’une balance de jours restants transférée et de 0 DA de créances téléphoniques."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من هم المعنيون بعرض التحديث؟",
+      "answer": "عرض التحديث موجّه للزبائن الحاليين «محترف» و«محترف إيجاري» فقط، والذين يستفيدون حاليًا من اشتراك IDOOM ADSL أو VDSL ويرغبون في الانتقال إلى تقنية الألياف البصرية IDOOM FIBRE."
+    },
+    {
+      "question": "كيف يمكنني الاستفادة من عرض التحديث بصفتي زبون محترف ADSL/VDSL؟",
+      "answer": "للاستفادة من عرض التحديث، يتعيّن على الزبون المحترف المشترك في خدمة IDOOM ADSL/VDSL التوجّه إلى الوكالة التجارية التابعة له وطلب الانتقال إلى تقنية IDOOM FIBRE، حيث يتم تسجيل طلب التحديث ودراسة أهلية الخط ثم تفعيل الاشتراك الجديد وفق التدفق المختار."
+    },
+    {
+      "question": "ما هي تفاصيل عرض التحديث لزبائن محترف ومحترف إيجاري؟",
+      "answer": "يتضمن العرض حزمة تحديث لتدفق 15 ميغابت/ثا بسعر 20 200 دج (14 200 دج للمودم البصري و6 000 دج للتركيب)، مع إمكانية حصول الزبون على مودم بصري وتركيب مجانيين بعد دفع ثلاثة اشتراكات بقيمة 2 500 دج لكل واحدة. أما بالنسبة للتدفقات التي تساوي أو تفوق 30 ميغابت/ثا (30، 60، 120، 240، 300، 500 ميغابت/ثا و1.2 جيجابت/ثا حسب الأهلية)، فيستفيد الزبون من تحديث مجاني بقيمة 0 دج يشمل المودم البصري والتركيب، مع تحويل الأيام المتبقية من الاشتراك القديم حسب التدفق الجديد."
+    },
+    {
+      "question": "ما هي الشروط المطلوبة للاستفادة من المزايا؟",
+      "answer": "من بين الشروط الأساسية للاستفادة من مزايا التحديث: اختيار تدفق أدنى بـ 30 ميغابت/ثا على الأقل للحصول على مودم بصري وتركيب مجانيين (أو دفع ثلاثة اشتراكات 2 500 دج لتدفق 15 ميغابت/ثا)، أن يكون الإنترنت مفعّلًا بتاريخ الانتقال، تحويل الأيام المتبقية من الاشتراك القديم حسب التدفق الجديد المختار، وعدم وجود أي ديون متعلقة بالهاتف الثابت (0 دج)."
+    },
+    {
+      "question": "ماذا يحدث للأيام المتبقية في اشتراكي الحالي؟",
+      "answer": "سيتم تحويل الأيام المتبقية في اشتراككم الحالي ADSL/VDSL إلى الاشتراك الجديد بالألياف البصرية، وذلك وفق التدفق الجديد الذي تختارونه، حتى لا تضيع عليكم الأيام غير المستعملة."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "À qui s’adresse cette offre de modernisation ?",
+      "answer": "Cette offre de modernisation est destinée aux clients Moohtarif et Moohtarif Locataire déjà existants, bénéficiant actuellement d’une connexion Idoom ADSL ou VDSL, et souhaitant migrer vers la technologie Idoom Fibre."
+    },
+    {
+      "question": "Comment puis-je profiter de l’offre de modernisation en tant que client Moohtarif ADSL/VDSL ?",
+      "answer": "Pour profiter de l’offre de modernisation, le client Moohtarif disposant d’un abonnement Idoom ADSL/VDSL doit se rendre à l’agence commerciale de son rattachement afin de déposer une demande de migration vers la technologie Idoom Fibre."
+    },
+    {
+      "question": "Quels sont les détails de l’offre de modernisation des abonnés Moohtarif et Moohtarif Locataire ?",
+      "answer": "L’offre prévoit un pack de modernisation pour le débit 15 Mbps à 20 200 DA (modem ONT 14 200 DA et frais d’installation 6 000 DA), avec possibilité d’obtenir modem optique et installation gratuits après paiement de trois mensualités de 2 500 DA chacune. Pour les débits supérieurs ou égaux à 30 Mbps, le tarif de modernisation est de 0 DA avec modem optique et installation gratuits, sous réserve que l’internet soit actif à la date du basculement, que la balance des jours restants soit convertie en fonction du nouveau débit choisi et qu’il n’y ait aucune créance téléphonique. Les débits disponibles en fibre vont de 30 Mbps à 1,2 Gbps (ce dernier selon éligibilité)."
+    },
+    {
+      "question": "Quelles sont les conditions requises pour profiter des avantages de modernisation ?",
+      "answer": "Les principales conditions sont : un débit minimum de 30 Mbps pour bénéficier de la gratuité du modem optique et de l’installation (ou, pour 15 Mbps, le paiement préalable de trois mensualités de 2 500 DA pour obtenir ces avantages), un internet actif à la date du basculement, la conversion de la balance des jours restants en fonction du débit choisi et 0 DA de créances téléphoniques."
+    },
+    {
+      "question": "Que se passe-t-il avec mes jours restants sur mon abonnement actuel ?",
+      "answer": "Les jours restants sur l’abonnement ADSL/VDSL actuel sont convertis en fonction du débit choisi sur le nouvel abonnement Idoom Fibre, afin que le client ne perde pas la valeur de ses jours de connexion restants."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهم: نذكّركم بأن بريد Feedback – FB@algerietelecom.dz مخصّص حصريًا لطلبات المعلومات التجارية والتوضيحات حول المذكرات أو الإجراءات المعتمدة. لا تترددوا في مراسلتنا عند الحاجة، كما يمكنكم التقرب من وكالتكم التجارية أو الاتصال بالرقم 12 لأي استفسار يتعلق بعرض التحديث.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. En cas de besoin, le client est invité à se rapprocher de son agence commerciale ou à appeler le 12 à partir des lignes fixes ou mobiles."
+  },
+
+  "keywords_ar": [
+    "العرض الجديد لتحديث الزبائن MOOHTARIF",
+    "MOOHTARIF للمستأجرين",
+    "محترف",
+    "محترف إيجاري",
+    "عرض التحديث محترف",
+    "تحديث الزبائن محترف",
+    "انتقال من ADSL إلى الألياف",
+    "انتقال من VDSL إلى الألياف",
+    "IDOOM ADSL",
+    "IDOOM VDSL",
+    "IDOOM FIBRE",
+    "FTTH",
+    "15 ميغابت في الثانية",
+    "30 ميغابت في الثانية",
+    "60 ميغابت في الثانية",
+    "120 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "300 ميغابت في الثانية",
+    "500 ميغابت في الثانية",
+    "1.2 جيجابت في الثانية",
+    "20 200 دج",
+    "14 200 دج",
+    "6000 دج",
+    "2500 دج",
+    "ثلاثة اشتراكات 2500 دج",
+    "مودم بصري مجاني",
+    "تركيب مجاني",
+    "0 دج ديون هاتفية",
+    "تحويل رصيد الأيام المتبقية",
+    "الانتقال من MSAN إلى FTTH",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Nouvelle Offre Modernisation Clients MOOHTARIF",
+    "Moohtarif",
+    "Moohtarif Locataire",
+    "modernisation",
+    "basculement MSAN vers FTTH",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "FTTH",
+    "15 Mbps",
+    "30 Mbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "300 Mbps",
+    "500 Mbps",
+    "1,2 Gbps",
+    "20200 DA",
+    "14200 DA",
+    "6000 DA",
+    "2500 DA",
+    "trois mensualités 2500 DA",
+    "modem optique gratuit",
+    "installation gratuite",
+    "0 DA de créances téléphoniques",
+    "balance des jours restants convertie",
+    "internet actif à la date du basculement",
+    "offre de modernisation Moohtarif",
+    "offre Moohtarif Locataire",
+    "Algérie Télécom"
+  ],
+  "keywords": [
+    "Nouvelle Offre Modernisation Clients MOOHTARIF",
+    "Moohtarif",
+    "Moohtarif Locataire",
+    "modernisation",
+    "basculement MSAN vers FTTH",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom Fibre",
+    "FTTH",
+    "15 Mbps",
+    "30 Mbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "300 Mbps",
+    "500 Mbps",
+    "1,2 Gbps",
+    "20200 DA",
+    "14200 DA",
+    "6000 DA",
+    "2500 DA",
+    "trois mensualités 2500 DA",
+    "modem optique gratuit",
+    "installation gratuite",
+    "0 DA de créances téléphoniques",
+    "balance des jours restants convertie",
+    "internet actif à la date du basculement",
+    "offre de modernisation Moohtarif",
+    "offre Moohtarif Locataire",
+    "Algérie Télécom",
+    "العرض الجديد لتحديث الزبائن MOOHTARIF",
+    "MOOHTARIF للمستأجرين",
+    "محترف",
+    "محترف إيجاري",
+    "عرض التحديث محترف",
+    "تحديث الزبائن محترف",
+    "انتقال من ADSL إلى الألياف",
+    "انتقال من VDSL إلى الألياف",
+    "15 ميغابت في الثانية",
+    "30 ميغابت في الثانية",
+    "60 ميغابت في الثانية",
+    "120 ميغابت في الثانية",
+    "240 ميغابت في الثانية",
+    "300 ميغابت في الثانية",
+    "500 ميغابت في الثانية",
+    "1.2 جيجابت في الثانية",
+    "20 200 دج",
+    "14 200 دج",
+    "6000 دج",
+    "2500 دج",
+    "ثلاثة اشتراكات 2500 دج",
+    "مودم بصري مجاني",
+    "تركيب مجاني",
+    "0 دج ديون هاتفية",
+    "تحويل رصيد الأيام المتبقية",
+    "الانتقال من MSAN إلى FTTH",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "العرض الجديد لتحديث الزبائن MOOHTARIF وMOOHTARIF للمستأجرين هو عرض تحديث تقدمه اتصالات الجزائر في إطار التحديث المتواصل، موجّه لزبائن «محترف» و«محترف إيجاري» الذين يملكون اشتراكات IDOOM ADSL أو VDSL ويرغبون في الانتقال إلى تقنية IDOOM FIBRE (FTTH). يهدف العرض إلى توفير تجربة إنترنت استثنائية بفضل الألياف البصرية مع الترقية إلى تدفقات أعلى، انطلاقًا من 30 ميغابت/ثانية. للاستفادة من هذا العرض، يجب على الزبون المحترف التوجّه إلى الوكالة التجارية لإيداع طلب الانتقال إلى الألياف. تفاصيل العرض: حزمة تحديث لتدفق 15 ميغابت/ثا بسعر 20 200 دج (14 200 دج ثمن المودم البصري + 6 000 دج رسوم التركيب)، مع إمكانية الحصول على مودم بصري مجاني وتركيب مجاني بعد دفع ثلاثة اشتراكات شهرية بقيمة 2 500 دج لكل واحدة. أما التدفقات التي تساوي أو تفوق 30 ميغابت/ثا (30، 60، 120، 240، 300، 500 ميغابت/ثا و1.2 جيجابت/ثا حسب الأهلية)، فيتم التحديث بسعر 0 دج مع المودم البصري والتركيب مجانًا، بشرط أن يكون الإنترنت مفعّلًا يوم الانتقال، وعدم وجود ديون هاتفية (0 دج)، وتحويل رصيد الأيام المتبقية من الاشتراك القديم وفق التدفق الجديد المختار. العرض الجديد للتحديث من MSAN إلى FTTH يلغي ويعوض عرض التحديث السابق الخاص بـ «محترف»، وتُطبَّق نفس الشروط على «محترف إيجاري». الأسئلة الشائعة: من هم المعنيون بعرض التحديث؟ هذا العرض موجّه للزبائن محترف ومحترف إيجاري الحاليين فقط. كيف يمكن الاستفادة من العرض؟ بالتوجّه إلى الوكالة التجارية وطلب الانتقال إلى الألياف. ما هي تفاصيل عرض التحديث؟ يشمل حزمة 15 ميغابت/ثا بـ 20 200 دج أو الحصول لاحقًا على المودم البصري والتركيب مجانًا بعد دفع ثلاثة اشتراكات 2 500 دج، وتحديث مجاني بـ 0 دج للتدفقات ≥30 ميغابت/ثا مع تحويل الأيام المتبقية. ما هي الشروط؟ اختيار تدفق أدنى بـ 30 ميغابت/ثا أو دفع الاشتراكات المطلوبة لتدفق 15 ميغابت/ثا، أن يكون الإنترنت مفعّلًا عند تاريخ الانتقال، تحويل الأيام المتبقية، وعدم وجود ديون هاتفية. ماذا يحدث للأيام المتبقية؟ سيتم تحويلها حسب التدفق الجديد المختار في الاشتراك الجديد. مهم: بريد Feedback – FB@algerietelecom.dz مخصص حصريًا لطلبات المعلومات التجارية والتوضيحات حول المذكرات أو الإجراءات، كما يمكن الاتصال بالرقم 12 أو التقرب من الوكالة التجارية للمزيد من المعلومات. Nouvelle Offre Modernisation Clients MOOHTARIF. Dans le cadre de la modernisation continue, Algérie Télécom met à disposition une nouvelle offre destinée aux clients MOOHTARIF et MOOHTARIF LOCATAIRE bénéficiant actuellement d’une connexion Idoom ADSL ou VDSL. L’objectif est de fournir une expérience internet inégalée grâce à la technologie Idoom Fibre (FTTH), en incitant les clients à migrer vers un débit minimum de 30 Mbps. À qui s’adresse cette offre ? Aux clients Moohtarif et Moohtarif Locataire déjà existants. Comment en profiter ? En se rendant à l’agence commerciale de rattachement pour déposer une demande de migration vers Idoom Fibre. Détails de l’offre : pack 15 Mbps à 20 200 DA (modem ONT 14 200 DA, installation 6 000 DA) avec possibilité d’obtenir modem optique et installation gratuits après paiement de trois mensualités de 2 500 DA ; pour les débits supérieurs ou égaux à 30 Mbps, tarif de modernisation de 0 DA incluant modem optique et installation gratuits sous réserve d’un internet actif, d’une balance des jours restants convertie et de 0 DA de créances téléphoniques. Débits disponibles : 30, 60, 120, 240, 300, 500 Mbps et 1,2 Gbps (selon éligibilité). Conditions : débit minimum de 30 Mbps pour la gratuité du modem et de l’installation (ou paiement de trois mensualités de 2 500 DA pour 15 Mbps), internet actif à la date du basculement, conversion de la balance des jours restants, 0 DA de créances téléphoniques. Discours conseillé : inviter le client à choisir un débit ≥30 Mbps pour profiter de la gratuité du modem et de l’installation ; s’il opte pour 15 Mbps, l’informer de la possibilité de gratuité après trois mensualités de 2 500 DA ; en cas de refus des deux options, indiquer que le client doit régler 20 200 DA. Les jours restants de l’abonnement actuel sont convertis en fonction du nouveau débit. La nouvelle offre de modernisation (basculement MSAN vers FTTH) annule et remplace l’offre existante pour Moohtarif, avec les mêmes conditions pour Moohtarif Locataire. La messagerie Feedback FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures, tandis que le numéro 12 et les agences commerciales restent les points de contact pour les clients.",
+  "dense_text_primary": "هذا المستند يقدّم «العرض الجديد لتحديث الزبائن MOOHTARIF وMOOHTARIF للمستأجرين» الذي تطرحه اتصالات الجزائر في إطار التحديث المتواصل لخدماتها، وهو موجّه للزبائن الحاليين «محترف» و«محترف إيجاري» المشتركين في IDOOM ADSL أو VDSL. يهدف العرض إلى ترقية هؤلاء الزبائن نحو تقنية الألياف البصرية IDOOM FIBRE (FTTH) ومنحهم تجربة إنترنت أفضل مع حثّهم على اختيار تدفق أدنى بـ 30 ميغابت/ثا على الأقل. يتضمن العرض حزمة تحديث خاصة بتدفق 15 ميغابت/ثا بسعر 20 200 دج (14 200 دج للمودم البصري و6 000 دج للتركيب)، مع إمكانية حصول الزبون على مودم بصري وتركيب مجانيين بعد دفع ثلاثة اشتراكات شهرية بقيمة 2 500 دج لكل واحدة. أما بالنسبة للتدفقات التي تساوي أو تتجاوز 30 ميغابت/ثا (30، 60، 120، 240، 300، 500 ميغابت/ثا و1.2 جيجابت/ثا حسب أهلية الخط)، فإن التحديث يكون بقيمة 0 دج ويشمل المودم البصري والتركيب مجانًا، بشرط أن يكون الإنترنت مفعّلًا عند تاريخ الانتقال، وعدم وجود ديون هاتفية، وتحويل رصيد الأيام المتبقية من الاشتراك القديم حسب التدفق الجديد المختار. العرض الجديد للانتقال من MSAN إلى FTTH يلغي عرض التحديث السابق الخاص بـ «محترف» وتُطبَّق الشروط نفسها على «محترف إيجاري». يتم تحويل الأيام المتبقية من اشتراك ADSL/VDSL الحالي إلى الاشتراك الجديد بالألياف، مما يضمن عدم ضياع الأيام المدفوعة. يمكن للزبون الاستفادة من العرض عن طريق التوجه إلى الوكالة التجارية، في حين يُخصَّص بريد Feedback – FB@algerietelecom.dz لطلبات المعلومات التجارية والاستفسارات حول المذكرات أو الإجراءات.\n\nCe document décrit également en français la « Nouvelle Offre Modernisation Clients MOOHTARIF » d’Algérie Télécom, qui s’adresse aux clients Moohtarif et Moohtarif Locataire déjà abonnés à Idoom ADSL ou VDSL. L’objectif est de moderniser leur connexion en les basculant vers la technologie Idoom Fibre (FTTH) pour leur offrir une expérience internet de très haut débit, avec un upselling vers un débit minimum de 30 Mbps. L’offre de modernisation prévoit, pour le débit 15 Mbps, un pack facturé 20 200 DA (modem ONT 14 200 DA et frais d’installation 6 000 DA), avec possibilité d’obtenir modem optique et installation gratuits après règlement de trois mensualités de 2 500 DA. Pour les débits supérieurs ou égaux à 30 Mbps, le tarif de modernisation est de 0 DA et inclut le modem optique et l’installation, sous réserve que l’accès internet soit actif, qu’il n’y ait aucune créance téléphonique et que la balance des jours restants soit convertie en fonction du nouveau débit choisi. Les débits fibre disponibles vont de 30 à 1,2 Gbps (selon éligibilité). La nouvelle offre de modernisation (basculement MSAN vers FTTH) annule et remplace l’offre actuelle pour Moohtarif, avec les mêmes conditions pour Moohtarif Locataire. Les clients doivent se rendre en agence commerciale pour demander la migration, tandis que la messagerie Feedback FB@algerietelecom.dz, le numéro 12 et les agences commerciales restent à leur disposition pour toute information complémentaire."
+}

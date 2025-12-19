@@ -1,0 +1,323 @@
+{
+  "document_id": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_gamers",
+  "technology": [
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential",
+    "gamers"
+  ],
+  "commitment_type": "12_month_commitment",
+  "usage_focus": [
+    "gaming",
+    "internet",
+    "streaming"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد « Idoom Fibre Gamers »",
+    "title_fr": "Argumentaire « Nouvelle Offre Idoom Fibre Gamers »",
+    "company": "Algérie Télécom",
+    "version": "5.0",
+    "effective_date": "2025-07-14"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد « Idoom Fibre Gamers »",
+    "name_fr": "Nouvelle Offre Idoom Fibre Gamers",
+    "description_ar": "يقدّم العرض الجديد Idoom Fibre Gamers تدفّقات أعلى بكثير قد تصل إلى 1.5 Gbps، مع تسعيرات تنافسية مصمّمة خصيصاً لتلبية احتياجات محترفي الألعاب الباحثين عن أداء استثنائي. يتم رفع التدفقات القديمة (30، 60، 120، 240، 300، 500 Mbps و 1.2 Gbps) إلى تدفقات جديدة أعلى، مع الحفاظ على أسعار شهرية جذابة، إضافة إلى تركيز خاص على عناصر مهمة للّعب عبر الإنترنت مثل انخفاض الـ Ping وتعزيز سرعة الرفع Upload التي قد تصل إلى 900 Mbps، مما يجعل العرض مناسباً للبث المباشر، الألعاب السحابية (Cloud Gaming) وتحميل التحديثات بسرعة. العرض موجّه للزبائن الحاليين والجدد على حدّ سواء، ويتطلّب بالنسبة للاشتراكات الجديدة التزاماً تعاقدياً لمدة 12 شهراً.",
+    "description_fr": "La nouvelle offre Idoom Fibre Gamers d’Algérie Télécom met en avant des vitesses de connexion très élevées jusqu’à 1,5 Gbps à des tarifs compétitifs, conçues pour les gamers à la recherche de performances en ligne exceptionnelles. Elle prévoit une augmentation des anciens paliers de débit (30, 60, 120, 240, 300, 500 Mbps et 1,2 Gbps) vers de nouveaux paliers plus élevés, avec une nouvelle tarification valable pour les clients existants et les nouveaux abonnés, et un upload fixé à 60 % du débit souscrit.",
+    "conditions_ar": [
+      "العرض Idoom Fibre Gamers موجّه للزبائن الذين يمارسون الألعاب عبر الإنترنت، سواءً على الحاسوب، أو أجهزة الألعاب، أو ألعاب البث السحابي (Cloud Gaming).",
+      "يهدف العرض إلى توفير تجربة لعب سلسة، سريعة ومُحسّنة، مع تدفّقات عالية قد تصل إلى 1.5 Gbps.",
+      "العرض موجّه للزبائن الحاليين والجدد على حدّ سواء، مع تطبيق التسعيرة الجديدة على الجميع.",
+      "الزبائن الجدد مطالبون بالتزام تعاقدي لمدة 12 شهراً عند الاشتراك في عرض Idoom Fibre Gamers.",
+      "يتمّ تحويل المشتركين الحاليين في عرض Idoom Fibre Gamers تلقائياً إلى التدفقات الجديدة المقابلة دون إجراء إضافي من جانب الزبون.",
+      "الـ Upload يساوي 60% من التدفق المختار في كل مستوى، ما يضمن أداءً متوازناً بين التحميل والرفع.",
+      "تدفّقات 1 Gbps و 1.5 Gbps متوفّرة وفقاً للأهلية التقنية لخط الزبون.",
+      "هذا العرض يلغي ويعوّض العرض السابق Idoom Fibre Gamers نهائياً.",
+      "في حال وجود أي استفسار أو شكوى، يُطلب من الزبون التوجّه إلى وكالته التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو النقال."
+    ],
+    "conditions_fr": [
+      "Offre destinée aux clients qui jouent en ligne sur ordinateur, console ou via des jeux vidéo en streaming.",
+      "La nouvelle tarification de l’offre Idoom Fibre Gamers est valable pour les clients existants ainsi que pour les nouveaux abonnés.",
+      "Les nouveaux abonnés à l’offre Idoom Fibre Gamers sont tenus de s’engager pour une durée de 12 mois.",
+      "Le basculement des clients déjà abonnés à l’ancienne offre Idoom Fibre Gamers vers la nouvelle offre se fait automatiquement.",
+      "L’upload est fixé à 60 % du débit du palier souscrit.",
+      "Les débits de 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité technique de la ligne.",
+      "Cette offre remplace et annule l’offre Idoom Fibre Gamers précédente."
+    ],
+    "benefits_ar": [
+      "تدفّقات إنترنت عالية جداً تصل إلى 1.5 Gbps، مناسبة لمحترفي الألعاب واللاعبين الذين يبحثون عن أداء استثنائي عبر الإنترنت.",
+      "زيادة جميع المستويات القديمة من التدفق (30، 60، 120، 240، 300، 500 Mbps و 1.2 Gbps) إلى مستويات جديدة أعلى، مع أسعار شهرية تنافسية.",
+      "تركيز خاص على عنصر الـ Ping لتقليل زمن الاستجابة بين جهاز اللاعب والخادم، ما يحسّن تجربة اللعب عبر الإنترنت.",
+      "تعزيز سرعة الرفع Upload لتصل إلى 900 Mbps في مستوى 1.5 Gbps، وهو مثالي للبث المباشر (Streaming)، الألعاب السحابية (Cloud Gaming) وتحميل التحديثات والملفات بسرعة.",
+      "بالنسبة لمستوى 60 Mbps الجديد (بديلاً عن 30 Mbps)، يستفيد الزبون من مودم بصري + شهر اتصال مجاني + مصاريف التركيب ضمن نفس السعر.",
+      "تطبيق التسعيرة الجديدة على الزبائن الحاليين والجدد، مع تحويل آلي للمشتركين الحاليين إلى التدفقات الجديدة دون عناء.",
+      "عرض مصمّم خصيصاً لتحسين تجربة اللعب عبر الإنترنت، البث المباشر واستخدام الإنترنت بكثافة في المنزل.",
+      "يوفّر المستند شروحات مبسّطة لمفاهيم Ping و Download و Upload لمساعدة الزبون على فهم أداء خطه وتأثيره على الألعاب.",
+      "إتاحة إمكانية البيع المتقاطع (Cross Selling) لمعدّات الألعاب (سماعات، فئران، لوحات مفاتيح، ميكروفونات...) المتوفّرة في وكالات اتصالات الجزائر لتعزيز تجربة اللاعب."
+    ],
+    "benefits_fr": [
+      "Débits internet très élevés jusqu’à 1,5 Gbps, adaptés aux besoins des gamers et du jeu en ligne.",
+      "Amélioration des anciens paliers de débit : chaque ancien palier bénéficie d’un nouveau débit supérieur à tarif compétitif.",
+      "Prise en compte de critères essentiels pour le jeu en ligne comme le Ping et l’Upload, avec une capacité d’Upload pouvant atteindre 900 Mbps pour le palier 1,5 Gbps.",
+      "Pour le palier 60 Mbps (ancien 30 Mbps), le client bénéficie d’un modem optique, d’un mois de connexion et des frais d’installation inclus.",
+      "Nouvelle tarification applicable à la fois aux clients existants et aux nouveaux abonnés, avec basculement automatique des clients actuels.",
+      "Offre structurée pour optimiser l’expérience de jeu en ligne, le streaming et les usages intensifs d’internet."
+    ],
+    "pricing_summary_ar": "تسعيرة عرض Idoom Fibre Gamers الجديدة حسب الجدول هي كالتالي: التدفق 30 Mbps يصبح 60 Mbps بسعر 2500 دج شهرياً (يشمل مودم بصري + شهر مجاني + مصاريف التركيب)، 60 Mbps يصبح 120 Mbps بسعر 2800 دج/شهر، 120 Mbps يصبح 240 Mbps بسعر 3000 دج/شهر، 240 Mbps يصبح 480 Mbps بسعر 3400 دج/شهر، 300 Mbps يصبح 600 Mbps بسعر 4000 دج/شهر، 500 Mbps يصبح 1 Gbps بسعر 4600 دج/شهر، و 1.2 Gbps يصبح 1.5 Gbps بسعر 5200 دج/شهر، مع كون سرعة الرفع Upload تساوي 60% من التدفق المختار وتوفّر مستويات 1 Gbps و 1.5 Gbps حسب الأهلية التقنية للخط.",
+    "pricing_summary_fr": "Le tableau tarifaire de la nouvelle offre Idoom Fibre Gamers présente les nouveaux paliers et tarifs mensuels suivants : 30 Mbps devient 60 Mbps à 2 500 DA/mois (avec modem optique, un mois de connexion et frais d’installation inclus), 60 Mbps devient 120 Mbps à 2 800 DA/mois, 120 Mbps devient 240 Mbps à 3 000 DA/mois, 240 Mbps devient 480 Mbps à 3 400 DA/mois, 300 Mbps devient 600 Mbps à 4 000 DA/mois, 500 Mbps devient 1 Gbps à 4 600 DA/mois et 1,2 Gbps devient 1,5 Gbps à 5 200 DA/mois, avec upload fixé à 60 % du débit et débits de 1 Gbps et 1,5 Gbps soumis à l’éligibilité."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "ما هو مضمون عرض Gamers الجديد؟",
+      "answer": "عرض Idoom Fibre Gamers هو عرض إنترنت عالي التدفّق مخصّص للزبائن الذين يمارسون الألعاب عبر الإنترنت، سواءً على الحاسوب، أو أجهزة الألعاب، أو ألعاب البث السحابي (Cloud Gaming). يهدف العرض إلى توفير تجربة لعب سلسة وسريعة ومُحسّنة مع تدفّقات قد تصل إلى 1.5 Gbps وتسعيرات تنافسية."
+    },
+    {
+      "question": "ما أهمية تدفّق الإنترنت في عرض Gamers؟",
+      "answer": "إضافةً إلى التدفّقات العالية، يركّز عرض Idoom Fibre Gamers على عناصر أساسية للّعب عبر الإنترنت، أهمها انخفاض الـ Ping من أجل استجابة أسرع بين جهازك والخادم، وتعزيز سرعة الرفع Upload التي قد تصل إلى 900 Mbps في أعلى مستوى، وهو ما يجعله مثالياً للبث المباشر (Streaming)، الألعاب السحابية وتحميل التحديثات والملفات بسرعة كبيرة."
+    },
+    {
+      "question": "لمن يُوجَّه عرض Gamers الجديد؟",
+      "answer": "عرض Gamers الجديد موجّه بالدرجة الأولى للزبائن الجدد من فئة الخواص الباحثين عن تدفّق عالٍ وأداء ممتاز للألعاب عبر الإنترنت، كما تشمل التسعيرة الجديدة الزبائن الحاليين المشتركين في العرض السابق الذين سيتم تحويلهم تلقائياً إلى التدفقات الجديدة."
+    },
+    {
+      "question": "ما هي تسعيرة عرض Idoom Fibre Gamers؟",
+      "answer": "تسعيرة عرض Idoom Fibre Gamers مبنية على رفع التدفقات القديمة إلى تدفقات جديدة أعلى، حيث يصبح 30 Mbps → 60 Mbps بسعر 2500 دج/شهر (مع مودم بصري + شهر مجاني + مصاريف التركيب)، 60 Mbps → 120 Mbps بسعر 2800 دج/شهر، 120 Mbps → 240 Mbps بسعر 3000 دج/شهر، 240 Mbps → 480 Mbps بسعر 3400 دج/شهر، 300 Mbps → 600 Mbps بسعر 4000 دج/شهر، 500 Mbps → 1 Gbps بسعر 4600 دج/شهر، و 1.2 Gbps → 1.5 Gbps بسعر 5200 دج/شهر، مع كون الـ Upload يساوي 60% من التدفق المختار وتوفّر التدفقات 1 Gbps و 1.5 Gbps حسب الأهلية التقنية."
+    },
+    {
+      "question": "كيف يستفيد المشتركون الحاليون من العرض الجديد؟",
+      "answer": "يتمّ تحويل المشتركين الحاليين في عرض Idoom Fibre Gamers تلقائياً إلى التدفقات الجديدة المقابلة كما هي مبيّنة في الجدول، دون الحاجة إلى القيام بأي إجراء أو طلب إضافي من طرف الزبون."
+    },
+    {
+      "question": "هل الزبائن الجدد مجبرون على التزام تعاقدي؟",
+      "answer": "نعم، كل اشتراك جديد في عرض Idoom Fibre Gamers يتطلّب التزاماً تعاقدياً لمدة 12 شهراً، ما يعني أن الزبون يرتبط بعقد اشتراك سنوي مع اتصالات الجزائر ضمن شروط العرض."
+    },
+    {
+      "question": "ما هي مفاهيم Ping و Download و Upload المذكورة في المستند؟",
+      "answer": "يعرف المستند بعض المفاهيم الأساسية في الألعاب عبر الإنترنت: الـ Ping هو مقياس زمن الاستجابة بين جهازك والخادم، وكلما كان أقل كانت الاستجابة أفضل؛ الـ Download هو سرعة استقبال البيانات من الإنترنت إلى جهازك؛ أما الـ Upload فهو سرعة إرسال البيانات من جهازك نحو الإنترنت، وهو مهم جداً للبث المباشر، الألعاب السحابية وتحميل الملفات."
+    },
+    {
+      "question": "لديك مشكل؟ من تتصل؟",
+      "answer": "في حال وجود أي استفسار أو شكوى، يُرجى التوجّه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو النقال، حيث سيتمّ التكفّل بطلبكم من طرف مستشار هاتفي."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "En quoi consiste la nouvelle offre Gamers ?",
+      "answer": "La nouvelle offre Idoom Fibre Gamers met en avant des vitesses de connexion plus élevées, avec une augmentation des débits pouvant atteindre 1,5 Gbps, à des tarifs compétitifs. Elle s’adresse aux clients qui jouent en ligne, que ce soit sur ordinateur, console ou via des jeux vidéo en streaming, et vise à offrir des performances en ligne exceptionnelles."
+    },
+    {
+      "question": "Est-ce que le débit Internet offert est important dans l’offre Gamer ?",
+      "answer": "Oui. En plus des nouveaux débits inclus, l’offre Idoom Fibre Gamers à 1,5 Gbps met l’accent sur des critères essentiels pour le jeu en ligne, comme le Ping et l’Upload. La capacité d’Upload peut atteindre 900 Mbps pour le palier 1,5 Gbps, ce qui contribue à une performance optimale pour les gamers."
+    },
+    {
+      "question": "À qui est destinée la nouvelle offre Gamers ?",
+      "answer": "La nouvelle offre Gamers est destinée aux nouveaux clients résidentiels qui jouent en ligne et recherchent des débits élevés pour le jeu vidéo et le streaming. La nouvelle tarification est valable pour les clients existants ainsi que pour les nouveaux abonnés."
+    },
+    {
+      "question": "Je souhaiterais souscrire à l’offre Idoom Fibre Gamers, quels sont les tarifs proposés ?",
+      "answer": "Les détails de l’offre Idoom Fibre Gamers sont les suivants : l’ancien palier 30 Mbps devient 60 Mbps à 2 500 DA/mois (avec modem optique, un mois de connexion et frais d’installation inclus) ; 60 Mbps devient 120 Mbps à 2 800 DA/mois ; 120 Mbps devient 240 Mbps à 3 000 DA/mois ; 240 Mbps devient 480 Mbps à 3 400 DA/mois ; 300 Mbps devient 600 Mbps à 4 000 DA/mois ; 500 Mbps devient 1 Gbps à 4 600 DA/mois ; et 1,2 Gbps devient 1,5 Gbps à 5 200 DA/mois. L’upload est fixé à 60 % du débit souscrit et les paliers 1 Gbps et 1,5 Gbps sont proposés selon l’éligibilité."
+    },
+    {
+      "question": "Comment un client abonné à l’offre Idoom Fibre Gamers peut-il bénéficier de la nouvelle offre ?",
+      "answer": "Le basculement des clients déjà abonnés à l’offre Idoom Fibre Gamers vers la nouvelle offre se fait automatiquement, sans démarche particulière de la part du client."
+    },
+    {
+      "question": "Les nouveaux abonnés de l’offre Idoom Fibre Gamers sont-ils tenus de souscrire à un contrat d’engagement ?",
+      "answer": "Oui. Les nouveaux abonnés de l’offre Idoom Fibre Gamers sont tenus de s’engager pour une durée de 12 mois."
+    },
+    {
+      "question": "J’ai un problème, qui dois-je contacter ?",
+      "answer": "Pour toute autre information et/ou réclamation, il est recommandé de se rapprocher de l’agence commerciale la plus proche ou d’appeler le 12 à partir des lignes fixes ou mobiles, où un téléconseiller prendra en charge la demande."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "لأي استفسار أو شكوى، يُرجى التوجّه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو النقال، وسيتمّ التكفّل بكم. كما نذكّركم بأن بريد Feedback – FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وطلب التوضيحات حول المذكرات أو الإجراءات، فلا تترددوا في التواصل عند الحاجة.",
+    "notes_fr": "Pour toute autre information et/ou réclamation, veuillez-vous rapprocher de votre agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+
+  "keywords_ar": [
+    "عرض Idoom Fibre Gamers",
+    "العرض الجديد Idoom Fibre Gamers",
+    "ألعاب الفيديو عبر الإنترنت",
+    "ألعاب عبر البث المباشر",
+    "Cloud Gaming",
+    "الألعاب السحابية",
+    "ستريمنغ الألعاب",
+    "فايبر",
+    "الألياف البصرية",
+    "1.5 Gbps",
+    "1 Gbps",
+    "500 Mbps",
+    "300 Mbps",
+    "240 Mbps",
+    "120 Mbps",
+    "60 Mbps",
+    "30 Mbps",
+    "2500 دج",
+    "2800 دج",
+    "3000 دج",
+    "3400 دج",
+    "4000 دج",
+    "4600 دج",
+    "5200 دج",
+    "سرعة رفع 60%",
+    "Upload 60%",
+    "Ping منخفض",
+    "سرعة تحميل Download",
+    "سرعة رفع Upload",
+    "900 Mbps Upload",
+    "التزام 12 شهراً",
+    "الزبائن الحاليون",
+    "الزبائن الجدد",
+    "تحويل آلي للمشتركين",
+    "إلغاء العرض السابق",
+    "معدّات الألعاب",
+    "سماعات ألعاب",
+    "فئران ألعاب",
+    "لوحات مفاتيح ألعاب",
+    "ميكروفونات",
+    "Feedback",
+    "FB@algerietelecom.dz",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Idoom Fibre Gamers",
+    "Nouvelle offre Gamers",
+    "fibre optique",
+    "gamers",
+    "clients résidentiels",
+    "jeux en ligne",
+    "jeux vidéo en streaming",
+    "1,5 Gbps",
+    "1.5 Gbps",
+    "1 Gbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "30 Mbps",
+    "500 Mbps",
+    "1,2 Gbps",
+    "2500 DA/mois",
+    "2800 DA/mois",
+    "3000 DA/mois",
+    "3400 DA/mois",
+    "4000 DA/mois",
+    "4600 DA/mois",
+    "5200 DA/mois",
+    "upload 60 %",
+    "ping",
+    "download",
+    "upload",
+    "engagement 12 mois",
+    "basculement automatique",
+    "nouvelle tarification",
+    "clients existants",
+    "nouveaux abonnés",
+    "Algérie Télécom",
+    "accessoires gaming",
+    "cross selling accessoires gaming"
+  ],
+  "keywords": [
+    "Idoom Fibre Gamers",
+    "Nouvelle offre Gamers",
+    "fibre optique",
+    "gamers",
+    "clients résidentiels",
+    "jeux en ligne",
+    "jeux vidéo en streaming",
+    "1,5 Gbps",
+    "1.5 Gbps",
+    "1 Gbps",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "30 Mbps",
+    "500 Mbps",
+    "1,2 Gbps",
+    "2500 DA/mois",
+    "2800 DA/mois",
+    "3000 DA/mois",
+    "3400 DA/mois",
+    "4000 DA/mois",
+    "4600 DA/mois",
+    "5200 DA/mois",
+    "upload 60 %",
+    "ping",
+    "download",
+    "upload",
+    "engagement 12 mois",
+    "basculement automatique",
+    "nouvelle tarification",
+    "clients existants",
+    "nouveaux abonnés",
+    "Algérie Télécom",
+    "accessoires gaming",
+    "cross selling accessoires gaming",
+    "عرض Idoom Fibre Gamers",
+    "العرض الجديد Idoom Fibre Gamers",
+    "ألعاب الفيديو عبر الإنترنت",
+    "ألعاب عبر البث المباشر",
+    "Cloud Gaming",
+    "الألعاب السحابية",
+    "ستريمنغ الألعاب",
+    "فايبر",
+    "الألياف البصرية",
+    "1.5 Gbps",
+    "1 Gbps",
+    "500 Mbps",
+    "300 Mbps",
+    "240 Mbps",
+    "120 Mbps",
+    "60 Mbps",
+    "30 Mbps",
+    "2500 دج",
+    "2800 دج",
+    "3000 دج",
+    "3400 دج",
+    "4000 دج",
+    "4600 دج",
+    "5200 دج",
+    "سرعة رفع 60%",
+    "Upload 60%",
+    "Ping منخفض",
+    "سرعة تحميل Download",
+    "سرعة رفع Upload",
+    "900 Mbps Upload",
+    "التزام 12 شهراً",
+    "الزبائن الحاليون",
+    "الزبائن الجدد",
+    "تحويل آلي للمشتركين",
+    "إلغاء العرض السابق",
+    "معدّات الألعاب",
+    "سماعات ألعاب",
+    "فئران ألعاب",
+    "لوحات مفاتيح ألعاب",
+    "ميكروفونات",
+    "Feedback",
+    "FB@algerietelecom.dz",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "العرض الجديد « Idoom Fibre Gamers » يقدّم تدفّقات أعلى بكثير قد تصل إلى 1.5 Gbps، مع تسعيرات تنافسية مصمّمة خصيصاً لتلبية احتياجات محترفي الألعاب الباحثين عن أداء استثنائي. هذا العرض موجّه للزبائن الحاليين والجدد على حدّ سواء. ما هو مضمون عرض Gamers الجديد؟ العرض مخصّص للزبائن الذين يمارسون الألعاب عبر الإنترنت، سواءً على الحاسوب، أو أجهزة الألعاب، أو ألعاب البث السحابي (Cloud Gaming)، ويهدف إلى توفير تجربة لعب سلسة، سريعة ومُحسّنة. أهمية débit الإنترنت في عرض Gamers: يركّز العرض على انخفاض الـ Ping للحصول على استجابة أسرع وتعزيز الـ Upload الذي قد يصل إلى 900 Mbps، وهو مثالي للـ Streaming، الألعاب السحابية وتحميل التحديثات بسرعة. لمن يُوجَّه عرض Gamers الجديد؟ العرض موجّه للزبائن الجدد من فئة الخواص الباحثين عن تدفق عالٍ وأداء ممتاز للألعاب، مع شمول الزبائن الحاليين عبر تحويل تلقائي إلى التدفقات الجديدة. تسعيرة عرض Idoom Fibre Gamers: 30 Mbps → 60 Mbps بسعر 2500 دج مع مودم بصري + شهر مجاني + مصاريف التركيب، 60 Mbps → 120 Mbps بسعر 2800 دج/شهر، 120 Mbps → 240 Mbps بسعر 3000 دج/شهر، 240 Mbps → 480 Mbps بسعر 3400 دج/شهر، 300 Mbps → 600 Mbps بسعر 4000 دج/شهر، 500 Mbps → 1 Gbps بسعر 4600 دج/شهر، و 1.2 Gbps → 1.5 Gbps بسعر 5200 دج/شهر. ملاحظات مهمة: الـ Upload يساوي 60% من التدفق المختار؛ تدفقات 1 Gbps و 1.5 Gbps متوفرة وفقاً للأهلية التقنية؛ العرض يلغي العرض السابق. المشتركون الحاليون يتحولون تلقائياً إلى التدفقات الجديدة. الزبائن الجدد ملزمون بالتزام تعاقدي لمدة 12 شهراً. في حال وجود مشكل، يُنصح بالتوجّه إلى الوكالة التجارية أو الاتصال بالرقم 12، كما أن بريد Feedback – FB@algerietelecom.dz مخصّص لطلبات المعلومات التجارية والتوضيحات حول المذكرات أو الإجراءات. يتضمّن المستند أيضاً تذكيراً بمفاهيم Ping (زمن الاستجابة)، Download (سرعة استقبال البيانات) و Upload (سرعة إرسال البيانات). كما يشجّع على البيع المتقاطع لمعدّات الألعاب (سماعات، فئران، لوحات مفاتيح، ميكروفونات...). Argumentaire « Nouvelle Offre Idoom Fibre Gamers ». La nouvelle offre Idoom Fibre Gamers met en avant des vitesses de connexion encore plus élevées à des tarifs compétitifs, avec une augmentation de débit atteignant 1,5 Gbps, conçue spécifiquement pour satisfaire les gamers à la recherche de performances en ligne exceptionnelles. La nouvelle tarification est valable pour les clients existants ainsi que pour les nouveaux abonnés. En quoi consiste la nouvelle offre Gamers ? Cette offre s’adresse aux clients qui jouent en ligne, que ce soit sur ordinateur, console ou via des jeux vidéo en streaming. Est-ce que le débit Internet offert est important dans l’offre Gamer ? En plus des nouveaux débits inclus, l’offre Idoom Fibre Gamers à 1,5 Gbps met l’accent sur des critères essentiels pour le jeu en ligne comme le Ping et l’Upload, avec une capacité d’Upload pouvant atteindre 900 Mbps pour une performance optimale. À qui est destinée la nouvelle offre Gamers ? Elle est destinée aux nouveaux clients résidentiels, avec une tarification également valable pour les clients existants. Tarifs et paliers : 30 Mbps devient 60 Mbps à 2 500 DA/mois avec modem optique, un mois de connexion et frais d’installation inclus ; 60 Mbps devient 120 Mbps à 2 800 DA/mois ; 120 Mbps devient 240 Mbps à 3 000 DA/mois ; 240 Mbps devient 480 Mbps à 3 400 DA/mois ; 300 Mbps devient 600 Mbps à 4 000 DA/mois ; 500 Mbps devient 1 Gbps à 4 600 DA/mois ; 1,2 Gbps devient 1,5 Gbps à 5 200 DA/mois. NB : Upload fixé à 60 % du débit souscrit ; les débits de 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité ; cette offre remplace et annule l’offre précédente. Le basculement des clients existants vers la nouvelle offre se fait automatiquement. Les nouveaux abonnés sont tenus de s’engager pour une durée de 12 mois. Le document rappelle les notions de Ping (temps de réponse), Download (vitesse de réception des données) et Upload (vitesse d’envoi des données), et incite le conseiller client à promouvoir la vente croisée d’accessoires gaming (casques, claviers, souris, microphones, etc.) disponibles en agences. En cas de problème ou pour toute information, le client doit se rapprocher de son agence commerciale ou appeler le 12 ; la messagerie « Feedback » FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures.",
+  "dense_text_primary": "يقدّم هذا المستند عرض « Idoom Fibre Gamers » الجديد من اتصالات الجزائر، وهو عرض إنترنت عالي التدفّق مخصّص للزبائن الذين يمارسون الألعاب عبر الإنترنت على الحاسوب أو أجهزة الألعاب أو عبر ألعاب البث السحابي (Cloud Gaming). يوفّر العرض تدفّقات أعلى بكثير قد تصل إلى 1.5 Gbps مع تسعيرات تنافسية، مع رفع جميع المستويات القديمة (30، 60، 120، 240، 300، 500 Mbps و 1.2 Gbps) إلى مستويات جديدة أعلى، مع تركيز خاص على انخفاض الـ Ping وتعزيز سرعة الرفع Upload التي قد تصل إلى 900 Mbps، ما يجعله مثالياً للبث المباشر والألعاب السحابية وتحميل التحديثات. يشمل الجدول السعري انتقال 30 Mbps إلى 60 Mbps مقابل 2500 دج/شهر مع مودم بصري وشهر مجاني ومصاريف تركيب، و 60 Mbps إلى 120 Mbps بـ 2800 دج/شهر، و120 Mbps إلى 240 Mbps بـ 3000 دج/شهر، و240 Mbps إلى 480 Mbps بـ 3400 دج/شهر، و300 Mbps إلى 600 Mbps بـ 4000 دج/شهر، و500 Mbps إلى 1 Gbps بـ 4600 دج/شهر، و1.2 Gbps إلى 1.5 Gbps بـ 5200 دج/شهر. يشترط العرض التزاماً تعاقدياً لمدة 12 شهراً للزبائن الجدد، في حين يتم تحويل المشتركين الحاليين تلقائياً إلى التدفقات الجديدة. الـ Upload يساوي 60% من التدفق المختار، مع توفر مستويات 1 Gbps و 1.5 Gbps حسب الأهلية التقنية، كما يشجع المستند على البيع المتقاطع لمعدّات الألعاب المتوفّرة في الوكالات.\n\nCe document présente également la version française de l’argumentaire « Nouvelle Offre Idoom Fibre Gamers » d’Algérie Télécom. L’offre s’adresse aux clients qui jouent en ligne sur ordinateur, console ou via des jeux vidéo en streaming et recherchent des débits très élevés. La nouvelle offre met en avant une augmentation des paliers de débit pouvant atteindre 1,5 Gbps, avec une nouvelle grille tarifaire applicable à la fois aux clients existants et aux nouveaux abonnés. Les anciens paliers 30, 60, 120, 240, 300, 500 Mbps et 1,2 Gbps sont relevés à 60, 120, 240, 480, 600 Mbps, 1 Gbps et 1,5 Gbps, pour des tarifs mensuels compris entre 2 500 DA/mois et 5 200 DA/mois, le palier d’entrée incluant un modem optique, un mois de connexion et les frais d’installation. L’upload est fixé à 60 % du débit du palier choisi, ce qui permet d’atteindre jusqu’à 900 Mbps en upload sur le palier 1,5 Gbps. Les débits de 1 Gbps et 1,5 Gbps sont proposés selon l’éligibilité technique de la ligne. Le basculement des clients existants vers la nouvelle offre est automatique, tandis que les nouveaux abonnés doivent s’engager pour 12 mois. Le document rappelle les notions de Ping, Download et Upload afin d’expliquer l’intérêt de la nouvelle offre pour l’expérience de jeu en ligne, et invite les conseillers à promouvoir la vente croisée d’accessoires gaming disponibles en agences. En cas de problème ou de demande d’information, les clients peuvent se rapprocher de leur agence commerciale ou appeler le 12, tandis que l’adresse FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures."
+}

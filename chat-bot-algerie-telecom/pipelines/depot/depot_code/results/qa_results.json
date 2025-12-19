@@ -1,0 +1,3395 @@
+[
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_01",
+    "question_id": "1",
+    "query": "Quel est le prix du Buzz 6 Pro ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.4892,
+      "timestamp": "2025-12-12T23:32:26.387976",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.6086,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.6086,
+        "doc_arabic_link": "",
+        "doc_french_link": "",
+        "jason_snippet": {
+          "keywords": [
+            "Buzz 6",
+            "Buzz 6 Prime Plus",
+            "Buzz 6 Pro",
+            "Buzz 6 Pro Plus",
+            "Buzz 6 Flip",
+            "smartphone",
+            "Android",
+            "24 Go RAM",
+            "256 Go stockage",
+            "téléphone mobile",
+            "garantie 12 mois",
+            "SARL ACE",
+            "ACE Algérie",
+            "dépôt-vente",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6",
+            "document_language": "fr",
+            "doc_arabic_link": "",
+            "doc_french_link": ""
+          },
+          "product_info": {
+            "name": "Gamme smartphones BUZZ 6",
+            "provider": "Algérie Télécom en partenariat avec SARL ACE Algérie",
+            "category": "Smartphone",
+            "product_type": "Physical"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": 16800,
+                "period_months": null,
+                "tier_name": "Buzz 6 Prime Plus"
+              },
+              {
+                "amount_dzd": 18800,
+                "period_months": null,
+                "tier_name": "Buzz 6 Pro"
+              },
+              {
+                "amount_dzd": 23900,
+                "period_months": null,
+                "tier_name": "Buzz 6 Pro Plus"
+              },
+              {
+                "amount_dzd": 95000,
+                "period_months": null,
+                "tier_name": "Buzz 6 Flip"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Achat comptant du smartphone.",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "cash_or_pos",
+                "method_name": "Paiement en agence",
+                "notes": null
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement Idoom Market",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": {
+            "model_colors": [],
+            "cpu_processor": null,
+            "storage_internal_gb": null,
+            "display_specs": null,
+            "refresh_rate_hz": null,
+            "battery_mah": null,
+            "connectivity_type": [
+              "4G",
+              "Wi-Fi",
+              "Bluetooth"
+            ],
+            "wifi_standard": null,
+            "input_ports": [
+              "USB",
+              "Prise casque (selon modèle)"
+            ],
+            "sim_support": "Smartphones dual SIM (détails par modèle ACE)",
+            "accessories_included": []
+          },
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [],
+            "web_access_available": null,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Particuliers",
+              "Professionnels",
+              "Entreprises (grands comptes)"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": null,
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison du smartphone via Idoom Market ou retrait en agence.",
+            "activation_flow": [
+              "Achat du smartphone Buzz 6 en agence ou en ligne",
+              "Insertion de la carte SIM de l’opérateur choisi",
+              "Mise en service du terminal"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Usage illimité du smartphone dans les limites de la garantie et des conditions d’utilisation.",
+            "content_language": [],
+            "app_interface_languages": [],
+            "usage_rights": [
+              "Utilisation du téléphone dans le respect des conditions du fabricant.",
+              "Accès au SAV en cas de défaut de fabrication pendant la période de garantie."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Très bon rapport qualité/prix",
+              "Capacités mémoire élevées (jusqu’à 24 Go de RAM et 256 Go de stockage)",
+              "Design moderne",
+              "Garantie 12 mois"
+            ],
+            "models": [
+              {
+                "name": "Buzz 6 Prime Plus",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 16800,
+                "recommended_use": null,
+                "ram_gb": 10,
+                "storage_internal_gb": 128,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Pro",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 18800,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 128,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Pro Plus",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 23900,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 256,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Flip",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 95000,
+                "recommended_use": "Smartphone pliable haut de gamme",
+                "ram_gb": 24,
+                "storage_internal_gb": 256,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              }
+            ],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": null,
+            "claim_channels": [
+              {
+                "type": "phone",
+                "value": "3075 (KHADAMTY – SAV ACE)"
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": {
+              "duration_months": 12,
+              "service_provider": "SARL ACE Algérie / KHADAMTY",
+              "service_contact_phone": "3075",
+              "covers_manufacturing_defects": true,
+              "covers_customer_damage": false,
+              "coverage_description": "Prise en charge des pannes dues à un défaut de fabrication.",
+              "exclusions": [
+                "mauvais usage",
+                "chute",
+                "casse",
+                "dommages causés par le client"
+              ],
+              "notes": null
+            },
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [
+              "3075"
+            ],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "La gamme BUZZ 6 est présentée comme une solution performante à coût abordable pour le grand public et les pros."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_01",
+    "question_id": "2",
+    "query": "Quelles sont les caractéristiques techniques du ZTE Blade A55 ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.5759,
+      "timestamp": "2025-12-12T23:32:26.963973",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.6461,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.6461,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "ZTE",
+            "ZTE Blade A35",
+            "ZTE Blade A55",
+            "Nubia V60 Design",
+            "smartphone ZTE",
+            "smartphone",
+            "Android",
+            "écran 90 Hz",
+            "batterie 5000 mAh",
+            "Wi-Fi 4",
+            "Wi-Fi 5",
+            "SACOMI",
+            "SACOMI ELECTRONICS",
+            "Yalidine",
+            "SAV",
+            "garantie 12 mois",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Gamme smartphones ZTE",
+            "provider": "Algérie Télécom en partenariat avec SARL SACOMI",
+            "category": "Smartphone",
+            "product_type": "Physical"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": 16900,
+                "period_months": null,
+                "tier_name": "ZTE Blade A35"
+              },
+              {
+                "amount_dzd": 19900,
+                "period_months": null,
+                "tier_name": "ZTE Blade A55"
+              },
+              {
+                "amount_dzd": 31900,
+                "period_months": null,
+                "tier_name": "Nubia V60 Design"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Achat comptant du smartphone.",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "cash_or_pos",
+                "method_name": "Paiement en agence",
+                "notes": null
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement Idoom Market",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": {
+            "model_colors": [
+              "Starry Black",
+              "Clover Green",
+              "Water Blue",
+              "Dark Blue"
+            ],
+            "cpu_processor": null,
+            "storage_internal_gb": null,
+            "display_specs": "Écran HD+ 90 Hz (6,6\" à 6,75\" selon modèle)",
+            "refresh_rate_hz": 90,
+            "battery_mah": 5000,
+            "connectivity_type": [
+              "4G",
+              "Wi-Fi",
+              "Bluetooth"
+            ],
+            "wifi_standard": "Wi-Fi 4 / Wi-Fi 5 selon modèle",
+            "input_ports": [
+              "USB",
+              "Prise casque (selon modèle)"
+            ],
+            "sim_support": "Dual SIM",
+            "accessories_included": [
+              "Coque de protection",
+              "Chargeur",
+              "Câble",
+              "Écouteurs",
+              "Protection d’écran"
+            ]
+          },
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [],
+            "web_access_available": null,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Particuliers",
+              "Jeunes actifs",
+              "Étudiants",
+              "Professionnels"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": null,
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison via Idoom Market ou retrait en agence (dépôt-vente).",
+            "activation_flow": [
+              "Achat du smartphone ZTE",
+              "Dépôt éventuel en agence Yalidine en cas de panne pour SAV",
+              "Mise en service avec carte SIM"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Usage illimité du smartphone ZTE dans la limite des conditions de garantie.",
+            "content_language": [],
+            "app_interface_languages": [],
+            "usage_rights": [
+              "Utilisation du smartphone dans le respect des conditions d’utilisation.",
+              "Accès au SAV SACOMI-SAV via Yalidine en cas de panne."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": {
+              "updates_guaranteed": true,
+              "minimum_update_period_months": null,
+              "notes": "Le partenaire garantit la disponibilité de mises à jour logicielles."
+            },
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Écrans HD+ avec taux de rafraîchissement 90 Hz",
+              "Batterie 5000 mAh",
+              "Caméras jusqu’à 50 MP",
+              "Jusqu’à 16 Go de RAM et 256 Go de stockage",
+              "Accessoires inclus (coque, protection d’écran, etc.)"
+            ],
+            "models": [
+              {
+                "name": "ZTE Blade A35",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 16900,
+                "recommended_use": null,
+                "ram_gb": 4,
+                "storage_internal_gb": 64,
+                "colors": [
+                  "Starry Black",
+                  "Clover Green"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.75,
+                "display_description": "HD+ Live Island",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 4",
+                "cpu_processor": "SC9863A",
+                "camera_main_mp": 8,
+                "camera_front_mp": 5
+              },
+              {
+                "name": "ZTE Blade A55",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 19900,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 128,
+                "colors": [
+                  "Water Blue"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.75,
+                "display_description": "HD+ Live Island",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 4",
+                "cpu_processor": "SC9863A",
+                "camera_main_mp": 13,
+                "camera_front_mp": 8
+              },
+              {
+                "name": "Nubia V60 Design",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 31900,
+                "recommended_use": "Smartphone au design premium avec appareil photo 50 MP",
+                "ram_gb": 16,
+                "storage_internal_gb": 256,
+                "colors": [
+                  "Dark Blue"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.6,
+                "display_description": "HD+ Hold",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 5",
+                "cpu_processor": "T616",
+                "camera_main_mp": 50,
+                "camera_front_mp": 8
+              }
+            ],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": null,
+            "claim_channels": [
+              {
+                "type": "logistics_partner",
+                "value": "Dépôt du téléphone dans une agence Yalidine pour prise en charge SAV."
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": {
+              "eligible_reasons": [
+                "defect_at_first_use"
+              ],
+              "time_limit_hours_after_delivery": null,
+              "time_limit_days_after_delivery": null,
+              "request_channel": "yalidine_agency",
+              "notes": "SWAP immédiat en cas de défaut constaté à la première ouverture."
+            },
+            "warranty_policy": {
+              "duration_months": 12,
+              "service_provider": "SACOMI-SAV",
+              "service_contact_phone": null,
+              "covers_manufacturing_defects": true,
+              "covers_customer_damage": false,
+              "coverage_description": "Pannes matérielles ou logicielles d’origine (hors mauvaise utilisation).",
+              "exclusions": [
+                "chocs",
+                "casse écran",
+                "dégâts liquides",
+                "mauvaise utilisation"
+              ],
+              "notes": null
+            },
+            "repair_service": {
+              "logistics_partner": "Yalidine",
+              "under_warranty_free": true,
+              "out_of_warranty_paid": true,
+              "includes": [
+                "diagnostic",
+                "réparation",
+                "retour en agence"
+              ],
+              "notes": null
+            },
+            "repair_service_sla": {
+              "steps": [
+                {
+                  "step_name": "dépôt_client_vers_agence_yalidine",
+                  "typical_duration_days": 1,
+                  "max_duration_days": null
+                },
+                {
+                  "step_name": "diagnostic_et_réparation",
+                  "typical_duration_days": null,
+                  "max_duration_days": 4
+                },
+                {
+                  "step_name": "retour_vers_agence_yalidine",
+                  "typical_duration_days": 1,
+                  "max_duration_days": null
+                }
+              ],
+              "notes": "Remise au client dès réception du téléphone réparé."
+            }
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Le SAV hors garantie inclut un diagnostic, un devis, puis réparation après validation du client (service payant)."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_02",
+    "question_id": "1",
+    "query": "Comment fonctionne la plateforme ClassaTeck ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.9399,
+      "timestamp": "2025-12-12T23:32:27.904061",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.6502,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Plateforme ClassaTeck",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.6502,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "ClassaTeck",
+            "plateforme pédagogique",
+            "LMS",
+            "cours en ligne",
+            "cours présentiels",
+            "classe virtuelle",
+            "écoles privées",
+            "centres de formation",
+            "universités",
+            "formateurs indépendants",
+            "pack Initial",
+            "pack Essentiel",
+            "pack Professionnel",
+            "pack Business",
+            "gestion des élèves",
+            "blogs pédagogiques",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Plateforme ClassaTeck",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Plateforme ClassaTeck",
+            "provider": "Algérie Télécom en partenariat avec ClassaTeck",
+            "category": "Éducation / SaaS",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Initial mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Initial trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Initial semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Initial annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Essentiel mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Essentiel trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Essentiel semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Essentiel annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Professionnel mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Professionnel trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Professionnel semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Professionnel annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Business mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Business trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Business semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Business annuel"
+              }
+            ],
+            "sales_channels": [
+              "Réseau commercial Algérie Télécom"
+            ],
+            "payment_method": "Abonnement via Algérie Télécom (dépôt-vente)",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "subscription",
+                "method_name": "Abonnement facturé via Algérie Télécom",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": "Renouvellement possible à l’échéance en reconduisant l’abonnement choisi.",
+            "voucher_properties": null,
+            "trial_policy": {
+              "free_trial_available": true,
+              "free_trial_days": 14,
+              "trial_notes": "Période d’essai gratuite de 14 jours proposée dans l’argumentaire."
+            },
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Écoles privées",
+              "Centres de formation",
+              "Universités",
+              "Formateurs indépendants"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Plateforme Web accessible via navigateur récent.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Service SaaS (aucun support physique).",
+            "activation_flow": [
+              "Souscription d’un pack (Initial, Essentiel, Professionnel, Business)",
+              "Création du compte établissement / formateur",
+              "Création des cours et comptes apprenants",
+              "Démarrage des cours en ligne ou présentiels"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une plateforme de création, gestion et diffusion de cours en ligne et présentiels.",
+            "content_language": [],
+            "app_interface_languages": [
+              "Français"
+            ],
+            "usage_rights": [
+              "Utilisation de la plateforme pour créer et publier des cours.",
+              "Gestion des élèves, enseignants et administrateurs selon le pack choisi.",
+              "Accès limité au nombre d’élèves, cours, pages et blogs du plan souscrit."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Création et gestion de cours en ligne et présentiels",
+              "Gestion multi-profils (administrateurs, enseignants, employés, élèves)",
+              "Publication de blogs et pages personnalisées",
+              "Suivi des apprenants et reporting",
+              "Hébergement sécurisé avec sauvegardes automatiques"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [
+              {
+                "plan_name": "PACK Initial",
+                "max_students": 50,
+                "max_users": null,
+                "storage_capacity_gb": 2,
+                "max_online_courses": 2,
+                "max_presential_courses": 3,
+                "max_blogs": 10,
+                "max_custom_pages": 3,
+                "included_users": {
+                  "teachers": null,
+                  "employees": null,
+                  "administrators": null
+                }
+              },
+              {
+                "plan_name": "PACK Essentiel",
+                "max_students": 300,
+                "max_users": null,
+                "storage_capacity_gb": 5,
+                "max_online_courses": 10,
+                "max_presential_courses": 20,
+                "max_blogs": 50,
+                "max_custom_pages": 10,
+                "included_users": {
+                  "teachers": 2,
+                  "employees": 1,
+                  "administrators": 1
+                }
+              },
+              {
+                "plan_name": "PACK Professionnel",
+                "max_students": 600,
+                "max_users": null,
+                "storage_capacity_gb": 10,
+                "max_online_courses": 25,
+                "max_presential_courses": 30,
+                "max_blogs": 100,
+                "max_custom_pages": 20,
+                "included_users": {
+                  "teachers": 10,
+                  "employees": 3,
+                  "administrators": 2
+                }
+              },
+              {
+                "plan_name": "PACK Business",
+                "max_students": 1200,
+                "max_users": null,
+                "storage_capacity_gb": 25,
+                "max_online_courses": 40,
+                "max_presential_courses": 50,
+                "max_blogs": 500,
+                "max_custom_pages": 3000,
+                "included_users": {
+                  "teachers": 50,
+                  "employees": 6,
+                  "administrators": 2
+                }
+              }
+            ],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvelable à l’échéance du pack souscrit.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Période d’essai gratuite de 14 jours mentionnée dans l’argumentaire.",
+            "La plateforme cible les établissements souhaitant digitaliser leurs cours et processus pédagogiques."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_02",
+    "question_id": "2",
+    "query": "Qu'est-ce que EKOTEB ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.7117,
+      "timestamp": "2025-12-12T23:32:28.615927",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.5244,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Bibliothèque numérique EKOTEB – Version 2",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.5244,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "EKOTEB",
+            "bibliothèque numérique",
+            "livres électroniques",
+            "ebooks",
+            "lecture en ligne",
+            "application mobile",
+            "Android",
+            "iOS",
+            "abonnement 3 mois",
+            "abonnement 6 mois",
+            "abonnement 12 mois",
+            "Algérie Télécom",
+            "éducation",
+            "culture"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Bibliothèque numérique EKOTEB – Version 2",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Bibliothèque numérique EKOTEB",
+            "provider": "Algérie Télécom en partenariat avec DAR EL OULA",
+            "category": "Bibliothèque numérique / Éducation",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": {
+              "amount_dzd": 4500,
+              "period_months": 12,
+              "tier_name": "EKOTEB 12 mois"
+            },
+            "pricing_options": [
+              {
+                "amount_dzd": 1900,
+                "period_months": 3,
+                "tier_name": "EKOTEB 3 mois"
+              },
+              {
+                "amount_dzd": 3000,
+                "period_months": 6,
+                "tier_name": "EKOTEB 6 mois"
+              },
+              {
+                "amount_dzd": 4500,
+                "period_months": 12,
+                "tier_name": "EKOTEB 12 mois"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Voucher EKOTEB prépayé",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "voucher",
+                "method_name": "Voucher EKOTEB",
+                "notes": "Achat en agences commerciales Algérie Télécom"
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "voucher",
+                "method_name": "Voucher EKOTEB",
+                "notes": "Achat via Idoom Market"
+              }
+            ],
+            "subscription_renewal": "Renouvellement par achat et saisie d’un nouveau voucher (3, 6 ou 12 mois).",
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Android",
+              "iOS"
+            ],
+            "web_access_available": false,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": 11,
+              "audiobooks": 1
+            },
+            "target_audience": [
+              "Étudiants",
+              "Universitaires",
+              "Scientifiques",
+              "Administratifs",
+              "Lecteurs",
+              "Bibliothécaires",
+              "Chroniqueurs"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Accès uniquement via application mobile EKOTEB (pas d’accès Web).",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Service 100% digital activé par code voucher.",
+            "activation_flow": [
+              "Acheter un voucher EKOTEB en agence ou via Idoom Market",
+              "Télécharger l’application EKOTEB sur Android ou iOS",
+              "Créer un compte EKOTEB",
+              "Saisir le code du voucher dans l’application",
+              "Accéder au catalogue et ajouter des livres à la bibliothèque personnelle"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une bibliothèque numérique de plusieurs milliers de livres.",
+            "content_language": [
+              "Arabe"
+            ],
+            "app_interface_languages": [
+              "Arabe",
+              "Français"
+            ],
+            "usage_rights": [
+              "Accès illimité au catalogue pendant la durée d’abonnement.",
+              "Constitution d’une bibliothèque personnelle jusqu’à 11 e-books et 1 livre audio.",
+              "Téléchargement local des livres pour lecture hors-ligne.",
+              "Remplacement possible des livres en supprimant un titre pour en ajouter un autre."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Langue",
+                "name_ar": null
+              },
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Sciences sociales",
+                "name_ar": null
+              },
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Sciences juridiques",
+                "name_ar": null
+              }
+            ],
+            "service_features": [
+              "Recherche par auteur ou titre",
+              "Signets et reprise de lecture",
+              "Dictionnaire intégré",
+              "Personnalisation de l’affichage (taille police, fond) pour les livres non-PDF"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvelable via nouveau voucher EKOTEB.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": "contacte@dareloula.com",
+            "support_phone_numbers": [
+              "0770559871",
+              "0770873420"
+            ],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Document daté du 24/12/2023 – EKOTEB Version 2.",
+            "EKOTEB est une offre Dépôt-Vente distribuée via Algérie Télécom."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_03",
+    "question_id": "1",
+    "query": "Quelles sont les offres de stockage cloud disponibles ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.4169,
+      "timestamp": "2025-12-12T23:32:29.033916",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.6198,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Solution iBox",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.6198,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "iBox",
+            "stockage cloud",
+            "sauvegarde fichiers",
+            "partage de documents",
+            "collaboration en ligne",
+            "archivage",
+            "100 Go",
+            "500 Go",
+            "1 To",
+            "datacenter Algérie",
+            "hébergement local",
+            "ICOSNET",
+            "Idoom Market",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Solution iBox",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Solution iBox",
+            "provider": "Algérie Télécom en partenariat avec ICOSNET",
+            "category": "Cloud Storage / Collaboration",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "iBox 100 Go – 1 utilisateur – 1 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "iBox 100 Go – 1 utilisateur – 3 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "iBox 100 Go – 1 utilisateur – 6 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "iBox 100 Go – 1 utilisateur – 12 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "iBox PRO 500 Go – 5 utilisateurs – 6 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "iBox PRO 500 Go – 5 utilisateurs – 12 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "iBox BUSINESS 1024 Go – 10 utilisateurs – 6 mois"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "iBox BUSINESS 1024 Go – 10 utilisateurs – 12 mois"
+              }
+            ],
+            "sales_channels": [
+              "Boutique en ligne Idoom Market",
+              "Agences commerciales Algérie Télécom"
+            ],
+            "payment_method": "Achat d’un voucher iBox prépayé.",
+            "payment_methods": [
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement Idoom Market",
+                "notes": "Le client reçoit un code à activer sur la plateforme iBox."
+              },
+              {
+                "channel": "agence",
+                "method_type": "voucher",
+                "method_name": "Code iBox sur facture / coupon",
+                "notes": "Vente de codes iBox en agence."
+              }
+            ],
+            "subscription_renewal": "Renouvelable par achat d’un nouveau code iBox.",
+            "voucher_properties": {
+              "code_length": null,
+              "code_format": "alphanumeric",
+              "is_cumulative": false,
+              "partial_use_allowed": false,
+              "remaining_balance_policy": null
+            },
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web",
+              "Android",
+              "iOS"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Particuliers",
+              "Professionnels",
+              "PME"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Accessible via navigateur ou application mobile iBox.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Service cloud accessible en ligne après activation du code.",
+            "activation_flow": [
+              "Achat d’un code iBox via Idoom Market ou en agence",
+              "Accès à la plateforme iBox (web ou app)",
+              "Création de compte ou connexion",
+              "Saisie du code iBox",
+              "Activation du plan (100 / 500 / 1024 Go, durée selon l’offre)"
+            ],
+            "platform_url": null,
+            "data_hosting": {
+              "provider": "ICOSNET",
+              "country": "Algérie",
+              "data_center_location": "Datacenters ICOSNET en Algérie",
+              "description": "Les données clients sont hébergées en Algérie au sein des datacenters ICOSNET."
+            },
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Stockage, partage et collaboration sur des fichiers hébergés dans le cloud.",
+            "content_language": [],
+            "app_interface_languages": [
+              "Français"
+            ],
+            "usage_rights": [
+              "Utilisation de l’espace de stockage alloué pendant la durée de l’abonnement.",
+              "Partage de fichiers et collaboration en ligne.",
+              "Utilisation multi-appareils (PC, smartphones, tablettes)."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": {
+              "retention_after_expiry_days": 180,
+              "grace_period_days": 180,
+              "notes": "Les données sont conservées pendant 6 mois après expiration du compte."
+            },
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Sauvegarde et archivage de fichiers",
+              "Partage sécurisé de documents",
+              "Synchronisation multi-appareils",
+              "Accès Web et mobile",
+              "Données hébergées en Algérie (conformité locale)"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [
+              {
+                "plan_name": "IBOX 100 Go – 1 utilisateur",
+                "max_students": null,
+                "max_users": 1,
+                "storage_capacity_gb": 100,
+                "max_online_courses": null,
+                "max_presential_courses": null,
+                "max_blogs": null,
+                "max_custom_pages": null,
+                "included_users": {
+                  "teachers": null,
+                  "employees": null,
+                  "administrators": null
+                }
+              },
+              {
+                "plan_name": "IBOX PRO 500 Go – 5 utilisateurs",
+                "max_students": null,
+                "max_users": 5,
+                "storage_capacity_gb": 500,
+                "max_online_courses": null,
+                "max_presential_courses": null,
+                "max_blogs": null,
+                "max_custom_pages": null,
+                "included_users": {
+                  "teachers": null,
+                  "employees": null,
+                  "administrators": null
+                }
+              },
+              {
+                "plan_name": "IBOX BUSINESS 1024 Go – 10 utilisateurs",
+                "max_students": null,
+                "max_users": 10,
+                "storage_capacity_gb": 1024,
+                "max_online_courses": null,
+                "max_presential_courses": null,
+                "max_blogs": null,
+                "max_custom_pages": null,
+                "included_users": {
+                  "teachers": null,
+                  "employees": null,
+                  "administrators": null
+                }
+              }
+            ],
+            "compliance_standards": [
+              "Loi algérienne relative à la protection des données personnelles (mentionnée dans l’argumentaire)."
+            ]
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvellement via achat d’un nouveau code iBox.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Solution positionnée comme alternative cloud locale, avec hébergement des données en Algérie."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_03",
+    "question_id": "2",
+    "query": "Comment acheter sur Idoom Market ?",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.3846,
+      "timestamp": "2025-12-12T23:32:29.419773",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.603,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Boutique en ligne Idoom Market",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.603,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "Idoom Market",
+            "boutique en ligne",
+            "e-commerce",
+            "vente en ligne",
+            "dépôt-vente",
+            "paiement en ligne",
+            "livraison à domicile",
+            "tracking number",
+            "suivi de commande",
+            "remboursement",
+            "retour produit",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Boutique en ligne Idoom Market",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Boutique en ligne Idoom Market",
+            "provider": "Algérie Télécom",
+            "category": "E-commerce",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [],
+            "sales_channels": [
+              "Site web Idoom Market (idroomarket-at.dz)"
+            ],
+            "payment_method": "Paiement en ligne par carte et autres moyens selon intégration.",
+            "payment_methods": [
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement en ligne Idoom Market",
+                "notes": "Détails selon les moyens de paiement disponibles."
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Clients particuliers Algérie Télécom",
+              "Clients professionnels"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Accessible via navigateur Web.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison des produits physiques via organismes de livraison partenaires.",
+            "activation_flow": [
+              "Création d’un compte Idoom Market",
+              "Sélection des produits",
+              "Choix de la société de livraison",
+              "Paiement en ligne",
+              "Réception du produit à domicile"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": {
+              "is_shipping_paid": true,
+              "cost_dependency_factors": [
+                "carrier",
+                "destination"
+              ],
+              "notes": "Les frais de livraison sont variables selon la société de livraison et la destination."
+            },
+            "delivery_time_policy": {
+              "delivery_time_shown_before_payment": true,
+              "time_dependency_factors": [
+                "carrier",
+                "destination"
+              ],
+              "notes": "Les délais de livraison sont affichés lors de la validation de la commande."
+            },
+            "tracking_policy": {
+              "tracking_available": true,
+              "tracking_identifier_label": "Tracking number"
+            }
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une plateforme d’achat en ligne des produits dépôt-vente et services associés.",
+            "content_language": [
+              "Français"
+            ],
+            "app_interface_languages": [
+              "Français"
+            ],
+            "usage_rights": [
+              "Utilisation du compte Idoom Market pour commander des produits.",
+              "Suivi des commandes et gestion des demandes de remboursement via le portail."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Achat en ligne de produits dépôt-vente",
+              "Choix du transporteur",
+              "Suivi des commandes par tracking number",
+              "Gestion en ligne des réclamations et demandes de remboursement"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": "Les demandes de remboursement sont acceptées en cas de retard de livraison, produit défectueux ou non conforme.",
+            "claim_channels": [
+              {
+                "type": "online_shop",
+                "value": "Formulaire de réclamation sur Idoom Market"
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [
+              {
+                "reason": "delivery_delay_exceeded",
+                "request_channel": "online_shop",
+                "time_limit_hours_after_delivery": null,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Remboursement possible si le délai annoncé est dépassé."
+              },
+              {
+                "reason": "defective_product",
+                "request_channel": "actel",
+                "time_limit_hours_after_delivery": 96,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Le client doit se présenter à l’ACTEL dans les 96h ouvrables après réception."
+              },
+              {
+                "reason": "non_conforming_product",
+                "request_channel": "actel",
+                "time_limit_hours_after_delivery": 96,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Produit non conforme aux caractéristiques de la commande."
+              }
+            ],
+            "refund_processing_time_limit_days": 15,
+            "replacement_policy": {
+              "eligible_reasons": [
+                "defective_product",
+                "non_conforming_product"
+              ],
+              "time_limit_hours_after_delivery": 96,
+              "time_limit_days_after_delivery": null,
+              "request_channel": "actel",
+              "notes": "Au-delà de ce délai, le client est orienté vers le SAV du déposant."
+            },
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "La boutique Idoom Market centralise la vente en ligne de tous les produits Dépôt-Vente.",
+            "Les modalités détaillées de remboursement et remplacement sont décrites dans l’argumentaire."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_04",
+    "question_id": "1",
+    "query": "ما هو سعر ZTE Buzz 6 Pro؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.6715,
+      "timestamp": "2025-12-12T23:32:30.091359",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.6071,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.6071,
+        "doc_arabic_link": "",
+        "doc_french_link": "",
+        "jason_snippet": {
+          "keywords": [
+            "Buzz 6",
+            "Buzz 6 Prime Plus",
+            "Buzz 6 Pro",
+            "Buzz 6 Pro Plus",
+            "Buzz 6 Flip",
+            "smartphone",
+            "Android",
+            "24 Go RAM",
+            "256 Go stockage",
+            "téléphone mobile",
+            "garantie 12 mois",
+            "SARL ACE",
+            "ACE Algérie",
+            "dépôt-vente",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6",
+            "document_language": "fr",
+            "doc_arabic_link": "",
+            "doc_french_link": ""
+          },
+          "product_info": {
+            "name": "Gamme smartphones BUZZ 6",
+            "provider": "Algérie Télécom en partenariat avec SARL ACE Algérie",
+            "category": "Smartphone",
+            "product_type": "Physical"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": 16800,
+                "period_months": null,
+                "tier_name": "Buzz 6 Prime Plus"
+              },
+              {
+                "amount_dzd": 18800,
+                "period_months": null,
+                "tier_name": "Buzz 6 Pro"
+              },
+              {
+                "amount_dzd": 23900,
+                "period_months": null,
+                "tier_name": "Buzz 6 Pro Plus"
+              },
+              {
+                "amount_dzd": 95000,
+                "period_months": null,
+                "tier_name": "Buzz 6 Flip"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Achat comptant du smartphone.",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "cash_or_pos",
+                "method_name": "Paiement en agence",
+                "notes": null
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement Idoom Market",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": {
+            "model_colors": [],
+            "cpu_processor": null,
+            "storage_internal_gb": null,
+            "display_specs": null,
+            "refresh_rate_hz": null,
+            "battery_mah": null,
+            "connectivity_type": [
+              "4G",
+              "Wi-Fi",
+              "Bluetooth"
+            ],
+            "wifi_standard": null,
+            "input_ports": [
+              "USB",
+              "Prise casque (selon modèle)"
+            ],
+            "sim_support": "Smartphones dual SIM (détails par modèle ACE)",
+            "accessories_included": []
+          },
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [],
+            "web_access_available": null,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Particuliers",
+              "Professionnels",
+              "Entreprises (grands comptes)"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": null,
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison du smartphone via Idoom Market ou retrait en agence.",
+            "activation_flow": [
+              "Achat du smartphone Buzz 6 en agence ou en ligne",
+              "Insertion de la carte SIM de l’opérateur choisi",
+              "Mise en service du terminal"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Usage illimité du smartphone dans les limites de la garantie et des conditions d’utilisation.",
+            "content_language": [],
+            "app_interface_languages": [],
+            "usage_rights": [
+              "Utilisation du téléphone dans le respect des conditions du fabricant.",
+              "Accès au SAV en cas de défaut de fabrication pendant la période de garantie."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Très bon rapport qualité/prix",
+              "Capacités mémoire élevées (jusqu’à 24 Go de RAM et 256 Go de stockage)",
+              "Design moderne",
+              "Garantie 12 mois"
+            ],
+            "models": [
+              {
+                "name": "Buzz 6 Prime Plus",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 16800,
+                "recommended_use": null,
+                "ram_gb": 10,
+                "storage_internal_gb": 128,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Pro",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 18800,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 128,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Pro Plus",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 23900,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 256,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              },
+              {
+                "name": "Buzz 6 Flip",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 95000,
+                "recommended_use": "Smartphone pliable haut de gamme",
+                "ram_gb": 24,
+                "storage_internal_gb": 256,
+                "colors": [],
+                "battery_mah": null,
+                "display_size_inches": null,
+                "display_description": null,
+                "refresh_rate_hz": null,
+                "sim_type": "Dual SIM",
+                "wifi_standard": null,
+                "cpu_processor": null,
+                "camera_main_mp": null,
+                "camera_front_mp": null
+              }
+            ],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": null,
+            "claim_channels": [
+              {
+                "type": "phone",
+                "value": "3075 (KHADAMTY – SAV ACE)"
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": {
+              "duration_months": 12,
+              "service_provider": "SARL ACE Algérie / KHADAMTY",
+              "service_contact_phone": "3075",
+              "covers_manufacturing_defects": true,
+              "covers_customer_damage": false,
+              "coverage_description": "Prise en charge des pannes dues à un défaut de fabrication.",
+              "exclusions": [
+                "mauvais usage",
+                "chute",
+                "casse",
+                "dommages causés par le client"
+              ],
+              "notes": null
+            },
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [
+              "3075"
+            ],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "La gamme BUZZ 6 est présentée comme une solution performante à coût abordable pour le grand public et les pros."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_04",
+    "question_id": "2",
+    "query": "ما هي الخصائص التقنية لهاتف ZTE Blade A55؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.7977,
+      "timestamp": "2025-12-12T23:32:30.889406",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.663,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.663,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "ZTE",
+            "ZTE Blade A35",
+            "ZTE Blade A55",
+            "Nubia V60 Design",
+            "smartphone ZTE",
+            "smartphone",
+            "Android",
+            "écran 90 Hz",
+            "batterie 5000 mAh",
+            "Wi-Fi 4",
+            "Wi-Fi 5",
+            "SACOMI",
+            "SACOMI ELECTRONICS",
+            "Yalidine",
+            "SAV",
+            "garantie 12 mois",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Gamme smartphones ZTE",
+            "provider": "Algérie Télécom en partenariat avec SARL SACOMI",
+            "category": "Smartphone",
+            "product_type": "Physical"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": 16900,
+                "period_months": null,
+                "tier_name": "ZTE Blade A35"
+              },
+              {
+                "amount_dzd": 19900,
+                "period_months": null,
+                "tier_name": "ZTE Blade A55"
+              },
+              {
+                "amount_dzd": 31900,
+                "period_months": null,
+                "tier_name": "Nubia V60 Design"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Achat comptant du smartphone.",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "cash_or_pos",
+                "method_name": "Paiement en agence",
+                "notes": null
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement Idoom Market",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": {
+            "model_colors": [
+              "Starry Black",
+              "Clover Green",
+              "Water Blue",
+              "Dark Blue"
+            ],
+            "cpu_processor": null,
+            "storage_internal_gb": null,
+            "display_specs": "Écran HD+ 90 Hz (6,6\" à 6,75\" selon modèle)",
+            "refresh_rate_hz": 90,
+            "battery_mah": 5000,
+            "connectivity_type": [
+              "4G",
+              "Wi-Fi",
+              "Bluetooth"
+            ],
+            "wifi_standard": "Wi-Fi 4 / Wi-Fi 5 selon modèle",
+            "input_ports": [
+              "USB",
+              "Prise casque (selon modèle)"
+            ],
+            "sim_support": "Dual SIM",
+            "accessories_included": [
+              "Coque de protection",
+              "Chargeur",
+              "Câble",
+              "Écouteurs",
+              "Protection d’écran"
+            ]
+          },
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [],
+            "web_access_available": null,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Particuliers",
+              "Jeunes actifs",
+              "Étudiants",
+              "Professionnels"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": null,
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison via Idoom Market ou retrait en agence (dépôt-vente).",
+            "activation_flow": [
+              "Achat du smartphone ZTE",
+              "Dépôt éventuel en agence Yalidine en cas de panne pour SAV",
+              "Mise en service avec carte SIM"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Usage illimité du smartphone ZTE dans la limite des conditions de garantie.",
+            "content_language": [],
+            "app_interface_languages": [],
+            "usage_rights": [
+              "Utilisation du smartphone dans le respect des conditions d’utilisation.",
+              "Accès au SAV SACOMI-SAV via Yalidine en cas de panne."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": {
+              "updates_guaranteed": true,
+              "minimum_update_period_months": null,
+              "notes": "Le partenaire garantit la disponibilité de mises à jour logicielles."
+            },
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Écrans HD+ avec taux de rafraîchissement 90 Hz",
+              "Batterie 5000 mAh",
+              "Caméras jusqu’à 50 MP",
+              "Jusqu’à 16 Go de RAM et 256 Go de stockage",
+              "Accessoires inclus (coque, protection d’écran, etc.)"
+            ],
+            "models": [
+              {
+                "name": "ZTE Blade A35",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 16900,
+                "recommended_use": null,
+                "ram_gb": 4,
+                "storage_internal_gb": 64,
+                "colors": [
+                  "Starry Black",
+                  "Clover Green"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.75,
+                "display_description": "HD+ Live Island",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 4",
+                "cpu_processor": "SC9863A",
+                "camera_main_mp": 8,
+                "camera_front_mp": 5
+              },
+              {
+                "name": "ZTE Blade A55",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 19900,
+                "recommended_use": null,
+                "ram_gb": 12,
+                "storage_internal_gb": 128,
+                "colors": [
+                  "Water Blue"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.75,
+                "display_description": "HD+ Live Island",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 4",
+                "cpu_processor": "SC9863A",
+                "camera_main_mp": 13,
+                "camera_front_mp": 8
+              },
+              {
+                "name": "Nubia V60 Design",
+                "thickness_mm": null,
+                "format": null,
+                "price_dzd": 31900,
+                "recommended_use": "Smartphone au design premium avec appareil photo 50 MP",
+                "ram_gb": 16,
+                "storage_internal_gb": 256,
+                "colors": [
+                  "Dark Blue"
+                ],
+                "battery_mah": 5000,
+                "display_size_inches": 6.6,
+                "display_description": "HD+ Hold",
+                "refresh_rate_hz": 90,
+                "sim_type": "Dual SIM",
+                "wifi_standard": "Wi-Fi 5",
+                "cpu_processor": "T616",
+                "camera_main_mp": 50,
+                "camera_front_mp": 8
+              }
+            ],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": null,
+            "claim_channels": [
+              {
+                "type": "logistics_partner",
+                "value": "Dépôt du téléphone dans une agence Yalidine pour prise en charge SAV."
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": {
+              "eligible_reasons": [
+                "defect_at_first_use"
+              ],
+              "time_limit_hours_after_delivery": null,
+              "time_limit_days_after_delivery": null,
+              "request_channel": "yalidine_agency",
+              "notes": "SWAP immédiat en cas de défaut constaté à la première ouverture."
+            },
+            "warranty_policy": {
+              "duration_months": 12,
+              "service_provider": "SACOMI-SAV",
+              "service_contact_phone": null,
+              "covers_manufacturing_defects": true,
+              "covers_customer_damage": false,
+              "coverage_description": "Pannes matérielles ou logicielles d’origine (hors mauvaise utilisation).",
+              "exclusions": [
+                "chocs",
+                "casse écran",
+                "dégâts liquides",
+                "mauvaise utilisation"
+              ],
+              "notes": null
+            },
+            "repair_service": {
+              "logistics_partner": "Yalidine",
+              "under_warranty_free": true,
+              "out_of_warranty_paid": true,
+              "includes": [
+                "diagnostic",
+                "réparation",
+                "retour en agence"
+              ],
+              "notes": null
+            },
+            "repair_service_sla": {
+              "steps": [
+                {
+                  "step_name": "dépôt_client_vers_agence_yalidine",
+                  "typical_duration_days": 1,
+                  "max_duration_days": null
+                },
+                {
+                  "step_name": "diagnostic_et_réparation",
+                  "typical_duration_days": null,
+                  "max_duration_days": 4
+                },
+                {
+                  "step_name": "retour_vers_agence_yalidine",
+                  "typical_duration_days": 1,
+                  "max_duration_days": null
+                }
+              ],
+              "notes": "Remise au client dès réception du téléphone réparé."
+            }
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Le SAV hors garantie inclut un diagnostic, un devis, puis réparation après validation du client (service payant)."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_05",
+    "question_id": "1",
+    "query": "كيف تعمل منصة ClassaTeck؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.6843,
+      "timestamp": "2025-12-12T23:32:31.573838",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.5888,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Plateforme ClassaTeck",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.5888,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "ClassaTeck",
+            "plateforme pédagogique",
+            "LMS",
+            "cours en ligne",
+            "cours présentiels",
+            "classe virtuelle",
+            "écoles privées",
+            "centres de formation",
+            "universités",
+            "formateurs indépendants",
+            "pack Initial",
+            "pack Essentiel",
+            "pack Professionnel",
+            "pack Business",
+            "gestion des élèves",
+            "blogs pédagogiques",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Plateforme ClassaTeck",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Plateforme ClassaTeck",
+            "provider": "Algérie Télécom en partenariat avec ClassaTeck",
+            "category": "Éducation / SaaS",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Initial mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Initial trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Initial semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Initial annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Essentiel mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Essentiel trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Essentiel semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Essentiel annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Professionnel mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Professionnel trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Professionnel semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Professionnel annuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 1,
+                "tier_name": "PACK Business mensuel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 3,
+                "tier_name": "PACK Business trimestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 6,
+                "tier_name": "PACK Business semestriel"
+              },
+              {
+                "amount_dzd": null,
+                "period_months": 12,
+                "tier_name": "PACK Business annuel"
+              }
+            ],
+            "sales_channels": [
+              "Réseau commercial Algérie Télécom"
+            ],
+            "payment_method": "Abonnement via Algérie Télécom (dépôt-vente)",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "subscription",
+                "method_name": "Abonnement facturé via Algérie Télécom",
+                "notes": null
+              }
+            ],
+            "subscription_renewal": "Renouvellement possible à l’échéance en reconduisant l’abonnement choisi.",
+            "voucher_properties": null,
+            "trial_policy": {
+              "free_trial_available": true,
+              "free_trial_days": 14,
+              "trial_notes": "Période d’essai gratuite de 14 jours proposée dans l’argumentaire."
+            },
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Écoles privées",
+              "Centres de formation",
+              "Universités",
+              "Formateurs indépendants"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Plateforme Web accessible via navigateur récent.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Service SaaS (aucun support physique).",
+            "activation_flow": [
+              "Souscription d’un pack (Initial, Essentiel, Professionnel, Business)",
+              "Création du compte établissement / formateur",
+              "Création des cours et comptes apprenants",
+              "Démarrage des cours en ligne ou présentiels"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une plateforme de création, gestion et diffusion de cours en ligne et présentiels.",
+            "content_language": [],
+            "app_interface_languages": [
+              "Français"
+            ],
+            "usage_rights": [
+              "Utilisation de la plateforme pour créer et publier des cours.",
+              "Gestion des élèves, enseignants et administrateurs selon le pack choisi.",
+              "Accès limité au nombre d’élèves, cours, pages et blogs du plan souscrit."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Création et gestion de cours en ligne et présentiels",
+              "Gestion multi-profils (administrateurs, enseignants, employés, élèves)",
+              "Publication de blogs et pages personnalisées",
+              "Suivi des apprenants et reporting",
+              "Hébergement sécurisé avec sauvegardes automatiques"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [
+              {
+                "plan_name": "PACK Initial",
+                "max_students": 50,
+                "max_users": null,
+                "storage_capacity_gb": 2,
+                "max_online_courses": 2,
+                "max_presential_courses": 3,
+                "max_blogs": 10,
+                "max_custom_pages": 3,
+                "included_users": {
+                  "teachers": null,
+                  "employees": null,
+                  "administrators": null
+                }
+              },
+              {
+                "plan_name": "PACK Essentiel",
+                "max_students": 300,
+                "max_users": null,
+                "storage_capacity_gb": 5,
+                "max_online_courses": 10,
+                "max_presential_courses": 20,
+                "max_blogs": 50,
+                "max_custom_pages": 10,
+                "included_users": {
+                  "teachers": 2,
+                  "employees": 1,
+                  "administrators": 1
+                }
+              },
+              {
+                "plan_name": "PACK Professionnel",
+                "max_students": 600,
+                "max_users": null,
+                "storage_capacity_gb": 10,
+                "max_online_courses": 25,
+                "max_presential_courses": 30,
+                "max_blogs": 100,
+                "max_custom_pages": 20,
+                "included_users": {
+                  "teachers": 10,
+                  "employees": 3,
+                  "administrators": 2
+                }
+              },
+              {
+                "plan_name": "PACK Business",
+                "max_students": 1200,
+                "max_users": null,
+                "storage_capacity_gb": 25,
+                "max_online_courses": 40,
+                "max_presential_courses": 50,
+                "max_blogs": 500,
+                "max_custom_pages": 3000,
+                "included_users": {
+                  "teachers": 50,
+                  "employees": 6,
+                  "administrators": 2
+                }
+              }
+            ],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvelable à l’échéance du pack souscrit.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Période d’essai gratuite de 14 jours mentionnée dans l’argumentaire.",
+            "La plateforme cible les établissements souhaitant digitaliser leurs cours et processus pédagogiques."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_05",
+    "question_id": "2",
+    "query": "ما هو EKOTEB؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.4251,
+      "timestamp": "2025-12-12T23:32:31.999084",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.524,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Bibliothèque numérique EKOTEB – Version 2",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.524,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "EKOTEB",
+            "bibliothèque numérique",
+            "livres électroniques",
+            "ebooks",
+            "lecture en ligne",
+            "application mobile",
+            "Android",
+            "iOS",
+            "abonnement 3 mois",
+            "abonnement 6 mois",
+            "abonnement 12 mois",
+            "Algérie Télécom",
+            "éducation",
+            "culture"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Bibliothèque numérique EKOTEB – Version 2",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Bibliothèque numérique EKOTEB",
+            "provider": "Algérie Télécom en partenariat avec DAR EL OULA",
+            "category": "Bibliothèque numérique / Éducation",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": {
+              "amount_dzd": 4500,
+              "period_months": 12,
+              "tier_name": "EKOTEB 12 mois"
+            },
+            "pricing_options": [
+              {
+                "amount_dzd": 1900,
+                "period_months": 3,
+                "tier_name": "EKOTEB 3 mois"
+              },
+              {
+                "amount_dzd": 3000,
+                "period_months": 6,
+                "tier_name": "EKOTEB 6 mois"
+              },
+              {
+                "amount_dzd": 4500,
+                "period_months": 12,
+                "tier_name": "EKOTEB 12 mois"
+              }
+            ],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Voucher EKOTEB prépayé",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "voucher",
+                "method_name": "Voucher EKOTEB",
+                "notes": "Achat en agences commerciales Algérie Télécom"
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "voucher",
+                "method_name": "Voucher EKOTEB",
+                "notes": "Achat via Idoom Market"
+              }
+            ],
+            "subscription_renewal": "Renouvellement par achat et saisie d’un nouveau voucher (3, 6 ou 12 mois).",
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Android",
+              "iOS"
+            ],
+            "web_access_available": false,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": 11,
+              "audiobooks": 1
+            },
+            "target_audience": [
+              "Étudiants",
+              "Universitaires",
+              "Scientifiques",
+              "Administratifs",
+              "Lecteurs",
+              "Bibliothécaires",
+              "Chroniqueurs"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Accès uniquement via application mobile EKOTEB (pas d’accès Web).",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Service 100% digital activé par code voucher.",
+            "activation_flow": [
+              "Acheter un voucher EKOTEB en agence ou via Idoom Market",
+              "Télécharger l’application EKOTEB sur Android ou iOS",
+              "Créer un compte EKOTEB",
+              "Saisir le code du voucher dans l’application",
+              "Accéder au catalogue et ajouter des livres à la bibliothèque personnelle"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une bibliothèque numérique de plusieurs milliers de livres.",
+            "content_language": [
+              "Arabe"
+            ],
+            "app_interface_languages": [
+              "Arabe",
+              "Français"
+            ],
+            "usage_rights": [
+              "Accès illimité au catalogue pendant la durée d’abonnement.",
+              "Constitution d’une bibliothèque personnelle jusqu’à 11 e-books et 1 livre audio.",
+              "Téléchargement local des livres pour lecture hors-ligne.",
+              "Remplacement possible des livres en supprimant un titre pour en ajouter un autre."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Langue",
+                "name_ar": null
+              },
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Sciences sociales",
+                "name_ar": null
+              },
+              {
+                "code": null,
+                "name_en": null,
+                "name_fr": "Sciences juridiques",
+                "name_ar": null
+              }
+            ],
+            "service_features": [
+              "Recherche par auteur ou titre",
+              "Signets et reprise de lecture",
+              "Dictionnaire intégré",
+              "Personnalisation de l’affichage (taille police, fond) pour les livres non-PDF"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvelable via nouveau voucher EKOTEB.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": "contacte@dareloula.com",
+            "support_phone_numbers": [
+              "0770559871",
+              "0770873420"
+            ],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Document daté du 24/12/2023 – EKOTEB Version 2.",
+            "EKOTEB est une offre Dépôt-Vente distribuée via Algérie Télécom."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_06",
+    "question_id": "1",
+    "query": "ما هي عروض التخزين السحابي المتوفرة؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.6164,
+      "timestamp": "2025-12-12T23:32:32.616219",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.4841,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Cartes de recharge Dorouscom",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.4841,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "Dorouscom",
+            "carte de recharge",
+            "code 16 chiffres",
+            "e-learning",
+            "soutien scolaire",
+            "plateforme pédagogique",
+            "primaire",
+            "moyen",
+            "secondaire",
+            "cours enregistrés",
+            "cours en direct",
+            "cours intensifs",
+            "Dawra",
+            "Idoom Market",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Cartes de recharge Dorouscom",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Cartes de recharge Dorouscom",
+            "provider": "Algérie Télécom en partenariat avec Dorouscom",
+            "category": "Éducation / E-learning",
+            "product_type": "Voucher"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [],
+            "sales_channels": [
+              "Agences commerciales Algérie Télécom",
+              "Boutique en ligne Idoom Market"
+            ],
+            "payment_method": "Paiement comptant pour achat de carte de recharge.",
+            "payment_methods": [
+              {
+                "channel": "agence",
+                "method_type": "cash_or_pos",
+                "method_name": "Paiement en agence",
+                "notes": "Achat de cartes physiques avec code à 16 chiffres."
+              },
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement via Idoom Market",
+                "notes": "Remise du code par voie électronique."
+              }
+            ],
+            "subscription_renewal": "Renouvellement par achat de nouvelle carte de recharge puis saisie du code sur le site Dorouscom.",
+            "voucher_properties": {
+              "code_length": 16,
+              "code_format": "numeric",
+              "is_cumulative": true,
+              "partial_use_allowed": true,
+              "remaining_balance_policy": "Le solde non utilisé est conservé et peut servir pour des paiements ultérieurs."
+            },
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web",
+              "Mobile"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Élèves",
+              "Étudiants",
+              "Parents d’élèves",
+              "Centres de formation",
+              "Écoles privées"
+            ],
+            "target_school_levels": [
+              "Primaire",
+              "Moyen",
+              "Secondaire"
+            ],
+            "compatibility_notes": "Valable uniquement sur la plateforme Dorouscom.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Codes de recharge livrés sur support physique (carte) ou électronique (Idoom Market).",
+            "activation_flow": [
+              "Achat d’une carte de recharge Dorouscom",
+              "Accès au site / application Dorouscom",
+              "Création / connexion au compte",
+              "Saisie du code à 16 chiffres",
+              "Activation de l’abonnement choisi"
+            ],
+            "platform_url": "https://www.dorouscom.com",
+            "data_hosting": null,
+            "shipping_cost_policy": null,
+            "delivery_time_policy": null,
+            "tracking_policy": null
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à la plateforme Dorouscom (cours enregistrés, cours en direct, cours intensifs Dawra).",
+            "content_language": [
+              "Arabe"
+            ],
+            "app_interface_languages": [
+              "Arabe"
+            ],
+            "usage_rights": [
+              "Accès au contenu choisi pendant la durée de l’abonnement.",
+              "Possibilité de cumuler plusieurs cartes pour régler un même abonnement.",
+              "Solde restant conservé pour de futurs paiements."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Plusieurs types d’abonnement : cours en direct, cours enregistrés, cours intensifs.",
+              "Codes à 16 chiffres uniques avec identifiant de suivi.",
+              "Cumul de cartes possible pour régler un abonnement."
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": "Renouvellement par achat d’une nouvelle carte de recharge.",
+            "refund_policy": null,
+            "claim_channels": [],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [
+              {
+                "code_status": "non_activated",
+                "purchase_age_min_days": 0,
+                "purchase_age_max_days": 7,
+                "refundable": true,
+                "modifiable": true,
+                "allowed_modifications": [
+                  "palier",
+                  "annee",
+                  "matiere",
+                  "prof"
+                ],
+                "notes": "Carte non activée dans les 7 jours suivant l’achat."
+              },
+              {
+                "code_status": "non_activated",
+                "purchase_age_min_days": 7,
+                "purchase_age_max_days": 30,
+                "refundable": true,
+                "modifiable": false,
+                "allowed_modifications": [],
+                "notes": "Carte non activée entre 7 et 30 jours après l’achat."
+              },
+              {
+                "code_status": "non_activated",
+                "purchase_age_min_days": 30,
+                "purchase_age_max_days": null,
+                "refundable": false,
+                "modifiable": false,
+                "allowed_modifications": [],
+                "notes": "Carte non activée après 30 jours."
+              },
+              {
+                "code_status": "activated",
+                "purchase_age_min_days": 0,
+                "purchase_age_max_days": null,
+                "refundable": false,
+                "modifiable": false,
+                "allowed_modifications": [],
+                "notes": "Toute carte déjà activée n’est pas remboursable."
+              }
+            ],
+            "refund_policy_rules": [],
+            "refund_processing_time_limit_days": null,
+            "replacement_policy": null,
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": "https://www.dorouscom.com",
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "Les cartes Dorouscom permettent d’accéder à une large offre de contenus pédagogiques multi-cycles.",
+            "Les détails complets des grilles de remboursement sont décrits dans le document d’argumentaire."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "equipe": "IA_Team",
+    "categorie": "categorie_06",
+    "question_id": "2",
+    "query": "كيف يمكنني شراء من Idoom Market؟",
+    "retrieval_info": {
+      "retrieval_time_seconds": 0.8438,
+      "timestamp": "2025-12-12T23:32:33.460423",
+      "layer_used": "Layer 3 (Dense)",
+      "confidence_score": 0.5629,
+      "success": true
+    },
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document_title": "Argumentaire Boutique en ligne Idoom Market",
+        "layer": "Layer 3 (Dense)",
+        "score": 0.5629,
+        "doc_arabic_link": "no link",
+        "doc_french_link": "no link",
+        "jason_snippet": {
+          "keywords": [
+            "Idoom Market",
+            "boutique en ligne",
+            "e-commerce",
+            "vente en ligne",
+            "dépôt-vente",
+            "paiement en ligne",
+            "livraison à domicile",
+            "tracking number",
+            "suivi de commande",
+            "remboursement",
+            "retour produit",
+            "Algérie Télécom"
+          ],
+          "metadata": {
+            "document_title": "Argumentaire Boutique en ligne Idoom Market",
+            "document_language": "fr",
+            "document_link": ""
+          },
+          "product_info": {
+            "name": "Boutique en ligne Idoom Market",
+            "provider": "Algérie Télécom",
+            "category": "E-commerce",
+            "product_type": "Digital"
+          },
+          "commercial_details": {
+            "previous_price_dzd": null,
+            "pricing": null,
+            "pricing_options": [],
+            "sales_channels": [
+              "Site web Idoom Market (idroomarket-at.dz)"
+            ],
+            "payment_method": "Paiement en ligne par carte et autres moyens selon intégration.",
+            "payment_methods": [
+              {
+                "channel": "en_ligne",
+                "method_type": "e_payment",
+                "method_name": "Paiement en ligne Idoom Market",
+                "notes": "Détails selon les moyens de paiement disponibles."
+              }
+            ],
+            "subscription_renewal": null,
+            "voucher_properties": null,
+            "trial_policy": null,
+            "bundling_policy": null
+          },
+          "hardware_details": null,
+          "integrated_subscriptions": [],
+          "constraints": {
+            "supported_platforms": [
+              "Web"
+            ],
+            "web_access_available": true,
+            "max_simultaneous_sessions": null,
+            "max_items_in_personal_library": {
+              "ebooks": null,
+              "audiobooks": null
+            },
+            "target_audience": [
+              "Clients particuliers Algérie Télécom",
+              "Clients professionnels"
+            ],
+            "target_school_levels": [],
+            "compatibility_notes": "Accessible via navigateur Web.",
+            "subscription_required_documents": [],
+            "not_recommended_platforms": []
+          },
+          "logistics_policy": {
+            "delivery_mode": "Livraison des produits physiques via organismes de livraison partenaires.",
+            "activation_flow": [
+              "Création d’un compte Idoom Market",
+              "Sélection des produits",
+              "Choix de la société de livraison",
+              "Paiement en ligne",
+              "Réception du produit à domicile"
+            ],
+            "platform_url": null,
+            "data_hosting": null,
+            "shipping_cost_policy": {
+              "is_shipping_paid": true,
+              "cost_dependency_factors": [
+                "carrier",
+                "destination"
+              ],
+              "notes": "Les frais de livraison sont variables selon la société de livraison et la destination."
+            },
+            "delivery_time_policy": {
+              "delivery_time_shown_before_payment": true,
+              "time_dependency_factors": [
+                "carrier",
+                "destination"
+              ],
+              "notes": "Les délais de livraison sont affichés lors de la validation de la commande."
+            },
+            "tracking_policy": {
+              "tracking_available": true,
+              "tracking_identifier_label": "Tracking number"
+            }
+          },
+          "entitlement_details": {
+            "content_scope": "Accès à une plateforme d’achat en ligne des produits dépôt-vente et services associés.",
+            "content_language": [
+              "Français"
+            ],
+            "app_interface_languages": [
+              "Français"
+            ],
+            "usage_rights": [
+              "Utilisation du compte Idoom Market pour commander des produits.",
+              "Suivi des commandes et gestion des demandes de remboursement via le portail."
+            ],
+            "content_stats": {
+              "number_of_videos": null,
+              "number_of_teachers": null,
+              "number_of_activities": null
+            },
+            "data_retention_policy": null,
+            "software_update_policy": null,
+            "education_programs": []
+          },
+          "specifications": {
+            "content_categories": [],
+            "service_features": [
+              "Achat en ligne de produits dépôt-vente",
+              "Choix du transporteur",
+              "Suivi des commandes par tracking number",
+              "Gestion en ligne des réclamations et demandes de remboursement"
+            ],
+            "models": [],
+            "finish_options": null,
+            "ventilation_system": null,
+            "material": null,
+            "service_plans": [],
+            "compliance_standards": []
+          },
+          "after_sales_service": {
+            "renewal_policy": null,
+            "refund_policy": "Les demandes de remboursement sont acceptées en cas de retard de livraison, produit défectueux ou non conforme.",
+            "claim_channels": [
+              {
+                "type": "online_shop",
+                "value": "Formulaire de réclamation sur Idoom Market"
+              }
+            ],
+            "required_documents_for_claim": [],
+            "voucher_refund_policy_matrix": [],
+            "refund_policy_rules": [
+              {
+                "reason": "delivery_delay_exceeded",
+                "request_channel": "online_shop",
+                "time_limit_hours_after_delivery": null,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Remboursement possible si le délai annoncé est dépassé."
+              },
+              {
+                "reason": "defective_product",
+                "request_channel": "actel",
+                "time_limit_hours_after_delivery": 96,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Le client doit se présenter à l’ACTEL dans les 96h ouvrables après réception."
+              },
+              {
+                "reason": "non_conforming_product",
+                "request_channel": "actel",
+                "time_limit_hours_after_delivery": 96,
+                "time_limit_days_after_delivery": null,
+                "eligible": true,
+                "notes": "Produit non conforme aux caractéristiques de la commande."
+              }
+            ],
+            "refund_processing_time_limit_days": 15,
+            "replacement_policy": {
+              "eligible_reasons": [
+                "defective_product",
+                "non_conforming_product"
+              ],
+              "time_limit_hours_after_delivery": 96,
+              "time_limit_days_after_delivery": null,
+              "request_channel": "actel",
+              "notes": "Au-delà de ce délai, le client est orienté vers le SAV du déposant."
+            },
+            "warranty_policy": null,
+            "repair_service": null,
+            "repair_service_sla": null
+          },
+          "support_info": {
+            "support_email": null,
+            "support_phone_numbers": [],
+            "support_website": null,
+            "social_profiles": {
+              "facebook": [],
+              "instagram": [],
+              "other": []
+            }
+          },
+          "_unmapped_or_extra_info": [
+            "La boutique Idoom Market centralise la vente en ligne de tous les produits Dépôt-Vente.",
+            "Les modalités détaillées de remboursement et remplacement sont décrites dans l’argumentaire."
+          ]
+        }
+      }
+    ]
+  }
+]

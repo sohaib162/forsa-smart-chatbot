@@ -1,0 +1,98 @@
+{
+  "query": "Comment faire une recharge par bon de commande?",
+  "retrieval_info": {
+    "score": 3.9269,
+    "guide_title": "Recharge par Bon de commande - Complément",
+    "section_title": "Soumission et paiement par bon de commande",
+    "filename": "Guide d'Utilisation NGBSS Recharge par Bon de commande Complément.pdf",
+    "s3_key": "Guide NGBSS Recharge par bon de commande - complément.pdf",
+    "guide_id": "recharge_bon_commande_complement",
+    "doc_type": "section",
+    "doc_id": "section_recharge_bon_commande_complement_2",
+    "latency_ms": 83.47,
+    "bm25_score": 13.8652,
+    "dense_score": 0.9055,
+    "hybrid_score": 1.2,
+    "rerank_score": 3.9269,
+    "text_preview": "Guide: Recharge par Bon de commande - Complément\nSection: Soumission et paiement par bon de commande\nDescription: Validation de la recharge et affichage du paiement effectué par bon de commande.\nÉtapes:\nÉtape 1: Soumettre l’opération de recharge - Après avoir choisi le bon compte, cliquer sur « Soumettre & paiement » pour valider la recharge par bon de commande. (UI: Bouton « Soumettre & paiement » dans l’écran de recharge)\nÉtape 2: Vérifier l’affichage du paiement par bon de commande - Contrôle..."
+  },
+  "retrieved_documents": [
+    {
+      "id": "recharge_bon_commande_complement",
+      "title": "Recharge par Bon de commande - Complément",
+      "system": "NGBSS",
+      "business_process": "Recharge par bon de commande pour les abonnés ayant une relation de paiement complet dans un groupe, en complément du guide principal.",
+      "filename": "Guide d'Utilisation NGBSS Recharge par Bon de commande Complément.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Recharge par Bon de commande Complément.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-03",
+      "tags": [
+        "recharge",
+        "bon de commande",
+        "paiement complet",
+        "groupe",
+        "NGBSS"
+      ],
+      "summary": "Complément au guide de recharge par bon de commande, destiné à la prise en charge des recharges pour les abonnés ayant une relation de paiement complet dans un groupe, en précisant le choix du bon compte lors du paiement.",
+      "prerequisites": [
+        "Le bon de commande doit être préalablement enregistré sur un abonné prépayé.",
+        "L’abonné doit appartenir à un groupe pour lequel la relation de paiement est « paiement complet ». ",
+        "L’utilisateur doit connaître le compte exact de l’abonné à utiliser pour le paiement."
+      ],
+      "sections": [
+        {
+          "section_title": "Vérification de la relation de paiement dans le groupe",
+          "description": "Contrôle de la relation de paiement dans le groupe avant d’effectuer la recharge par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Consulter le groupe de l’abonné",
+              "details": "Dans le module de gestion de groupe, consulter la fiche du groupe de l’abonné et vérifier que la relation de paiement est bien de type « paiement complet ». Le guide illustre ce point à l’aide de captures d’écran.",
+              "ui": "Écran de consultation du groupe – relation de paiement"
+            }
+          ]
+        },
+        {
+          "section_title": "Sélection du compte de l’abonné pour la recharge",
+          "description": "Choix du bon compte de l’abonné lors de l’enregistrement de la recharge par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Identifier le compte de l’abonné",
+              "details": "Depuis la fiche abonné, noter le compte à utiliser pour la recharge. Le guide montre que le compte qui apparaît par défaut peut être celui du groupe ; il est nécessaire de sélectionner le compte de l’abonné concerné.",
+              "ui": "Fiche abonné – informations de compte"
+            },
+            {
+              "step_number": 2,
+              "action": "Choisir le compte correct dans la liste déroulante",
+              "details": "Lors de la préparation du paiement par bon de commande, utiliser la liste déroulante pour choisir le compte de l’abonné concerné, plutôt que le compte générique du groupe.",
+              "ui": "Écran de recharge – liste déroulante des comptes"
+            }
+          ]
+        },
+        {
+          "section_title": "Soumission et paiement par bon de commande",
+          "description": "Validation de la recharge et affichage du paiement effectué par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Soumettre l’opération de recharge",
+              "details": "Après avoir choisi le bon compte, cliquer sur « Soumettre & paiement » pour valider la recharge par bon de commande.",
+              "ui": "Bouton « Soumettre & paiement » dans l’écran de recharge"
+            },
+            {
+              "step_number": 2,
+              "action": "Vérifier l’affichage du paiement par bon de commande",
+              "details": "Contrôler dans l’écran de paiement et dans l’historique que le paiement par « Bon de commande » apparaît correctement pour le compte de l’abonné concerné.",
+              "ui": "Écran de paiement / historique – ligne de paiement par bon de commande"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Recharge par bon de commande - complément.pdf"
+    }
+  ]
+}

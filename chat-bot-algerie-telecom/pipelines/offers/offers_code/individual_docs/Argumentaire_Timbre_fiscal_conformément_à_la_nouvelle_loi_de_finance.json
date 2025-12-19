@@ -1,0 +1,268 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+  "language": "bilingual",
+  "doc_type": "tax_policy",
+  "product_family": "tax_stamp",
+  "technology": [],
+  "customer_segment": [],
+  "commitment_type": "none",
+  "usage_focus": [
+    "tax",
+    "billing",
+    "payment_method"
+  ],
+  "metadata": {
+    "title_ar": "الرسوم المتعلقة بالطابع المالي وفقًا لقانون المالية الجديد لسنة 2025",
+    "title_fr": "Argumentaire : Les droits de timbre fiscal conformément à la nouvelle loi de finance 2025",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2025-02-05"
+  },
+  "offer_core": {
+    "name_ar": "الرسوم المتعلقة بالطابع المالي وفقًا لقانون المالية الجديد لسنة 2025",
+    "name_fr": "Droits de timbre fiscal – loi de finances 2025",
+    "description_ar": "يقدم هذا المستند عرضًا توضيحيًا حول كيفية تطبيق حقوق الطابع الجبائي في اتصالات الجزائر وفقًا لقانون المالية لسنة 2025. يُعتبر حق الطابع الجبائي ضريبة إلزامية تُطبَّق على بعض الخدمات والعقود، خاصةً اشتراكات الهاتف الثابت وخدمات الإنترنت، ويتم حسابها حسب قيمة المبلغ المدفوع وفق شرائح محددة: مبلغ أقل أو يساوي 500 دج يخضع لرسم ثابت قدره 5 دج، مبلغ أكبر من 500 دج وأقل أو يساوي 30.000 دج يخضع لنسبة 1%، مبلغ أكبر من 30.000 دج وأقل أو يساوي 100.000 دج يخضع لنسبة 1,5%، ومبلغ أكبر من 100.000 دج يخضع لنسبة 2%. يُطبَّق هذا الرسم على المدفوعات التي تتم نقدًا على مستوى الوكالات التجارية ونقاط الحضور، ويمكن للزبائن تجنّب دفعه باختيار وسائل الدفع الإلكترونية أو عن طريق الشيك.",
+    "description_fr": "Ce document présente l’argumentaire sur l’application des droits de timbre fiscal chez Algérie Télécom conformément à la loi de finances 2025. Le timbre fiscal est une taxe obligatoire appliquée sur certains services et contrats (notamment les abonnements téléphonie fixe et Internet) et calculée en fonction du montant payé, avec plusieurs tranches : montant ≤ 500 DZD (5 DZD fixe), montant entre 500 DZD et 30 000 DZD (1 %), entre 30 000 DZD et 100 000 DZD (1,5 %) et au-delà de 100 000 DZD (2 %). Cette taxe s’applique aux paiements en espèces en agence et peut être évitée en utilisant des moyens de paiement électroniques ou scripturaux.",
+    "conditions_ar": [
+      "حق الطابع الجبائي ضريبة إلزامية تُطبَّق في اتصالات الجزائر وفقًا لأحكام قانون التسجيل والطابع وقانون المالية لسنة 2025.",
+      "يُطبَّق حق الطابع الجبائي على بعض الخدمات والعقود المقدمة من طرف اتصالات الجزائر، لاسيما عند المصادقة على اشتراكات الهاتف الثابت والإنترنت.",
+      "يتم حساب حق الطابع الجبائي حسب طبيعة العملية والمبلغ المدفوع، بناءً على الشرائح المحددة في قانون المالية لسنة 2025.",
+      "إذا كان المبلغ المدفوع أقل أو يساوي 500 دج، يُطبق حق طابع ثابت قدره 5 دج.",
+      "إذا كان المبلغ المدفوع أكبر من 500 دج وأقل أو يساوي 30.000 دج، تُطبق نسبة 1% من المبلغ المدفوع.",
+      "إذا كان المبلغ المدفوع أكبر من 30.000 دج وأقل أو يساوي 100.000 دج، تُطبق نسبة 1,5% من المبلغ المدفوع.",
+      "إذا كان المبلغ المدفوع أكبر من 100.000 دج، تُطبق نسبة 2% من المبلغ المدفوع.",
+      "يُطبَّق حق الطابع الجبائي على جميع المدفوعات التي تتم نقدًا على مستوى اتصالات الجزائر.",
+      "يتم دفع حقوق الطابع الجبائي مباشرة عند المصادقة على الخدمة على مستوى الوكالات التجارية ونقاط الحضور التابعة للمؤسسة.",
+      "يمكن للزبائن تجنّب دفع حقوق الطابع الجبائي في حال تسديد مستحقاتهم عبر وسائل الدفع الإلكترونية أو عبر جهاز الدفع الإلكتروني TPE المتوفر في الوكالات التجارية أو عن طريق شيك.",
+      "تلتزم اتصالات الجزائر بإعلام زبائنها بوضوح بخصوص تطبيق حق الطابع الجبائي من خلال الإشارة إليه على العقود والوثائق الرسمية والفواتير.",
+      "يقوم المستشارون التجاريون على مستوى الوكالات بشرح طريقة تطبيق حق الطابع الجبائي للزبائن والإجابة على استفساراتهم.",
+      "تُعتبر عملية تطبيق حق الطابع الجبائي التزامًا قانونيًا لا يمكن لِاتصالات الجزائر إلغاؤه أو تعديل نسبه خارج الإطار الذي يحدده قانون المالية."
+    ],
+    "conditions_fr": [
+      "Le droit de timbre fiscal est une taxe obligatoire prévue par le Code de l’Enregistrement et du Timbre et par la loi de finances 2025.",
+      "Il est applicable à certains services et contrats proposés par Algérie Télécom, notamment pour la validation des abonnements et contrats de téléphonie fixe et Internet.",
+      "Les droits de timbre fiscal se calculent en fonction du montant payé, selon les tranches définies par la loi de finances 2025.",
+      "Les droits de timbre fiscal s’appliquent à tout paiement effectué en espèces chez Algérie Télécom.",
+      "Le paiement du droit de timbre se fait directement lors de la validation du service dans les agences commerciales et points de présence d’Algérie Télécom.",
+      "Les clients qui souhaitent éviter le paiement des droits de timbre fiscal doivent utiliser des moyens de paiement autres que les espèces (paiement en ligne, TPE, chèque certifié ou virement bancaire).",
+      "Algérie Télécom informe les clients sur l’obligation du droit de timbre fiscal par des mentions claires sur les contrats, les factures et par l’information donnée par les conseillers commerciaux en agence.",
+      "L’application des droits de timbre fiscal est une obligation légale, Algérie Télécom ne peut ni la supprimer ni la modifier en dehors du cadre fixé par la loi de finances."
+    ],
+    "benefits_ar": [
+      "ضمان مطابقة العقود والوثائق الصادرة عن اتصالات الجزائر للتشريعات الجبائية الجزائرية وقانون المالية لسنة 2025.",
+      "ضمان صلاحية العقود والاشتراكات والوثائق القانونية المتعلقة بخدمات الهاتف الثابت والإنترنت من الناحية القانونية والجبائية.",
+      "تبسيط إجراءات الزبون، حيث يتم احتساب ودفع حق الطابع الجبائي مباشرة أثناء الاشتراك أو إعادة الشحن دون الحاجة لإجراءات إضافية.",
+      "تجنّب العقوبات أو الغرامات في حال وجود مراقبة جبائية بفضل احترام اتصالات الجزائر لالتزاماتها في تطبيق الرسم.",
+      "إمكانية تجنّب دفع حقوق الطابع الجبائي بالنسبة للزبائن الذين يختارون التسديد عبر الدفع الإلكتروني عبر الأنترنت أو عبر أجهزة الدفع الإلكتروني TPE أو عن طريق الشيك."
+    ],
+    "benefits_fr": [
+      "Assure la conformité légale des contrats et documents émis par Algérie Télécom conformément à la loi de finances 2025 et au Code de l’Enregistrement et du Timbre.",
+      "Garantit la validité juridique des abonnements, contrats et documents liés aux services de téléphonie fixe et Internet.",
+      "Simplifie les démarches pour le client puisque le paiement du droit de timbre est intégré directement lors de la souscription ou du rechargement du service.",
+      "Permet d’éviter les pénalités administratives ou les litiges en cas de contrôle fiscal grâce au respect des obligations de timbre.",
+      "Offre une alternative aux clients souhaitant éviter le paiement des droits de timbre fiscal en privilégiant les paiements en ligne, par TPE, chèque certifié ou virement bancaire."
+    ],
+    "pricing_summary_ar": "حسب قانون المالية لسنة 2025، يتم حساب حقوق الطابع الجبائي لدى اتصالات الجزائر كما يلي: مبلغ مدفوع أقل أو يساوي 500 دج → حق طابع ثابت قدره 5 دج؛ مبلغ مدفوع أكبر من 500 دج وأقل أو يساوي 30.000 دج → تُطبق نسبة 1%؛ مبلغ مدفوع أكبر من 30.000 دج وأقل أو يساوي 100.000 دج → تُطبق نسبة 1,5%؛ ومبلغ مدفوع أكبر من 100.000 دج → تُطبق نسبة 2%.",
+    "pricing_summary_fr": "Selon la loi de finances 2025, les droits de timbre fiscal chez Algérie Télécom sont calculés comme suit : montant payé inférieur ou égal à 500 DZD → droit de timbre fixe de 5 DZD ; montant payé supérieur à 500 DZD et inférieur ou égal à 30 000 DZD → droit de timbre de 1 % ; montant payé supérieur à 30 000 DZD et inférieur ou égal à 100 000 DZD → droit de timbre de 1,5 % ; montant payé supérieur à 100 000 DZD → droit de timbre de 2 %."
+  },
+  "policy_summary": {
+    "summary_ar": "يوضح هذا المستند كيفية تطبيق حقوق الطابع الجبائي في اتصالات الجزائر وفقًا لقانون المالية لسنة 2025. يُعتبر حق الطابع الجبائي ضريبة إلزامية تُستوفى عند إبرام أو المصادقة على بعض العقود والخدمات، مثل اشتراكات الهاتف الثابت والإنترنت، ويتم احتسابه بناءً على قيمة المبلغ المدفوع حسب شرائح محددة (5 دج ثابت للمبالغ الأقل أو المساوية لـ 500 دج، 1% بين 500 و 30.000 دج، 1,5% بين 30.000 و 100.000 دج، و2% لما يفوق 100.000 دج). يُطبق هذا الرسم على المدفوعات النقدية التي تتم على مستوى الوكالات التجارية ونقاط الحضور، في حين يمكن تجنّبه عند استعمال وسائل الدفع الإلكترونية أو الشيك. كما يبرز المستند التزام اتصالات الجزائر بالشفافية وإعلام الزبائن عبر العقود والفواتير وفرقها التجارية والمنصات الرسمية.",
+    "summary_fr": "La loi de finances 2025 modifie et précise le mode de calcul des droits de timbre fiscal applicables aux services et contrats proposés par Algérie Télécom. Le droit de timbre est une taxe obligatoire, due lors de la conclusion ou de la validation de certains actes (abonnements à la téléphonie fixe, Internet, contrats associés) et calculée selon des tranches de montant payé : 5 DZD fixe pour les montants ≤ 500 DZD, 1 % entre 500 DZD et 30 000 DZD, 1,5 % entre 30 000 DZD et 100 000 DZD, et 2 % pour les montants > 100 000 DZD. La taxe s’applique aux paiements effectués en espèces ; les clients peuvent l’éviter en privilégiant les paiements en ligne, via TPE, par chèque certifié ou virement bancaire. Algérie Télécom rappelle ses obligations d’information et de transparence en mentionnant clairement cette taxe sur les contrats, factures et supports officiels."
+  },
+  "faq_ar": [
+    {
+      "question": "ما هو حق الطابع الجبائي لدى اتصالات الجزائر ؟",
+      "answer": "حق الطابع الجبائي هو ضريبة إلزامية، وفقاً لأحكام قانون التسجيل والطابع، تُطبّق على بعض الخدمات والعقود المقدمة من طرف اتصالات الجزائر، لاسيما عند المصادقة على الاشتراكات، وعقود الهاتف الثابت وخدمات الإنترنت. يُلحق هذا الرسم بالوثائق والعقود لضمان صلاحيتها القانونية."
+    },
+    {
+      "question": "لماذا تطبّق اتصالات الجزائر حق الطابع الجبائي ؟",
+      "answer": "تطبيق حق الطابع الجبائي يُعدّ التزامًا قانونيًا تفرضه التشريعات الجبائية الجزائرية. يسمح هذا الإجراء بضمان مطابقة العقود والوثائق الصادرة عن اتصالات الجزائر للقوانين المعمول بها، وبالتالي ضمان صلاحيتها القانونية والجبائية أمام الجهات الرقابية."
+    },
+    {
+      "question": "ما هي كيفية حساب حقوق الطابع الجبائي حسب قانون المالية 2025 ؟",
+      "answer": "يعتمد حساب حق الطابع الجبائي وفق قانون المالية لسنة 2025 على قيمة المبلغ المدفوع وحسب الشرائح التالية: إذا كان المبلغ المدفوع أقل أو يساوي 500 دج، يُطبّق حق طابع ثابت قدره 5 دج؛ إذا كان المبلغ المدفوع أكبر من 500 دج وأقل أو يساوي 30.000 دج، تُطبّق نسبة 1% من المبلغ المدفوع؛ إذا كان المبلغ المدفوع أكبر من 30.000 دج وأقل أو يساوي 100.000 دج، تُطبّق نسبة 1,5%؛ وإذا كان المبلغ المدفوع أكبر من 100.000 دج، تُطبّق نسبة 2%. كما يمكن للزبائن تجنّب دفع هذا الرسم إذا اختاروا التسديد عبر الدفع الإلكتروني، أو عبر جهاز الدفع الإلكتروني TPE، أو عن طريق شيك."
+    },
+    {
+      "question": "ما هي خدمات اتصالات الجزائر الخاضعة لحق الطابع الجبائي ؟",
+      "answer": "يُطبّق حق الطابع الجبائي على جميع المدفوعات التي تتم نقداً على مستوى اتصالات الجزائر والمتعلقة بالخدمات والعقود الخاضعة للرسم، مثل اشتراكات الهاتف الثابت وخدمات الإنترنت والعقود المرتبطة بها."
+    },
+    {
+      "question": "أين يتم دفع حق الطابع الجبائي ؟",
+      "answer": "يتم دفع حقوق الطابع الجبائي مباشرة عند المصادقة على الخدمة على مستوى الوكالات التجارية لاتصالات الجزائر، وكذلك على مستوى نقاط الحضور التابعة للمؤسسة، حيث يتم احتساب الرسم وإضافته إلى مبلغ الخدمة المدفوعة نقداً."
+    },
+    {
+      "question": "ما هي مزايا دفع حق الطابع الجبائي لدى اتصالات الجزائر ؟",
+      "answer": "من مزايا دفع حق الطابع الجبائي لدى اتصالات الجزائر: ضمان الامتثال القانوني للعقود والوثائق؛ بساطة الإجراءات حيث يتم احتساب الرسم تلقائياً أثناء الاشتراك أو إعادة الشحن؛ وتوفير الأمان من خلال تجنّب العقوبات أو المخالفات المحتملة في حال وجود مراقبة جبائية."
+    },
+    {
+      "question": "كيف تضمن اتصالات الجزائر الشفافية في تطبيق هذا الرسم ؟",
+      "answer": "تضمن اتصالات الجزائر الشفافية في تطبيق حق الطابع الجبائي من خلال الإشارة الواضحة لهذا الرسم على العقود والفواتير والوثائق الرسمية، وشرح المستشارين التجاريين للزبائن على مستوى الوكالات، بالإضافة إلى نشر المعلومات المتعلقة به عبر المنصات الرسمية للمؤسسة."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Qu’est-ce que le droit de timbre fiscal chez Algérie Télécom ?",
+      "answer": "Le droit de timbre fiscal chez Algérie Télécom est une taxe obligatoire, prévue par le Code de l’Enregistrement et du Timbre, applicable à certains services et contrats, notamment la validation des abonnements et des contrats de téléphonie fixe et Internet. Il s’agit d’un droit fiscal annexé aux documents contractuels pour en garantir la validité juridique."
+    },
+    {
+      "question": "Pourquoi Algérie Télécom applique-t-elle le droit de timbre fiscal ?",
+      "answer": "Algérie Télécom applique le droit de timbre fiscal parce que la réglementation fiscale algérienne l’exige. Cette taxe garantit la conformité fiscale et la validité juridique des contrats et documents émis par Algérie Télécom. L’opérateur ne fait qu’appliquer une obligation légale prévue par la loi de finances 2025 et le Code de l’Enregistrement et du Timbre."
+    },
+    {
+      "question": "Quelles sont les modalités de calcul des droits de timbre fiscal selon la loi de finances 2025 ?",
+      "answer": "La loi de finances 2025 prévoit les modalités de calcul suivantes : si le montant payé est inférieur ou égal à 500 DZD, le droit de timbre est de 5 DZD fixe ; si le montant payé est supérieur à 500 DZD et inférieur ou égal à 30 000 DZD, le droit de timbre est de 1 % du montant payé ; si le montant payé est supérieur à 30 000 DZD et inférieur ou égal à 100 000 DZD, le droit de timbre est de 1,5 % ; si le montant payé est supérieur à 100 000 DZD, le droit de timbre est de 2 %. Ces taux s’appliquent aux paiements concernés selon les tranches définies."
+    },
+    {
+      "question": "Quels services d’Algérie Télécom sont concernés par le droit de timbre fiscal ?",
+      "answer": "Les droits de timbre fiscal s’appliquent à tout paiement effectué en espèces auprès d’Algérie Télécom pour les services et contrats concernés, notamment les abonnements à la téléphonie fixe, aux offres Internet et les actes contractuels associés. Dès lors qu’un paiement en espèces est réalisé pour un service soumis au timbre, la taxe est due selon les modalités prévues par la loi."
+    },
+    {
+      "question": "Quels sont les points de paiement pour s’acquitter du droit de timbre ?",
+      "answer": "Le paiement du droit de timbre fiscal chez Algérie Télécom s’effectue directement lors de la validation du service, dans les agences commerciales et les points de présence de l’opérateur. Le client règle en même temps le montant du service et le montant correspondant au droit de timbre applicable."
+    },
+    {
+      "question": "Comment peut-on éviter le paiement des droits de timbre fiscal ?",
+      "answer": "Le document précise que les clients souhaitant éviter le paiement des droits de timbre fiscal sont invités à régler leurs dus par des moyens de paiement autres que les espèces, notamment via un paiement en ligne, au moyen d’un terminal de paiement électronique (TPE) disponible dans les agences commerciales, ou par chèque certifié et virement bancaire. Dans ces cas, le droit de timbre fiscal applicable aux paiements en espèces n’est pas facturé."
+    },
+    {
+      "question": "Quels sont les avantages pour le client de s’acquitter du droit de timbre chez Algérie Télécom ?",
+      "answer": "S’acquitter du droit de timbre fiscal permet au client de garantir la conformité légale et la validité de ses contrats et documents, de simplifier ses démarches puisque le paiement est intégré au processus de souscription ou de rechargement, et d’éviter d’éventuelles pénalités administratives en cas de contrôle fiscal. Cela assure également une transparence totale sur les montants facturés."
+    },
+    {
+      "question": "Comment Algérie Télécom assure-t-elle la transparence sur l’application de cette taxe ?",
+      "answer": "Algérie Télécom assure la transparence sur l’application du droit de timbre fiscal en informant systématiquement ses clients par plusieurs moyens : mentions claires sur les contrats et les factures, explication par les conseillers clients en agence et communication sur ses plateformes officielles. Cette démarche permet au client de comprendre pourquoi et comment cette taxe est appliquée."
+    }
+  ],
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهم: نذكّركم بأن بريد Feedback@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات المتعلقة بالملاحظات أو الإجراءات المعمول بها. لا تترددوا في التواصل معنا عند الضرورة.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies, y compris celles relatives aux droits de timbre fiscal et à l’application de la loi de finances 2025."
+  },
+  "keywords_ar": [
+    "حق الطابع الجبائي",
+    "الطابع المالي",
+    "قانون المالية 2025",
+    "الرسم على الطابع",
+    "ضريبة",
+    "ضريبة إلزامية",
+    "حساب حقوق الطابع",
+    "5 دج",
+    "1%",
+    "1,5%",
+    "2%",
+    "500 دج",
+    "30.000 دج",
+    "100.000 دج",
+    "مدفوعات نقدية",
+    "الدفع نقداً",
+    "الدفع الإلكتروني عبر الأنترنت",
+    "جهاز الدفع الإلكتروني",
+    "TPE",
+    "الدفع عن طريق شيك",
+    "اشتراكات الهاتف الثابت",
+    "خدمات الإنترنت",
+    "العقود والخدمات",
+    "الوكالات التجارية",
+    "نقاط الحضور",
+    "امتثال قانوني",
+    "صلاحية العقود",
+    "مراقبة جبائية",
+    "اتصالات الجزائر",
+    "Feedback@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "droit de timbre fiscal",
+    "timbre fiscal",
+    "loi de finances 2025",
+    "Code de l’Enregistrement et du Timbre",
+    "taxe",
+    "taxe obligatoire",
+    "taux 5 DZD",
+    "taux 1 %",
+    "taux 1,5 %",
+    "taux 2 %",
+    "≤ 500 DZD",
+    "30 000 DZD",
+    "100 000 DZD",
+    "paiement en espèces",
+    "paiement en ligne",
+    "terminal de paiement électronique",
+    "TPE",
+    "chèque certifié",
+    "virement bancaire",
+    "abonnement téléphonie fixe",
+    "abonnement Internet",
+    "contrat de service",
+    "agence commerciale",
+    "point de présence",
+    "conformité fiscale",
+    "validité juridique",
+    "contrôle fiscal",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "droit de timbre fiscal",
+    "timbre fiscal",
+    "loi de finances 2025",
+    "Code de l’Enregistrement et du Timbre",
+    "taxe",
+    "taxe obligatoire",
+    "taux 5 DZD",
+    "taux 1 %",
+    "taux 1,5 %",
+    "taux 2 %",
+    "≤ 500 DZD",
+    "30 000 DZD",
+    "100 000 DZD",
+    "paiement en espèces",
+    "paiement en ligne",
+    "terminal de paiement électronique",
+    "TPE",
+    "chèque certifié",
+    "virement bancaire",
+    "abonnement téléphonie fixe",
+    "abonnement Internet",
+    "contrat de service",
+    "agence commerciale",
+    "point de présence",
+    "conformité fiscale",
+    "validité juridique",
+    "contrôle fiscal",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "حق الطابع الجبائي",
+    "الطابع المالي",
+    "قانون المالية 2025",
+    "الرسم على الطابع",
+    "ضريبة",
+    "ضريبة إلزامية",
+    "حساب حقوق الطابع",
+    "5 دج",
+    "1%",
+    "1,5%",
+    "2%",
+    "500 دج",
+    "30.000 دج",
+    "100.000 دج",
+    "مدفوعات نقدية",
+    "الدفع نقداً",
+    "الدفع الإلكتروني عبر الأنترنت",
+    "جهاز الدفع الإلكتروني",
+    "TPE",
+    "الدفع عن طريق شيك",
+    "اشتراكات الهاتف الثابت",
+    "خدمات الإنترنت",
+    "العقود والخدمات",
+    "الوكالات التجارية",
+    "نقاط الحضور",
+    "امتثال قانوني",
+    "صلاحية العقود",
+    "مراقبة جبائية",
+    "اتصالات الجزائر",
+    "Feedback@algerietelecom.dz"
+  ],
+  "search_text": "Argumentaire : Les droits de timbre fiscal conformément à la nouvelle loi de finance 2025. À Algérie Télécom, le droit de timbre fiscal est une taxe appliquée sur certains services, comme les abonnements à la téléphonie fixe et Internet. Le montant varie selon le tarif payé, selon la loi de finances 2025. Le paiement se fait en agence. Algérie Télécom informe ses clients par des mentions claires sur les documents et en agence commerciale et points de présence. Qu’est-ce que le droit de timbre fiscal chez Algérie Télécom ? Le droit de timbre fiscal est une taxe obligatoire, conformément au Code de l’Enregistrement et du Timbre, applicable à certains services et contrats proposés par Algérie Télécom, notamment pour la validation des abonnements, contrats de téléphonie fixe et Internet. Pourquoi Algérie Télécom applique-t-elle le droit de timbre fiscal ? L’application de cette taxe est une exigence légale imposée par la réglementation fiscale algérienne. Elle garantit la conformité des contrats et des documents émis par Algérie Télécom, assurant ainsi leur validité juridique. Modalités de calcul des droits de timbre fiscal selon la loi de finances 2025 : si le montant payé est inférieur ou égal à 500 DZD, le droit de timbre est de 5 DZD fixe ; si le montant payé est supérieur à 500 DZD et inférieur ou égal à 30 000 DZD, le droit de timbre est de 1 % ; si le montant payé est supérieur à 30 000 DZD et inférieur ou égal à 100 000 DZD, le droit de timbre est de 1,5 % ; si le montant payé est supérieur à 100 000 DZD, le droit de timbre est de 2 %. Ces tranches sont reprises dans un tableau indiquant la condition et le taux associé. NB : les clients souhaitant éviter le paiement des droits de timbre fiscal sont invités à régler leurs dus par des moyens de paiement tels que le paiement en ligne, le terminal de paiement électronique (TPE) disponible dans les agences, ou par chèque certifié ou virement bancaire. Quels services d’Algérie Télécom sont concernés par le droit de timbre fiscal ? Les droits de timbre fiscal s’appliquent à tout paiement effectué en espèces. Quels sont les points de paiement pour s’acquitter du droit de timbre ? Le paiement s’effectue directement lors de la validation du service dans les agences commerciales et points de présence. Quels sont les avantages pour le client de s’acquitter du droit de timbre chez Algérie Télécom ? Conformité légale, simplicité (paiement intégré lors de la souscription ou du rechargement) et sécurité (évite les pénalités administratives en cas de contrôle fiscal). Comment Algérie Télécom assure-t-elle la transparence sur l’application de cette taxe ? Algérie Télécom informe systématiquement ses clients sur l’obligation du droit de timbre fiscal : mention claire sur les contrats et factures, explication par les conseillers clients en agence, communication sur les plateformes officielles. Important : la messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies.\n\nالرسوم المتعلقة بالطابع المالي وفقًا لقانون المالية الجديد لسنة 2025 لدى اتصالات الجزائر. يُعتبر حق الطابع الجبائي ضريبة إلزامية تُطبّق على بعض الخدمات والعقود مثل اشتراكات الهاتف الثابت والإنترنت، ويتم حسابها حسب قيمة المبلغ المدفوع وفق الشرائح التالية: مبلغ أقل أو يساوي 500 دج → رسم ثابت 5 دج؛ مبلغ أكبر من 500 دج وأقل أو يساوي 30.000 دج → نسبة 1%؛ مبلغ أكبر من 30.000 دج وأقل أو يساوي 100.000 دج → نسبة 1,5%؛ مبلغ أكبر من 100.000 دج → نسبة 2%. يُطبّق هذا الرسم على المدفوعات التي تتم نقدًا على مستوى الوكالات التجارية ونقاط الحضور، ويمكن تجنّب دفعه عند التسديد عبر الدفع الإلكتروني عبر الأنترنت أو عبر جهاز الدفع الإلكتروني TPE أو عن طريق شيك. يتضمن المستند أسئلة وأجوبة تشرح مفهوم حق الطابع الجبائي، سبب تطبيقه، كيفية حسابه، الخدمات الخاضعة له، أماكن دفعه، مزاياه، وكيف تضمن اتصالات الجزائر الشفافية في تطبيقه، بالإضافة إلى معلومات الاتصال عبر بريد Feedback@algerietelecom.dz.",
+  "dense_text_primary": "يقدّم هذا المستند من اتصالات الجزائر شرحًا مفصلاً لحقوق الطابع الجبائي وفقًا لقانون المالية لسنة 2025. حق الطابع الجبائي هو ضريبة إلزامية تُطبّق على بعض الخدمات والعقود، خاصة اشتراكات الهاتف الثابت وخدمات الإنترنت، ويتم احتسابه حسب المبلغ المدفوع وفق جدول شرائح محدد (5 دج ثابت للمبالغ الأقل أو المساوية لـ 500 دج، 1% للمبالغ بين 500 و 30.000 دج، 1,5% للمبالغ بين 30.000 و 100.000 دج، و2% لما يزيد عن 100.000 دج). يُستوفى هذا الرسم عند الدفع نقدًا على مستوى الوكالات التجارية ونقاط الحضور، بينما يمكن للزبائن تجنّب دفعه عبر استخدام وسائل الدفع الإلكترونية أو أجهزة الدفع الإلكتروني TPE أو الشيكات، مع تأكيد اتصالات الجزائر على الامتثال القانوني والشفافية في الإعلام عبر العقود والفواتير والمنصات الرسمية.\n\nCe document expose l’argumentaire d’Algérie Télécom sur les droits de timbre fiscal conformément à la loi de finances 2025. Le droit de timbre fiscal est une taxe obligatoire prévue par le Code de l’Enregistrement et du Timbre et appliquée à certains services et contrats de l’opérateur, notamment pour la validation des abonnements à la téléphonie fixe, aux offres Internet et aux contrats associés. Algérie Télécom est tenue par la réglementation fiscale algérienne de percevoir cette taxe afin de garantir la conformité juridique et fiscale des documents et contrats établis avec ses clients.\n\nLa loi de finances 2025 définit un barème précis des droits de timbre fiscal en fonction du montant payé : pour un montant inférieur ou égal à 500 DZD, le droit de timbre est fixé à 5 DZD de manière forfaitaire ; pour un montant payé strictement supérieur à 500 DZD et inférieur ou égal à 30 000 DZD, le droit de timbre est de 1 % du montant ; pour un montant supérieur à 30 000 DZD et inférieur ou égal à 100 000 DZD, le taux est de 1,5 % ; et pour tout montant supérieur à 100 000 DZD, le droit de timbre atteint 2 %. Ces droits s’appliquent aux paiements concernés effectués en espèces lors de la souscription, du renouvellement ou du rechargement de services.\n\nLe paiement du droit de timbre s’effectue directement dans les agences commerciales et les points de présence d’Algérie Télécom, en même temps que le paiement du service. Le document mentionne que les clients qui souhaitent éviter le paiement des droits de timbre fiscal peuvent régler leurs factures par des moyens alternatifs tels que le paiement en ligne, l’utilisation d’un terminal de paiement électronique (TPE), ou encore par chèque certifié ou virement bancaire. Dans ces cas, la taxe de timbre afférente aux paiements en espèces n’est pas facturée, ce qui incite à l’utilisation de moyens de paiement électroniques ou scripturaux.\n\nPour le client, le paiement du droit de timbre garantit la conformité légale et la validité juridique de ses contrats et documents, simplifie les démarches car la taxe est intégrée dans le processus de souscription ou de rechargement, et évite des pénalités administratives en cas de contrôle fiscal. Algérie Télécom s’engage à assurer la transparence en informant clairement ses clients : mentions sur les contrats et factures, explications fournies par les conseillers en agence et communication sur ses plateformes officielles. Pour toute information complémentaire ou clarification concernant l’application des droits de timbre fiscal, la messagerie « Feedback » FB@algerietelecom.dz est dédiée aux demandes d’informations commerciales et questions relatives aux notes ou procédures."
+}

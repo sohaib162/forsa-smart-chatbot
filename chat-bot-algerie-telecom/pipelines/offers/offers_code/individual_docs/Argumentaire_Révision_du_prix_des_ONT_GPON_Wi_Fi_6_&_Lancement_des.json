@@ -1,0 +1,352 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_ont_gpon_xgspon",
+  "technology": [
+    "fibre_optique",
+    "gpon",
+    "xgs_pon",
+    "wifi_6"
+  ],
+  "customer_segment": [
+    "residential"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet",
+    "equipment",
+    "modem_ont"
+  ],
+
+  "metadata": {
+    "title_ar": "مراجعة أسعار أجهزة ONT GPON Wi-Fi 6 وإطلاق أجهزة ONT XGS-PON",
+    "title_fr": "Argumentaire : Révision du prix des ONT GPON Wi-Fi 6 et Lancement des ONT XGS-PON",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2025-11-04"
+  },
+
+  "offer_core": {
+    "name_ar": "مراجعة أسعار أجهزة ONT GPON Wi-Fi 6 وإطلاق أجهزة ONT XGS-PON",
+    "name_fr": "Révision du prix des ONT GPON Wi-Fi 6 et Lancement des ONT XGS-PON",
+    "description_ar": "يقدّم هذا المستند تفاصيل مراجعة سعر أجهزة ONT GPON Wi-Fi 6 نحو الانخفاض وإطلاق الجيل الجديد من أجهزة ONT XGS-PON Wi-Fi 6 لفائدة زبائن IDOOM FIBRE الخواص لدى اتصالات الجزائر. تم تخفيض سعر جهاز GPON Wi-Fi 6 من 14.200 دج إلى 7.000 دج مع احتساب الرسوم شريطة استرجاع جهاز ONT القديم من نوع Wi-Fi 4 أو Wi-Fi 5، وذلك بهدف تشجيع الزبائن على تجديد تجهيزاتهم وتحسين تجربتهم المنزلية. في المقابل، تم إدخال أجهزة ONT XGS-PON Wi-Fi 6 بسعر 14.200 دج مع الرسوم لفائدة الزبائن المؤهّلين الذين يملكون تدفقاً لا يقل عن 1 جيغابت/ثا، وموصولين على بطاقات XGS-PON ومتواجدين في مناطق مجهّزة بتجهيزات Huawei أو FiberHome، بعد التحقق من الأهلية عبر الموقع الرسمي لاتصالات الجزائر، وهو ما يمهّد للانتقال إلى سرعات فائقة جداً في المستقبل.",
+    "description_fr": "Ce document présente la révision à la baisse du prix des ONT GPON Wi-Fi 6 et le lancement des nouveaux ONT XGS-PON Wi-Fi 6 pour les clients résidentiels IDOOM FIBRE d’Algérie Télécom. Le prix de l’ONT GPON Wi-Fi 6 passe de 14 200 DA à 7 000 DA TTC sous condition de restitution de l’ancien ONT Wi-Fi 4/5, afin d’encourager le renouvellement des équipements. En parallèle, une nouvelle génération d’ONT XGS-PON Wi-Fi 6 est introduite au tarif de 14 200 DA TTC pour les clients IDOOM FIBRE éligibles (débit ≥ 1 Gbps, raccordement sur carte XGS-PON, zone Huawei/FiberHome et test d’éligibilité concluant), préparant le réseau à l’ultra haut débit.",
+    "conditions_ar": [
+      "الفئة المستهدفة من هذه العملية هي زبائن IDOOM FIBRE الخواص، بما في ذلك المشتركين الجدد في خدمة FTTH والزبائن الحاليين الراغبين في تجديد أجهزتهم.",
+      "يُعرض جهاز ONT GPON Wi-Fi 6 بالسعر الجديد 7.000 دج مع احتساب الرسوم (بدلاً من 14.200 دج)، بشرط استرجاع جهاز ONT القديم من نوع Wi-Fi 4 أو Wi-Fi 5.",
+      "يُعرض جهاز ONT XGS-PON Wi-Fi 6 بسعر 14.200 دج مع احتساب الرسوم، رهين بتوفر بطاقات XGS-PON المتوافقة في منطقة الزبون.",
+      "اقتناء جهاز ONT XGS-PON Wi-Fi 6 مشروط بامتلاك الزبون لاشتراك IDOOM FIBRE بتدفق لا يقل عن 1 جيغابت في الثانية.",
+      "يشترط أن يكون الزبون موصولاً على بطاقة XGS-PON على مستوى شبكة النفاذ ليستفيد من جهاز ONT XGS-PON Wi-Fi 6.",
+      "يشترط أن يتواجد الزبون في منطقة مزودة بمعدات Huawei أو FiberHome المتوافقة مع تقنية XGS-PON.",
+      "يتعيّن على المستشار التجاري التحقق إلزامياً من توفر البطاقات المتوافقة XGS-PON وأهلية الزبون عبر الموقع الرسمي لاتصالات الجزائر قبل أي اقتراح أو عملية بيع.",
+      "يتم التحقق من أهلية الزبون لجهاز XGS-PON Wi-Fi 6 عبر اختبار الأهلية المتوفر على الموقع الرسمي لاتصالات الجزائر باللغات الثلاث (العربية، الفرنسية، الإنجليزية) من خلال الروابط المخصّصة لاختبار أهلية مودم XGS-PON، مع اتباع الخطوات الخمس المحددة إلى غاية الحصول على نتيجة ناجحة أو غير ناجحة.",
+      "الزبائن الحاليون الذين يستوفون شروط الحصول على جهاز ONT XGS-PON Wi-Fi 6 والذين يملكون مسبقاً جهاز ONT Wi-Fi 6 يمكنهم استرجاع جهازهم القديم من نوع GPON مقابل الحصول على الجهاز الجديد XGS-PON Wi-Fi 6 وفقاً للأسعار المعمول بها.",
+      "في حال عدم أهلية الزبون لتقنية XGS-PON (نتيجة اختبار غير ناجحة أو غياب بطاقة XGS-PON)، يمكنه فقط اقتناء جهاز ONT GPON Wi-Fi 6 المتوافق مع البنية التحتية الحالية لمنطقته، في حين سيتم إتاحة جهاز XGS-PON Wi-Fi 6 لاحقاً عند تحديث الشبكة.",
+      "تتم عملية استرجاع الأجهزة القديمة (ONT Wi-Fi 4/5/6) على مستوى الوكالة التجارية التابع لها الزبون، وفقاً للتعريفات المعمول بها ومع احترام نماذج الإقرار الخاصة بعملية التسليم والاستلام.",
+      "حضور صاحب الخط شخصياً في الوكالة التجارية إلزامي عند استرجاع جهاز ONT القديم وتسليم الجهاز الجديد (GPON أو XGS-PON).",
+      "يُشترط ملء وتوقيع نماذج الإقرار بالتسليم والاستلام من طرف الزبون والوكالة، مع تدوين رقم اشتراك الألياف البصرية (FTTH)، ومرجع الجهاز القديم، ورقم تسلسله، ومرجع الجهاز الجديد ورقم تسلسله.",
+      "عند الاسترجاع، يقوم الزبون بإرجاع مودم ONT ومحول الطاقة (الشاحن)، مع احتفاظه بسلك التوصيل Pigtail الخاص بجهازه القديم، بينما يتعيّن على المستشار التجاري نزع سلك التوصيل الخاص بجهاز ONT Wi-Fi 6 الجديد قبل تسليمه للزبون.",
+      "يتعيّن أن يكون جهاز ONT المسترجع في حالة جيدة وصالحاً للاستعمال، ويقرّ الزبون بهذه الشروط عند توقيعه على الإقرار.",
+      "يتم تغيير الأجهزة (ONT GPON Wi-Fi 6 أو ONT XGS-PON Wi-Fi 6) في إطار التعريفات والشروط المحددة في هذه المذكرة.",
+      "يتعيّن على المستشارين التجاريين الاعتماد على الخطاب التجاري المرفق لشرح مزايا أجهزة ONT GPON Wi-Fi 6 و XGS-PON Wi-Fi 6 للزبائن (التحسين في التغطية، الأداء العالي، الجاهزية للسرعات الفائقة)."
+    ],
+    "conditions_fr": [
+      "La cible de cette opération est constituée des clients résidentiels IDOOM FIBRE, incluant les nouveaux abonnés FTTH et les clients existants souhaitant renouveler leur équipement.",
+      "L’ONT GPON Wi-Fi 6 est proposé au nouveau tarif de 7 000 DA TTC (au lieu de 14 200 DA) sous condition de restitution de l’ancien ONT Wi-Fi 4 ou Wi-Fi 5.",
+      "L’ONT XGS-PON Wi-Fi 6 est proposé au tarif de 14 200 DA TTC, sous réserve de la disponibilité des cartes compatibles XGS-PON dans la zone de l’abonné.",
+      "L’acquisition d’un ONT XGS-PON Wi-Fi 6 est conditionnée par un débit IDOOM FIBRE minimum de 1 Gbps.",
+      "Le client doit être raccordé à une carte XGS-PON au niveau du réseau d’accès pour pouvoir bénéficier d’un ONT XGS-PON Wi-Fi 6.",
+      "Le client doit se trouver dans une zone équipée par des équipements Huawei ou FiberHome compatibles XGS-PON.",
+      "Le conseiller client doit obligatoirement vérifier la disponibilité des cartes compatibles XGS-PON et l’éligibilité du client via le site officiel d’Algérie Télécom avant toute proposition ou vente.",
+      "La vérification d’éligibilité XGS-PON se fait via le test disponible sur le site d’Algérie Télécom aux liens : FR : https://www.algerietelecom.dz/fr/tester-eligibilite-modem-XGS-PON ; AR : https://www.algerietelecom.dz/ar/tester-eligibilite-modem-XGS-PON ; EN : https://www.algerietelecom.dz/en/tester-eligibilite-modem-XGS-PON.",
+      "Une fois sur le lien de test d’éligibilité, le conseiller doit suivre les cinq étapes indiquées pour conclure si le client est éligible ou non à l’ONT XGS-PON (illustrations de cas concluant et non concluant).",
+      "Les clients existants qui remplissent les conditions d’éligibilité XGS-PON et qui détiennent déjà un ONT Wi-Fi 6 peuvent restituer leur ancien ONT GPON afin d’obtenir le nouvel ONT Wi-Fi 6 XGS-PON au tarif en vigueur.",
+      "Si le client n’est pas éligible au XGS-PON (test non concluant ou absence de carte XGS-PON), il ne peut acquérir qu’un ONT GPON Wi-Fi 6, compatible avec l’infrastructure actuelle de son quartier.",
+      "La restitution de l’ancien ONT (Wi-Fi 4/5/6) se fait au niveau de l’agence commerciale de rattachement du client, dans le cadre des tarifs en vigueur et des formulaires de décharge prévus.",
+      "La présence du titulaire de la ligne est obligatoire à l’agence pour la restitution du modem ONT et la remise du nouvel équipement (GPON ou XGS-PON).",
+      "Les formulaires de décharge de restitution (« Restitution ONT Wi-Fi 4 et 5 » et « Restitution ONT Wi-Fi 6 GPON ») doivent être remplis et signés par le client et l’agence, en mentionnant le numéro d’abonnement FTTH, la référence et le numéro de série de l’ancien et du nouvel ONT.",
+      "Lors de la restitution, le client restitue le modem ONT et son adaptateur d’alimentation (chargeur) en conservant le pigtail de l’ancien ONT ; le pigtail du nouvel ONT Wi-Fi 6 doit être retiré par le conseiller client avant la remise au client.",
+      "L’ONT doit être remis en bon état de fonctionnement ; le client reconnaît ces conditions au moment de la signature de la décharge.",
+      "Le changement d’équipement (GPON Wi-Fi 6 ou XGS-PON Wi-Fi 6) s’effectue dans le cadre des tarifs en vigueur définis dans ce document.",
+      "Les conseillers clients doivent utiliser l’argumentaire commercial fourni pour expliquer les bénéfices des ONT Wi-Fi 6 GPON et XGS-PON aux clients (modernisation, meilleure couverture Wi-Fi, préparation aux débits futurs)."
+    ],
+    "benefits_ar": [
+      "تخفيض سعر جهاز ONT GPON Wi-Fi 6 من 14.200 دج إلى 7.000 دج مع احتساب الرسوم، ما يتيح للزبائن الذين يملكون أجهزة قديمة من نوع Wi-Fi 4 أو Wi-Fi 5 تحديث أجهزتهم بسعر جدّ تنافسي.",
+      "إطلاق جيل جديد من أجهزة ONT XGS-PON Wi-Fi 6 المتوافق مع السرعات الفائقة جداً، والموجّه لزبائن IDOOM FIBRE الذين يستفيدون من تدفقات 1 جيغابت في الثانية فما فوق.",
+      "توحيد قاعدة الزبائن بالتدريج حول تجهيزات حديثة بتقنية Wi-Fi 6، مما يحسن أداء الشبكة وجودة تجربة الأنترنت في المنزل.",
+      "تحسين أداء شبكة Wi-Fi من حيث التغطية والاستقرار وسلاسة التصفح، حتى مع استعمال عدة أجهزة متصلة في آن واحد داخل المنزل.",
+      "تهيئة الزبائن والشبكة لمرحلة المستقبل، حيث تُعد أجهزة XGS-PON Wi-Fi 6 جاهزة لاستقبال العروض ذات السرعات الفائقة جداً (حتى 10 جيغابت/ثا).",
+      "أسعار تنافسية وخطاب تجاري واضح يسهل عملية البيع والتحسيس بأهمية عصرنة التجهيزات على مستوى الوكالات التجارية.",
+      "ضمان التوافق بين جهاز ONT XGS-PON والبنية التحتية التقنية بفضل اختبار الأهلية الرسمي عبر الإنترنت والتحقق من توفر بطاقات XGS-PON.",
+      "إجراءات استرجاع وتسليم الأجهزة مؤطرة بنماذج إقرار رسمية، تضمن تتبّع مرجع الأجهزة وأرقامها التسلسلية وحماية حقوق الزبون والمؤسسة."
+    ],
+    "benefits_fr": [
+      "Révision à la baisse du prix de l’ONT GPON Wi-Fi 6, passant de 14 200 DA à 7 000 DA TTC, permettant aux clients disposant d’anciens ONT Wi-Fi 4/5 de moderniser leur équipement à un tarif très avantageux.",
+      "Introduction d’une nouvelle génération d’ONT XGS-PON Wi-Fi 6, compatible avec les débits ultra haut débit, et destinée aux clients IDOOM FIBRE bénéficiant de 1 Gbps et plus.",
+      "Uniformisation progressive du parc client vers des équipements récents (Wi-Fi 6), améliorant la performance globale du réseau et la qualité d’expérience à domicile.",
+      "Meilleure performance Wi-Fi, avec une couverture plus large, une connexion plus stable et une navigation plus fluide, même avec plusieurs appareils connectés simultanément.",
+      "Préparation de la clientèle et du réseau à l’avenir, l’ONT XGS-PON Wi-Fi 6 étant prêt pour les futures offres fibre à très et ultra haut débit (jusqu’à 10 Gbps).",
+      "Prix attractifs et argumentaire commercial clair permettant de faciliter la vente et la modernisation des équipements au niveau des agences.",
+      "Garantie de compatibilité entre l’ONT XGS-PON et l’infrastructure grâce au test d’éligibilité officiel en ligne et au contrôle de la présence de cartes XGS-PON.",
+      "Processus de restitution encadré par des formulaires de décharge, assurant la traçabilité des équipements restitués (référence, numéro de série) et remis (nouvel ONT Wi-Fi 6 GPON ou XGS-PON)."
+    ],
+    "pricing_summary_ar": "تم تخفيض سعر جهاز ONT GPON Wi-Fi 6 من 14.200 دج إلى 7.000 دج مع احتساب الرسوم، وذلك شريطة استرجاع جهاز ONT القديم من نوع Wi-Fi 4 أو Wi-Fi 5، في حين يتم تسويق جهاز ONT XGS-PON Wi-Fi 6 بسعر 14.200 دج مع احتساب الرسوم لفائدة زبائن IDOOM FIBRE المؤهلين الذين يستوفون شروط التدفق (1 جيغابت/ثا فما فوق) والربط على بطاقة XGS-PON وتوفر العتاد المناسب في شبكتهم.",
+    "pricing_summary_fr": "L’ONT GPON Wi-Fi 6 voit son prix révisé de 14 200 DA à 7 000 DA TTC, sous condition de restitution de l’ancien ONT Wi-Fi 4/5, tandis que le nouvel ONT XGS-PON Wi-Fi 6 est commercialisé au tarif de 14 200 DA TTC pour les clients IDOOM FIBRE éligibles (débit minimum 1 Gbps, carte XGS-PON disponible, zone Huawei/FiberHome et test d’éligibilité concluant)."
+  },
+
+  "policy_summary": {
+    "summary_ar": "هذه المذكرة تشرح مراجعة سعر أجهزة ONT GPON Wi-Fi 6 نحو الانخفاض وإطلاق أجهزة ONT XGS-PON Wi-Fi 6 لفائدة زبائن IDOOM FIBRE الخواص، مع تحديد شروط الأهلية التقنية والتجارية، وإجراءات استرجاع الأجهزة القديمة وتسليم الأجهزة الجديدة، بما يضمن توحيد تجهيزات الزبائن على تقنيات حديثة (Wi-Fi 6 / XGS-PON) وتحضير الشبكة للانتقال إلى الأنترنت فائق السرعة.",
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "هل يمكن للزبائن الحاليين المؤهلين والمستفيدين من جهاز ONT Wi-Fi 6 استبدال أجهزتهم القديمة من نوع G-PON؟",
+      "answer": "نعم، يمكن للزبائن الذين يستوفون شروط الحصول على جهاز ONT XGS-PON Wi-Fi 6، والذين يملكون مسبقاً جهاز ONT Wi-Fi 6 من نوع GPON، أن يقوموا بإرجاع جهازهم القديم مقابل الحصول على جهاز جديد XGS-PON Wi-Fi 6 وفقاً للتعريفات المعمول بها وشروط الأهلية المحددة (تدفق 1 جيغابت/ثا فما فوق، ربط على بطاقة XGS-PON، منطقة مجهزة بمعدات Huawei أو FiberHome، ونتيجة اختبار أهلية إيجابية)."
+    },
+    {
+      "question": "لماذا تم تخفيض سعر جهاز GPON Wi-Fi 6؟",
+      "answer": "تهدف هذه المراجعة السعرية إلى تشجيع الزبائن الذين يملكون أجهزة قديمة من نوع Wi-Fi 4 أو Wi-Fi 5 على استبدالها بأجهزة أحدث وأكثر أداءً، وتوحيد قاعدة الزبائن حول تجهيزات عصرية بتقنية Wi-Fi 6، وتحسين رضا الزبائن من خلال تغطية Wi-Fi أفضل وتصفح أكثر سلاسة داخل المنزل."
+    },
+    {
+      "question": "ما الفرق بين تقنيتي GPON و XGS-PON؟",
+      "answer": "توفر تقنية GPON سرعات تحميل تصل إلى 2.5 جيغابت/ثا وسرعات رفع تصل إلى 1.25 جيغابت/ثا، وهي كافية لمعظم الاستعمالات الحالية. أما تقنية XGS-PON فتمكّن من سرعات تحميل تصل إلى 10 جيغابت/ثا وسرعات رفع تصل إلى 10 جيغابت/ثا، ما يجعلها التطور الطبيعي لشبكات الألياف البصرية ويتيح تقديم عروض أنترنت فائق وعالي السرعة في المستقبل."
+    },
+    {
+      "question": "من يمكنه اقتناء جهاز ONT XGS-PON Wi-Fi 6؟",
+      "answer": "يمكن اقتناء جهاز ONT XGS-PON Wi-Fi 6 فقط من طرف الزبائن الذين لديهم اشتراك IDOOM FIBRE بتدفق لا يقل عن 1 جيغابت/ثا، وموصولين على بطاقة XGS-PON، ومتواجدين في مناطق مجهزة بتجهيزات Huawei أو FiberHome، والحاصلين على نتيجة إيجابية لاختبار الأهلية عبر الموقع الرسمي لاتصالات الجزائر."
+    },
+    {
+      "question": "كيف يتم التحقق من أهلية الزبون للحصول على جهاز XGS-PON Wi-Fi 6؟",
+      "answer": "يتم التحقق من الأهلية عبر اختبار متوفر على الموقع الرسمي لاتصالات الجزائر، حيث يُطلب من المستشار التجاري أو الزبون الدخول إلى رابط اختبار أهلية مودم XGS-PON (المتوفر باللغات العربية والفرنسية والإنجليزية)، ثم اتباع الخطوات الخمس المحددة. بعد إتمام الخطوات، تظهر نتيجة تشير إلى ما إذا كان الزبون مؤهلاً أو غير مؤهل للحصول على جهاز XGS-PON Wi-Fi 6."
+    },
+    {
+      "question": "ماذا يحدث إذا لم يكن الزبون مؤهلاً لتقنية XGS-PON؟",
+      "answer": "في حال عدم أهلية الزبون لتقنية XGS-PON (غياب بطاقة XGS-PON، أو منطقة غير مجهزة، أو نتيجة اختبار غير ناجحة)، لا يمكنه اقتناء جهاز ONT XGS-PON Wi-Fi 6، ويُسمح له فقط باقتناء جهاز ONT GPON Wi-Fi 6 المتوافق مع البنية التحتية الحالية لمنطقته. سيتم لاحقاً تمكينه من تقنية XGS-PON عند تحديث الشبكة في منطقته."
+    },
+    {
+      "question": "ما هو الفرق في الأسعار بين النموذجين GPON Wi-Fi 6 و XGS-PON Wi-Fi 6؟",
+      "answer": "يُسوق جهاز GPON Wi-Fi 6 بالسعر الجديد 7.000 دج مع احتساب الرسوم، بدلاً من 14.200 دج، بشرط استرجاع جهاز ONT القديم من نوع Wi-Fi 4 أو Wi-Fi 5. أما جهاز XGS-PON Wi-Fi 6 فيُسوق بسعر 14.200 دج مع احتساب الرسوم، شريطة توفر بطاقات XGS-PON وأهلية الزبون التقنية (تدفق 1 جيغابت/ثا فما فوق واختبار أهلية ناجح)."
+    },
+    {
+      "question": "ما هي مزايا الزبون في إطار هذه العملية؟",
+      "answer": "من بين المزايا الرئيسية: أداء Wi-Fi أفضل من حيث التغطية والاستقرار والسرعة، واستقرار أكبر في الاتصال حتى عند استخدام عدة أجهزة في الوقت ذاته، إضافة إلى جاهزية جهاز XGS-PON Wi-Fi 6 لمواكبة عروض الأنترنت ذات السرعات الفائقة القادمة، مع تسعيرة تنافسية خاصة لتخفيض سعر جهاز GPON Wi-Fi 6 إلى 7.000 دج لتسهيل عملية عصرنة التجهيزات."
+    },
+    {
+      "question": "أملك جهاز ONT Wi-Fi 6 G-PON، هل يمكنني استبداله بجهاز ONT Wi-Fi 6 XGS-PON؟",
+      "answer": "نعم، يمكن ذلك، شريطة استيفاء شروط الأهلية لتقنية XGS-PON (اشتراك IDOOM FIBRE بتدفق لا يقل عن 1 جيغابت/ثا، ربط على بطاقة XGS-PON، منطقة مجهزة بمعدات Huawei أو FiberHome، ونتيجة اختبار أهلية إيجابية عبر الموقع الرسمي). في هذه الحالة، يمكن للزبون إرجاع جهازه ONT Wi-Fi 6 GPON والحصول على جهاز جديد ONT Wi-Fi 6 XGS-PON بسعر 14.200 دج مع احتساب الرسوم."
+    },
+    {
+      "question": "هل حضور صاحب الخط ضروري لإرجاع جهاز ONT؟",
+      "answer": "نعم، حضور صاحب الخط شخصياً في الوكالة التجارية التابعة له ضروري لإتمام عملية استرجاع جهاز ONT القديم وتسليم الجهاز الجديد، وذلك من أجل التحقق من الهوية، والتأكيد على الحالة الجيدة للجهاز المسترجع، والتوقيع على نماذج الإقرار بالتسليم والاستلام."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Quelle est la cible de cette opération de révision de prix et de lancement des ONT XGS-PON ?",
+      "answer": "La cible est constituée des clients résidentiels IDOOM FIBRE : d’une part, les nouveaux abonnés FTTH qui souhaitent bénéficier d’un modem ONT Wi-Fi 6 dès la mise en service de leur ligne, et d’autre part, les clients existants qui souhaitent renouveler leur équipement (remplacement de leur ancien ONT Wi-Fi 4 ou 5 par un ONT GPON Wi-Fi 6 ou XGS-PON Wi-Fi 6)."
+    },
+    {
+      "question": "Pour les clients existants qui remplissent les conditions d’avoir un ONT XGS-PON et détiennent un ONT Wi-Fi 6, peuvent-ils restituer leur ancien ONT GPON ?",
+      "answer": "Oui. Les clients existants qui remplissent les conditions pour bénéficier d’un ONT XGS-PON (débit minimum 1 Gbps, raccordement sur carte XGS-PON, zone Huawei/FiberHome, test d’éligibilité concluant) et qui détiennent déjà un ONT Wi-Fi 6 GPON peuvent restituer leur ancien ONT GPON afin d’obtenir un nouvel ONT Wi-Fi 6 XGS-PON au tarif de 14 200 DA TTC, conformément aux conditions fixées."
+    },
+    {
+      "question": "Pourquoi baisser le prix du GPON Wi-Fi 6 ?",
+      "answer": "La baisse du prix du GPON Wi-Fi 6 poursuit plusieurs objectifs : encourager les clients disposant d’un ancien ONT Wi-Fi 4 ou 5 à le remplacer par un modèle plus performant via la restitution, uniformiser le parc client avec du matériel moderne Wi-Fi 6, et stimuler la satisfaction client grâce à une meilleure couverture Wi-Fi et une navigation plus fluide à domicile."
+    },
+    {
+      "question": "Quelle est la différence entre les technologies GPON et XGS-PON ?",
+      "answer": "La technologie GPON permet des débits descendants jusqu’à 2,5 Gbps et des débits montants jusqu’à 1,25 Gbps, suffisants pour la plupart des usages actuels. La technologie XGS-PON, quant à elle, offre des débits descendants jusqu’à 10 Gbps et des débits montants jusqu’à 10 Gbps, représentant ainsi l’évolution naturelle de la fibre et préparant Algérie Télécom à proposer des offres d’ultra haut débit."
+    },
+    {
+      "question": "Quels clients peuvent acheter un ONT XGS-PON Wi-Fi 6 ?",
+      "answer": "Peuvent acheter un ONT XGS-PON Wi-Fi 6 uniquement les clients disposant d’un abonnement IDOOM FIBRE avec un débit minimum de 1 Gbps et plus, raccordés sur une carte compatible XGS-PON, situés dans des zones équipées par des équipements Huawei ou FiberHome, et pour lesquels le test d’éligibilité en ligne est concluant. La vérification de l’éligibilité se fait via le site officiel d’Algérie Télécom disponible en trois langues (FR, AR, EN)."
+    },
+    {
+      "question": "Comment vérifier l’éligibilité d’un client à l’ONT XGS-PON Wi-Fi 6 ?",
+      "answer": "L’éligibilité se vérifie via le site officiel d’Algérie Télécom, en accédant au lien de test d’éligibilité XGS-PON (disponible en FR, AR et EN), puis en suivant les cinq étapes détaillées dans le parcours en ligne. Deux types de résultats sont possibles : un test concluant (client éligible) ou un test non concluant (client non éligible). Le conseiller doit obligatoirement réaliser ce test avant de proposer ou vendre un ONT XGS-PON."
+    },
+    {
+      "question": "Que se passe-t-il si le client n’est pas éligible au XGS-PON ?",
+      "answer": "Si le client n’est pas éligible au XGS-PON (absence de carte XGS-PON, zone non équipée Huawei/FiberHome, ou test négatif), il ne pourra pas acquérir un ONT XGS-PON Wi-Fi 6. Il pourra uniquement bénéficier d’un ONT GPON Wi-Fi 6, qui reste compatible avec l’infrastructure GPON actuelle de son quartier. L’ONT XGS-PON Wi-Fi 6 sera éventuellement disponible ultérieurement lorsque son réseau sera modernisé."
+    },
+    {
+      "question": "Quelle est la différence de prix entre les deux modèles d’ONT Wi-Fi 6 ?",
+      "answer": "L’ONT GPON Wi-Fi 6 est désormais proposé à 7 000 DA TTC (au lieu de 14 200 DA), sous condition de restitution de l’ancien ONT Wi-Fi 4 ou 5. L’ONT XGS-PON Wi-Fi 6 est proposé au tarif de 14 200 DA TTC, sous réserve de disponibilité de la carte XGS-PON et de l’éligibilité du client (débit 1 Gbps et plus, test concluant)."
+    },
+    {
+      "question": "Quels sont les principaux avantages pour le client dans le cadre de cette opération ?",
+      "answer": "Les principaux avantages sont : une meilleure performance Wi-Fi (couverture, stabilité, débit), une connexion plus stable même avec plusieurs appareils connectés, une préparation à l’avenir avec un équipement XGS-PON prêt pour les offres d’ultra haut débit, et des prix attractifs, notamment la réduction exceptionnelle de l’ONT GPON Wi-Fi 6 à 7 000 DA pour moderniser son équipement à moindre coût."
+    },
+    {
+      "question": "Je détiens un ONT Wi-Fi 6 GPON. Puis-je le restituer afin d’obtenir un nouveau ONT Wi-Fi 6 XGS-PON ?",
+      "answer": "Oui. Si le client remplit les conditions d’éligibilité à l’ONT XGS-PON (débit minimum 1 Gbps, présence de carte XGS-PON, zone Huawei/FiberHome, test concluant), il peut restituer son ONT Wi-Fi 6 GPON et obtenir un nouvel ONT Wi-Fi 6 XGS-PON au tarif de 14 200 DA TTC, conformément aux conditions de l’offre."
+    },
+    {
+      "question": "La présence du titulaire de la ligne à l’agence est-elle obligatoire pour la restitution du modem ONT ?",
+      "answer": "Oui. La présence du titulaire de la ligne est obligatoire au niveau de l’agence commerciale de rattachement pour procéder à la restitution de l’ancien modem ONT et à la remise du nouvel équipement. Cette présence permet de vérifier l’identité du client, la bonne restitution du matériel (modem et chargeur) et la signature des formulaires de décharge."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "ملاحظة هامة: نذكّر أن البريد الإلكتروني Feedback (FB@algerietelecom.dz) مخصّص حصرياً لطلبات المعلومات التجارية والاستفسارات المتعلقة بالمذكرات أو الإجراءات الصادرة عن اتصالات الجزائر. لا تترددوا في مراسلتنا عند الحاجة.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. Les conseillers et agences peuvent l’utiliser en cas de nécessité pour toute question liée à la révision du prix des ONT GPON Wi-Fi 6 et au lancement des ONT XGS-PON."
+  },
+
+  "keywords_ar": [
+    "أجهزة ONT GPON Wi-Fi 6",
+    "أجهزة ONT XGS-PON Wi-Fi 6",
+    "مراجعة سعر جهاز ONT",
+    "تخفيض سعر GPON Wi-Fi 6",
+    "إطلاق أجهزة XGS-PON",
+    "IDOOM FIBRE",
+    "زبائن IDOOM FIBRE الخواص",
+    "FTTH",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "Wi-Fi 6",
+    "تجديد التجهيزات",
+    "استرجاع جهاز ONT القديم",
+    "بطاقة XGS-PON",
+    "تدفق 1 جيغابت في الثانية",
+    "10 جيغابت في الثانية",
+    "2.5 جيغابت في الثانية",
+    "1.25 جيغابت في الثانية",
+    "هواوي",
+    "Huawei",
+    "FiberHome",
+    "اختبار الأهلية XGS-PON",
+    "الموقع الرسمي لاتصالات الجزائر",
+    "اختبار أهلية مودم XGS-PON",
+    "الزبائن المؤهلون",
+    "الزبائن غير المؤهلين",
+    "الأنترنت فائق السرعة",
+    "توحيد قاعدة الزبائن",
+    "أداء Wi-Fi أفضل",
+    "اتصال مستقر",
+    "المنزل المتصل",
+    "خطاب تجاري",
+    "إقرار تسليم واستلام",
+    "رقم اشتراك FTTH",
+    "مرجع المودم",
+    "الرقم التسلسلي للمودم",
+    "سلك Pigtail",
+    "حضور صاحب الخط",
+    "اتصالات الجزائر",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "ONT GPON Wi-Fi 6",
+    "ONT XGS-PON Wi-Fi 6",
+    "révision du prix ONT",
+    "lancement XGS-PON",
+    "IDOOM FIBRE",
+    "clients résidentiels IDOOM FIBRE",
+    "FTTH",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "Wi-Fi 6",
+    "modernisation équipement",
+    "14 200 DA",
+    "7 000 DA",
+    "baisse de prix",
+    "restitution ancien ONT",
+    "carte XGS-PON",
+    "débit 1 Gbps",
+    "10 Gbps",
+    "2,5 Gbps",
+    "1,25 Gbps",
+    "Huawei",
+    "FiberHome",
+    "test d’éligibilité XGS-PON",
+    "site officiel Algérie Télécom",
+    "tester-eligibilite-modem-XGS-PON",
+    "clients éligibles",
+    "clients non éligibles",
+    "connexion ultra haut débit",
+    "modernisation du parc client",
+    "meilleure performance Wi-Fi",
+    "connexion stable",
+    "foyer connecté",
+    "argumentaire commercial",
+    "décharge restitution ONT",
+    "numéro d’abonnement FTTH",
+    "référence modem",
+    "numéro de série modem",
+    "pigtail",
+    "présence du titulaire",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "ONT GPON Wi-Fi 6",
+    "ONT XGS-PON Wi-Fi 6",
+    "révision du prix ONT",
+    "lancement XGS-PON",
+    "IDOOM FIBRE",
+    "clients résidentiels IDOOM FIBRE",
+    "FTTH",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "Wi-Fi 6",
+    "modernisation équipement",
+    "14 200 DA",
+    "7 000 DA",
+    "baisse de prix",
+    "restitution ancien ONT",
+    "carte XGS-PON",
+    "débit 1 Gbps",
+    "10 Gbps",
+    "2,5 Gbps",
+    "1,25 Gbps",
+    "Huawei",
+    "FiberHome",
+    "test d’éligibilité XGS-PON",
+    "site officiel Algérie Télécom",
+    "tester-eligibilite-modem-XGS-PON",
+    "clients éligibles",
+    "clients non éligibles",
+    "connexion ultra haut débit",
+    "modernisation du parc client",
+    "meilleure performance Wi-Fi",
+    "connexion stable",
+    "foyer connecté",
+    "argumentaire commercial",
+    "décharge restitution ONT",
+    "numéro d’abonnement FTTH",
+    "référence modem",
+    "numéro de série modem",
+    "pigtail",
+    "présence du titulaire",
+    "FB@algerietelecom.dz",
+    "أجهزة ONT GPON Wi-Fi 6",
+    "أجهزة ONT XGS-PON Wi-Fi 6",
+    "مراجعة سعر جهاز ONT",
+    "تخفيض سعر GPON Wi-Fi 6",
+    "إطلاق أجهزة XGS-PON",
+    "زبائن IDOOM FIBRE الخواص",
+    "تجديد التجهيزات",
+    "استرجاع جهاز ONT القديم",
+    "بطاقة XGS-PON",
+    "تدفق 1 جيغابت في الثانية",
+    "الأنترنت فائق السرعة",
+    "توحيد قاعدة الزبائن",
+    "أداء Wi-Fi أفضل",
+    "اتصال مستقر",
+    "المنزل المتصل",
+    "خطاب تجاري",
+    "إقرار تسليم واستلام",
+    "رقم اشتراك FTTH",
+    "مرجع المودم",
+    "الرقم التسلسلي للمودم",
+    "سلك Pigtail",
+    "حضور صاحب الخط",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "مراجعة أسعار أجهزة ONT GPON Wi-Fi 6 وإطلاق أجهزة ONT XGS-PON لزبائن IDOOM FIBRE الخواص chez Algérie Télécom : baisse du prix de l’ONT GPON Wi-Fi 6 de 14 200 DA à 7 000 DA TTC avec restitution de l’ancien ONT Wi-Fi 4/5, lancement de l’ONT XGS-PON Wi-Fi 6 à 14 200 DA TTC pour les clients IDOOM FIBRE éligibles (débit minimum 1 Gbps, carte XGS-PON disponible, zone Huawei/FiberHome, test d’éligibilité concluant). Cible : clients résidentiels IDOOM FIBRE, nouveaux abonnés FTTH et clients existants souhaitant renouveler leur équipement. Conditions principales : restitution de l’ancien ONT Wi-Fi 4/5 pour bénéficier du nouveau tarif GPON Wi-Fi 6 ; éligibilité technique obligatoire pour l’ONT XGS-PON Wi-Fi 6 (débit ≥ 1 Gbps, carte XGS-PON, zone compatible, test d’éligibilité en ligne). Avantages : meilleure couverture et stabilité Wi-Fi, uniformisation du parc client vers le Wi-Fi 6, préparation aux débits jusqu’à 10 Gbps avec XGS-PON, procédures de restitution encadrées (formulaires de décharge, mention des références et numéros de série des équipements, présence obligatoire du titulaire de la ligne). Le document inclut également une FAQ détaillée en arabe et en français sur les différences entre GPON et XGS-PON (2,5 Gbps / 1,25 Gbps vs 10 Gbps / 10 Gbps), les conditions de remplacement de l’ONT GPON par l’ONT XGS-PON, le rôle du test d’éligibilité XGS-PON, les cas de non-éligibilité et les avantages pour le client (prix attractifs, modernisation, connexion plus stable, équipement prêt pour l’avenir). Contact : adresse mail Feedback FB@algerietelecom.dz réservée aux demandes d’informations commerciales et questions sur les notes et procédures.",
+  "dense_text_primary": "هذا المستند يقدّم عرضاً تفصيلياً لعملية مراجعة أسعار أجهزة ONT GPON Wi-Fi 6 وإطلاق أجهزة ONT XGS-PON Wi-Fi 6 لدى اتصالات الجزائر لفائدة زبائن IDOOM FIBRE الخواص (المشتركين الجدد FTTH والزبائن الحاليين الذين يرغبون في تجديد تجهيزاتهم). تم تخفيض سعر جهاز GPON Wi-Fi 6 من 14.200 دج إلى 7.000 دج مع احتساب الرسوم، بشرط استرجاع جهاز ONT القديم من نوع Wi-Fi 4 أو Wi-Fi 5، وذلك بهدف تشجيع الزبائن على عصرنة تجهيزاتهم وتحسين تجربة الأنترنت المنزلية. بالتوازي، تم إطلاق أجهزة XGS-PON Wi-Fi 6 بسعر 14.200 دج مع الرسوم، موجهة للزبائن المؤهلين الذين يستفيدون من تدفق 1 جيغابت/ثا فما فوق، وموصولين على بطاقة XGS-PON، ومتواجدين في مناطق مجهزة بمعدات Huawei أو FiberHome، بعد اجتياز اختبار أهلية مخصص على الموقع الرسمي لاتصالات الجزائر. تقنياً، تسمح تقنية GPON بسرعات تحميل تصل إلى 2.5 Gbps وسرعات رفع تصل إلى 1.25 Gbps، بينما تمكّن تقنية XGS-PON من سرعات تحميل ورفع تصل إلى 10 Gbps، ما يجعلها التطور الطبيعي لشبكات الألياف البصرية وجاهزة للعروض ذات السرعات الفائقة. يوضّح المستند شروط الأهلية لاقتناء أجهزة XGS-PON Wi-Fi 6، وإجراءات استرجاع الأجهزة القديمة وتسليم الأجهزة الجديدة GPON/XGS-PON من خلال نماذج إقرار رسمية، مع إلزام حضور صاحب الخط والتأكد من الحالة الجيدة للجهاز المسترجع. بالنسبة للزبون، توفّر هذه العملية أسعاراً تنافسية (7.000 دج لجهاز GPON Wi-Fi 6 بشروط الاسترجاع و14.200 دج لجهاز XGS-PON Wi-Fi 6)، وتحسيناً واضحاً في أداء وتغطية Wi-Fi داخل المنزل، واستقراراً أفضل للاتصال مع عدة أجهزة، وجاهزية تقنية للمرور إلى عروض أنترنت بسرعات قد تصل إلى 10 Gbps. بالنسبة لاتصالات الجزائر، تسمح هذه المراجعة السعرية والانتقال إلى XGS-PON بتوحيد قاعدة الزبائن حول تجهيزات عصرية، ورفع مستوى رضا الزبائن، وتحضير الشبكة لعصر الأنترنت فائق السرعة، مع توفير قناة تواصل مخصّصة عبر البريد الإلكتروني FB@algerietelecom.dz للاستفسارات التجارية والأسئلة حول المذكرات والإجراءات."
+}

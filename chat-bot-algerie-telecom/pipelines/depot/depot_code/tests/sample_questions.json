@@ -1,0 +1,128 @@
+{
+  "equipe": "IA_Team",
+  "questions": {
+
+    "categorie_01_smartphones": {
+      "1": {
+        "question": "Quel est le prix du Buzz 6 Pro Plus ?",
+        "expected_document": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6"
+      },
+      "2": {
+        "question": "Quels modèles de smartphones Buzz sont disponibles chez Algérie Télécom ?",
+        "expected_document": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6"
+      },
+      "3": {
+        "question": "Quelles sont les caractéristiques techniques du ZTE Blade A55 ?",
+        "expected_document": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE"
+      },
+      "4": {
+        "question": "Quel smartphone ZTE dispose d’un appareil photo 50 MP ?",
+        "expected_document": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE"
+      }
+    },
+
+    "categorie_02_education": {
+      "1": {
+        "question": "Comment fonctionne la plateforme ClassaTeck pour les écoles ?",
+        "expected_document": "Argumentaire Plateforme ClassaTeck"
+      },
+      "2": {
+        "question": "Quels sont les packs disponibles sur ClassaTeck ?",
+        "expected_document": "Argumentaire Plateforme ClassaTeck"
+      },
+      "3": {
+        "question": "Qu’est-ce que la plateforme MOALIM ?",
+        "expected_document": "Argumentaire Service MOALIM – Version 3"
+      },
+      "4": {
+        "question": "Quelle solution aide les élèves à préparer le BEM et le BAC ?",
+        "expected_document": "Argumentaire Service MOALIM – Version 3"
+      }
+    },
+
+    "categorie_03_cartes_et_bibliotheques": {
+      "1": {
+        "question": "Comment fonctionnent les cartes de recharge Dorouscom ?",
+        "expected_document": "Argumentaire Cartes de recharge Dorouscom"
+      },
+      "2": {
+        "question": "Peut-on cumuler plusieurs cartes Dorouscom ?",
+        "expected_document": "Argumentaire Cartes de recharge Dorouscom"
+      },
+      "3": {
+        "question": "Qu’est-ce que la bibliothèque numérique EKOTEB ?",
+        "expected_document": "Argumentaire Bibliothèque numérique EKOTEB – Version 2"
+      },
+      "4": {
+        "question": "Sur quelles plateformes EKOTEB est-elle accessible ?",
+        "expected_document": "Argumentaire Bibliothèque numérique EKOTEB – Version 2"
+      }
+    },
+
+    "categorie_04_cloud_et_services": {
+      "1": {
+        "question": "Quelles sont les offres de stockage cloud proposées par Algérie Télécom ?",
+        "expected_document": "Argumentaire Solution iBox"
+      },
+      "2": {
+        "question": "Quelle solution permet de stocker des fichiers dans des datacenters en Algérie ?",
+        "expected_document": "Argumentaire Solution iBox"
+      },
+      "3": {
+        "question": "Comment acheter un produit en ligne chez Algérie Télécom ?",
+        "expected_document": "Argumentaire Boutique en ligne Idoom Market"
+      },
+      "4": {
+        "question": "Comment suivre une commande sur Idoom Market ?",
+        "expected_document": "Argumentaire Boutique en ligne Idoom Market"
+      }
+    },
+
+    "categorie_05_accessoires_et_boxes": {
+      "1": {
+        "question": "À quoi servent les caches modems vendus par Algérie Télécom ?",
+        "expected_document": "Argumentaire Caches modems – Dépôt-Vente"
+      },
+      "2": {
+        "question": "Quels sont les modèles de caches pour modem et répéteur Wi-Fi ?",
+        "expected_document": "Argumentaire Caches modems – Dépôt-Vente"
+      },
+      "3": {
+        "question": "Qu’est-ce que la TWIN BOX et à quoi sert-elle ?",
+        "expected_document": "Argumentaire TWIN BOX – Version 2"
+      },
+      "4": {
+        "question": "Quelle box permet d’accéder à TOD et Fennec Digital ?",
+        "expected_document": "Argumentaire TWIN BOX – Version 2"
+      }
+    },
+
+    "categorie_06_arabe": {
+      "1": {
+        "question": "ما هو سعر هاتف Buzz 6 Pro؟",
+        "expected_document": "Argumentaire Produits partenaire SARL ACE Algérie – Smartphones BUZZ 6"
+      },
+      "2": {
+        "question": "ما هي الخصائص التقنية لهاتف ZTE Blade A55؟",
+        "expected_document": "Argumentaire Produits partenaire SARL SACOMI ELECTRONICS – Smartphones ZTE"
+      },
+      "3": {
+        "question": "كيف تعمل منصة ClassaTeck التعليمية؟",
+        "expected_document": "Argumentaire Plateforme ClassaTeck"
+      },
+      "4": {
+        "question": "ما هي منصة EKOTEB؟",
+        "expected_document": "Argumentaire Bibliothèque numérique EKOTEB – Version 2"
+      },
+      "5": {
+        "question": "ما هي عروض التخزين السحابي المتوفرة لدى اتصالات الجزائر؟",
+        "expected_document": "Argumentaire Solution iBox"
+      },
+      "6": {
+        "question": "كيف يمكنني الشراء من موقع Idoom Market؟",
+        "expected_document": "Argumentaire Boutique en ligne Idoom Market"
+      }
+    }
+
+  }
+}

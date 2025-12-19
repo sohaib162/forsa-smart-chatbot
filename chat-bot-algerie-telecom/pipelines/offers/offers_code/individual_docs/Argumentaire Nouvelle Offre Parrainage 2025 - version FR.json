@@ -1,0 +1,306 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "offre_parrainage_idoom_fibre_my_idoom",
+  "technology": [
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential",
+    "residential_locataire",
+    "gamers",
+    "gamers_locataire"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet",
+    "referral",
+    "loyalty_program"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد للتوصية عبر تطبيق My Idoom",
+    "title_fr": "Nouvelle Offre Parrainage via l’application My Idoom – version FR –",
+    "company": "Algérie Télécom",
+    "version": "1.0",
+    "effective_date": "2025-11-16"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد للتوصية عبر تطبيق My Idoom",
+    "name_fr": "Nouvelle Offre Parrainage via l’application My Idoom",
+    "description_ar": "في إطار التزام اتصالات الجزائر تجاه زبائنها، تطلق عرضاً جديداً للتوصية عبر تطبيق My Idoom، موجهاً للزبائن الخواص المشتركين في خدمة Idoom Fibre (الخواص، الخواص المستأجرين، Gamers، Gamers Locataire). يهدف العرض إلى استقطاب زبائن جدد وتعزيز وفاء الزبائن الحاليين من خلال مكافأة \"الموصي\" و\"الموصى له\": يستفيد الموصي من 10 أيام مجانية بدفق 1.5 Gbps عن كل زبون جديد يوصي به، في حين يستفيد الموصى له من شهر واحد (30 يوماً) من الإنترنت بسرعة أعلى من السرعة التي اختارها عند الاشتراك خلال الشهر الأول، شريطة احترام شروط إنشاء وتفعيل حساب فضاء الزبون على تطبيق My Idoom ضمن الآجال المحددة. :contentReference[oaicite:0]{index=0}",
+    "description_fr": "La nouvelle offre Parrainage via l’application My Idoom d’Algérie Télécom vise à acquérir de nouveaux clients et à fidéliser les abonnés résidentiels Idoom Fibre en les incitant à recommander l’offre à leur entourage. Les clients Idoom Fibre existants (Résidentiels, Locataire, Gamers et Gamers Locataire) peuvent parrainer de nouveaux clients résidentiels Idoom Fibre et bénéficier, pour chaque parrainage validé, d’un bonus de 10 jours à 1,5 Gbps, tandis que le parrainé profite d’un débit supérieur à celui choisi pendant le premier mois suivant sa souscription, sous réserve du respect des conditions d’activation du compte My Idoom. :contentReference[oaicite:1]{index=1}",
+    "conditions_ar": [
+      "الفئة المستهدفة: جميع الزبائن الخواص المشتركين في عروض Idoom Fibre (الخواص، الخواص المستأجرين، Gamers، Gamers Locataire) مؤهلون للاستفادة من العرض، بينما الزبائن المستفيدون من عروض الاتفاقيات (Conventionnés) غير مؤهلين، سواء كموصي أو كموصى له. :contentReference[oaicite:2]{index=2}",
+      "يعتمد عرض التوصية على مكافأة زبائن Idoom Fibre الحاليين عن كل زبون جديد يقومون بتوصيته للاشتراك في Idoom Fibre عبر تطبيق My Idoom.",
+      "يمُنح الموصي 10 أيام إضافية من الإنترنت بدفق 1.5 Gbps عن كل عملية توصية ناجحة يتم تأكيدها من طرف الموصى له عبر تطبيق My Idoom.",
+      "يستفيد الموصى له من شهر واحد (30 يوماً) من الإنترنت بدفق أعلى من السرعة التي اختارها عند الاشتراك، خلال الشهر الأول فقط، ابتداءً من تاريخ تفعيل حسابه على My Idoom.",
+      "بعد قيام الموصى له بعملية التسجيل وتأكيد حسابه على تطبيق My Idoom، يتم منح المكافأة تلقائياً لكلٍّ من الموصي والموصى له، دون الحاجة لإجراء إضافي على مستوى الوكالة.",
+      "الموصي الذي يملك تدفّق 1.5 Gbps يستفيد من ميزة المدّة فقط (10 أيام إضافية) دون تغيير في السرعة.",
+      "يتم تعليق عرض التوصية خلال فترات العروض الترويجية التي تطلقها اتصالات الجزائر.",
+      "شروط الاستفادة بالنسبة للموصي: أن يكون زبوناً نشطاً في خدمة Idoom Fibre، وأن يمتلك حساباً مفعلاً على My Idoom، وأن يكون لديه رصيد إنترنت إيجابي (خدمة فعّالة).",
+      "شروط الاستفادة بالنسبة للموصي: إدخال البريد الإلكتروني للموصى له بشكل صحيح في فضاء الزبون عبر تطبيق My Idoom قبل إرسال رمز التوصية.",
+      "شروط الاستفادة بالنسبة للموصى له: أن يكون زبوناً جديداً ومؤهلاً تقنياً لخدمة الألياف البصرية (Idoom Fibre).",
+      "يجب على الموصى له إدخال رمز التوصية بشكل صحيح؛ بعد 3 محاولات خاطئة يُلغى الامتياز للطرفين (الموصي والموصى له).",
+      "يجب على الموصى له استخدام نفس البريد الإلكتروني الذي أدخله الموصي عبر تطبيق My Idoom عند إنشاء حساب فضاء الزبون.",
+      "يستفيد الموصى له من 30 يوماً من الإنترنت ويتم منح السرعة الأعلى ابتداءً من تاريخ تفعيل حساب My Idoom، وليس من تاريخ تشغيل الخط فقط.",
+      "للاستفادة الكاملة من العرض، يُنصح بأن يتم تفعيل حساب My Idoom يوم تشغيل الخط نفسه (mise en service).",
+      "يجب إنشاء وتفعيل حساب فضاء الزبون على My Idoom في مدة لا تتجاوز 7 أيام من تاريخ تشغيل الخط؛ بعد هذا الأجل يُلغى الامتياز لكل من الموصي والموصى له.",
+      "يتم إنشاء حساب فضاء الزبون عبر تطبيق My Idoom، ثم يمكن تفعيله إما مباشرة من التطبيق أو عبر الموقع الإلكتروني لاتصالات الجزائر (فضاء الزبون).",
+      "لا يمكن للموصى له (parrainé) أن يكون له أكثر من موصي واحد؛ أي أن كل زبون جديد يرتبط بموصي واحد فقط.",
+      "لا يمكن للموصي (parrain) أن يقوم بتوصية نفسه أو استعمال رقمه كموصى له.",
+      "عدد عمليات التوصية التي يقوم بها الموصي غير محدود، ويمكن تراكم الامتيازات (10 أيام عن كل توصية ناجحة).",
+      "الرموز وكلمات المرور شخصية وسرّية، ويُمنع مشاركتها مع الغير حفاظاً على أمن الحساب.",
+      "الاستفادة من الامتياز مشروطة بتفعيل حساب فضاء الزبون على My Idoom وربط الخط الجديد بالحساب في الآجال المحددة."
+    ],
+    "conditions_fr": [
+      "Le parrain doit être un client résidentiel Idoom Fibre actif (segments Résidentiels, Locataire, Gamers ou Gamers Locataire).",
+      "Le parrain doit disposer d’un compte My Idoom actif et d’un solde positif.",
+      "Le parrain doit renseigner l’adresse e-mail du parrainé sur l’Espace Client via l’application My Idoom.",
+      "Le parrainé doit être un nouveau client résidentiel Idoom Fibre et être éligible techniquement à la fibre.",
+      "Le parrainé doit saisir correctement le code de parrainage reçu (au-delà de 3 tentatives erronées, le bonus est perdu).",
+      "Le parrainé doit utiliser la même adresse e-mail que celle renseignée préalablement par le parrain sur l’application My Idoom.",
+      "Le débit supérieur pour le parrainé est accordé uniquement à compter de l’activation de son compte My Idoom.",
+      "Pour bénéficier du bonus en totalité, le parrainé doit activer son compte My Idoom le jour même de la mise en service de la nouvelle ligne Idoom Fibre.",
+      "Le parrainé doit créer et activer son compte Espace Client My Idoom dans les 7 jours suivant la mise en service de la ligne, faute de quoi le bonus est perdu pour le parrain et pour le parrainé.",
+      "Le compte Espace Client est créé via l’application My Idoom puis peut être activé soit directement depuis l’application, soit via le site web Espace Client.",
+      "Un parrainé ne peut avoir qu’un seul parrain.",
+      "Le parrain ne peut pas s’auto-parrainer.",
+      "Le nombre de parrainages est illimité pour un même parrain, et les bonus sont cumulables.",
+      "Les codes de parrainage et mots de passe sont strictement personnels et confidentiels et ne doivent pas être partagés.",
+      "L’attribution du bonus est automatiquement déclenchée pour le parrain et le parrainé une fois l’inscription et la validation effectuées par le parrainé sur My Idoom.",
+      "Le parrain ayant déjà un débit de 1,5 Gbps bénéficie uniquement de l’avantage en durée (10 jours supplémentaires) et non d’un surclassement de débit.",
+      "Les clients conventionnés ne peuvent pas bénéficier de l’offre, ni en tant que parrain ni en tant que parrainé.",
+      "L’offre de parrainage est suspendue pendant les périodes de promotions."
+    ],
+    "benefits_ar": [
+      "يستفيد الموصي (زبون Idoom Fibre حالي) من مكافأة قدرها 10 أيام من الإنترنت بدفق 1.5 Gbps عن كل زبون جديد يقوم بتوصيته ويُتم إجراءات التسجيل والتفعيل بنجاح عبر تطبيق My Idoom. :contentReference[oaicite:3]{index=3}",
+      "يمكن للموصي القيام بعدد غير محدود من عمليات التوصية، وبالتالي يمكنه تجميع مدد إضافية متراكمة (10 أيام عن كل توصية ناجحة).",
+      "الموصي الذي يستفيد مسبقاً من تدفق 1.5 Gbps يستفيد من الامتياز في شكل مدة إضافية فقط (10 أيام) دون تغيير في السرعة، مما يعزز قيمة اشتراكه دون كلفة إضافية.",
+      "يستفيد الموصى له (الزبون الجديد) من شهر واحد (30 يوماً) من الإنترنت بدفق أعلى من السرعة التي اختارها عند الاشتراك خلال الشهر الأول، مما يمنحه تجربة محسنة في بداية اشتراكه.",
+      "يتم منح الامتيازات (المدة للموصي، وزيادة السرعة للموصى له) تلقائياً بعد قيام الموصى له بإنشاء حسابه وتفعيله على تطبيق My Idoom باستخدام نفس البريد الإلكتروني وربط الخط الجديد بالحساب.",
+      "يتيح العرض للزبائن الحاليين المشاركة في استقطاب زبائن جدد مقابل امتيازات ملموسة، مما يعزز ولاءهم لعلامة Idoom Fibre.",
+      "الخطوات العملية عبر تطبيق My Idoom (ولوج فضاء الزبون، إدخال البريد الإلكتروني، تأكيد الشروط، إدخال رمز التوصية...) واضحة ومبسّطة، ما يجعل الانضمام إلى برنامج التوصية سهلاً دون تعقيدات إدارية.",
+      "إمكانية تفعيل حساب فضاء الزبون عبر التطبيق أو عبر الموقع الإلكتروني لاتصالات الجزائر يمنح مرونة إضافية للزبائن في تسيير اشتراكهم والاستفادة من العرض.",
+      "حفاظ الشركة على سرية الرموز وكلمات المرور وتشجيع عدم مشاركتها مع الغير يعززان أمن حسابات الزبائن في إطار هذا العرض."
+    ],
+    "benefits_fr": [
+      "Pour le parrain, la nouvelle offre parrainage accorde un bonus de 10 jours à 1,5 Gbps sur son abonnement Idoom Fibre pour chaque nouveau client parrainé, avec cumul possible des bonus en cas de parrainages multiples.",
+      "Pour le parrain ayant déjà un débit de 1,5 Gbps, l’avantage porte sur la durée uniquement, avec 10 jours supplémentaires ajoutés pour chaque parrainage validé.",
+      "Pour le parrainé, la nouvelle offre accorde pendant le premier mois un débit supérieur à celui choisi lors de sa souscription à Idoom Fibre, sous réserve d’activation de son compte My Idoom et respect des délais.",
+      "Le bonus (durée pour le parrain et débit supérieur pour le parrainé) est attribué automatiquement après inscription et validation du parrainé sur My Idoom, sans démarche supplémentaire auprès de l’agence.",
+      "Le programme permet un nombre illimité de parrainages par parrain, ce qui permet de cumuler les avantages tant que les conditions sont remplies.",
+      "Le processus d’inscription et d’activation via l’application My Idoom est guidé étape par étape pour le parrain et le parrainé, facilitant l’accès au bonus sans complexité administrative."
+    ],
+    "pricing_summary_ar": "عرض التوصية عبر تطبيق My Idoom لا يغيّر أسعار الاشتراك في عروض Idoom Fibre ولا يقدم تعريفة جديدة مستقلة، بل يمنح امتيازات إضافية مجانية مرتبطة بالعروض القائمة: يستفيد الموصي من 10 أيام إضافية بدفق 1.5 Gbps عن كل توصية ناجحة، بينما يستفيد الموصى له من ترقية في سرعة الإنترنت إلى مستوى أعلى من المستوى الذي اختاره لمدة شهر واحد، وذلك بشرط استيفاء شروط التوصية وتفعيل حساب My Idoom في الآجال المحددة.",
+    "pricing_summary_fr": "L’offre Parrainage via My Idoom n’introduit pas de nouveaux tarifs d’abonnement : elle octroie aux clients Idoom Fibre des bonus de durée (10 jours pour le parrain à 1,5 Gbps) et de débit (surclassement du débit choisi pour le parrainé pendant 1 mois) en complément de leurs offres existantes, sous réserve du respect des conditions de parrainage et d’activation du compte My Idoom."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من هي الفئة المستهدفة بهذا العرض؟",
+      "answer": "العرض موجّه لجميع الزبائن الخواص المشتركين في عروض Idoom Fibre ضمن فئات الخواص، الخواص المستأجرين، Gamers وGamers Locataire، وذلك للاستفادة من برنامج التوصية عبر تطبيق My Idoom. الزبائن المستفيدون من عروض الاتفاقيات (Conventionnés) غير مؤهلين للاستفادة من العرض، سواء كموصي أو كموصى له. :contentReference[oaicite:4]{index=4}"
+    },
+    {
+      "question": "ما هو مضمون عرض التوصية عبر My Idoom؟",
+      "answer": "عرض التوصية يعتمد على مكافأة زبائن Idoom Fibre الحاليين (الموصين) عن كل زبون جديد (موصى له) يقومون بتوصيته للاشتراك في Idoom Fibre عبر تطبيق My Idoom. يستفيد الموصي من 10 أيام إضافية بدفق 1.5 Gbps عن كل توصية ناجحة، بينما يستفيد الموصى له من شهر واحد (30 يوماً) من الإنترنت بدفق أعلى من السرعة التي اختارها عند الاشتراك خلال الشهر الأول، شريطة إنشاء وتفعيل حساب فضاء الزبون على My Idoom ضمن 7 أيام من تاريخ تشغيل الخط."
+    },
+    {
+      "question": "ما هي الشروط الأساسية الخاصة بالموصي؟",
+      "answer": "يجب أن يكون الموصي زبوناً نشطاً في خدمة Idoom Fibre، وأن يمتلك حساباً مفعلاً على تطبيق My Idoom مع رصيد إنترنت إيجابي، وأن يقوم بإدخال البريد الإلكتروني الصحيح للموصى له داخل فضاء الزبون على التطبيق قبل إرسال رمز التوصية. لا يمكن للموصي أن يقوم بتوصية نفسه، لكن يمكنه إجراء عدد غير محدود من عمليات التوصية، مع تراكم الامتيازات."
+    },
+    {
+      "question": "ما هي الشروط الأساسية الخاصة بالموصى له؟",
+      "answer": "يجب أن يكون الموصى له زبوناً جديداً ومؤهلاً تقنياً لخدمة الألياف البصرية Idoom Fibre. عليه إدخال رمز التوصية بشكل صحيح (بعد 3 محاولات خاطئة يُلغى الامتياز للطرفين)، واستعمال نفس البريد الإلكتروني الذي أدخله الموصي عبر تطبيق My Idoom، وإنشاء وتفعيل حساب فضاء الزبون خلال 7 أيام من تاريخ تشغيل الخط، مع الأفضلية لتفعيل الحساب يوم التشغيل نفسه للاستفادة الكاملة من الامتياز."
+    },
+    {
+      "question": "كيف يتم تفعيل الامتياز لكل من الموصي والموصى له؟",
+      "answer": "بعد أن يستلم الموصى له رمز التوصية عبر البريد الإلكتروني، يتوجه إلى الوكالة لإتمام اشتراكه في Idoom Fibre، ثم يقوم بالدخول إلى فضاء الزبون عبر تطبيق My Idoom، واختيار \"إنشاء حساب جديد\"، وإدخال رقم الهاتف وكلمة المرور والبريد الإلكتروني نفسه الذي أدخله الموصي، ثم إدخال رمز التوصية. بعد ذلك يتم إرسال رمز تأكيد أخير إلى البريد الإلكتروني للموصى له، يتوجب إدخاله لتأكيد العملية. بمجرد تسجيل وتفعيل الحساب بنجاح، يتم منح الامتياز تلقائياً للموصي والموصى له."
+    },
+    {
+      "question": "ما هي القواعد المهمة التي يجب احترامها في برنامج التوصية؟",
+      "answer": "لا يمكن للموصى له أن يكون له أكثر من موصي واحد، ولا يمكن للموصي أن يقوم بتوصية نفسه. عدد عمليات التوصية غير محدود بالنسبة للموصي والامتيازات قابلة للتراكم. الرموز وكلمات المرور شخصية وسرّية، ويمنع مشاركتها مع الغير. كما يتم تعليق عرض التوصية خلال فترات العروض الترويجية."
+    },
+    {
+      "question": "ما هي الخطوات الواجب اتباعها من طرف الموصي عبر تطبيق My Idoom؟",
+      "answer": "على الموصي الذي يملك حساباً مفعلاً على My Idoom اتباع الخطوات التالية: 1) الولوج إلى فضاء الزبون، 2) إدخال رقم الهاتف وكلمة المرور، 3) الضغط على \"برنامج التوصية\", 4) إدخال البريد الإلكتروني للموصى له وتأكيده، ثم الموافقة على الشروط العامة والضغط على \"تأكيد وإرسال\"، حيث يتم إرسال رمز التوصية إلى البريد الإلكتروني للموصى له، 5) ظهور رسالة تؤكد إتمام العملية بنجاح."
+    },
+    {
+      "question": "ما هي الخطوات الواجب اتباعها من طرف الموصى له لتفعيل حسابه والاستفادة من العرض؟",
+      "answer": "بعد استلام رمز التوصية على بريده الإلكتروني والتوجه إلى الوكالة لإتمام الاشتراك في Idoom Fibre، يقوم الموصى له بما يلي: 1) الولوج إلى فضاء الزبون عبر تطبيق My Idoom، 2) الضغط على \"إنشاء حساب جديد\"، 3) إدخال رقم الهاتف وكلمة المرور واستعمال نفس البريد الإلكتروني الذي أدخله الموصي، وإدخال رمز التوصية الذي أُرسل إليه، 4) إدخال رمز التأكيد الذي يصله عبر البريد الإلكتروني لتأكيد العملية. يشترط لتفعيل حساب فضاء الزبون أن تكون خدمة خط Idoom Fibre قد وُضِعت قيد التشغيل (mise en service)."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Quelle est la cible de la nouvelle offre Parrainage via My Idoom ?",
+      "answer": "La nouvelle offre Parrainage vise les clients résidentiels Idoom Fibre, à savoir les segments Résidentiels, Locataire, Gamers et Gamers Locataire. Ces clients peuvent devenir parrains et recommander l’offre à leur entourage. Les clients conventionnés, quant à eux, ne peuvent pas bénéficier de l’offre, ni en tant que parrain ni en tant que parrainé."
+    },
+    {
+      "question": "En quoi consiste l’offre Parrainage ?",
+      "answer": "L’offre Parrainage récompense les clients Idoom Fibre existants pour chaque nouveau client qu’ils parrainent via l’application My Idoom. Le parrain reçoit un bonus de 10 jours à 1,5 Gbps pour chaque parrainage validé, tandis que le parrainé bénéficie d’un débit supérieur à celui choisi pendant le premier mois suivant sa souscription. Le bonus est attribué automatiquement après inscription et validation du parrainé sur My Idoom."
+    },
+    {
+      "question": "Quels sont les avantages détaillés pour le parrain et pour le parrainé ?",
+      "answer": "Le parrain, en tant que client résidentiel Idoom Fibre existant, obtient un bonus de 10 jours de connexion à 1,5 Gbps pour chaque nouveau parrainé, avec cumul possible en cas de parrainages multiples. S’il bénéficie déjà d’un débit de 1,5 Gbps, il profite uniquement de l’avantage durée. Le parrainé, nouveau client résidentiel Idoom Fibre, bénéficie durant son premier mois d’un débit supérieur à celui qu’il a choisi lors de la souscription, à condition de créer et d’activer son compte My Idoom dans les délais et avec les informations correctes."
+    },
+    {
+      "question": "Quelles sont les conditions principales pour le parrain ?",
+      "answer": "Le parrain doit être un client résidentiel Idoom Fibre actif (Résidentiels, Locataire, Gamers ou Gamers Locataire), disposer d’un compte My Idoom actif avec un solde positif et renseigner correctement l’adresse e-mail du parrainé dans l’Espace Client de l’application My Idoom. Il ne peut pas s’auto-parrainer, mais peut parrainer un nombre illimité de nouveaux clients."
+    },
+    {
+      "question": "Quelles sont les conditions principales pour le parrainé ?",
+      "answer": "Le parrainé doit être un nouveau client résidentiel Idoom Fibre éligible à la fibre. Il doit saisir correctement le code de parrainage reçu (trois tentatives erronées entraînent la perte du bonus), utiliser la même adresse e-mail que celle renseignée par le parrain, créer et activer son compte Espace Client via My Idoom dans les 7 jours suivant la mise en service de sa ligne, et idéalement activer ce compte le jour même de la mise en service pour profiter pleinement du bonus. Le débit supérieur est accordé uniquement à partir de l’activation du compte My Idoom."
+    },
+    {
+      "question": "Quelles sont les règles importantes du programme de parrainage ?",
+      "answer": "Un parrainé ne peut avoir qu’un seul parrain et le parrain ne peut pas s’auto-parrainer. Le nombre de parrainages est illimité pour un même parrain et les bonus sont cumulables. Les codes de parrainage et mots de passe sont strictement personnels et confidentiels. L’offre de parrainage est suspendue pendant les périodes de promotions."
+    },
+    {
+      "question": "Quelles sont les étapes à suivre pour le parrain sur l’application My Idoom ?",
+      "answer": "Le parrain qui dispose déjà d’un Espace Client My Idoom doit suivre les étapes suivantes : 1) accéder à l’Espace Client, 2) saisir son numéro de téléphone et son mot de passe, 3) cliquer sur « Programme de parrainage », 4) renseigner l’adresse e-mail du parrainé et la confirmer, cocher la case d’acceptation des conditions générales puis cliquer sur « Valider et envoyer » (le code de parrainage est alors envoyé à l’adresse e-mail du parrainé), 5) un message de confirmation lui indique que l’opération a été effectuée avec succès."
+    },
+    {
+      "question": "Quelles sont les étapes à suivre pour le parrainé sur l’application My Idoom ?",
+      "answer": "Après avoir reçu son code de parrainage par e-mail et s’être présenté en agence pour souscrire à une nouvelle offre Idoom Fibre, le parrainé doit : 1) accéder à l’Espace Client via l’application My Idoom, 2) cliquer sur « Créer un nouveau compte », 3) saisir son numéro de téléphone et un mot de passe, renseigner la même adresse e-mail que celle validée par le parrain et saisir le code de parrainage reçu, 4) saisir le code de confirmation envoyé sur cette même adresse e-mail pour finaliser et valider l’activation de son compte. L’activation du compte Espace Client My Idoom est conditionnée par la mise en service de la nouvelle ligne Idoom Fibre."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "هام: نود تذكيركم بأن البريد الإلكتروني « Feedback » FB@algerietelecom.dz مخصص حصريًا لطلبات المعلومات التجارية ولتوضيح الملاحظات أو الإجراءات المعتمدة. لا تترددوا في التواصل معنا عند الحاجة. :contentReference[oaicite:5]{index=5}",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. Les clients peuvent l’utiliser en cas de nécessité pour toute question relative à la nouvelle offre Parrainage via My Idoom."
+  },
+
+  "keywords_ar": [
+    "العرض الجديد للتوصية عبر تطبيق My Idoom",
+    "عرض التوصية",
+    "التوصية عبر My Idoom",
+    "Idoom Fibre",
+    "الزبائن الخواص",
+    "الخواص المستأجرين",
+    "Gamers",
+    "Gamers Locataire",
+    "الموصي",
+    "الموصى له",
+    "برنامج التوصية",
+    "10 أيام",
+    "30 يوماً",
+    "شهر واحد",
+    "1.5 Gbps",
+    "رمز التوصية",
+    "فضاء الزبون",
+    "حساب My Idoom",
+    "تفعيل الحساب",
+    "رصيد إيجابي",
+    "3 محاولات خاطئة",
+    "7 أيام من تاريخ التشغيل",
+    "خط Idoom Fibre الجديد",
+    "زبون جديد",
+    "مؤهلاً تقنياً",
+    "عملاء الاتفاقيات غير مؤهلين",
+    "تعليق العرض خلال العروض الترويجية",
+    "امتيازات تتراكم",
+    "رموز وكلمات مرور سرية",
+    "اتصالات الجزائر",
+    "Feedback",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "Nouvelle Offre Parrainage",
+    "Nouvelle Offre Parrainage via l’application My Idoom",
+    "Parrainage My Idoom",
+    "My Idoom",
+    "Idoom Fibre",
+    "client résidentiel Idoom Fibre",
+    "Résidentiel",
+    "Locataire",
+    "Gamers",
+    "Gamers Locataire",
+    "parrain",
+    "parrainé",
+    "programme de parrainage",
+    "10 jours",
+    "1 mois",
+    "30 jours",
+    "1,5 Gbps",
+    "bonus de durée",
+    "bonus de débit",
+    "code de parrainage",
+    "Espace Client",
+    "activation compte My Idoom",
+    "7 jours",
+    "3 tentatives",
+    "solde positif",
+    "clients conventionnés exclus",
+    "offre suspendue pendant les promotions",
+    "application My Idoom",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "Nouvelle Offre Parrainage",
+    "Nouvelle Offre Parrainage via l’application My Idoom",
+    "Parrainage My Idoom",
+    "My Idoom",
+    "Idoom Fibre",
+    "client résidentiel Idoom Fibre",
+    "Résidentiel",
+    "Locataire",
+    "Gamers",
+    "Gamers Locataire",
+    "parrain",
+    "parrainé",
+    "programme de parrainage",
+    "10 jours",
+    "1 mois",
+    "30 jours",
+    "1,5 Gbps",
+    "bonus de durée",
+    "bonus de débit",
+    "code de parrainage",
+    "Espace Client",
+    "activation compte My Idoom",
+    "7 jours",
+    "3 tentatives",
+    "solde positif",
+    "clients conventionnés exclus",
+    "offre suspendue pendant les promotions",
+    "application My Idoom",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "العرض الجديد للتوصية عبر تطبيق My Idoom",
+    "عرض التوصية",
+    "التوصية عبر My Idoom",
+    "الزبائن الخواص",
+    "الخواص المستأجرين",
+    "الموصي",
+    "الموصى له",
+    "فضاء الزبون",
+    "حساب My Idoom",
+    "تفعيل الحساب",
+    "رصيد إيجابي",
+    "3 محاولات خاطئة",
+    "7 أيام من تاريخ التشغيل",
+    "زبون جديد",
+    "مؤهلاً تقنياً",
+    "عملاء الاتفاقيات غير مؤهلين",
+    "تعليق العرض خلال العروض الترويجية",
+    "امتيازات تتراكم",
+    "رموز وكلمات مرور سرية",
+    "اتصالات الجزائر",
+    "Feedback"
+  ],
+
+  "search_text": "العرض الجديد للتوصية عبر تطبيق My Idoom هو برنامج موجه لزبائن Idoom Fibre الخواص (الخواص، الخواص المستأجرين، Gamers، Gamers Locataire) من أجل استقطاب زبائن جدد وتعزيز الوفاء. يقوم الموصي (زبون حالي) بتوصية الموصى له (زبون جديد) للاكتتاب في Idoom Fibre، ويستفيد الأول من 10 أيام مجانية بدفق 1.5 Gbps عن كل توصية ناجحة، بينما يستفيد الثاني من شهر واحد (30 يوماً) من الإنترنت بدفق أعلى من السرعة التي اختارها عند الاشتراك خلال الشهر الأول، شريطة إنشاء وتفعيل حساب فضاء الزبون على My Idoom في ظرف 7 أيام من تشغيل الخط. العملاء المستفيدون من عروض الاتفاقيات غير مؤهلين للاستفادة من العرض، سواء كموصي أو كموصى له. شروط الموصي: أن يكون زبوناً نشطاً في Idoom Fibre، يمتلك حساباً مفعلاً على My Idoom، وله رصيد إيجابي، وأن يدخل البريد الإلكتروني الصحيح للموصى له في فضاء الزبون قبل إرسال رمز التوصية. شروط الموصى له: أن يكون زبوناً جديداً مؤهلاً تقنياً للألياف البصرية، وأن يستعمل نفس البريد الإلكتروني الذي أدخله الموصي، وأن يدخل رمز التوصية بشكل صحيح (بعد ثلاث محاولات خاطئة يُلغى الامتياز للطرفين)، وأن يُنشئ ويفعّل حساب My Idoom في أجل أقصاه 7 أيام من تاريخ التشغيل، مع الأفضلية لتفعيل الحساب يوم التشغيل نفسه. الامتيازات تمنح تلقائياً للموصي والموصى له بعد تفعيل حساب الموصى له. لا يمكن للموصى له أن يكون له أكثر من موصي واحد، ولا يمكن للموصي أن يوصي نفسه. عدد عمليات التوصية غير محدود والامتيازات قابلة للتراكم. الرموز وكلمات المرور شخصية وسرّية. العرض يعلّق خلال فترات العروض الترويجية. خطوات الموصي على التطبيق: الولوج إلى فضاء الزبون، إدخال رقم الهاتف وكلمة المرور، الضغط على \"برنامج التوصية\"، إدخال البريد الإلكتروني للموصى له وتأكيده والموافقة على الشروط العامة، ثم الضغط على \"تأكيد وإرسال\" ليتم إرسال رمز التوصية عبر البريد الإلكتروني للموصى له، مع ظهور رسالة تأكيد بنجاح العملية. خطوات الموصى له: بعد استلام رمز التوصية على بريده الإلكتروني والتوجه إلى الوكالة لإتمام الاشتراك، يقوم بالدخول إلى فضاء الزبون في My Idoom، ثم الضغط على \"إنشاء حساب جديد\"، إدخال رقم الهاتف وكلمة المرور، واستعمال نفس البريد الإلكتروني الذي أدخله الموصي، وإدخال رمز التوصية ثم إدخال رمز التأكيد المرسل عبر البريد الإلكتروني لتفعيل الحساب، مع اشتراط أن يكون خط Idoom Fibre الجديد قد وُضع في الخدمة. البريد Feedback FB@algerietelecom.dz مخصص للاستفسارات التجارية وتوضيح المذكرات والإجراءات. :contentReference[oaicite:6]{index=6}\n\nNouvelle Offre Parrainage via l’application My Idoom – version FR –. Dans le cadre de son engagement envers ses clients, Algérie Télécom lance une nouvelle offre de parrainage visant à acquérir de nouveaux clients et à fidéliser la clientèle à travers l’application My Idoom. L’objectif est d’encourager les clients résidentiels Idoom Fibre à recommander les offres et services à leurs proches (amis, famille, collègues, connaissances). Définitions : le Parrain est un client existant Idoom Fibre qui recommande de nouveaux clients à s’abonner ; le Parrainé est un nouveau client bénéficiaire de l’offre Idoom Fibre, recommandé par un parrain existant. Cible de la nouvelle offre Parrainage : les clients résidentiels Idoom Fibre (Résidentiels, Locataire, Gamers et Gamers Locataire) sont éligibles, tandis que les clients conventionnés ne peuvent pas être parrain ni parrainé. L’offre Parrainage récompense les clients Idoom Fibre existants pour chaque nouveau client qu’ils parrainent via l’application My Idoom. Détails de l’offre : pour le Parrain (client résidentiel Idoom Fibre existant), la durée accordée est de 10 jours avec un débit de 1,5 Gbps. Pour le Parrainé (nouveau client résidentiel Idoom Fibre), la durée accordée est de 1 mois durant lequel il bénéficie d’un débit supérieur à celui choisi lors de sa souscription. Une fois l’inscription et la validation effectuées par le parrainé sur My Idoom, l’attribution du bonus est automatiquement déclenchée pour le parrain et le parrainé. Le parrain ayant déjà un débit de 1,5 Gbps bénéficie uniquement de l’avantage durée (10 jours). L’offre est suspendue durant les promotions. Conditions principales pour le Parrain : être client résidentiel Idoom Fibre actif, disposer d’un compte My Idoom actif avec un solde positif, renseigner l’adresse e-mail du parrainé sur l’Espace Client de l’application My Idoom. Conditions principales pour le Parrainé : être nouveau client Idoom Fibre et éligible à la fibre, saisir correctement le code de parrainage (au-delà de 3 tentatives erronées, le bonus est perdu), utiliser la même adresse e-mail que celle renseignée par le parrain, bénéficier du débit supérieur uniquement à partir de l’activation du compte My Idoom, activer son compte le jour de la mise en service pour bénéficier pleinement du bonus, créer et activer son compte My Idoom dans les 7 jours suivant la mise en service (au-delà, le bonus est perdu pour le parrain et le parrainé). Le compte est créé via l’application My Idoom puis peut être activé depuis l’application ou le site web (Espace Client). Règles importantes : un parrainé ne peut avoir qu’un seul parrain ; le parrain ne peut pas s’auto-parrainer ; le nombre de parrainages pour un parrain est illimité et le bonus est cumulable ; les codes et mots de passe sont strictement personnels et confidentiels. Étapes à suivre pour le parrain (ayant déjà un Espace Client My Idoom) : 1) accéder à l’Espace Client, 2) saisir le numéro de téléphone et le mot de passe, 3) cliquer sur « Programme de parrainage », 4) renseigner et confirmer l’adresse e-mail du parrainé, cocher la case des conditions générales, cliquer sur « Valider et envoyer » (le code de parrainage est envoyé à l’adresse du parrainé), 5) un message de confirmation indique le succès de l’opération. Étapes à suivre pour le parrainé : après réception du code de parrainage par e-mail, il se présente à l’agence pour souscrire à une nouvelle offre Idoom Fibre, puis 1) accède à l’Espace Client via My Idoom, 2) clique sur « Créer un nouveau compte », 3) saisit son numéro de téléphone, un mot de passe, la même adresse e-mail que celle validée par le parrain et le code de parrainage reçu, 4) saisit le code de confirmation envoyé sur cette adresse e-mail pour valider l’activation. L’activation du compte Espace Client via My Idoom est conditionnée par la mise en service de la nouvelle ligne. Important : la messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. :contentReference[oaicite:7]{index=7}",
+
+  "dense_text_primary": "هذا المستند يقدّم \"العرض الجديد للتوصية عبر تطبيق My Idoom\" الموجّه لزبائن Idoom Fibre الخواص (الخواص، الخواص المستأجرين، Gamers، Gamers Locataire) بهدف استقطاب زبائن جدد وتعزيز وفاء الزبائن الحاليين. يقوم الموصي، وهو زبون حالي لخدمة Idoom Fibre، بتوصية الموصى له، وهو زبون جديد مؤهل تقنياً للألياف البصرية، للاشتراك في Idoom Fibre عبر تطبيق My Idoom. مقابل كل توصية ناجحة، يستفيد الموصي من 10 أيام إضافية من الإنترنت بدفق 1.5 Gbps، ويمكنه تجميع هذه المدد في حال تعدد التوصيات، بينما يستفيد الموصى له من شهر واحد (30 يوماً) من الإنترنت بدفق أعلى من السرعة التي اختارها عند الاشتراك خلال الشهر الأول، بشرط إنشاء وتفعيل حساب فضاء الزبون على My Idoom في ظرف أقصاه 7 أيام من تاريخ تشغيل الخط وإدخال رمز التوصية بشكل صحيح. العملاء المستفيدون من عروض الاتفاقيات مستثنون من البرنامج. :contentReference[oaicite:8]{index=8}\n\nللاستفادة من العرض، يجب على الموصي أن يكون زبوناً نشطاً في Idoom Fibre، وأن يمتلك حساباً مفعلاً على تطبيق My Idoom مع رصيد إيجابي، وأن يُدخل البريد الإلكتروني الصحيح للموصى له في فضاء الزبون قبل إرسال رمز التوصية. أما الموصى له، فيجب أن يكون زبوناً جديداً ومؤهلاً تقنياً للألياف البصرية، وأن يستعمل نفس البريد الإلكتروني الذي أدخله الموصي، وأن يُدخل رمز التوصية بشكل صحيح (بعد ثلاث محاولات خاطئة يُلغى الامتياز للطرفين)، وأن يقوم بإنشاء وتفعيل حساب My Idoom في غضون 7 أيام من تاريخ تشغيل الخط، مع الأفضلية لتفعيل الحساب في يوم التشغيل نفسه للاستفادة الكاملة من الامتياز. الامتيازات تمنح تلقائياً للموصي والموصى له بعد تفعيل حساب فضاء الزبون. لا يمكن للموصى له أن يكون له أكثر من موصي واحد، ولا يمكن للموصي أن يوصي نفسه، وعدد عمليات التوصية غير محدود، كما يتم تعليق العرض خلال الفترات الترويجية.\n\nCe document présente la « Nouvelle Offre Parrainage via l’application My Idoom » d’Algérie Télécom, destinée aux clients résidentiels Idoom Fibre (Résidentiels, Locataire, Gamers, Gamers Locataire). L’objectif est d’encourager ces clients à recommander l’offre Idoom Fibre à leur entourage via l’application My Idoom, afin de stimuler l’acquisition de nouveaux abonnés et de renforcer la fidélisation. Le Parrain est un client résidentiel Idoom Fibre existant, actif et disposant d’un compte My Idoom avec un solde positif ; le Parrainé est un nouveau client résidentiel Idoom Fibre techniquement éligible à la fibre. Pour chaque parrainage validé, le parrain bénéficie d’un bonus de 10 jours à 1,5 Gbps. Si le parrain dispose déjà d’un débit de 1,5 Gbps, l’avantage porte uniquement sur la durée. Le parrainé bénéficie, quant à lui, d’un débit supérieur à celui choisi lors de sa souscription pendant le premier mois, à condition de créer et d’activer son compte Espace Client My Idoom dans les 7 jours suivant la mise en service de sa ligne, d’utiliser la même adresse e-mail que celle renseignée par le parrain et de saisir correctement le code de parrainage (perte du bonus au-delà de 3 tentatives erronées). :contentReference[oaicite:9]{index=9}\n\nLe programme de parrainage ne modifie pas la tarification des offres Idoom Fibre existantes : il ajoute des bonus de durée (10 jours de connexion pour le parrain) et de débit (surclassement temporaire pour le parrainé) à conditions que les règles soient respectées. Un parrainé ne peut avoir qu’un seul parrain, le parrain ne peut pas s’auto-parrainer, le nombre de parrainages est illimité et les bonus sont cumulables. L’offre est suspendue durant les périodes de promotions. Les étapes d’activation sont guidées dans l’application My Idoom : le parrain accède à l’Espace Client, choisit le « Programme de parrainage », saisit l’e-mail du parrainé et valide l’envoi du code ; le parrainé crée ensuite son compte Espace Client, saisit le même e-mail, le code de parrainage, puis un code de confirmation envoyé par e-mail pour valider l’activation, conditionnée par la mise en service de la ligne. Pour toute demande d’information commerciale ou clarification sur la procédure, les clients peuvent contacter la messagerie Feedback FB@algerietelecom.dz."
+}

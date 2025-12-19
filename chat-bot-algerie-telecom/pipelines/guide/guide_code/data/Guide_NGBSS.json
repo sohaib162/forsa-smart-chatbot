@@ -1,0 +1,1494 @@
+{
+  "folder_name": "Guide NGBSS",
+  "description": "Guides d’utilisation du SI NGBSS/NSBSS d’Algérie Télécom.",
+  "guides": [
+    {
+      "id": "retour_ressource",
+      "title": "Retour ressource",
+      "system": "NGBSS",
+      "business_process": "Retour et remboursement d’une ressource matérielle",
+      "filename": "Guide d utilisation NGBSS retour ressource.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d utilisation NGBSS retour ressource.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-10",
+      "tags": [
+        "retour ressource",
+        "remboursement",
+        "inventaire",
+        "ACTEL",
+        "point de présence",
+        "NGBSS"
+      ],
+      "summary": "Procédure pour retourner une ressource vendue vers son magasin d’origine et rembourser le montant de la vente, avec changement d’état dans l’inventaire.",
+      "prerequisites": [
+        "L’utilisateur et la ressource appartiennent à la même organisation (ACTEL ou Point de Présence).",
+        "Le montant en caisse est au moins égal au montant de la vente à rembourser.",
+        "Le changement d’état d’une ressource dans l’inventaire doit être effectué par le directeur d’agence.",
+        "Pour une vente à un non-client, le reçu de paiement est obligatoire.",
+        "Ce guide est réservé à la régularisation des erreurs de vente, il ne remplace pas la procédure normale de remboursement."
+      ],
+      "sections": [
+        {
+          "section_title": "Retour ressource pour client (vente avec dossier client)",
+          "description": "Retour et remboursement d’une ressource vendue à un client existant identifié dans NGBSS.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Ouvrir la fiche abonné.",
+              "details": "Dans le SI NGBSS, accéder au module Abonné puis onglet Ressource pour afficher la liste des ressources liées au client.",
+              "ui": "Abonné > Ressource"
+            },
+            {
+              "step_number": 2,
+              "action": "Réserver le retour pour la ressource.",
+              "details": "Cocher la ressource à retourner puis cliquer sur le bouton « Réserver le retour CSG » pour préparer l’opération de retour.",
+              "ui": "Bouton « Réserver le retour CSG » sur la grille des ressources"
+            },
+            {
+              "step_number": 3,
+              "action": "Contrôler les conditions de caisse et d’organisation.",
+              "details": "Vérifier que la caisse est suffisamment approvisionnée et que l’utilisateur appartient à la même organisation (ACTEL/PoP) que la ressource.",
+              "ui": "Vérification manuelle avant de lancer le remboursement"
+            },
+            {
+              "step_number": 4,
+              "action": "Finaliser le remboursement.",
+              "details": "Suivre l’assistant de remboursement (Soumettre & paiement, Rembourser, validation du paiement) jusqu’à message de succès.",
+              "ui": "Écrans de paiement / remboursement standard NGBSS"
+            }
+          ]
+        },
+        {
+          "section_title": "Retour ressource pour non-client (vente sans dossier commercial)",
+          "description": "Retour et remboursement d’une ressource vendue à un client non identifié dans NGBSS.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Récupérer le reçu de paiement.",
+              "details": "Identifier le reçu de paiement correspondant à la vente de la ressource et noter son numéro qui servira de référence de recherche.",
+              "ui": "Reçu de paiement papier ou PDF"
+            },
+            {
+              "step_number": 2,
+              "action": "Accéder au menu Ressources pour non-clients.",
+              "details": "Dans le menu Service clientèle, cliquer sur « Ressources pour les clients non-existants ». Cela permet de rechercher les ventes effectuées sans dossier client.",
+              "ui": "Service clientèle > Ressources pour les clients non-existants"
+            },
+            {
+              "step_number": 3,
+              "action": "Rechercher la ressource vendue.",
+              "details": "Dans le champ « Num de référence d’ordre », saisir le numéro du reçu de paiement, ou rechercher par Nom et Prénom plus la date de l’opération. Lancer la recherche pour afficher la ressource.",
+              "ui": "Zone de recherche des ressources (Num de référence d’ordre, Nom et Prénom, Order Date)"
+            },
+            {
+              "step_number": 4,
+              "action": "Sélectionner la ressource à retourner.",
+              "details": "Cocher la ressource correspondante dans la liste puis cliquer sur « Suivant » pour préparer l’opération de remboursement.",
+              "ui": "Grille des ressources > bouton « Suivant »"
+            },
+            {
+              "step_number": 5,
+              "action": "Valider le remboursement généré par le système.",
+              "details": "Vérifier que le système a bien généré un remboursement pour la ressource (montant, mode de paiement), puis cliquer sur « Soumettre & paiement ». ",
+              "ui": "Écran de remboursement > bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 6,
+              "action": "Confirmer le remboursement.",
+              "details": "Cliquer sur le bouton « Rembourser » puis continuer l’opération de remboursement jusqu’au message de succès.",
+              "ui": "Bouton « Rembourser » puis écrans de paiement"
+            }
+          ]
+        },
+        {
+          "section_title": "Changer l’état d’une ressource dans l’inventaire",
+          "description": "Remise à l’état Normal d’une ressource rendue après remboursement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Vérifier l’état de la ressource après remboursement.",
+              "details": "Après la finalisation du remboursement, consulter l’inventaire et constater que l’état de la ressource est passé à « Rendu ».",
+              "ui": "Inventaire > Consulter l’état des ressources"
+            },
+            {
+              "step_number": 2,
+              "action": "Ouvrir la fonction de changement d’état.",
+              "details": "Depuis le menu Inventaire, cliquer sur « Changer l’état d’une ressource » pour accéder à la gestion des statuts.",
+              "ui": "Inventaire > Changer l’état d’une ressource"
+            },
+            {
+              "step_number": 3,
+              "action": "Chercher les ressources avec l’état « Rendu ».",
+              "details": "Dans la liste déroulante « État », choisir « rendu ». Sélectionner un mode de recherche (rang, liste ou fichier) puis cliquer sur « Consulter » pour afficher les ressources.",
+              "ui": "Filtres de recherche (État = rendu, rang/liste/fichier) > bouton « Consulter »"
+            },
+            {
+              "step_number": 4,
+              "action": "Changer l’état à Normal.",
+              "details": "Dans la liste déroulante « Nouvel état », choisir « Normal », cocher la ressource concernée puis cliquer sur « Soumettre » pour valider le changement.",
+              "ui": "Champ « Nouvel état » > valeur « Normal » > bouton « Soumettre »"
+            },
+            {
+              "step_number": 5,
+              "action": "Contrôler la mise à jour.",
+              "details": "Reconsulter l’inventaire et vérifier que l’état de la ressource est désormais « Normal ».",
+              "ui": "Inventaire > Consultation des ressources"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide d utilisation NGBSS retour ressource.pdf"
+    },
+    {
+      "id": "creation_enquete_pstn_gestion_ordre",
+      "title": "Création enquête PSTN et Gestion d’ordre",
+      "system": "NSBSS",
+      "business_process": "Création d’enquêtes PSTN et consultation/traitement des ordres associés",
+      "filename": "Guide NGBSS Création enquête PSTN et la Gestion d’ordre.pdf",
+      "relative_path": "data/Guide NGBSS/Guide NGBSS Création enquête PSTN et la Gestion d’ordre.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "enquête PSTN",
+        "nouvel abonné",
+        "déménagement",
+        "changement d’offre",
+        "gestion d’ordre",
+        "consultation ordres",
+        "NGBSS",
+        "NSBSS"
+      ],
+      "summary": "Procédure de création d’enquêtes PSTN (nouvel abonné, déménagement, changement d’offre) et de gestion des ordres d’enquête et autres ordres client.",
+      "prerequisites": [
+        "Disposer des informations d’identification du client ou des coordonnées nécessaires à l’enquête (adresse, numéro mobile, etc.).",
+        "Connaître l’offre primaire PSTN à proposer au client.",
+        "Respecter l’intervalle de dates recommandé (une semaine) pour les recherches d’ordres générales."
+      ],
+      "sections": [
+        {
+          "section_title": "Création d’une enquête PSTN",
+          "description": "Création d’une enquête de raccordement sur réseau PSTN pour nouvel abonné, déménagement ou changement d’offre.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la création d’enquête depuis la fiche client.",
+              "details": "Dans le module Client, cliquer sur « Créer une nouvelle Enquête » pour ouvrir l’écran de création.",
+              "ui": "Client > Créer une nouvelle Enquête"
+            },
+            {
+              "step_number": 2,
+              "action": "Ajouter une nouvelle enquête.",
+              "details": "Cliquer sur le bouton « Ajouter une nouvelle enquête » pour initialiser une nouvelle demande.",
+              "ui": "Bouton « Ajouter une nouvelle enquête »"
+            },
+            {
+              "step_number": 3,
+              "action": "Choisir le type d’enquête.",
+              "details": "Dans la liste « Type d’enquête », sélectionner l’opération à réaliser : Enquête pour Nouvel abonné, Enquête pour Déménagement ou Enquête pour Changement d’offre.",
+              "ui": "Champ « Type d’enquête »"
+            },
+            {
+              "step_number": 4,
+              "action": "Sélectionner l’offre primaire PSTN.",
+              "details": "Cliquer sur l’icône de loupe pour ouvrir la liste des offres, filtrer sur la technologie « PSTN », sélectionner l’offre primaire adéquate puis cliquer sur « Confirmer ». ",
+              "ui": "Liste des offres > filtre PSTN > bouton « Confirmer »"
+            },
+            {
+              "step_number": 5,
+              "action": "Confirmer les informations de base.",
+              "details": "Vérifier les données affichées (type d’enquête, offre primaire) puis cliquer sur « Confirmer » pour enregistrer la structure de l’enquête.",
+              "ui": "Écran d’enquête > bouton « Confirmer »"
+            },
+            {
+              "step_number": 6,
+              "action": "Compléter les informations d’adresse et de contact.",
+              "details": "Cocher l’enquête dans la liste, saisir l’adresse complète, le numéro mobile du client et la date souhaitée, puis cliquer sur « Confirmer l’enquête ». ",
+              "ui": "Zone d’adresse + champs « N° Mobile » et date > bouton « confirmer l’enquête »"
+            },
+            {
+              "step_number": 7,
+              "action": "Envoyer l’enquête pour étude.",
+              "details": "Une fois confirmée, l’enquête est enregistrée et transmise au CMP pour étude manuelle de faisabilité.",
+              "ui": "Statut de l’enquête dans la liste"
+            }
+          ]
+        },
+        {
+          "section_title": "Consultation des ordres du client",
+          "description": "Recherche et consultation des ordres liés à un client ou à une ACTEL.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Ouvrir l’écran de gestion d’ordre.",
+              "details": "Dans le menu Gestion d’ordre, cliquer sur « Consulter les ordres du client ». Cette recherche permet de voir différents types d’ordres.",
+              "ui": "Gestion d’ordre > Consulter les ordres du client"
+            },
+            {
+              "step_number": 2,
+              "action": "Recherche spéciale (par client).",
+              "details": "Cocher « Spécial », cliquer sur « Plus de condition », choisir une condition de recherche (Code client, numéro de service, etc.), saisir la valeur et lancer la recherche.",
+              "ui": "Option « Spécial » + bouton « Plus de condition »"
+            },
+            {
+              "step_number": 3,
+              "action": "Afficher le détail d’un ordre spécial.",
+              "details": "Dans les résultats, cliquer sur le numéro d’ordre souhaité pour afficher ses détails (type d’ordre, état, historique).",
+              "ui": "Grille des ordres > lien du N° d’ordre"
+            },
+            {
+              "step_number": 4,
+              "action": "Recherche générale (par ACTEL / agent / dates).",
+              "details": "Cocher « Général », choisir un « Type d’ordre » dans la liste, renseigner une plage de dates (intervalle d’une semaine recommandé) et éventuellement filtrer par opérateur, puis cliquer sur « Rechercher ». ",
+              "ui": "Option « Général » + champs Type d’ordre / Date / Opérateur"
+            },
+            {
+              "step_number": 5,
+              "action": "Parcourir les résultats.",
+              "details": "Analyser les résultats en tenant compte du nombre de pages et du nombre d’enregistrements affichés.",
+              "ui": "Grille des ordres avec pagination"
+            }
+          ]
+        },
+        {
+          "section_title": "Consultation des ordres d’enquêtes normales",
+          "description": "Consultation et traitement des ordres issus des enquêtes déjà étudiées.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Sélectionner le mode « Enquêtes normales ».",
+              "details": "Dans Gestion d’ordre > Consulter les ordres du client, cocher « Consultation des ordres des enquêtes normales ». Optionnellement choisir un type d’ordre.",
+              "ui": "Option « Consultation des ordres des enquêtes normales »"
+            },
+            {
+              "step_number": 2,
+              "action": "Définir les critères de recherche.",
+              "details": "Saisir une plage de dates, éventuellement filtrer par opérateur, par client (via champ Nom client) ou par nom d’offre, ou encore par résultat d’enquête.",
+              "ui": "Champs Date, Opérateur, Nom client, Nom de l’offre, Résultat de l’enquête"
+            },
+            {
+              "step_number": 3,
+              "action": "Lancer la recherche et analyser les résultats.",
+              "details": "Cliquer sur « Rechercher » pour afficher les ordres d’enquête correspondant aux critères.",
+              "ui": "Bouton « Rechercher »"
+            },
+            {
+              "step_number": 4,
+              "action": "Convertir une enquête réussie.",
+              "details": "Si le résultat de l’enquête est « Succès », cliquer sur le bouton « Convertir » pour poursuivre la création de l’abonnement. Si le bouton est grisé mais que le résultat est « Succès », cela signifie que l’enquête a déjà été prise en charge auparavant.",
+              "ui": "Colonne Résultat / bouton « Convertir »"
+            }
+          ]
+        },
+        {
+          "section_title": "Consultation des ordres d’enquêtes en attente",
+          "description": "Gestion des enquêtes en attente de traitement ou ayant reçu une réponse négative de l’OSS.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Sélectionner le mode « Enquêtes en attente ».",
+              "details": "Dans la gestion d’ordre, cocher « Consultation des ordres des enquêtes en attente » puis choisir le type d’ordre concerné.",
+              "ui": "Option « Consultation des ordres des enquêtes en attente »"
+            },
+            {
+              "step_number": 2,
+              "action": "Définir la période de recherche.",
+              "details": "Indiquer la date ou la plage de dates souhaitée puis cliquer sur « Rechercher » pour afficher les ordres en attente.",
+              "ui": "Champs de date > bouton « Rechercher »"
+            },
+            {
+              "step_number": 3,
+              "action": "Traiter une réponse OSS négative.",
+              "details": "Si la réponse OSS est négative, cliquer sur « Modifier », ajuster les informations (offre primaire, adresse, etc.), cliquer sur « Soumettre », puis sur « Redispatch » pour renvoyer l’enquête à l’OSS.",
+              "ui": "Boutons « Modifier », « Soumettre », « Redispatch »"
+            },
+            {
+              "step_number": 4,
+              "action": "Envoyer une enquête en attente pour étude.",
+              "details": "Si, lors de la création, l’enquête a été enregistrée en mode « enquête en attente », cliquer sur « Continue » pour l’envoyer à l’OSS pour étude.",
+              "ui": "Bouton « Continue »"
+            },
+            {
+              "step_number": 5,
+              "action": "Annuler une enquête.",
+              "details": "Pour annuler une enquête en attente, cliquer sur « Annuler la commande ».",
+              "ui": "Bouton « Annuler la commande »"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Création enquête PSTN et la Gestion d’ordre.pdf"
+    },
+    {
+      "id": "creation_nouveau_pack_idoom_fibre",
+      "title": "Création nouveau Pack IDOOM Fibre",
+      "system": "NGBSS",
+      "business_process": "Vente et mise en service d’un nouveau pack IDOOM Fibre (FTTH + VOIP) et recharge FTTH",
+      "filename": "Guide NGBSS Création nouveau Pack IDOOM Fibre (1).pdf",
+      "relative_path": "data/Guide NGBSS/Guide NGBSS Création nouveau Pack IDOOM Fibre (1).pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-08",
+      "tags": [
+        "IDOOM Fibre",
+        "FTTH",
+        "VOIP",
+        "vente pack",
+        "recharge FTTH",
+        "NGBSS"
+      ],
+      "summary": "Procédure de création du pack IDOOM Fibre (VOIP + FTTH) dans NGBSS, incluant la synchronisation ONT et la recharge FTTH via offres prépayées.",
+      "prerequisites": [
+        "La création VOIP se fait selon la procédure habituelle.",
+        "Pour le FTTH, seule l’offre primaire est choisie (pas d’offre supplémentaire à la création).",
+        "La recharge FTTH sera effectuée après mise en service si le client le souhaite.",
+        "Connaître les frais d’accès et d’installation applicables au pack."
+      ],
+      "sections": [
+        {
+          "section_title": "Vente VOIP pour le pack IDOOM Fibre",
+          "description": "Création de la partie téléphonie (VOIP) du pack.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Choisir l’offre VOIP.",
+              "details": "Dans l’onglet de vente VOIP (« VOIP Sale »), rechercher et sélectionner l’offre primaire adaptée (par exemple Idoom Fibre 2 Mbps VOIP) puis cliquer sur le bouton correspondant.",
+              "ui": "VOIP Sale > Liste des offres primaires"
+            },
+            {
+              "step_number": 2,
+              "action": "Renseigner les informations de base.",
+              "details": "Remplir les champs d’identification de l’abonné : type de client, langue, nom/prénom, numéro de service, numéro de contact, etc.",
+              "ui": "Abonné > Informations de base"
+            },
+            {
+              "step_number": 3,
+              "action": "Ajouter les offres demandées par le client.",
+              "details": "Dans l’onglet « Offre », cliquer sur « Plus d’offres » et sélectionner les offres complémentaires souhaitées (par exemple numéros favoris, options de débit).",
+              "ui": "Onglet Offre > bouton « Plus d’offres »"
+            },
+            {
+              "step_number": 4,
+              "action": "Associer les ressources ONT.",
+              "details": "Dans l’onglet « Ressource », cliquer sur « Plus de ressources », choisir le modèle ONT correspondant, saisir ou sélectionner le code ressource, puis cliquer sur « synchroniser avec ONT ». ",
+              "ui": "Onglet Ressource > bouton « Plus de ressources » > bouton « synchroniser avec ONT »"
+            },
+            {
+              "step_number": 5,
+              "action": "Valider le compte et continuer.",
+              "details": "Dans l’onglet « Compte », vérifier ou créer le compte de paiement, vérifier le mode de paiement (espèce, etc.), puis cliquer sur « Continuer ».",
+              "ui": "Onglet Compte > bouton « Continuer »"
+            },
+            {
+              "step_number": 6,
+              "action": "Préparer le panier VOIP.",
+              "details": "Sur l’écran de « Vente individuelle », vérifier le détail des articles VOIP dans le panier puis cliquer sur « Ajoute plus » pour ajouter la partie FTTH.",
+              "ui": "Vente individuelle > bouton « Ajoute plus »"
+            }
+          ]
+        },
+        {
+          "section_title": "Création de l’abonnement FTTH pour IDOOM Fibre",
+          "description": "Ajout de la partie FTTH du pack et finalisation de la vente.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Sélectionner l’offre FTTH.",
+              "details": "Dans la fenêtre d’ajout, cliquer sur l’onglet « FTTX Sale », puis choisir l’offre primaire FTTH selon le débit choisi par le client.",
+              "ui": "FTTX Sale > liste des offres primaires FTTH"
+            },
+            {
+              "step_number": 2,
+              "action": "Remplir les informations de base FTTH.",
+              "details": "Compléter les données d’abonnement FTTH (adresse d’installation, type de contrat, etc.) de la même manière que pour VOIP.",
+              "ui": "Écran Information de base (FTTH)"
+            },
+            {
+              "step_number": 3,
+              "action": "Ne pas ajouter d’offre supplémentaire FTTH.",
+              "details": "Dans l’onglet « Offre » du FTTH, ne pas ajouter d’offre supplémentaire (le pack prévoit l’ajout via recharge ultérieure). Cliquer sur « Continuer ». ",
+              "ui": "Onglet Offre (FTTH) > bouton « Continuer »"
+            },
+            {
+              "step_number": 4,
+              "action": "Procéder au paiement.",
+              "details": "Sur le panier global (VOIP + FTTH + équipements), cliquer sur « Payer maintenant » puis suivre les écrans de paiement jusqu’à validation.",
+              "ui": "Vente individuelle > bouton « Payer maintenant »"
+            },
+            {
+              "step_number": 5,
+              "action": "Contrôler les états des abonnements.",
+              "details": "Après que l’ordre soit « complété », vérifier que l’abonnement VOIP est à l’état « Actif » et que l’abonné FTTH apparaît à l’état « Inactif » en attente de mise en service.",
+              "ui": "Consultation des ordres du client et de la fiche abonné"
+            }
+          ]
+        },
+        {
+          "section_title": "Recharge FTTH via gestion des offres prépayées",
+          "description": "Activation ou prolongation de l’offre FTTH après mise en service.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la gestion des offres prépayées.",
+              "details": "Ouvrir la fiche de l’abonné FTTH, aller dans l’onglet « Offre » puis cliquer sur « Gestion de la validité des offres prépayées ». ",
+              "ui": "Onglet Offre > lien « Gestion de la validité des offres prépayées »"
+            },
+            {
+              "step_number": 2,
+              "action": "Créer une nouvelle recharge.",
+              "details": "Cliquer sur « Nouveau ». L’« Offre supplémentaire » est proposée automatiquement en fonction de l’offre primaire FTTH.",
+              "ui": "Bouton « Nouveau »"
+            },
+            {
+              "step_number": 3,
+              "action": "Choisir la durée de la recharge.",
+              "details": "Dans la liste déroulante « No de mois », sélectionner le nombre de cycles (mois) souhaité pour la recharge puis cliquer sur « Suivant ». ",
+              "ui": "Champ « No de mois » > bouton « Suivant »"
+            },
+            {
+              "step_number": 4,
+              "action": "Soumettre et payer la recharge.",
+              "details": "Vérifier le montant et cliquer sur « Soumettre & paiement », puis suivre les écrans de paiement jusqu’à confirmation.",
+              "ui": "Écran de paiement > bouton « Soumettre & paiement »"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Création nouveau Pack IDOOM Fibre (1).pdf"
+    },
+    {
+      "id": "edition_facture_duplicata",
+      "title": "Edition facture duplicata",
+      "system": "NGBSS",
+      "business_process": "Réimpression d’une facture client (duplicata) depuis le compte de facturation",
+      "filename": "Guide NGBSS Edition facture duplicata.pdf",
+      "relative_path": "data/Guide NGBSS/Guide NGBSS Edition facture duplicata.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-01",
+      "tags": [
+        "réimpression facture",
+        "duplicata",
+        "compte de paiement",
+        "NGBSS"
+      ],
+      "summary": "Procédure pour réimprimer une facture client (duplicata) en débloquant les frais éventuels et en générant un lien de téléchargement du fichier PDF.",
+      "prerequisites": [
+        "Disposer du code de compte du client dans NGBSS.",
+        "S’assurer que la réimpression est autorisée et que le client accepte les éventuels frais associés."
+      ],
+      "sections": [
+        {
+          "section_title": "Réimpression d’une facture en duplicata",
+          "description": "Étapes complètes pour générer et imprimer le duplicata d’une facture.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la réimpression de facture.",
+              "details": "Depuis la fiche du client, aller dans l’onglet « Compte », sélectionner le compte concerné puis cliquer sur « Réimpression de facture ». Laisser vides les dates de cycle si l’on souhaite voir tous les cycles, puis cliquer sur « Rechercher ». ",
+              "ui": "Onglet Compte > sous-onglet « Réimpression de facture » > bouton « Rechercher »"
+            },
+            {
+              "step_number": 2,
+              "action": "Sélectionner le cycle de facturation.",
+              "details": "Cocher le cycle de facturation ou la facture désirée dans la liste des résultats puis cliquer sur « Suivant ». ",
+              "ui": "Liste des cycles de facturation > bouton « Suivant »"
+            },
+            {
+              "step_number": 3,
+              "action": "Soumettre et passer au paiement.",
+              "details": "Sur l’écran récapitulatif, cliquer sur « Soumettre & paiement » pour confirmer la demande de duplicata et initialiser les frais éventuels.",
+              "ui": "Bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 4,
+              "action": "Confirmer les frais.",
+              "details": "Une fenêtre de confirmation s’affiche; cliquer sur « OK » pour valider les frais et poursuivre.",
+              "ui": "Fenêtre de confirmation > bouton « OK »"
+            },
+            {
+              "step_number": 5,
+              "action": "Confirmer la présence de frais impayés le cas échéant.",
+              "details": "Si un message signale que le client a des frais impayés, cliquer sur « confirmer » pour continuer malgré l’avertissement selon les règles commerciales.",
+              "ui": "Message d’information > lien « confirmer »"
+            },
+            {
+              "step_number": 6,
+              "action": "Finaliser le paiement de la réimpression.",
+              "details": "Sur l’écran de paiement, cliquer à nouveau sur « Soumettre & paiement » pour valider la transaction.",
+              "ui": "Écran de paiement > bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 7,
+              "action": "Télécharger et imprimer le duplicata.",
+              "details": "Une URL de téléchargement du fichier de facture apparaît. Cliquer sur le lien pour ouvrir le PDF, puis imprimer la facture duplicata.",
+              "ui": "Champ « URL de téléchargement du fichier de facture » > clic sur le lien"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Edition facture duplicata.pdf"
+    },
+    {
+      "id": "encaissement_factures_payees_bureau_poste",
+      "title": "Encaissement des factures payées au niveau de bureau de Poste",
+      "system": "NGBSS",
+      "business_process": "Saisie dans NGBSS des paiements de factures déjà effectués au niveau d’un bureau de poste",
+      "filename": "Guide NGBSS Encaissement des factures payées au niveau de bureau de poste.pdf",
+      "relative_path": "data/Guide NGBSS/Guide NGBSS Encaissement des factures payées au niveau de bureau de poste.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "encaissement",
+        "paiement facture",
+        "bureau de poste",
+        "MSISDN",
+        "NGBSS"
+      ],
+      "summary": "Procédure pour enregistrer dans NGBSS le paiement d’une facture déjà réglée au bureau de poste, en précisant le canal et la date effective.",
+      "prerequisites": [
+        "Disposer du MSISDN ou d’un autre identifiant permettant de retrouver le client.",
+        "Avoir les informations exactes du paiement réalisé au bureau de poste (date, montant, bureau)."
+      ],
+      "sections": [
+        {
+          "section_title": "Enregistrement d’un paiement effectué au bureau de poste",
+          "description": "Saisie manuelle du paiement dans le module Paiement de NGBSS.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder au module Paiement.",
+              "details": "Cliquer sur l’onglet ou le menu « Paiement » dans NGBSS.",
+              "ui": "Menu principal > Paiement"
+            },
+            {
+              "step_number": 2,
+              "action": "Rechercher le client ou la facture.",
+              "details": "Dans les critères de recherche, saisir le MSISDN (ou le code de compte ou le N° de facture si disponible), puis cliquer sur « Rechercher » pour afficher les factures concernées.",
+              "ui": "Écran Paiement > champ MSISDN > bouton « Rechercher »"
+            },
+            {
+              "step_number": 3,
+              "action": "Sélectionner le mode de paiement.",
+              "details": "Dans la section Méthode de paiement, choisir le mode approprié (Espèce ou Chèque) et vérifier le montant à encaisser.",
+              "ui": "Zone Méthode de paiement (Espèce / Chèque)"
+            },
+            {
+              "step_number": 4,
+              "action": "Renseigner les informations du bureau de poste.",
+              "details": "Dans le champ Description, saisir le nom du bureau de poste et la date effective de paiement au niveau du bureau de poste, par exemple « Bureau de Poste Baba Hassen, 02-12-2018 ». ",
+              "ui": "Champ « Description »"
+            },
+            {
+              "step_number": 5,
+              "action": "Soumettre le paiement.",
+              "details": "Cliquer sur « Soumettre » pour valider l’encaissement du paiement dans NGBSS.",
+              "ui": "Bouton « Soumettre »"
+            },
+            {
+              "step_number": 6,
+              "action": "Confirmer le paiement.",
+              "details": "Une fenêtre récapitulative s’affiche; vérifier les informations (code de compte, montant payé, encours restant) puis cliquer sur « confirmer » pour finaliser l’opération.",
+              "ui": "Fenêtre de confirmation > bouton « confirmer »"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Encaissement des factures payées au niveau de bureau de poste.pdf"
+    },
+    {
+      "id": "ventes_par_lot_v2",
+      "title": "Ventes par lot (Version 2)",
+      "system": "NGBSS",
+      "business_process": "Préparation et vente en lot des cartes de recharge (Voucher Card) à des clients professionnels (KMS, cybercafés, librairies, etc.).",
+      "filename": "Guide d'Utilisation NGBSS Ventes par lot (Version 2).pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Ventes par lot (Version 2).pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "vente par lot",
+        "voucher card",
+        "cartes de recharge",
+        "inventaire",
+        "clients professionnels",
+        "NGBSS"
+      ],
+      "summary": "Guide en deux parties expliquant comment changer l’article de ressource pour regrouper des cartes de recharge en lots, puis comment vendre ces lots à des clients professionnels dans NGBSS, avec plusieurs méthodes de sélection des numéros de série (par rang, liste ou fichier).",
+      "prerequisites": [
+        "Disposer d’un stock de cartes de recharge (Voucher Card) déjà créées dans l’inventaire.",
+        "Connaître le code d’article d’origine et le nouvel article de lot à utiliser (ex. Lot 10 1000DA KMSCYBER).",
+        "Avoir les droits d’accès aux menus « Inventaire > Changer un article de ressource » et à l’écran de vente de ressources / vente par lot."
+      ],
+      "sections": [
+        {
+          "section_title": "Préparation des lots de cartes (changer l’article de ressource)",
+          "description": "Création de lots à partir des cartes de recharge existantes en changeant l’article de ressource via l’inventaire, avec plusieurs méthodes de sélection des numéros de série.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à l’écran de changement d’article de ressource",
+              "details": "Cliquer sur « Inventaire », puis sur « Changer un article de ressource ». Dans l’écran qui s’affiche, choisir la méthode de sélection souhaitée (par rang, par liste ou par fichier).",
+              "ui": "Menu Inventaire > Changer un article de ressource"
+            },
+            {
+              "step_number": 2,
+              "action": "Paramétrer la sélection par rang de numéros",
+              "details": "Pour la méthode « Par rang », choisir le type de ressource « Voucher Card » puis, dans « code d’article », sélectionner l’article à transférer. Saisir ensuite dans « Voucher Card No » le début de série (De) et la fin de série (Vers), puis cliquer sur « Consulter » pour afficher les ressources.",
+              "ui": "Écran Vente par lot – sélection par rang"
+            },
+            {
+              "step_number": 3,
+              "action": "Choisir le nouvel article de lot et valider",
+              "details": "Dans le champ « Nouvel article », choisir l’article de destination correspondant au lot (par exemple « Lot 10 1000DA KMSCYBER »), cocher « Sélectionner tous » pour sélectionner toutes les cartes, puis cliquer sur « Soumettre » et confirmer par « OK ». Les cartes sont désormais rattachées au nouvel article de lot.",
+              "ui": "Écran Vente par lot – changement d’article"
+            },
+            {
+              "step_number": 4,
+              "action": "Préparer les lots par liste de numéros",
+              "details": "Pour la deuxième méthode « Par liste », saisir les numéros de série l’un après l’autre dans le champ « Liste », puis choisir le nouvel article de lot et cliquer sur « Soumettre ». Cette méthode permet de traiter une liste de numéros non consécutifs.",
+              "ui": "Écran Vente par lot – méthode Par liste"
+            },
+            {
+              "step_number": 5,
+              "action": "Préparer les lots à partir d’un fichier texte",
+              "details": "Pour la troisième méthode « Par fichier », insérer les numéros de série en important un fichier texte au format « .txt », contenant un numéro de série par ligne et respectant les contraintes de taille décrites dans le guide, puis choisir le nouvel article de lot et cliquer sur « Soumettre ». ",
+              "ui": "Écran Vente par lot – méthode Par fichier"
+            },
+            {
+              "step_number": 6,
+              "action": "Lancer l’opération de changement d’article",
+              "details": "Après avoir préparé la sélection par la méthode choisie et validé le nouvel article, cliquer sur « Lancer une opération » afin d’exécuter le changement d’article de ressource et finaliser la création des lots.",
+              "ui": "Bouton « Lancer une opération » dans l’écran d’inventaire"
+            }
+          ]
+        },
+        {
+          "section_title": "Vente des ressources par lot à un client",
+          "description": "Vente des lots de cartes de recharge à des clients professionnels à partir de l’écran de vente, avec insertion manuelle ou groupée des numéros de série et encaissement du paiement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Rechercher le client concerné",
+              "details": "Depuis l’écran de vente de ressources par lot, choisir le mode de recherche (par exemple « Code client »), saisir la valeur correspondante puis cliquer sur « Recherche » pour afficher la fiche du client.",
+              "ui": "Écran Vente par lot – recherche de client"
+            },
+            {
+              "step_number": 2,
+              "action": "Sélectionner le produit de type lot",
+              "details": "Dans la liste des produits, choisir le type « Voucher Card », puis dans « Clé de recherche » saisir « lot » et lancer la recherche. Sélectionner le produit de lot voulu et cliquer sur « Pour en savoir » pour vérifier le détail si nécessaire.",
+              "ui": "Écran Vente par lot – sélection du produit"
+            },
+            {
+              "step_number": 3,
+              "action": "Saisir les numéros de série du lot",
+              "details": "Insérer les numéros de série des cartes composant le lot (saisie manuelle, par plage ou via un fichier). Si plusieurs numéros sont saisis manuellement, les séparer par des virgules, puis utiliser le bouton « Add to Cart » pour ajouter les ressources dans le panier en respectant la limite de numéros autorisée.",
+              "ui": "Écran Vente par lot – ajout au panier"
+            },
+            {
+              "step_number": 4,
+              "action": "Valider le panier et lancer le paiement",
+              "details": "Contrôler le contenu du panier puis cliquer sur « Payer maintenant » et confirmer par « OK ». Cliquer ensuite sur « Soumettre & paiement » pour accéder à l’écran de paiement.",
+              "ui": "Panier de vente par lot / bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 5,
+              "action": "Encaisser le paiement du lot",
+              "details": "Dans l’écran de paiement, choisir le mode de paiement adapté (espèces, chèque certifié, virement postal, etc.) en respectant les règles internes (par exemple le plafond pour les paiements en espèces), cliquer sur « Paiement » puis confirmer par « OK ». Le système enregistre la vente du lot et génère le reçu correspondant.",
+              "ui": "Écran Paiement – règlement de la vente par lot"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Vente par Lot_V2.pdf"
+    },
+    {
+      "id": "gestion_payement_arrangement_echeancier",
+      "title": "Gestion de Payement Arrangement Échéancier",
+      "system": "NGBSS",
+      "business_process": "Création, paramétrage, validation et suivi des arrangements de paiement (AOD) et promesses de paiement (P2P) pour les clients résidentiels en situation d’impayés.",
+      "filename": "Guide d'Utilisation NGBSS Gestion de Payement Arrangement Echéancier.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Gestion de Payement Arrangement Echéancier.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-02",
+      "tags": [
+        "arrangement de paiement",
+        "promesse de paiement",
+        "AOD",
+        "P2P",
+        "échéancier",
+        "debt collection",
+        "NGBSS"
+      ],
+      "summary": "Guide détaillant les règles de gestion des arrangements de paiement et des promesses de paiement pour les abonnés résidentiels, ainsi que les étapes de création, de paramétrage de l’échéancier, de validation, d’encaissement et de consultation dans NGBSS.",
+      "prerequisites": [
+        "L’abonné doit être un client résidentiel avec des factures impayées.",
+        "Le montant global des factures à inclure dans l’arrangement doit être supérieur ou égal à 5000 DA.",
+        "Le premier versement (Down payment amount) doit être au moins égal à 20 % du montant global ; chaque versement du plan doit également être au moins égal à 20 % du montant global.",
+        "Une promesse de paiement (P2P) ne peut pas dépasser 30 jours et exclut temporairement la ligne du processus de recouvrement pendant la période accordée.",
+        "Le nombre maximal de versements dépend du montant global (ex. 2 versements pour 5 000–10 000 DA, 3 pour 10 001–20 000 DA, 4 au-delà).",
+        "Avoir les droits d’accès aux menus « Debt collection » (Payement Arrangement Request / Approval) et aux menus de paiement des comptes débiteurs."
+      ],
+      "sections": [
+        {
+          "section_title": "Règles de gestion des arrangements et promesses de paiement",
+          "description": "Présentation des types d’arrangement disponibles, des conditions d’éligibilité des clients et des contraintes sur le nombre de versements et les pourcentages de paiement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Identifier le type de demande",
+              "details": "Déterminer s’il s’agit d’un « Arrangement of Debt » (AOD), permettant de payer une dette en plusieurs échéances, ou d’une « Promesse de paiement » (P2P), qui repousse la date limite de paiement d’une facture pour une durée limitée.",
+              "ui": "Analyse de la demande avant saisie dans NGBSS"
+            },
+            {
+              "step_number": 2,
+              "action": "Vérifier les conditions d’éligibilité",
+              "details": "Contrôler que le montant global des factures concernées est supérieur ou égal à 5000 DA et que le contact est bien un client résidentiel. Valider avec le client que le premier paiement sera au moins égal à 20 % du montant global.",
+              "ui": "Consultation des factures impayées du client"
+            },
+            {
+              "step_number": 3,
+              "action": "Respecter les limites de durée et de nombre de versements",
+              "details": "Pour un arrangement AOD, appliquer le nombre maximum de versements selon le palier de montant défini par la politique commerciale. Pour une promesse de paiement P2P, s’assurer que la durée maximale de report ne dépasse pas 30 jours à compter de la date de validation.",
+              "ui": "Paramètres d’arrangement dans « Payement Arrangement Request »"
+            }
+          ]
+        },
+        {
+          "section_title": "Création d’un arrangement de paiement (AOD)",
+          "description": "Création et paramétrage d’un arrangement de paiement en plusieurs échéances à partir des factures impayées du client.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à l’écran de demande d’arrangement",
+              "details": "Cliquer sur « Debt collection », puis sur « Payement Arrangement Request ». Cet écran permet de créer des arrangements de paiement ou des promesses de paiement.",
+              "ui": "Menu Debt collection > Payement Arrangement Request"
+            },
+            {
+              "step_number": 2,
+              "action": "Rechercher le client et les factures à inclure",
+              "details": "Saisir le ND ou le code de compte du client dans la zone de recherche puis cliquer sur « Rechercher » pour afficher les factures impayées susceptibles d’entrer dans l’arrangement.",
+              "ui": "Écran Payement Arrangement Request – recherche du compte"
+            },
+            {
+              "step_number": 3,
+              "action": "Créer la demande d’arrangement",
+              "details": "Cliquer sur « Create payement arrangement », sélectionner les factures à inclure et consulter les détails au besoin via l’icône « loupe ». Choisir ensuite le type d’arrangement « Arrangement of Debt (AOD) » et cliquer sur « Next ».",
+              "ui": "Écran Payement Arrangement Request – création d’arrangement"
+            },
+            {
+              "step_number": 4,
+              "action": "Choisir le mode de construction de l’échéancier",
+              "details": "Dans la partie paramétrage, choisir le mode « Equal installment » ou, le cas échéant, une répartition par montant ou par pourcentage. Saisir le montant du premier versement (Down payment amount), qui doit être au moins égal à 20 % du montant global.",
+              "ui": "Écran de paramétrage de l’échéancier"
+            },
+            {
+              "step_number": 5,
+              "action": "Saisir les échéances et valider le plan",
+              "details": "Renseigner le nombre de versements, les montants ou pourcentages et les mois associés à chaque échéance. Vérifier que la somme des montants ou pourcentages correspond au montant global, puis cliquer sur « Next » pour afficher le récapitulatif et enregistrer la demande d’arrangement.",
+              "ui": "Écran de détail de l’échéancier – bouton « Next » / validation"
+            }
+          ]
+        },
+        {
+          "section_title": "Création d’une promesse de paiement (P2P)",
+          "description": "Enregistrement d’une promesse de paiement pour un client, permettant de repousser la date limite de paiement d’une facture sur une courte période.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Sélectionner le type Promesse de paiement",
+              "details": "Depuis l’écran « Payement Arrangement Request », choisir la facture concernée puis sélectionner le type de demande correspondant à une promesse de paiement (P2P) au lieu d’un arrangement AOD.",
+              "ui": "Écran Payement Arrangement Request"
+            },
+            {
+              "step_number": 2,
+              "action": "Définir la date et les conditions de la promesse",
+              "details": "Saisir la date de paiement promise en respectant la durée maximale de 30 jours. Confirmer avec le client les modalités de règlement à cette date et enregistrer la promesse dans le système.",
+              "ui": "Formulaire de promesse de paiement"
+            },
+            {
+              "step_number": 3,
+              "action": "Enregistrer la demande de promesse de paiement",
+              "details": "Valider la demande. La ligne du client est alors exclue temporairement du recouvrement automatique pendant la durée de la promesse, conformément aux règles de gestion.",
+              "ui": "Écran de confirmation de la promesse P2P"
+            }
+          ]
+        },
+        {
+          "section_title": "Validation des arrangements et promesses",
+          "description": "Étapes d’approbation des arrangements de paiement et promesses de paiement par le responsable habilité.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à l’écran d’approval",
+              "details": "Cliquer sur le menu de validation des arrangements dans « Debt collection ». Cet écran liste les demandes AOD et P2P en attente de validation.",
+              "ui": "Menu Debt collection – écran d’approval des arrangements"
+            },
+            {
+              "step_number": 2,
+              "action": "Rechercher la demande à approuver",
+              "details": "Saisir le ND ou la référence de l’arrangement et cliquer sur « Search ». Utiliser l’icône « loupe » pour consulter les « Installment details » (détail des échéances) et les factures concernées (« Outstanding invoice »).",
+              "ui": "Écran d’approval – résultats de recherche"
+            },
+            {
+              "step_number": 3,
+              "action": "Approuver ou rejeter l’arrangement / la promesse",
+              "details": "Cliquer sur l’icône d’approval, choisir « Pass » pour approuver ou « Reject » pour rejeter, puis cliquer sur « Save » et confirmer par « Yes ». Le système affiche un message confirmant l’issue de l’opération.",
+              "ui": "Fenêtre d’approval – options Pass / Reject"
+            }
+          ]
+        },
+        {
+          "section_title": "Encaissement des paiements d’un arrangement ou d’une promesse",
+          "description": "Procédure d’encaissement des versements liés à un arrangement ou d’un paiement dans le cadre d’une promesse de paiement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder au module de paiement des comptes débiteurs",
+              "details": "Depuis le menu « Comptes Débiteurs », ouvrir l’écran de paiement approprié pour encaisser un versement lié à un arrangement ou à une facture couverte par une promesse.",
+              "ui": "Menu Comptes Débiteurs > Paiement"
+            },
+            {
+              "step_number": 2,
+              "action": "Sélectionner la ou les échéances à payer",
+              "details": "Saisir le ND du client et cliquer sur « Rechercher » pour afficher les échéances ou factures à encaisser. Cocher les lignes à régler et confirmer le montant total.",
+              "ui": "Écran de paiement – liste des échéances / factures"
+            },
+            {
+              "step_number": 3,
+              "action": "Saisir le moyen de paiement et valider",
+              "details": "Choisir le mode de paiement (espèces, chèque, virement, etc.), saisir les informations nécessaires et cliquer sur le bouton de validation. Le système enregistre le paiement et met à jour le statut de l’échéance ou de la facture.",
+              "ui": "Écran de paiement – validation du règlement"
+            },
+            {
+              "step_number": 4,
+              "action": "Imprimer le reçu de paiement",
+              "details": "Utiliser le bouton d’impression prévu pour éditer le reçu de paiement remis au client, permettant de tracer le règlement de l’échéance dans le cadre de l’arrangement ou de la promesse.",
+              "ui": "Écran de paiement – impression du reçu"
+            }
+          ]
+        },
+        {
+          "section_title": "Consultation et suivi des arrangements",
+          "description": "Consultation de l’historique des arrangements et des promesses de paiement, ainsi que des détails d’échéances et des logs de paiement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Rechercher les arrangements existants",
+              "details": "Utiliser la fonction de consultation des arrangements pour rechercher tous les arrangements ou promesses de paiement d’un client, en filtrant par type ou statut si nécessaire.",
+              "ui": "Écran Consultation payement Arrangement"
+            },
+            {
+              "step_number": 2,
+              "action": "Consulter les informations globales",
+              "details": "Dans la fiche de l’arrangement, consulter les informations globales : montant total, nombre de versements, dates clés et statut actuel.",
+              "ui": "Onglet d’information générale de l’arrangement"
+            },
+            {
+              "step_number": 3,
+              "action": "Analyser le détail des échéances et des paiements",
+              "details": "Accéder au détail des échéances pour vérifier les dates et montants de chaque versement, ainsi qu’aux logs de paiement pour consulter les paiements déjà effectués et leurs dates.",
+              "ui": "Onglets Installment details / Payment logs"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Payement arrangement -Echéancier- (2).pdf"
+    },
+    {
+      "id": "inventaire_ngbss",
+      "title": "Inventaire",
+      "system": "NGBSS",
+      "business_process": "Distribution, suivi et retour des ressources (notamment les cartes de recharge) entre départements via des notes d’inventaire.",
+      "filename": "Guide d'Utilisation NGBSS Inventaire.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Inventaire.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "inventaire",
+        "transfert de ressources",
+        "notes d’inventaire",
+        "voucher card",
+        "retour de ressource",
+        "NGBSS"
+      ],
+      "summary": "Guide structuré en plusieurs parties qui décrit comment distribuer des ressources entre départements, prendre et recevoir des notes d’inventaire, attacher les notes signées, retourner des ressources et consulter l’historique des notes dans NGBSS.",
+      "prerequisites": [
+        "Disposer de ressources (par exemple des cartes de recharge) déjà enregistrées dans l’inventaire.",
+        "Connaître les départements émetteur et cessionnaire concernés par la note d’inventaire.",
+        "Avoir les droits d’accès au menu « Inventaire » et à ses sous-menus (Prendre une note, Recevoir une note, Retourner une ressource, etc.)."
+      ],
+      "sections": [
+        {
+          "section_title": "Distribution de ressources entre départements",
+          "description": "Création d’une note d’inventaire pour distribuer des ressources d’un département émetteur vers un département cessionnaire, avec plusieurs méthodes de sélection des numéros de série.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la fonction de distribution",
+              "details": "Depuis le menu « Inventaire », ouvrir l’écran de distribution / transfert de ressource afin de préparer la note de transfert.",
+              "ui": "Menu Inventaire – distribution / transfert de ressource"
+            },
+            {
+              "step_number": 2,
+              "action": "Choisir la méthode de sélection",
+              "details": "Choisir la méthode de sélection des ressources voulue : par rang, par liste ou par fichier. Ces méthodes permettent de définir les numéros de série des cartes à transférer.",
+              "ui": "Écran de distribution – choix de la méthode (rang, liste, fichier)"
+            },
+            {
+              "step_number": 3,
+              "action": "Sélectionner les ressources par rang",
+              "details": "Pour une sélection par rang, saisir dans « Voucher Card No » le début de série (De) et la fin de série (Vers), puis cliquer sur « Consulter ». La quantité se calcule automatiquement en fonction du rang.",
+              "ui": "Écran de distribution – méthode par rang"
+            },
+            {
+              "step_number": 4,
+              "action": "Sélectionner les ressources par liste ou fichier",
+              "details": "Pour la méthode « Par liste », saisir les numéros de série l’un après l’autre dans le champ « Liste ». Pour la méthode « Par fichier », importer un fichier texte « .txt » contenant les numéros de série, selon le format décrit dans le guide.",
+              "ui": "Écran de distribution – méthodes par liste / fichier"
+            },
+            {
+              "step_number": 5,
+              "action": "Définir les départements et lancer l’opération",
+              "details": "Choisir le « Département émetteur » et le « Département cessionnaire » puis cliquer sur « Soumettre » pour générer la note de distribution. Après vérification, cliquer sur « Lancer une opération » pour valider la note de transfert.",
+              "ui": "Écran de distribution – choix des départements et bouton « Lancer une opération »"
+            }
+          ]
+        },
+        {
+          "section_title": "Prendre une note d’inventaire",
+          "description": "Création d’une note d’inventaire permettant de consigner le mouvement de ressources entre deux départements.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Ouvrir la fonction « Prendre une note »",
+              "details": "Cliquer sur « Inventaire », puis sur « Prendre une note » pour créer une nouvelle note d’inventaire.",
+              "ui": "Menu Inventaire > Prendre une note"
+            },
+            {
+              "step_number": 2,
+              "action": "Renseigner les critères de recherche",
+              "details": "Choisir le « Département émetteur » et le « Département cessionnaire », ou toute autre condition de recherche pertinente, puis cliquer sur « Soumettre ». Les lignes correspondant aux ressources apparaissent en résultat.",
+              "ui": "Écran Prendre une note – critères de recherche"
+            },
+            {
+              "step_number": 3,
+              "action": "Sélectionner les lignes et valider la note",
+              "details": "Cocher le résultat correspondant à la note à émettre, puis cliquer sur « Soumettre » pour la préparer. Cliquer ensuite sur « Prendre » et confirmer par « OK ». Enfin, utiliser « Lancer une opération » pour finaliser la prise de note.",
+              "ui": "Écran Prendre une note – boutons « Soumettre », « Prendre », « Lancer une opération »"
+            }
+          ]
+        },
+        {
+          "section_title": "Recevoir et attacher une note d’inventaire signée",
+          "description": "Réception d’une note d’inventaire par le département cessionnaire et attachement de la note signée dans le système.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Recevoir une note",
+              "details": "Cliquer sur « Inventaire », puis sur « Recevoir une note ». Choisir le « Département cessionnaire » ou un autre critère de recherche, cliquer sur « Consulter », cocher la note qui s’affiche puis cliquer sur « Soumettre ». Cliquer ensuite sur « Recevoir » et confirmer par « OK ». Lancer l’opération pour finaliser la réception.",
+              "ui": "Menu Inventaire > Recevoir une note"
+            },
+            {
+              "step_number": 2,
+              "action": "Attacher la note signée par les parties",
+              "details": "Dans la note, cliquer sur « Attachement ». Cocher le type d’attachement pertinent (par exemple « Pick Note » ou « Receive Note »), cliquer sur « Fichier » pour rechercher le scan de la note signée, puis cliquer sur « Soumettre » et « Lancer une opération » pour associer définitivement la note signée à l’enregistrement.",
+              "ui": "Écran de détail de la note – onglet « Attachements Info »"
+            }
+          ]
+        },
+        {
+          "section_title": "Retourner une ressource et consulter les notes",
+          "description": "Procédure de retour de ressources via une note et consultation / impression de l’historique des notes d’inventaire.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Créer une note de retour de ressource",
+              "details": "Cliquer sur « Inventaire », puis sur « Retourner une ressource ». Choisir une condition de recherche et la méthode souhaitée (par rang, liste ou fichier), par exemple saisir dans « Voucher Card No » le début de série (De) et la fin de série (Vers). Cliquer sur « Consulter », cocher « Sélectionner tous » puis cliquer sur « Soumettre » et « Lancer une opération ».",
+              "ui": "Menu Inventaire > Retourner une ressource"
+            },
+            {
+              "step_number": 2,
+              "action": "Consulter ou imprimer une note",
+              "details": "Dans « Inventaire », utiliser la fonction « Consulter une note » ou « Imprimer une note » pour rechercher une note selon le département émetteur ou d’autres critères, éventuellement en cochant « Historique ». Cliquer sur « Consulter », puis sur « Détail » pour afficher la note et sur « Imprimer note » pour générer le document.",
+              "ui": "Menu Inventaire > Consulter une note / Imprimer une note"
+            },
+            {
+              "step_number": 3,
+              "action": "Vérifier l’impact dans l’inventaire de ressources",
+              "details": "Utiliser l’écran « Inventaire de ressource » pour choisir les critères de recherche et cliquer sur « Consulter ». Vérifier que la ressource ou le lot a bien été transféré ou retourné conformément à la note enregistrée.",
+              "ui": "Écran Inventaire de ressource – consultation"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Inventaire.pdf"
+    },
+    {
+      "id": "saisie_facture_detaillee",
+      "title": "La Saisie de la facture détaillée",
+      "system": "NGBSS",
+      "business_process": "Émission de la facture détaillée (FADET) et saisie des frais correspondants sur NGBSS.",
+      "filename": "Guide d'Utilisation NGBSS La Saisie de la facture détaillée.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS La Saisie de la facture détaillée.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-03",
+      "tags": [
+        "facture détaillée",
+        "FADET",
+        "frais de facture détaillée",
+        "NGBSS"
+      ],
+      "summary": "Guide décrivant comment éditer une facture détaillée pour un abonné, puis comment saisir et encaisser les frais de facture détaillée (FADET sur demande) dans NGBSS.",
+      "prerequisites": [
+        "L’abonné doit être identifié dans NGBSS avec un ND actif.",
+        "La période de facturation pour laquelle la facture détaillée est demandée doit être connue (ex. par bill cycle / bimestre).",
+        "L’utilisateur doit disposer des droits permettant d’éditer une facture détaillée et de saisir les frais correspondants."
+      ],
+      "sections": [
+        {
+          "section_title": "Édition de la facture détaillée",
+          "description": "Étapes permettant de générer le fichier de facture détaillée pour un abonné sur une période de facturation donnée.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Sélectionner l’abonné et le type de facture détaillée",
+              "details": "Accéder à l’écran d’édition de la facture détaillée, sélectionner l’abonné (par ND ou autre clé) puis choisir le type de facture détaillée « par bill cycle ».",
+              "ui": "Écran d’édition de la facture détaillée"
+            },
+            {
+              "step_number": 2,
+              "action": "Choisir la période de facturation",
+              "details": "Sélectionner le bill cycle ou le bimestre désiré, puis cliquer sur « Rechercher » afin d’afficher la possibilité d’édition pour la période choisie.",
+              "ui": "Champ bill cycle / bimestre et bouton « Rechercher »"
+            },
+            {
+              "step_number": 3,
+              "action": "Télécharger le fichier de facture détaillée",
+              "details": "Une fois la demande prête, utiliser l’option prévue (par exemple « Télécharger le fichier ») pour générer et récupérer le fichier de facture détaillée correspondant à la période sélectionnée.",
+              "ui": "Bouton de téléchargement / export du fichier détaillé"
+            }
+          ]
+        },
+        {
+          "section_title": "Saisie et encaissement des frais de facture détaillée (FADET)",
+          "description": "Saisie des frais pour la facture détaillée et encaissement du montant dû par le client.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder au changement d’offre et rechercher l’offre FADET",
+              "details": "Depuis la fiche de l’abonné, accéder à la fonction de changement d’offre. Cliquer sur « Plus d’offres » et, dans la clé de recherche, saisir « fadet » pour rechercher l’offre « FADET sur demande ». Sélectionner l’offre et cliquer sur « Confirmer ». ",
+              "ui": "Écran changement d’offre – recherche d’offre FADET sur demande"
+            },
+            {
+              "step_number": 2,
+              "action": "Saisir le nombre d’unités de facture détaillée",
+              "details": "Dans l’écran de confirmation, saisir le nombre d’unités correspondant à la facture détaillée demandée (ex. saisir « 2 » si le client demande deux factures détaillées) puis cliquer sur « Suivant » ou l’équivalent.",
+              "ui": "Écran de paramétrage de l’offre FADET sur demande"
+            },
+            {
+              "step_number": 3,
+              "action": "Soumettre la demande et passer au paiement",
+              "details": "Après vérification des informations, cliquer sur « Soumettre & paiement » pour enregistrer la demande et passer à l’écran de paiement.",
+              "ui": "Bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 4,
+              "action": "Encaisser les frais de facture détaillée",
+              "details": "Dans l’écran de paiement, sélectionner le mode de paiement (espèces, chèque, etc.), saisir les informations de règlement et valider. Le système enregistre le paiement des frais de facture détaillée.",
+              "ui": "Écran Paiement – règlement des frais FADET"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Saisie facture détaillée.pdf"
+    },
+    {
+      "id": "ligne_temporaire",
+      "title": "Ligne temporaire",
+      "system": "NGBSS",
+      "business_process": "Création, prolongation et conversion d’une ligne téléphonique temporaire via la vente individuelle ou la création d’enquête.",
+      "filename": "Guide d'Utilisation NGBSS Ligne temporaire.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Ligne temporaire.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-01",
+      "tags": [
+        "ligne temporaire",
+        "PSTN",
+        "création ligne",
+        "prolongation",
+        "conversion ligne permanente",
+        "NGBSS"
+      ],
+      "summary": "Guide expliquant la création d’une ligne temporaire en vente individuelle ou par enquête, la gestion des modes de paiement (espèces ou ajout sur compte), la prolongation de la validité de l’offre temporaire et la conversion vers une ligne permanente.",
+      "prerequisites": [
+        "Connaître les catégories d’abonnés et les offres éligibles à la ligne temporaire.",
+        "Disposer des droits d’accès aux écrans de Vente individuel, d’Enquêtes et de gestion des offres.",
+        "S’assurer que les paramètres de durée et de renouvellement des lignes temporaires sont alignés avec les directives commerciales."
+      ],
+      "sections": [
+        {
+          "section_title": "Création d’une ligne temporaire par vente individuelle",
+          "description": "Utilisation de la vente individuelle pour créer directement une ligne temporaire pour un nouveau client.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la vente individuelle et rechercher l’offre temporaire",
+              "details": "Ouvrir l’écran de « Vente individuel ». Dans la liste des offres, utiliser la clé de recherche (par exemple en inscrivant « temporaire ») afin d’afficher les offres de type ligne temporaire et choisir l’offre primaire souhaitée.",
+              "ui": "Écran Vente individuel – sélection de l’offre temporaire"
+            },
+            {
+              "step_number": 2,
+              "action": "Renseigner les informations de base et l’adresse",
+              "details": "Remplir les données de base de l’abonné (identité, coordonnées, etc.) ainsi que l’adresse d’installation, puis passer à l’étape suivante.",
+              "ui": "Formulaire d’informations de base de la vente"
+            },
+            {
+              "step_number": 3,
+              "action": "Choisir le mode de paiement de la ligne temporaire",
+              "details": "Sélectionner le mode de paiement approprié pour les frais liés à la ligne temporaire. Le guide décrit notamment deux modes : paiement en espèces ou « Ajout sur compte ». Vérifier les contraintes associées à chaque mode avant de valider.",
+              "ui": "Écran de paiement de la vente individuelle – modes de paiement"
+            },
+            {
+              "step_number": 4,
+              "action": "Valider la création de la ligne temporaire",
+              "details": "Après avoir contrôlé les informations saisies et le mode de paiement, valider l’opération. La ligne est créée avec le statut de ligne temporaire et la période de validité définie par l’offre.",
+              "ui": "Écran récapitulatif de la vente – validation"
+            }
+          ]
+        },
+        {
+          "section_title": "Création d’une ligne temporaire par enquête",
+          "description": "Processus de création de ligne temporaire en passant par une enquête commerciale avant la création effective de la ligne.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Créer une nouvelle enquête",
+              "details": "Dans le module d’enquêtes, cliquer sur « Créer une nouvelle enquête », puis sur « Ajouter une nouvelle enquête ». Dans la liste déroulante, choisir le « Type d’enquête » correspondant à un nouvel abonné et cliquer sur « Rechercher ».",
+              "ui": "Écran Enquêtes – création d’une nouvelle enquête"
+            },
+            {
+              "step_number": 2,
+              "action": "Sélectionner l’offre temporaire",
+              "details": "Choisir le type, puis dans « Clé de recherche » saisir « temporaire » et lancer la recherche. Cocher l’offre primaire de ligne temporaire souhaitée, puis cliquer sur « Confirmer ». ",
+              "ui": "Écran de sélection de l’offre dans l’enquête"
+            },
+            {
+              "step_number": 3,
+              "action": "Renseigner l’adresse et les informations de réservation",
+              "details": "Cocher l’enquête créée, remplir les champs d’« Adresse » et d’« information de réservation », puis cliquer sur « Confirmer l’enquête ». Le guide indique ensuite de suivre les étapes décrites dans le guide « Création enquête PSTN et la Gestion d’ordre » pour finaliser.",
+              "ui": "Écran de détail de l’enquête – confirmation"
+            }
+          ]
+        },
+        {
+          "section_title": "Prolongation de la validité d’une ligne temporaire",
+          "description": "Renouvellement de la durée de validité d’une offre temporaire existante pour un abonné.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la gestion de la validité des offres temporaires",
+              "details": "Cliquer sur « Offre », puis sur « Gestion de la validité des offres temporaires » afin d’afficher les lignes temporaires dont la durée peut être prolongée.",
+              "ui": "Menu Offre > Gestion de la validité des offres temporaires"
+            },
+            {
+              "step_number": 2,
+              "action": "Renouveler la ligne temporaire",
+              "details": "Sélectionner la ligne temporaire concernée et cliquer sur « Renouveler ». Vérifier la nouvelle période de validité proposée et valider l’opération selon les règles commerciales.",
+              "ui": "Écran de gestion de la validité – action « Renouveler »"
+            }
+          ]
+        },
+        {
+          "section_title": "Conversion d’une ligne temporaire en ligne permanente",
+          "description": "Conversion d’une ligne temporaire en ligne permanente lorsque le client souhaite conserver définitivement le service.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Ouvrir la fiche de l’abonné temporaire",
+              "details": "Rechercher la ligne temporaire dans NGBSS et accéder à la fiche de l’abonné afin de visualiser l’offre temporaire active.",
+              "ui": "Consultation de la fiche abonné"
+            },
+            {
+              "step_number": 2,
+              "action": "Lancer la modification de l’offre vers une offre permanente",
+              "details": "Utiliser la fonction de modification de l’offre pour remplacer l’offre temporaire par l’offre PSTN permanente adaptée, en respectant les règles de migration définies par Algérie Télécom.",
+              "ui": "Écran de changement d’offre – sélection de l’offre permanente"
+            },
+            {
+              "step_number": 3,
+              "action": "Valider la conversion",
+              "details": "Contrôler les nouvelles conditions (frais éventuels, durée, etc.) puis valider la modification. La ligne est alors considérée comme permanente dans le système.",
+              "ui": "Écran de confirmation de changement d’offre"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Ligne temporaire.pdf"
+    },
+    {
+      "id": "reactivation_abonne_4g_lte",
+      "title": "Réactivation Abonné 4G LTE",
+      "system": "NGBSS",
+      "business_process": "Réactivation d’un abonné 4G LTE en état pré-désactivé et encaissement des frais de réactivation.",
+      "filename": "Guide d'Utilisation NGBSS Réactivation Abonné 4G LTE.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Réactivation Abonné 4G LTE.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "4G",
+        "LTE",
+        "réactivation",
+        "pré-désactivé",
+        "paiement",
+        "NGBSS"
+      ],
+      "summary": "Guide expliquant la procédure de réactivation d’un abonné 4G LTE en état pré-désactivé, incluant la saisie de la demande, la validation, l’encaissement des frais de réactivation et l’impression du reçu.",
+      "prerequisites": [
+        "L’abonné 4G LTE doit être dans l’état « pré-désactivé » dans NGBSS.",
+        "Le client doit être informé du montant des frais de réactivation et des conditions de remise en service.",
+        "L’utilisateur doit avoir accès aux menus de gestion d’abonné et de paiement."
+      ],
+      "sections": [
+        {
+          "section_title": "Réactivation d’un abonné 4G LTE pré-désactivé",
+          "description": "Étapes permettant de lancer et de confirmer la réactivation de l’abonné 4G LTE dans NGBSS.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à l’option de réactivation",
+              "details": "Ouvrir la fiche de l’abonné 4G LTE en état pré-désactivé, puis utiliser la fonction dédiée de réactivation (menu Abonné / 4G LTE selon l’interface).",
+              "ui": "Fiche abonné 4G LTE – option de réactivation"
+            },
+            {
+              "step_number": 2,
+              "action": "Lancer la réactivation",
+              "details": "Confirmer la réactivation de la ligne en suivant les étapes affichées. Le système prépare alors l’opération et permet de passer à la phase de paiement des frais de réactivation.",
+              "ui": "Écran de réactivation 4G LTE – confirmation"
+            }
+          ]
+        },
+        {
+          "section_title": "Paiement et impression du reçu de réactivation",
+          "description": "Encaissement des frais de réactivation 4G LTE et impression du reçu.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Soumettre la réactivation et passer au paiement",
+              "details": "Cliquer sur « Soumettre & paiement » (ou équivalent) pour valider la réactivation et ouvrir l’écran de paiement des frais.",
+              "ui": "Bouton « Soumettre & paiement »"
+            },
+            {
+              "step_number": 2,
+              "action": "Encaisser les frais de réactivation",
+              "details": "Dans l’écran de paiement, choisir le mode de paiement (espèces, chèque, etc.), saisir les informations nécessaires et cliquer sur le bouton de paiement pour encaisser les frais de réactivation.",
+              "ui": "Écran Paiement – règlement des frais de réactivation"
+            },
+            {
+              "step_number": 3,
+              "action": "Imprimer le reçu et informer le client",
+              "details": "Imprimer le reçu de réactivation généré par le système et le remettre au client. Informer le client qu’il doit recharger son compte 4G LTE dans le délai indiqué pour que la ligne reste active.",
+              "ui": "Écran de reçu / impression"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Réactivation Abonné 4G LTE 1.pdf"
+    },
+    {
+      "id": "recharge_bon_commande_complement",
+      "title": "Recharge par Bon de commande - Complément",
+      "system": "NGBSS",
+      "business_process": "Recharge par bon de commande pour les abonnés ayant une relation de paiement complet dans un groupe, en complément du guide principal.",
+      "filename": "Guide d'Utilisation NGBSS Recharge par Bon de commande Complément.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Recharge par Bon de commande Complément.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2019-03",
+      "tags": [
+        "recharge",
+        "bon de commande",
+        "paiement complet",
+        "groupe",
+        "NGBSS"
+      ],
+      "summary": "Complément au guide de recharge par bon de commande, destiné à la prise en charge des recharges pour les abonnés ayant une relation de paiement complet dans un groupe, en précisant le choix du bon compte lors du paiement.",
+      "prerequisites": [
+        "Le bon de commande doit être préalablement enregistré sur un abonné prépayé.",
+        "L’abonné doit appartenir à un groupe pour lequel la relation de paiement est « paiement complet ». ",
+        "L’utilisateur doit connaître le compte exact de l’abonné à utiliser pour le paiement."
+      ],
+      "sections": [
+        {
+          "section_title": "Vérification de la relation de paiement dans le groupe",
+          "description": "Contrôle de la relation de paiement dans le groupe avant d’effectuer la recharge par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Consulter le groupe de l’abonné",
+              "details": "Dans le module de gestion de groupe, consulter la fiche du groupe de l’abonné et vérifier que la relation de paiement est bien de type « paiement complet ». Le guide illustre ce point à l’aide de captures d’écran.",
+              "ui": "Écran de consultation du groupe – relation de paiement"
+            }
+          ]
+        },
+        {
+          "section_title": "Sélection du compte de l’abonné pour la recharge",
+          "description": "Choix du bon compte de l’abonné lors de l’enregistrement de la recharge par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Identifier le compte de l’abonné",
+              "details": "Depuis la fiche abonné, noter le compte à utiliser pour la recharge. Le guide montre que le compte qui apparaît par défaut peut être celui du groupe ; il est nécessaire de sélectionner le compte de l’abonné concerné.",
+              "ui": "Fiche abonné – informations de compte"
+            },
+            {
+              "step_number": 2,
+              "action": "Choisir le compte correct dans la liste déroulante",
+              "details": "Lors de la préparation du paiement par bon de commande, utiliser la liste déroulante pour choisir le compte de l’abonné concerné, plutôt que le compte générique du groupe.",
+              "ui": "Écran de recharge – liste déroulante des comptes"
+            }
+          ]
+        },
+        {
+          "section_title": "Soumission et paiement par bon de commande",
+          "description": "Validation de la recharge et affichage du paiement effectué par bon de commande.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Soumettre l’opération de recharge",
+              "details": "Après avoir choisi le bon compte, cliquer sur « Soumettre & paiement » pour valider la recharge par bon de commande.",
+              "ui": "Bouton « Soumettre & paiement » dans l’écran de recharge"
+            },
+            {
+              "step_number": 2,
+              "action": "Vérifier l’affichage du paiement par bon de commande",
+              "details": "Contrôler dans l’écran de paiement et dans l’historique que le paiement par « Bon de commande » apparaît correctement pour le compte de l’abonné concerné.",
+              "ui": "Écran de paiement / historique – ligne de paiement par bon de commande"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Recharge par bon de commande - complément.pdf"
+    },
+    {
+      "id": "facture_complementaire_tva_2",
+      "title": "Enregistrement et encaissement Facture complémentaire TVA 2%",
+      "system": "NGBSS",
+      "business_process": "Enregistrement dans NGBSS d’une facture complémentaire liée à la TVA 2 % et encaissement du montant correspondant.",
+      "filename": "Guide d'Utilisation NGBSS Enregistrement et encaissement Facture complémentaire TVA 2%.pdf",
+      "relative_path": "data/Guide NGBSS/Guide d'Utilisation NGBSS Enregistrement et encaissement Facture complémentaire TVA 2%.pdf",
+      "language": [
+        "fr",
+        "ar"
+      ],
+      "date": "2018-12",
+      "tags": [
+        "facture complémentaire",
+        "TVA 2%",
+        "demande d’ajustement",
+        "encaissement",
+        "NGBSS"
+      ],
+      "summary": "Guide montrant comment enregistrer une facture complémentaire liée à l’application de la TVA 2 % via une demande d’ajustement dans NGBSS, puis comment encaisser cette facture complémentaire.",
+      "prerequisites": [
+        "L’abonné doit avoir des factures concernées par l’ajustement de TVA 2 %. ",
+        "L’utilisateur doit avoir les droits sur le module « Comptes Débiteurs » et les demandes d’ajustement.",
+        "Le montant et la justification de la facture complémentaire TVA 2 % doivent être connus."
+      ],
+      "sections": [
+        {
+          "section_title": "Enregistrement d’une facture complémentaire TVA 2 %",
+          "description": "Création d’une demande d’ajustement pour enregistrer une facture complémentaire liée à la TVA 2 %. ",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à la demande d’ajustement TVA 2 %",
+              "details": "Cliquer sur « Comptes Débiteurs », puis sur « Demande d’ajustement » et choisir « Enregistrement Facture complémentaire TVA 2 % ». ",
+              "ui": "Menu Comptes Débiteurs > Demande d’ajustement > Enregistrement Facture complémentaire TVA 2 %"
+            },
+            {
+              "step_number": 2,
+              "action": "Préparer la demande pour le client",
+              "details": "Dans l’écran dédié, cliquer sur « Prépaiement », saisir le ND de l’abonné dans « Saisir ND » puis cliquer sur « Rechercher » pour afficher les éléments concernés.",
+              "ui": "Écran Enregistrement Facture complémentaire TVA 2 % – recherche ND"
+            },
+            {
+              "step_number": 3,
+              "action": "Sélectionner les paramètres de la facture complémentaire",
+              "details": "Sélectionner le niveau de compte, les notes de débit, la raison et le cycle de facturation appropriés pour la facture complémentaire TVA 2 %.",
+              "ui": "Écran de demande d’ajustement – paramètres de la facture"
+            },
+            {
+              "step_number": 4,
+              "action": "Décrire l’ajustement TVA 2 % et saisir le montant",
+              "details": "Dans le champ description, introduire le commentaire « Facture complémentaire TVA 2 % », puis saisir le montant à forcer correspondant à la TVA 2 %. Cliquer ensuite sur « Soumettre ». ",
+              "ui": "Écran de demande d’ajustement – description et montant"
+            },
+            {
+              "step_number": 5,
+              "action": "Confirmer l’enregistrement",
+              "details": "Cliquer sur « Confirmer » pour valider l’enregistrement de la facture complémentaire TVA 2 %. Un message de confirmation indique que l’opération a été effectuée avec succès.",
+              "ui": "Écran de confirmation de la demande d’ajustement"
+            }
+          ]
+        },
+        {
+          "section_title": "Encaissement de la facture complémentaire TVA 2 %",
+          "description": "Encaissement du montant de la facture complémentaire TVA 2 % après son enregistrement.",
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "Accéder à l’écran d’encaissement de la facture complémentaire",
+              "details": "Depuis « Comptes Débiteurs », ouvrir l’écran d’encaissement correspondant à la facture complémentaire TVA 2 %. La procédure suit la logique standard d’encaissement pour ce type de facture.",
+              "ui": "Menu Comptes Débiteurs – écran d’encaissement TVA 2 %"
+            },
+            {
+              "step_number": 2,
+              "action": "Encaisser le montant de la facture complémentaire",
+              "details": "Sélectionner la facture complémentaire TVA 2 %, choisir le mode de paiement (espèces, chèque, etc.), saisir les informations nécessaires puis valider pour encaisser le montant correspondant à la TVA 2 %.",
+              "ui": "Écran Paiement – encaissement de la facture complémentaire"
+            },
+            {
+              "step_number": 3,
+              "action": "Imprimer et archiver le reçu",
+              "details": "Imprimer le reçu généré pour l’encaissement de la facture complémentaire TVA 2 % et l’archiver selon les procédures internes.",
+              "ui": "Écran de reçu – impression du justificatif"
+            }
+          ]
+        }
+      ],
+      "s3_key": "Guide NGBSS Facture complémentaire TVA 2_.pdf"
+    }
+  ]
+}

@@ -1,0 +1,1869 @@
+{
+  "metrics": {
+    "total_samples": 145,
+    "recall_at_1": 0.8482758620689655,
+    "recall_at_3": 0.903448275862069,
+    "recall_at_5": 0.9103448275862069,
+    "recall_at_10": 0.9517241379310345,
+    "mrr": 0.8813492063492063,
+    "avg_latency_ms": 81.1135982644969,
+    "recall_by_category": {
+      "PRICE": {
+        "count": 58,
+        "recall_at_1": 0.8103448275862069,
+        "recall_at_5": 0.8620689655172413
+      },
+      "BENEFICIARY": {
+        "count": 29,
+        "recall_at_1": 0.896551724137931,
+        "recall_at_5": 1.0
+      },
+      "DOCUMENTS": {
+        "count": 29,
+        "recall_at_1": 0.7931034482758621,
+        "recall_at_5": 0.8620689655172413
+      },
+      "GENERAL": {
+        "count": 29,
+        "recall_at_1": 0.9310344827586207,
+        "recall_at_5": 0.9655172413793104
+      }
+    }
+  },
+  "errors_analysis": {
+    "total_errors": 22,
+    "error_rate": 0.15172413793103448,
+    "errors_by_category": {
+      "DOCUMENTS": 6,
+      "PRICE": 11,
+      "GENERAL": 2,
+      "BENEFICIARY": 3
+    },
+    "rank_distribution": {
+      "not_found": 7,
+      "6": 3,
+      "2": 6,
+      "7": 1,
+      "9": 1,
+      "3": 2,
+      "8": 1,
+      "4": 1
+    },
+    "top_errors": [
+      {
+        "query": "Documents requis pour L'Établissement I",
+        "expected": "Convention_AT-___L_établissement_I.docx",
+        "got_at_1": null,
+        "correct_rank": null,
+        "category": "DOCUMENTS"
+      },
+      {
+        "query": "Prix xDSL/Fibre 20 Mbps L’établissement D",
+        "expected": "Convention AT- & L’établissement D.docx",
+        "got_at_1": "Convention_AT_-__L_établissement_E.docx",
+        "correct_rank": 6,
+        "category": "PRICE"
+      },
+      {
+        "query": "Prix xDSL/Fibre 50 Mbps L’établissement D",
+        "expected": "Convention AT- & L’établissement D.docx",
+        "got_at_1": "Convention_AT_-__L_établissement_E.docx",
+        "correct_rank": 6,
+        "category": "PRICE"
+      },
+      {
+        "query": "Documents requis pour L’établissement D",
+        "expected": "Convention AT- & L’établissement D.docx",
+        "got_at_1": "Convention AT &  L’établissement R.docx",
+        "correct_rank": 2,
+        "category": "DOCUMENTS"
+      },
+      {
+        "query": "Convention L’établissement D",
+        "expected": "Convention AT- & L’établissement D.docx",
+        "got_at_1": "Convention_AT_-__L_établissement_J.docx",
+        "correct_rank": 7,
+        "category": "GENERAL"
+      },
+      {
+        "query": "Prix FIBRE 240 Mbps L'établissement G",
+        "expected": "Convention_AT_-__L_établissement_G.docx",
+        "got_at_1": "Convention AT & L’établissement k.docx",
+        "correct_rank": 6,
+        "category": "PRICE"
+      },
+      {
+        "query": "Prix FIBRE 480 Mbps L'établissement G",
+        "expected": "Convention_AT_-__L_établissement_G.docx",
+        "got_at_1": "Convention AT & L’établissement B.docx",
+        "correct_rank": 2,
+        "category": "PRICE"
+      },
+      {
+        "query": "Documents requis pour L'établissement G",
+        "expected": "Convention_AT_-__L_établissement_G.docx",
+        "got_at_1": "Convention AT &  L’établissement R.docx",
+        "correct_rank": null,
+        "category": "DOCUMENTS"
+      },
+      {
+        "query": "Prix ADSL 15 Mbps L’établissement C",
+        "expected": "Convention AT -& L’établissement C.docx",
+        "got_at_1": "Convention AT & L’établissement B.docx",
+        "correct_rank": 2,
+        "category": "PRICE"
+      },
+      {
+        "query": "Prix ADSL 20 Mbps L’établissement C",
+        "expected": "Convention AT -& L’établissement C.docx",
+        "got_at_1": "Convention AT & L’établissement k.docx",
+        "correct_rank": 9,
+        "category": "PRICE"
+      }
+    ]
+  },
+  "config": {
+    "passages_file": "passages.json",
+    "use_dense_retrieval": true,
+    "dense_model": "intfloat/multilingual-e5-small",
+    "use_cross_encoder": true,
+    "cross_encoder_model": "nreimers/mmarco-mMiniLMv2-L12-H384-v1",
+    "top_k_retrieval": 50,
+    "top_k_rerank": 30,
+    "top_k_final": 10,
+    "apply_hard_entity_filter": true,
+    "enable_numeric_boost": true,
+    "enable_signature_boost": true
+  },
+  "results": [
+    {
+      "query": "Prix Idoom ADSL 20 Mbps L’établissement P",
+      "expected": "Convention AT & L_établissement P.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx"
+      ]
+    },
+    {
+      "query": "Prix Idoom VDSL 100 Mbps L’établissement P",
+      "expected": "Convention AT & L_établissement P.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Cadres supérieurs, personnel a L’établissement P",
+      "expected": "Convention AT & L_établissement P.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement P",
+      "expected": "Convention AT & L_établissement P.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement P",
+      "expected": "Convention AT & L_établissement P.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement V",
+      "expected": "Convention AT & L_établissement V.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Prix FIBRE 30 Mbps L’établissement V",
+      "expected": "Convention AT & L_établissement V.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité de L’éta L’établissement V",
+      "expected": "Convention AT & L_établissement V.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement V",
+      "expected": "Convention AT & L_établissement V.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement V",
+      "expected": "Convention AT & L_établissement V.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’Établissement F",
+      "expected": "Convention AT- & L’établissement F.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’Établissement F",
+      "expected": "Convention AT- & L’établissement F.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Tous les employés en activité  L’Établissement F",
+      "expected": "Convention AT- & L’établissement F.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’Établissement F",
+      "expected": "Convention AT- & L’établissement F.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Convention L’Établissement F",
+      "expected": "Convention AT- & L’établissement F.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 15 Mbps L’établissement A",
+      "expected": "Convention AT & L’établissement A.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement A",
+      "expected": "Convention AT & L’établissement A.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité et en re L’établissement A",
+      "expected": "Convention AT & L’établissement A.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement A",
+      "expected": "Convention AT & L’établissement A.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement A",
+      "expected": "Convention AT & L’établissement A.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L'établissement N",
+      "expected": "Convention_AT___L_établissement_N.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L'établissement N",
+      "expected": "Convention_AT___L_établissement_N.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité de L'éta L'établissement N",
+      "expected": "Convention_AT___L_établissement_N.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'établissement N",
+      "expected": "Convention_AT___L_établissement_N.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Convention L'établissement N",
+      "expected": "Convention_AT___L_établissement_N.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L'établissement O",
+      "expected": "Convention_AT___L_établissement_O.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_O.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 100 Mbps L'établissement O",
+      "expected": "Convention_AT___L_établissement_O.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_O.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité de L'éta L'établissement O",
+      "expected": "Convention_AT___L_établissement_O.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_O.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'établissement O",
+      "expected": "Convention_AT___L_établissement_O.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_O.docx"
+      ]
+    },
+    {
+      "query": "Convention L'établissement O",
+      "expected": "Convention_AT___L_établissement_O.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT___L_établissement_O.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L'Établissement I",
+      "expected": "Convention_AT-___L_établissement_I.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT-___L_établissement_I.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 100 Mbps L'Établissement I",
+      "expected": "Convention_AT-___L_établissement_I.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT-___L_établissement_I.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité de L'Éta L'Établissement I",
+      "expected": "Convention_AT-___L_établissement_I.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT-___L_établissement_I.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'Établissement I",
+      "expected": "Convention_AT-___L_établissement_I.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": []
+    },
+    {
+      "query": "Convention L'Établissement I",
+      "expected": "Convention_AT-___L_établissement_I.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT-___L_établissement_I.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL/Fibre 20 Mbps L’établissement D",
+      "expected": "Convention AT- & L’établissement D.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 6,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx",
+        "Convention Algérie Télécom & L’établissement X.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL/Fibre 50 Mbps L’établissement D",
+      "expected": "Convention AT- & L’établissement D.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 6,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention Algérie Télécom & L’établissement X.docx",
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel actif L’établissement D",
+      "expected": "Convention AT- & L’établissement D.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT- & L’établissement D.docx",
+        "Convention AT - & L’établissement H.docx",
+        "Convention Algérie Télécom & L’établissement AD.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convention AT & L’établissement A.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement D",
+      "expected": "Convention AT- & L’établissement D.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT- & L’établissement D.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement D",
+      "expected": "Convention AT- & L’établissement D.docx",
+      "category": "GENERAL",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 7,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention_AT_-__L_établissement_G.docx"
+      ]
+    },
+    {
+      "query": "Prix FIBRE 240 Mbps L'établissement G",
+      "expected": "Convention_AT_-__L_établissement_G.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 6,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx",
+        "Convention AT- & L’établissement F.docx",
+        "Convention_AT___L_établissement_O.docx",
+        "Convention_AT___L_établissement_N.docx",
+        "Convention AT & L’établissement B.docx"
+      ]
+    },
+    {
+      "query": "Prix FIBRE 480 Mbps L'établissement G",
+      "expected": "Convention_AT_-__L_établissement_G.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT & L’établissement B.docx",
+        "Convention_AT_-__L_établissement_G.docx",
+        "Convention AT -& L’établissement C.docx",
+        "Convention AT & L_établissement T.docx",
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel adhérant ou membre d L'établissement G",
+      "expected": "Convention_AT_-__L_établissement_G.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_G.docx",
+        "Convention_AT___L_établissement_O.docx",
+        "Convention_AT___L_établissement_N.docx",
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention_AT-___L_établissement_I.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'établissement G",
+      "expected": "Convention_AT_-__L_établissement_G.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT &L’établissement L.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx"
+      ]
+    },
+    {
+      "query": "Convention L'établissement G",
+      "expected": "Convention_AT_-__L_établissement_G.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_G.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 15 Mbps L’établissement C",
+      "expected": "Convention AT -& L’établissement C.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT & L’établissement B.docx",
+        "Convention AT -& L’établissement C.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement C",
+      "expected": "Convention AT -& L’établissement C.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 9,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx",
+        "Convention AT & L’établissement Q.docx",
+        "Convention AT- & L’établissement F.docx",
+        "Convention_AT___L_établissement_N.docx",
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel Actif, civils, et re L’établissement C",
+      "expected": "Convention AT -& L’établissement C.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT -& L’établissement C.docx",
+        "Convention AT- & L’établissement D.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT - & L’établissement H.docx",
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement C",
+      "expected": "Convention AT -& L’établissement C.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 3,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT -& L’établissement C.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement C",
+      "expected": "Convention AT -& L’établissement C.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT -& L’établissement C.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention_AT_-__L_établissement_G.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’Établissement H",
+      "expected": "Convention AT - & L’établissement H.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’Établissement H",
+      "expected": "Convention AT - & L’établissement H.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel actif L’Établissement H",
+      "expected": "Convention AT - & L’établissement H.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’Établissement H",
+      "expected": "Convention AT - & L’établissement H.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Convention L’Établissement H",
+      "expected": "Convention AT - & L’établissement H.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L'Établissement E",
+      "expected": "Convention_AT_-__L_établissement_E.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L'Établissement E",
+      "expected": "Convention_AT_-__L_établissement_E.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité relevant L'Établissement E",
+      "expected": "Convention_AT_-__L_établissement_E.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'Établissement E",
+      "expected": "Convention_AT_-__L_établissement_E.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Convention L'Établissement E",
+      "expected": "Convention_AT_-__L_établissement_E.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L'établissement J",
+      "expected": "Convention_AT_-__L_établissement_J.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L'établissement J",
+      "expected": "Convention_AT_-__L_établissement_J.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité relevant L'établissement J",
+      "expected": "Convention_AT_-__L_établissement_J.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L'établissement J",
+      "expected": "Convention_AT_-__L_établissement_J.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx"
+      ]
+    },
+    {
+      "query": "Convention L'établissement J",
+      "expected": "Convention_AT_-__L_établissement_J.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL / VDSL / FIBRE Palier 1 L’établissement Z",
+      "expected": "Convention Algérie Télécom & L’établissement Z.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx",
+        "Convetion AT & L’établissement S.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL / VDSL / FIBRE Palier 2 L’établissement Z",
+      "expected": "Convention Algérie Télécom & L’établissement Z.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT &L’établissement L.docx",
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité et retra L’établissement Z",
+      "expected": "Convention Algérie Télécom & L’établissement Z.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convetion AT & L’établissement S.docx",
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement Z",
+      "expected": "Convention Algérie Télécom & L’établissement Z.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement Z",
+      "expected": "Convention Algérie Télécom & L’établissement Z.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention_AT_-__L_établissement_G.docx",
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention AT -& L’établissement C.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL & FIBRE 20 Mbps L’établissement Y",
+      "expected": "Convention Algérie Télécom & L’établissement Y.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": [
+        "Convention AT- & L’établissement F.docx",
+        "Convention AT & L’établissement k.docx",
+        "Convention AT & L’établissement Q.docx",
+        "Convention AT & L’établissement W.docx",
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL & FIBRE 50 Mbps L’établissement Y",
+      "expected": "Convention Algérie Télécom & L’établissement Y.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": 8,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx",
+        "Convention AT & L’établissement Q.docx",
+        "Convention AT & L’établissement W.docx",
+        "Convention_AT___L_établissement_N.docx",
+        "Convention_AT_-__L_établissement_E.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Employés, retraités et leurs a L’établissement Y",
+      "expected": "Convention Algérie Télécom & L’établissement Y.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement Y",
+      "expected": "Convention Algérie Télécom & L’établissement Y.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement Y",
+      "expected": "Convention Algérie Télécom & L’établissement Y.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention_AT_-__L_établissement_G.docx",
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention AT & L_établissement V.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL & FIBRE 20 Mbps L’établissement X",
+      "expected": "Convention Algérie Télécom & L’établissement X.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL & FIBRE 50 Mbps L’établissement X",
+      "expected": "Convention Algérie Télécom & L’établissement X.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité L’établissement X",
+      "expected": "Convention Algérie Télécom & L’établissement X.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement X",
+      "expected": "Convention Algérie Télécom & L’établissement X.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement X",
+      "expected": "Convention Algérie Télécom & L’établissement X.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL ; VDSL & Fibre 20 Mbps L’établissement AB",
+      "expected": "Convention Algérie Télécom & L’établissement AB.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention AT & L’établissement B.docx",
+        "Convention AT & L’établissement k.docx",
+        "Convention AT & L’établissement Q.docx",
+        "Convention AT- & L’établissement F.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL ; VDSL & Fibre 50 Mbps L’établissement AB",
+      "expected": "Convention Algérie Télécom & L’établissement AB.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention AT & L’établissement B.docx",
+        "Convention AT & L’établissement k.docx",
+        "Convention AT- & L’établissement F.docx",
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Employés en activité L’établissement AB",
+      "expected": "Convention Algérie Télécom & L’établissement AB.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT & L’établissement A.docx",
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convention AT & L_établissement T.docx",
+        "Convention Algérie Télécom & L’établissement X.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement AB",
+      "expected": "Convention Algérie Télécom & L’établissement AB.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT - & L’établissement H.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement AB",
+      "expected": "Convention Algérie Télécom & L’établissement AB.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AB.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx",
+        "Convention Algérie Télécom & L’établissement Z.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention_AT_-__L_établissement_G.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement Q",
+      "expected": "Convention AT & L’établissement Q.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’établissement Q",
+      "expected": "Convention AT & L’établissement Q.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité L’établissement Q",
+      "expected": "Convention AT & L’établissement Q.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement Q",
+      "expected": "Convention AT & L’établissement Q.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement Q",
+      "expected": "Convention AT & L’établissement Q.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement Q.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement AC",
+      "expected": "Convention Algérie Télécom & L’établissement AC.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’établissement AC",
+      "expected": "Convention Algérie Télécom & L’établissement AC.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité, retrait L’établissement AC",
+      "expected": "Convention Algérie Télécom & L’établissement AC.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement AC",
+      "expected": "Convention Algérie Télécom & L’établissement AC.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement AC",
+      "expected": "Convention Algérie Télécom & L’établissement AC.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AC.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL & FIBRE 20 Mbps L’établissement AD",
+      "expected": "Convention Algérie Télécom & L’établissement AD.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL & FIBRE 50 Mbps L’établissement AD",
+      "expected": "Convention Algérie Télécom & L’établissement AD.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel actif L’établissement AD",
+      "expected": "Convention Algérie Télécom & L’établissement AD.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement AD",
+      "expected": "Convention Algérie Télécom & L’établissement AD.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement AD",
+      "expected": "Convention Algérie Télécom & L’établissement AD.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention Algérie Télécom & L’établissement AD.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & FTTH Palier 1 (15 Mbps) L’établissement U",
+      "expected": "Convention AT & L’établissement U.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement U.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & FTTH Palier 2 L’établissement U",
+      "expected": "Convention AT & L’établissement U.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement U.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité (Personn L’établissement U",
+      "expected": "Convention AT & L’établissement U.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement U.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement U",
+      "expected": "Convention AT & L’établissement U.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement U.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement U",
+      "expected": "Convention AT & L’établissement U.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement U.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement T",
+      "expected": "Convention AT & L_établissement T.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement T.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’établissement T",
+      "expected": "Convention AT & L_établissement T.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement T.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité L’établissement T",
+      "expected": "Convention AT & L_établissement T.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement T.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement T",
+      "expected": "Convention AT & L_établissement T.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": []
+    },
+    {
+      "query": "Convention L’établissement T",
+      "expected": "Convention AT & L_établissement T.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L_établissement T.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement R",
+      "expected": "Convention AT &  L’établissement R.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’établissement R",
+      "expected": "Convention AT &  L’établissement R.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Établissements R démunies et n L’établissement R",
+      "expected": "Convention AT &  L’établissement R.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement R",
+      "expected": "Convention AT &  L’établissement R.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement R",
+      "expected": "Convention AT &  L’établissement R.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx"
+      ]
+    },
+    {
+      "query": "Prix FIBRE 1.5 Gbps L’établissement W",
+      "expected": "Convention AT & L’établissement W.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement W",
+      "expected": "Convention AT & L’établissement W.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité L’établissement W",
+      "expected": "Convention AT & L’établissement W.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement W",
+      "expected": "Convention AT & L’établissement W.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement W",
+      "expected": "Convention AT & L’établissement W.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement W.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & FIBRE Palier 1 L’établissement S",
+      "expected": "Convetion AT & L’établissement S.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & FIBRE Palier 2 L’établissement S",
+      "expected": "Convetion AT & L’établissement S.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité et en re L’établissement S",
+      "expected": "Convetion AT & L’établissement S.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement S",
+      "expected": "Convetion AT & L’établissement S.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement S",
+      "expected": "Convetion AT & L’établissement S.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convetion AT & L’établissement S.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL Palier 01 L’établissement L",
+      "expected": "Convention AT &L’établissement L.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Prix FTTH Palier 02 L’établissement L",
+      "expected": "Convention AT &L’établissement L.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité et ayant L’établissement L",
+      "expected": "Convention AT &L’établissement L.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement L",
+      "expected": "Convention AT &L’établissement L.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement L",
+      "expected": "Convention AT &L’établissement L.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT &L’établissement L.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 15 Mbps L’établissement B",
+      "expected": "Convention AT & L’établissement B.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement B.docx",
+        "Convention AT -& L’établissement C.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement B",
+      "expected": "Convention AT & L’établissement B.docx",
+      "category": "PRICE",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 3,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx",
+        "Convention AT & L’établissement Q.docx",
+        "Convention AT & L’établissement B.docx",
+        "Convention AT- & L’établissement F.docx",
+        "Convention_AT___L_établissement_N.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel actif, retraité, inv L’établissement B",
+      "expected": "Convention AT & L’établissement B.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 2,
+      "retrieved": [
+        "Convention AT & L_établissement P.docx",
+        "Convention AT & L’établissement B.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement B",
+      "expected": "Convention AT & L’établissement B.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": false,
+      "correct_at_5": false,
+      "first_rank": null,
+      "retrieved": [
+        "Convention AT &  L’établissement R.docx",
+        "Convention AT & L_établissement P.docx",
+        "Convention AT & L’établissement U.docx",
+        "Convention AT &L’établissement L.docx",
+        "Convention AT - & L’établissement H.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement B",
+      "expected": "Convention AT & L’établissement B.docx",
+      "category": "GENERAL",
+      "correct_at_1": false,
+      "correct_at_5": true,
+      "first_rank": 4,
+      "retrieved": [
+        "Convention_AT_-__L_établissement_J.docx",
+        "Convention AT & L_établissement V.docx",
+        "Convention AT & L’établissement A.docx",
+        "Convention AT & L’établissement B.docx",
+        "Convention Algérie Télécom & L’établissement Y.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & Fibre Palier 1 L’établissement M",
+      "expected": "Convention AT & L’établissement M.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Prix xDSL & Fibre Palier 2 L’établissement M",
+      "expected": "Convention AT & L’établissement M.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité et en re L’établissement M",
+      "expected": "Convention AT & L’établissement M.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement M",
+      "expected": "Convention AT & L’établissement M.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement M",
+      "expected": "Convention AT & L’établissement M.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement M.docx"
+      ]
+    },
+    {
+      "query": "Prix ADSL 20 Mbps L’établissement k",
+      "expected": "Convention AT & L’établissement k.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Prix VDSL 50 Mbps L’établissement k",
+      "expected": "Convention AT & L’établissement k.docx",
+      "category": "PRICE",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Offres pour Personnel en activité L’établissement k",
+      "expected": "Convention AT & L’établissement k.docx",
+      "category": "BENEFICIARY",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Documents requis pour L’établissement k",
+      "expected": "Convention AT & L’établissement k.docx",
+      "category": "DOCUMENTS",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx"
+      ]
+    },
+    {
+      "query": "Convention L’établissement k",
+      "expected": "Convention AT & L’établissement k.docx",
+      "category": "GENERAL",
+      "correct_at_1": true,
+      "correct_at_5": true,
+      "first_rank": 1,
+      "retrieved": [
+        "Convention AT & L’établissement k.docx"
+      ]
+    }
+  ]
+}

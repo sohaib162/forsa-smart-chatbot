@@ -1,0 +1,872 @@
+[
+  {
+    "query": "Prix Idoom ADSL 20 Mbps L’établissement P",
+    "expected_doc_id": "Convention AT & L_établissement P.docx",
+    "expected_establishment": "L’établissement P",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix Idoom VDSL 100 Mbps L’établissement P",
+    "expected_doc_id": "Convention AT & L_établissement P.docx",
+    "expected_establishment": "L’établissement P",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Cadres supérieurs, personnel a L’établissement P",
+    "expected_doc_id": "Convention AT & L_établissement P.docx",
+    "expected_establishment": "L’établissement P",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement P",
+    "expected_doc_id": "Convention AT & L_établissement P.docx",
+    "expected_establishment": "L’établissement P",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement P",
+    "expected_doc_id": "Convention AT & L_établissement P.docx",
+    "expected_establishment": "L’établissement P",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement V",
+    "expected_doc_id": "Convention AT & L_établissement V.docx",
+    "expected_establishment": "L’établissement V",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix FIBRE 30 Mbps L’établissement V",
+    "expected_doc_id": "Convention AT & L_établissement V.docx",
+    "expected_establishment": "L’établissement V",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité de L’éta L’établissement V",
+    "expected_doc_id": "Convention AT & L_établissement V.docx",
+    "expected_establishment": "L’établissement V",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement V",
+    "expected_doc_id": "Convention AT & L_établissement V.docx",
+    "expected_establishment": "L’établissement V",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement V",
+    "expected_doc_id": "Convention AT & L_établissement V.docx",
+    "expected_establishment": "L’établissement V",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’Établissement F",
+    "expected_doc_id": "Convention AT- & L’établissement F.docx",
+    "expected_establishment": "L’Établissement F",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’Établissement F",
+    "expected_doc_id": "Convention AT- & L’établissement F.docx",
+    "expected_establishment": "L’Établissement F",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Tous les employés en activité  L’Établissement F",
+    "expected_doc_id": "Convention AT- & L’établissement F.docx",
+    "expected_establishment": "L’Établissement F",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’Établissement F",
+    "expected_doc_id": "Convention AT- & L’établissement F.docx",
+    "expected_establishment": "L’Établissement F",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’Établissement F",
+    "expected_doc_id": "Convention AT- & L’établissement F.docx",
+    "expected_establishment": "L’Établissement F",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 15 Mbps L’établissement A",
+    "expected_doc_id": "Convention AT & L’établissement A.docx",
+    "expected_establishment": "L’établissement A",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement A",
+    "expected_doc_id": "Convention AT & L’établissement A.docx",
+    "expected_establishment": "L’établissement A",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité et en re L’établissement A",
+    "expected_doc_id": "Convention AT & L’établissement A.docx",
+    "expected_establishment": "L’établissement A",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement A",
+    "expected_doc_id": "Convention AT & L’établissement A.docx",
+    "expected_establishment": "L’établissement A",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement A",
+    "expected_doc_id": "Convention AT & L’établissement A.docx",
+    "expected_establishment": "L’établissement A",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L'établissement N",
+    "expected_doc_id": "Convention_AT___L_établissement_N.docx",
+    "expected_establishment": "L'établissement N",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L'établissement N",
+    "expected_doc_id": "Convention_AT___L_établissement_N.docx",
+    "expected_establishment": "L'établissement N",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité de L'éta L'établissement N",
+    "expected_doc_id": "Convention_AT___L_établissement_N.docx",
+    "expected_establishment": "L'établissement N",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'établissement N",
+    "expected_doc_id": "Convention_AT___L_établissement_N.docx",
+    "expected_establishment": "L'établissement N",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'établissement N",
+    "expected_doc_id": "Convention_AT___L_établissement_N.docx",
+    "expected_establishment": "L'établissement N",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L'établissement O",
+    "expected_doc_id": "Convention_AT___L_établissement_O.docx",
+    "expected_establishment": "L'établissement O",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 100 Mbps L'établissement O",
+    "expected_doc_id": "Convention_AT___L_établissement_O.docx",
+    "expected_establishment": "L'établissement O",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité de L'éta L'établissement O",
+    "expected_doc_id": "Convention_AT___L_établissement_O.docx",
+    "expected_establishment": "L'établissement O",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'établissement O",
+    "expected_doc_id": "Convention_AT___L_établissement_O.docx",
+    "expected_establishment": "L'établissement O",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'établissement O",
+    "expected_doc_id": "Convention_AT___L_établissement_O.docx",
+    "expected_establishment": "L'établissement O",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L'Établissement I",
+    "expected_doc_id": "Convention_AT-___L_établissement_I.docx",
+    "expected_establishment": "L'Établissement I",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 100 Mbps L'Établissement I",
+    "expected_doc_id": "Convention_AT-___L_établissement_I.docx",
+    "expected_establishment": "L'Établissement I",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité de L'Éta L'Établissement I",
+    "expected_doc_id": "Convention_AT-___L_établissement_I.docx",
+    "expected_establishment": "L'Établissement I",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'Établissement I",
+    "expected_doc_id": "Convention_AT-___L_établissement_I.docx",
+    "expected_establishment": "L'Établissement I",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'Établissement I",
+    "expected_doc_id": "Convention_AT-___L_établissement_I.docx",
+    "expected_establishment": "L'Établissement I",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix xDSL/Fibre 20 Mbps L’établissement D",
+    "expected_doc_id": "Convention AT- & L’établissement D.docx",
+    "expected_establishment": "L’établissement D",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix xDSL/Fibre 50 Mbps L’établissement D",
+    "expected_doc_id": "Convention AT- & L’établissement D.docx",
+    "expected_establishment": "L’établissement D",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel actif L’établissement D",
+    "expected_doc_id": "Convention AT- & L’établissement D.docx",
+    "expected_establishment": "L’établissement D",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement D",
+    "expected_doc_id": "Convention AT- & L’établissement D.docx",
+    "expected_establishment": "L’établissement D",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement D",
+    "expected_doc_id": "Convention AT- & L’établissement D.docx",
+    "expected_establishment": "L’établissement D",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix FIBRE 240 Mbps L'établissement G",
+    "expected_doc_id": "Convention_AT_-__L_établissement_G.docx",
+    "expected_establishment": "L'établissement G",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix FIBRE 480 Mbps L'établissement G",
+    "expected_doc_id": "Convention_AT_-__L_établissement_G.docx",
+    "expected_establishment": "L'établissement G",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel adhérant ou membre d L'établissement G",
+    "expected_doc_id": "Convention_AT_-__L_établissement_G.docx",
+    "expected_establishment": "L'établissement G",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'établissement G",
+    "expected_doc_id": "Convention_AT_-__L_établissement_G.docx",
+    "expected_establishment": "L'établissement G",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'établissement G",
+    "expected_doc_id": "Convention_AT_-__L_établissement_G.docx",
+    "expected_establishment": "L'établissement G",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 15 Mbps L’établissement C",
+    "expected_doc_id": "Convention AT -& L’établissement C.docx",
+    "expected_establishment": "L’établissement C",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement C",
+    "expected_doc_id": "Convention AT -& L’établissement C.docx",
+    "expected_establishment": "L’établissement C",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel Actif, civils, et re L’établissement C",
+    "expected_doc_id": "Convention AT -& L’établissement C.docx",
+    "expected_establishment": "L’établissement C",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement C",
+    "expected_doc_id": "Convention AT -& L’établissement C.docx",
+    "expected_establishment": "L’établissement C",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement C",
+    "expected_doc_id": "Convention AT -& L’établissement C.docx",
+    "expected_establishment": "L’établissement C",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’Établissement H",
+    "expected_doc_id": "Convention AT - & L’établissement H.docx",
+    "expected_establishment": "L’Établissement H",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’Établissement H",
+    "expected_doc_id": "Convention AT - & L’établissement H.docx",
+    "expected_establishment": "L’Établissement H",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel actif L’Établissement H",
+    "expected_doc_id": "Convention AT - & L’établissement H.docx",
+    "expected_establishment": "L’Établissement H",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’Établissement H",
+    "expected_doc_id": "Convention AT - & L’établissement H.docx",
+    "expected_establishment": "L’Établissement H",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’Établissement H",
+    "expected_doc_id": "Convention AT - & L’établissement H.docx",
+    "expected_establishment": "L’Établissement H",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L'Établissement E",
+    "expected_doc_id": "Convention_AT_-__L_établissement_E.docx",
+    "expected_establishment": "L'Établissement E",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L'Établissement E",
+    "expected_doc_id": "Convention_AT_-__L_établissement_E.docx",
+    "expected_establishment": "L'Établissement E",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité relevant L'Établissement E",
+    "expected_doc_id": "Convention_AT_-__L_établissement_E.docx",
+    "expected_establishment": "L'Établissement E",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'Établissement E",
+    "expected_doc_id": "Convention_AT_-__L_établissement_E.docx",
+    "expected_establishment": "L'Établissement E",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'Établissement E",
+    "expected_doc_id": "Convention_AT_-__L_établissement_E.docx",
+    "expected_establishment": "L'Établissement E",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L'établissement J",
+    "expected_doc_id": "Convention_AT_-__L_établissement_J.docx",
+    "expected_establishment": "L'établissement J",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L'établissement J",
+    "expected_doc_id": "Convention_AT_-__L_établissement_J.docx",
+    "expected_establishment": "L'établissement J",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité relevant L'établissement J",
+    "expected_doc_id": "Convention_AT_-__L_établissement_J.docx",
+    "expected_establishment": "L'établissement J",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L'établissement J",
+    "expected_doc_id": "Convention_AT_-__L_établissement_J.docx",
+    "expected_establishment": "L'établissement J",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L'établissement J",
+    "expected_doc_id": "Convention_AT_-__L_établissement_J.docx",
+    "expected_establishment": "L'établissement J",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL / VDSL / FIBRE Palier 1 L’établissement Z",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Z.docx",
+    "expected_establishment": "L’établissement Z",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL / VDSL / FIBRE Palier 2 L’établissement Z",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Z.docx",
+    "expected_establishment": "L’établissement Z",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité et retra L’établissement Z",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Z.docx",
+    "expected_establishment": "L’établissement Z",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement Z",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Z.docx",
+    "expected_establishment": "L’établissement Z",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement Z",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Z.docx",
+    "expected_establishment": "L’établissement Z",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL & FIBRE 20 Mbps L’établissement Y",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Y.docx",
+    "expected_establishment": "L’établissement Y",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL & FIBRE 50 Mbps L’établissement Y",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Y.docx",
+    "expected_establishment": "L’établissement Y",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Employés, retraités et leurs a L’établissement Y",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Y.docx",
+    "expected_establishment": "L’établissement Y",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement Y",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Y.docx",
+    "expected_establishment": "L’établissement Y",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement Y",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement Y.docx",
+    "expected_establishment": "L’établissement Y",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL & FIBRE 20 Mbps L’établissement X",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement X.docx",
+    "expected_establishment": "L’établissement X",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL & FIBRE 50 Mbps L’établissement X",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement X.docx",
+    "expected_establishment": "L’établissement X",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité L’établissement X",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement X.docx",
+    "expected_establishment": "L’établissement X",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement X",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement X.docx",
+    "expected_establishment": "L’établissement X",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement X",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement X.docx",
+    "expected_establishment": "L’établissement X",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL ; VDSL & Fibre 20 Mbps L’établissement AB",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AB.docx",
+    "expected_establishment": "L’établissement AB",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL ; VDSL & Fibre 50 Mbps L’établissement AB",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AB.docx",
+    "expected_establishment": "L’établissement AB",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Employés en activité L’établissement AB",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AB.docx",
+    "expected_establishment": "L’établissement AB",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement AB",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AB.docx",
+    "expected_establishment": "L’établissement AB",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement AB",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AB.docx",
+    "expected_establishment": "L’établissement AB",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement Q",
+    "expected_doc_id": "Convention AT & L’établissement Q.docx",
+    "expected_establishment": "L’établissement Q",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’établissement Q",
+    "expected_doc_id": "Convention AT & L’établissement Q.docx",
+    "expected_establishment": "L’établissement Q",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité L’établissement Q",
+    "expected_doc_id": "Convention AT & L’établissement Q.docx",
+    "expected_establishment": "L’établissement Q",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement Q",
+    "expected_doc_id": "Convention AT & L’établissement Q.docx",
+    "expected_establishment": "L’établissement Q",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement Q",
+    "expected_doc_id": "Convention AT & L’établissement Q.docx",
+    "expected_establishment": "L’établissement Q",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement AC",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AC.docx",
+    "expected_establishment": "L’établissement AC",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’établissement AC",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AC.docx",
+    "expected_establishment": "L’établissement AC",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité, retrait L’établissement AC",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AC.docx",
+    "expected_establishment": "L’établissement AC",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement AC",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AC.docx",
+    "expected_establishment": "L’établissement AC",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement AC",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AC.docx",
+    "expected_establishment": "L’établissement AC",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL & FIBRE 20 Mbps L’établissement AD",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AD.docx",
+    "expected_establishment": "L’établissement AD",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL & FIBRE 50 Mbps L’établissement AD",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AD.docx",
+    "expected_establishment": "L’établissement AD",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel actif L’établissement AD",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AD.docx",
+    "expected_establishment": "L’établissement AD",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement AD",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AD.docx",
+    "expected_establishment": "L’établissement AD",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement AD",
+    "expected_doc_id": "Convention Algérie Télécom & L’établissement AD.docx",
+    "expected_establishment": "L’établissement AD",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix xDSL & FTTH Palier 1 (15 Mbps) L’établissement U",
+    "expected_doc_id": "Convention AT & L’établissement U.docx",
+    "expected_establishment": "L’établissement U",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix xDSL & FTTH Palier 2 L’établissement U",
+    "expected_doc_id": "Convention AT & L’établissement U.docx",
+    "expected_establishment": "L’établissement U",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité (Personn L’établissement U",
+    "expected_doc_id": "Convention AT & L’établissement U.docx",
+    "expected_establishment": "L’établissement U",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement U",
+    "expected_doc_id": "Convention AT & L’établissement U.docx",
+    "expected_establishment": "L’établissement U",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement U",
+    "expected_doc_id": "Convention AT & L’établissement U.docx",
+    "expected_establishment": "L’établissement U",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement T",
+    "expected_doc_id": "Convention AT & L_établissement T.docx",
+    "expected_establishment": "L’établissement T",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’établissement T",
+    "expected_doc_id": "Convention AT & L_établissement T.docx",
+    "expected_establishment": "L’établissement T",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité L’établissement T",
+    "expected_doc_id": "Convention AT & L_établissement T.docx",
+    "expected_establishment": "L’établissement T",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement T",
+    "expected_doc_id": "Convention AT & L_établissement T.docx",
+    "expected_establishment": "L’établissement T",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement T",
+    "expected_doc_id": "Convention AT & L_établissement T.docx",
+    "expected_establishment": "L’établissement T",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement R",
+    "expected_doc_id": "Convention AT &  L’établissement R.docx",
+    "expected_establishment": "L’établissement R",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’établissement R",
+    "expected_doc_id": "Convention AT &  L’établissement R.docx",
+    "expected_establishment": "L’établissement R",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Établissements R démunies et n L’établissement R",
+    "expected_doc_id": "Convention AT &  L’établissement R.docx",
+    "expected_establishment": "L’établissement R",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement R",
+    "expected_doc_id": "Convention AT &  L’établissement R.docx",
+    "expected_establishment": "L’établissement R",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement R",
+    "expected_doc_id": "Convention AT &  L’établissement R.docx",
+    "expected_establishment": "L’établissement R",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix FIBRE 1.5 Gbps L’établissement W",
+    "expected_doc_id": "Convention AT & L’établissement W.docx",
+    "expected_establishment": "L’établissement W",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement W",
+    "expected_doc_id": "Convention AT & L’établissement W.docx",
+    "expected_establishment": "L’établissement W",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité L’établissement W",
+    "expected_doc_id": "Convention AT & L’établissement W.docx",
+    "expected_establishment": "L’établissement W",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement W",
+    "expected_doc_id": "Convention AT & L’établissement W.docx",
+    "expected_establishment": "L’établissement W",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement W",
+    "expected_doc_id": "Convention AT & L’établissement W.docx",
+    "expected_establishment": "L’établissement W",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix xDSL & FIBRE Palier 1 L’établissement S",
+    "expected_doc_id": "Convetion AT & L’établissement S.docx",
+    "expected_establishment": "L’établissement S",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix xDSL & FIBRE Palier 2 L’établissement S",
+    "expected_doc_id": "Convetion AT & L’établissement S.docx",
+    "expected_establishment": "L’établissement S",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité et en re L’établissement S",
+    "expected_doc_id": "Convetion AT & L’établissement S.docx",
+    "expected_establishment": "L’établissement S",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement S",
+    "expected_doc_id": "Convetion AT & L’établissement S.docx",
+    "expected_establishment": "L’établissement S",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement S",
+    "expected_doc_id": "Convetion AT & L’établissement S.docx",
+    "expected_establishment": "L’établissement S",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix xDSL Palier 01 L’établissement L",
+    "expected_doc_id": "Convention AT &L’établissement L.docx",
+    "expected_establishment": "L’établissement L",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix FTTH Palier 02 L’établissement L",
+    "expected_doc_id": "Convention AT &L’établissement L.docx",
+    "expected_establishment": "L’établissement L",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité et ayant L’établissement L",
+    "expected_doc_id": "Convention AT &L’établissement L.docx",
+    "expected_establishment": "L’établissement L",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement L",
+    "expected_doc_id": "Convention AT &L’établissement L.docx",
+    "expected_establishment": "L’établissement L",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement L",
+    "expected_doc_id": "Convention AT &L’établissement L.docx",
+    "expected_establishment": "L’établissement L",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 15 Mbps L’établissement B",
+    "expected_doc_id": "Convention AT & L’établissement B.docx",
+    "expected_establishment": "L’établissement B",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement B",
+    "expected_doc_id": "Convention AT & L’établissement B.docx",
+    "expected_establishment": "L’établissement B",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel actif, retraité, inv L’établissement B",
+    "expected_doc_id": "Convention AT & L’établissement B.docx",
+    "expected_establishment": "L’établissement B",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement B",
+    "expected_doc_id": "Convention AT & L’établissement B.docx",
+    "expected_establishment": "L’établissement B",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement B",
+    "expected_doc_id": "Convention AT & L’établissement B.docx",
+    "expected_establishment": "L’établissement B",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix xDSL & Fibre Palier 1 L’établissement M",
+    "expected_doc_id": "Convention AT & L’établissement M.docx",
+    "expected_establishment": "L’établissement M",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix xDSL & Fibre Palier 2 L’établissement M",
+    "expected_doc_id": "Convention AT & L’établissement M.docx",
+    "expected_establishment": "L’établissement M",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité et en re L’établissement M",
+    "expected_doc_id": "Convention AT & L’établissement M.docx",
+    "expected_establishment": "L’établissement M",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement M",
+    "expected_doc_id": "Convention AT & L’établissement M.docx",
+    "expected_establishment": "L’établissement M",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement M",
+    "expected_doc_id": "Convention AT & L’établissement M.docx",
+    "expected_establishment": "L’établissement M",
+    "category": "GENERAL"
+  },
+  {
+    "query": "Prix ADSL 20 Mbps L’établissement k",
+    "expected_doc_id": "Convention AT & L’établissement k.docx",
+    "expected_establishment": "L’établissement k",
+    "category": "PRICE"
+  },
+  {
+    "query": "Prix VDSL 50 Mbps L’établissement k",
+    "expected_doc_id": "Convention AT & L’établissement k.docx",
+    "expected_establishment": "L’établissement k",
+    "category": "PRICE"
+  },
+  {
+    "query": "Offres pour Personnel en activité L’établissement k",
+    "expected_doc_id": "Convention AT & L’établissement k.docx",
+    "expected_establishment": "L’établissement k",
+    "category": "BENEFICIARY"
+  },
+  {
+    "query": "Documents requis pour L’établissement k",
+    "expected_doc_id": "Convention AT & L’établissement k.docx",
+    "expected_establishment": "L’établissement k",
+    "category": "DOCUMENTS"
+  },
+  {
+    "query": "Convention L’établissement k",
+    "expected_doc_id": "Convention AT & L’établissement k.docx",
+    "expected_establishment": "L’établissement k",
+    "category": "GENERAL"
+  }
+]

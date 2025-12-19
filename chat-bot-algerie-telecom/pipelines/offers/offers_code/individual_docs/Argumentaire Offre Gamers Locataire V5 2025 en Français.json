@@ -1,0 +1,344 @@
+{
+  "document_id": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_gamers_locataire",
+  "technology": [
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential",
+    "gamers",
+    "tenants_without_proof_of_address"
+  ],
+  "commitment_type": "12_month_commitment",
+  "usage_focus": [
+    "gaming",
+    "internet",
+    "streaming",
+    "fixed_voice"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد Idoom Fibre Gamers للمستأجرين",
+    "title_fr": "Argumentaire « Nouvelle Offre Idoom fibre Gamers LOCATAIRE »",
+    "company": "Algérie Télécom",
+    "version": "3.0",
+    "effective_date": "2025-07-15"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد Idoom Fibre Gamers للمستأجرين",
+    "name_fr": "Nouvelle Offre Idoom fibre Gamers Locataire",
+    "description_ar": "العرض الجديد Gamers Locataire للمستأجرين هو عرض موجّه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان، ويقدّم لهم باقات مسبقة الدفع تشمل خدمات الخط الثابت Idoom وخدمة الإنترنت Idoom Fibre معاً. يتضمن العرض قيوداً على المكالمات الدولية والمكالمات نحو الهواتف النقالة، مع توفير تدفقات عالية تناسب اللاعبين عبر الإنترنت، مع إدخال زيادات في سرعة التدفق وطرح مستويات جديدة تصل إلى 1.5 جيجابت/ثانية، إضافة إلى رفع سرعة الرفع إلى 60% من سرعة التحميل، مما يضمن تجربة أفضل لعشاق الألعاب عبر البث المباشر.",
+    "description_fr": "La nouvelle offre Idoom fibre Gamers Locataire d’Algérie Télécom propose des forfaits prépayés pour les services Idoom fixe et Internet (Idoom Fibre), destinés aux clients résidentiels sans justificatif d’adresse qui jouent en ligne sur PC ou console. L’offre introduit de nouveaux paliers de débit jusqu’à 1,5 Gbps, avec upload fixé à 60 % du débit, et comprend des restrictions sur les appels internationaux et mobiles. Les prix mensuels incluent simultanément les services Internet et de téléphonie fixe, ainsi que, selon le cas, le modem optique, un mois de connexion et les frais d’installation.",
+    "conditions_ar": [
+      "العرض Gamers Locataire موجّه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان ويلعبون عبر الإنترنت بواسطة حاسوبهم أو منصة ألعاب لألعاب الفيديو عبر البث المباشر (ستريمنغ).",
+      "العرض عبارة عن باقات مسبقة الدفع لخدمات الخط الثابت Idoom وخدمة الإنترنت Idoom Fibre في اشتراك واحد.",
+      "الزبائن الجدد في عرض Idoom Gamers Locataire مكلّفون بالالتزام بعقد اشتراك لمدة 12 شهراً.",
+      "يكون الوصول إلى خدمات الصوت والإنترنت تحت مسؤولية المتعاقد.",
+      "الأسعار المذكورة في الجدول تشمل في الوقت نفسه أسعار خدمات الإنترنت والهاتف الثابت.",
+      "سرعة الرفع (UPLOAD) تمثّل 60% من سرعة التحميل (DOWNLOAD) لكل مستوى تدفق.",
+      "سرعتا 1 جيجابت/ثانية و 1.5 جيجابت/ثانية تخضعان للأهلية التقنية حسب توفر التكنولوجيا في عنوان التركيب.",
+      "هذا العرض يحل محل العرض السابق الخاص بـ Gamers Locataire ويلغيه نهائياً.",
+      "للاستفادة من العرض، يجب تقديم نسخة من بطاقة الهوية (البطاقة الوطنية للهوية أو جواز السفر ساري المفعول).",
+      "يجب تقديم أي مستند بحوزة الزبون يمكن أن يؤكد عنوان التركيب (مثل عقد إيجار، فاتورة كهرباء أو غيرها إن توفرت).",
+      "يشمل العرض اشتراكاً في الخط الثابت Idoom بتكلفة شهرية مضمنة قدرها 250 دج، مدمجة ضمن السعر الإجمالي للاشتراك.",
+      "تُدرج القيود على المكالمات الدولية ضمن العرض بتكلفة شهرية مضمنة قدرها 50 دج، مدمجة ضمن السعر الإجمالي للاشتراك.",
+      "المكالمات الموجّهة نحو الخطوط الثابتة لاتصالات الجزائر (PSTN, VOIP, VOLTE) مجانية ضمن العرض.",
+      "يجب على مستشار خدمة الزبائن تطبيق إجراءات البيع المرافقة بما في ذلك تقديم الملحقات المخصصة للألعاب عند توفرها (سماعات رأس، لوحات مفاتيح، فئران، ميكروفونات إلخ) في إطار البيع المتقاطع."
+    ],
+    "conditions_fr": [
+      "Offre destinée aux clients résidentiels sans justificatif d’adresse qui jouent en ligne via ordinateur ou console.",
+      "Les forfaits sont prépayés pour les services Idoom fixe et Internet (Idoom Fibre).",
+      "Les nouveaux abonnés à l’offre Idoom Gamers Locataire doivent s’engager pour une durée de 12 mois.",
+      "Les accès voix et internet sont sous la responsabilité du contractant.",
+      "Les prix mensuels mentionnés incluent simultanément les tarifs des services Internet et de téléphonie.",
+      "L’upload est fixé à 60 % du débit du palier souscrit.",
+      "Les débits de 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité technique de la ligne.",
+      "L’offre Gamers Locataire remplace et annule l’offre précédente.",
+      "Pour bénéficier de l’offre, le client doit fournir une copie d’une pièce d’identité (carte nationale d’identité ou passeport en cours de validité).",
+      "Le client doit fournir un document dont il dispose pouvant confirmer l’adresse d’installation.",
+      "L’accès Idoom fixe est inclus dans l’offre pour un coût mensuel de 250 DA (inclus dans le prix global).",
+      "Les restrictions sur les appels internationaux sont incluses dans l’offre pour un coût mensuel de 50 DA (inclus dans le prix global)."
+    ],
+    "benefits_ar": [
+      "باقات مسبقة الدفع تجمع بين خدمة الهاتف الثابت Idoom وخدمة الإنترنت Idoom Fibre في اشتراك واحد مريح شهرياً.",
+      "عرض مصمم خصيصاً للاعبين عبر الإنترنت عبر الحاسوب أو منصات الألعاب، مع مستويات تدفق عالية تصل إلى 1.5 جيجابت/ثانية.",
+      "زيادة في سرعات التدفق مقارنة بالمستويات السابقة، مع انتقال كل مستوى إلى مستوى أعلى جديد.",
+      "سرعة رفع تعادل 60% من سرعة التحميل، ما يوفر أداءً أفضل للألعاب عبر الإنترنت والبث المباشر ومشاركة المحتوى.",
+      "اشتراك الخط الثابت Idoom مضمّن في السعر الإجمالي للاشتراك بقيمة شهرية قدرها 250 دج دون دفع إضافي منفصل.",
+      "القيود على المكالمات الدولية مضمّنة أيضاً بتكلفة شهرية قدرها 50 دج ضمن السعر الإجمالي، مما يبسّط الفوترة.",
+      "المكالمات نحو الخطوط الثابتة لاتصالات الجزائر (PSTN, VOIP, VOLTE) مجانية ضمن العرض.",
+      "بالنسبة لمستوى الدخول، يشمل العرض مودماً بصرياً وشهراً واحداً من الاتصال بالإضافة إلى تكاليف التركيب.",
+      "يوفّر العرض بنية تسعيرية واضحة تضم الإنترنت والهاتف، ما يسهل على الزبون فهم ما يدفعه شهرياً.",
+      "يتيح العرض للمستشارين التجاريين فرصة البيع المتقاطع من خلال اقتراح ملحقات الألعاب (سماعات، لوحات مفاتيح، فئران، ميكروفونات...) المتوفرة في الوكالات، مما يعزز تجربة اللعب للزبون."
+    ],
+    "benefits_fr": [
+      "Forfaits prépayés combinant Idoom fixe (téléphonie) et Idoom Fibre (internet) dans un seul abonnement mensuel.",
+      "Offre conçue pour les gamers (jeux en ligne sur PC et consoles) avec des paliers de débit élevés allant jusqu’à 1,5 Gbps.",
+      "Introduction de nouveaux paliers de débit avec augmentation significative par rapport aux anciens paliers.",
+      "Upload fixé à 60 % du débit du palier souscrit, améliorant les performances en ligne.",
+      "Accès Idoom fixe inclus dans l’abonnement avec un coût mensuel de 250 DA compris dans le prix du forfait.",
+      "Restrictions sur les appels internationaux incluses pour un coût mensuel de 50 DA compris dans le prix du forfait.",
+      "Appels gratuits vers les lignes fixes d’Algérie Télécom (PSTN, VOIP et VOLTE) dans le cadre de l’offre.",
+      "Pour le palier d’entrée, le modem optique, un mois de connexion et les frais d’installation sont inclus.",
+      "Nouvelle grille tarifaire avec augmentation de débit pour chaque palier, tout en gardant une structure de prix claire et intégrée Internet + téléphonie.",
+      "Possibilités de cross selling d’accessoires gaming (casques, claviers, souris, microphones, etc.) disponibles en agences, afin d’enrichir l’expérience client."
+    ],
+    "pricing_summary_ar": "يقدّم عرض Idoom Fibre Gamers Locataire مستويات تدفق وأسعار شهرية كما يلي: المستوى السابق 30 ميغابت/ثانية يصبح 60 ميغابت/ثانية بسعر 2800 دج/شهر (مع مودم بصري + شهر اتصال + التركيب)، المستوى السابق 60 ميغابت/ثانية يصبح 120 ميغابت/ثانية بسعر 3100 دج/شهر، 120 ميغابت/ثانية تصبح 240 ميغابت/ثانية بسعر 3300 دج/شهر، 240 ميغابت/ثانية تصبح 480 ميغابت/ثانية بسعر 3700 دج/شهر، 300 ميغابت/ثانية تصبح 600 ميغابت/ثانية بسعر 4300 دج/شهر، 500 ميغابت/ثانية تصبح 1 جيجابت/ثانية بسعر 4900 دج/شهر، و 1.2 جيجابت/ثانية تصبح 1.5 جيجابت/ثانية بسعر 5500 دج/شهر، مع العلم أن الأسعار تشمل خدمات الإنترنت والهاتف الثابت معاً.",
+    "pricing_summary_fr": "La nouvelle offre Idoom fibre Gamers Locataire propose plusieurs paliers : 60 Mbps à 2 800 DA/mois (ancien 30 Mbps), 120 Mbps à 3 100 DA/mois (ancien 60 Mbps), 240 Mbps à 3 300 DA/mois (ancien 120 Mbps), 480 Mbps à 3 700 DA/mois (ancien 240 Mbps), 600 Mbps à 4 300 DA/mois (ancien 300 Mbps), 1 Gbps à 4 900 DA/mois (ancien 500 Mbps) et 1,5 Gbps à 5 500 DA/mois (ancien 1,2 Gbps), les prix incluant simultanément internet fibre, téléphonie fixe et certains avantages (modem optique, mois de connexion, frais d’installation) selon le palier."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "فيما يتمثل العرض الجديد Gamers Locataire؟",
+      "answer": "العرض الجديد Gamers Locataire هو عرض موجّه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان ويلعبون عبر الإنترنت بواسطة حاسوبهم أو منصة ألعاب لألعاب الفيديو عبر البث المباشر. يقدّم العرض باقات مسبقة الدفع تجمع بين الخط الثابت Idoom وخدمة الإنترنت Idoom Fibre مع مستويات تدفق مرتفعة تصل إلى 1.5 جيجابت/ثانية، وقيود على المكالمات الدولية والمكالمات نحو الهواتف النقالة."
+    },
+    {
+      "question": "إلى من يُوجّه العرض الجديد Gamers Locataire؟",
+      "answer": "العرض الجديد Gamers Locataire موجّه إلى الزبائن الخواص الجدد الذين لا يتوفرون على مستند إثبات عنوان، وخاصة الذين يمارسون الألعاب عبر الإنترنت ويحتاجون إلى اتصال عالي الأداء للبث المباشر والألعاب الجماعية."
+    },
+    {
+      "question": "أرغب في الاشتراك في عرض Gamers Locataire، ما هي الأسعار المقترحة؟",
+      "answer": "يعرض جدول الأسعار المستويات القديمة والجديدة مع الأسعار الشهرية المقترحة كما يلي: 30 ميغابت/ثانية تصبح 60 ميغابت/ثانية بسعر 2800 دج/شهر (مودم بصري + شهر واحد من الاتصال + التركيب)، 60 ميغابت/ثانية تصبح 120 ميغابت/ثانية بسعر 3100 دج/شهر، 120 ميغابت/ثانية تصبح 240 ميغابت/ثانية بسعر 3300 دج/شهر، 240 ميغابت/ثانية تصبح 480 ميغابت/ثانية بسعر 3700 دج/شهر، 300 ميغابت/ثانية تصبح 600 ميغابت/ثانية بسعر 4300 دج/شهر، 500 ميغابت/ثانية تصبح 1 جيجابت/ثانية بسعر 4900 دج/شهر، و 1.2 جيجابت/ثانية تصبح 1.5 جيجابت/ثانية بسعر 5500 دج/شهر، مع العلم أن الأسعار تشمل الإنترنت والهاتف معاً."
+    },
+    {
+      "question": "هل يلتزم المشتركون الجدد في عرض Idoom Gamers Locataire بتوقيع عقد اشتراك؟",
+      "answer": "نعم، المشتركون الجدد في عرض Idoom Gamers Locataire ملزمون بالاشتراك لمدة 12 شهراً، أي بعقد التزام سنوي مع اتصالات الجزائر."
+    },
+    {
+      "question": "ما هو الملف المطلوب لتستفيد من عرض Gamers Locataire؟",
+      "answer": "للاستفادة من عرض Gamers Locataire، يجب على الزبون تقديم نسخة من بطاقة الهوية الوطنية أو جواز السفر ساري المفعول، بالإضافة إلى أي مستند لديه يمكن أن يؤكد عنوان التركيب مثل عقد الإيجار أو فاتورة خدمات إن توفرت."
+    },
+    {
+      "question": "هل يشمل العرض اشتراكاً في الخط الثابت Idoom؟ وإذا كان الأمر كذلك، ما هي الكلفة الشهرية المضمّنة؟",
+      "answer": "نعم، العرض يشمل اشتراكاً في الخط الثابت Idoom، حيث تقدر التكلفة الشهرية لهذا الاشتراك بـ 250 دج، وهي مضمّنة في السعر الإجمالي الشهري للاشتراك في عرض Gamers Locataire."
+    },
+    {
+      "question": "هل هناك قيود على المكالمات الدولية مع هذا العرض؟ وإذا كان الأمر كذلك، ما هي الكلفة الشهرية المضمّنة لهذه القيود؟",
+      "answer": "نعم، توجد قيود على المكالمات الدولية في إطار هذا العرض، وتُحسَب تكلفتها الشهرية بـ 50 دج، وهي أيضاً مضمّنة ضمن السعر الإجمالي للاشتراك Gamers Locataire ولا تُفَوْتَر بشكل منفصل."
+    },
+    {
+      "question": "هل المكالمات الموجّهة نحو الخطوط الثابتة لاتصالات الجزائر (PSTN, VOIP & VOLTE) مجانية مع هذا العرض؟",
+      "answer": "نعم، في إطار عرض Gamers Locataire، فإن المكالمات الموجّهة نحو الخطوط الثابتة لاتصالات الجزائر (PSTN, VOIP & VOLTE) مجانية ولا تُحتسب برسوم إضافية."
+    },
+    {
+      "question": "لدي مشكلة، إلى من يجب أن أتوجه؟",
+      "answer": "لأي استفسار آخر أو شكوى، يرجى التوجه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الخط الثابت أو الهاتف النقال، حيث سيتكفل مستشار هاتفي بطلبكم وتقديم المساعدة اللازمة."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "En quoi consiste la nouvelle offre Gamers Locataire ?",
+      "answer": "La nouvelle offre Gamers Locataire est une offre destinée aux clients résidentiels sans justificatif d’adresse qui jouent en ligne via leur ordinateur ou leur console aux jeux vidéo en streaming. Elle se présente sous forme de forfaits prépayés combinant Idoom fixe et Idoom Fibre, avec une augmentation des débits et de nouveaux paliers allant jusqu’à 1,5 Gbps."
+    },
+    {
+      "question": "À qui est destinée la nouvelle offre Gamers Locataire ?",
+      "answer": "La nouvelle offre Gamers Locataire est destinée aux nouveaux clients résidentiels sans justificatif d’adresse, en particulier ceux qui jouent en ligne et ont besoin d’une connectivité performante pour les jeux vidéo en streaming."
+    },
+    {
+      "question": "Je souhaite souscrire à l’offre Gamers Locataire, quels sont les tarifs proposés ?",
+      "answer": "L’offre Gamers Locataire se décline en plusieurs paliers avec augmentation de débit et nouveaux tarifs mensuels : l’ancien palier 30 Mbps passe à 60 Mbps pour 2 800 DA/mois ; le palier 60 Mbps passe à 120 Mbps pour 3 100 DA/mois ; 120 Mbps passe à 240 Mbps pour 3 300 DA/mois ; 240 Mbps passe à 480 Mbps pour 3 700 DA/mois ; 300 Mbps passe à 600 Mbps pour 4 300 DA/mois ; 500 Mbps passe à 1 Gbps pour 4 900 DA/mois ; et 1,2 Gbps passe à 1,5 Gbps pour 5 500 DA/mois. Les prix incluent simultanément les services Internet et de téléphonie et, selon le palier, le modem optique, un mois de connexion et les frais d’installation."
+    },
+    {
+      "question": "Les nouveaux abonnés de l’offre Idoom Gamers Locataire sont-ils tenus de souscrire à un contrat d’engagement ?",
+      "answer": "Oui, les nouveaux abonnés de l’offre Idoom Gamers Locataire sont tenus de s’engager pour une durée de 12 mois."
+    },
+    {
+      "question": "Quel est le dossier à fournir pour bénéficier de l’offre Gamers Locataire ?",
+      "answer": "Pour bénéficier de l’offre Gamers Locataire, le client doit fournir une copie de sa pièce d’identité (carte nationale d’identité ou passeport en cours de validité) ainsi qu’un document dont il dispose pouvant confirmer l’adresse d’installation."
+    },
+    {
+      "question": "Est-ce que l’offre comprend un accès à Idoom fixe ? Si oui, quel est le coût mensuel inclus ?",
+      "answer": "Oui, l’offre comprend un accès Idoom fixe. Le coût mensuel de cet accès est de 250 DA, inclus dans le prix global du forfait Gamers Locataire."
+    },
+    {
+      "question": "Y a-t-il des restrictions concernant les appels internationaux avec cette offre ? Si oui, quel est le coût mensuel inclus pour ces restrictions ?",
+      "answer": "Oui, les appels internationaux sont soumis à des restrictions prévues dans l’offre. Ces restrictions sont associées à un coût mensuel de 50 DA, inclus dans le prix global de l’offre Gamers Locataire."
+    },
+    {
+      "question": "Les appels vers les lignes fixes d’Algérie Télécom (PSTN, VOIP & VOLTE) sont-ils gratuits avec cette offre ?",
+      "answer": "Oui, dans le cadre de l’offre Gamers Locataire, les appels vers les lignes fixes d’Algérie Télécom (PSTN, VOIP & VOLTE) sont gratuits."
+    },
+    {
+      "question": "J’ai un problème, qui dois-je contacter ?",
+      "answer": "Pour toute autre information et/ou réclamation, il est recommandé de se rapprocher de l’agence commerciale la plus proche ou d’appeler le 12 à partir des lignes fixes ou mobiles, où un téléconseiller prendra en charge la demande."
+    }
+  ],
+
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "لأي معلومات إضافية أو شكاوى، يرجى التوجه إلى وكالتكم التجارية أو الاتصال بالرقم 12 من الخطوط الثابتة أو النقالة، حيث سيتولى مستشار هاتفي معالجة طلبكم. وكذكرى مهمة، فإن البريد الإلكتروني Feedback FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية والتوضيحات حول المذكرات أو الإجراءات المعمول بها.",
+    "notes_fr": "Pour toute autre information et/ou réclamation, veuillez-vous rapprocher de votre agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+
+  "keywords_ar": [
+    "عرض Gamers Locataire",
+    "Idoom Fibre Gamers للمستأجرين",
+    "عرض للمستأجرين دون إثبات عنوان",
+    "مستأجر دون وثيقة إثبات عنوان",
+    "إنترنت الألياف البصرية",
+    "إنترنت Idoom Fibre",
+    "الهاتف الثابت Idoom",
+    "باقات مسبقة الدفع",
+    "ألعاب الفيديو عبر الإنترنت",
+    "ألعاب عبر البث المباشر",
+    "ستريمنغ الألعاب",
+    "فايبر",
+    "30 ميغابت/ثانية",
+    "60 ميغابت/ثانية",
+    "120 ميغابت/ثانية",
+    "240 ميغابت/ثانية",
+    "480 ميغابت/ثانية",
+    "600 ميغابت/ثانية",
+    "1 جيجابت/ثانية",
+    "1.5 جيجابت/ثانية",
+    "2800 دج/شهر",
+    "3100 دج/شهر",
+    "3300 دج/شهر",
+    "3700 دج/شهر",
+    "4300 دج/شهر",
+    "4900 دج/شهر",
+    "5500 دج/شهر",
+    "سرعة رفع 60%",
+    "التزام 12 شهراً",
+    "اشتراك Idoom الثابت 250 دج",
+    "قيود المكالمات الدولية 50 دج",
+    "مكالمات مجانية نحو الخط الثابت لاتصالات الجزائر",
+    "مودم بصري",
+    "تكاليف التركيب مضمّنة",
+    "بيع متقاطع لملحقات الألعاب",
+    "سماعات ألعاب",
+    "لوحات مفاتيح ألعاب",
+    "فأرة ألعاب",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Idoom fibre Gamers Locataire",
+    "Gamers Locataire",
+    "Idoom Fibre",
+    "Idoom fixe",
+    "forfaits prépayés",
+    "clients résidentiels",
+    "sans justificatif d’adresse",
+    "locataire",
+    "jeux en ligne",
+    "jeux vidéo en streaming",
+    "fibre optique",
+    "augmentation de débit",
+    "nouveaux paliers",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "2800 DA/mois",
+    "3100 DA/mois",
+    "3300 DA/mois",
+    "3700 DA/mois",
+    "4300 DA/mois",
+    "4900 DA/mois",
+    "5500 DA/mois",
+    "upload 60 %",
+    "engagement 12 mois",
+    "appels gratuits fixes Algérie Télécom",
+    "restrictions appels internationaux",
+    "250 DA Idoom fixe",
+    "50 DA restrictions internationaux",
+    "modem optique",
+    "frais d’installation inclus",
+    "Algérie Télécom",
+    "cross selling accessoires gaming"
+  ],
+  "keywords": [
+    "Idoom fibre Gamers Locataire",
+    "Gamers Locataire",
+    "Idoom Fibre",
+    "Idoom fixe",
+    "forfaits prépayés",
+    "clients résidentiels",
+    "sans justificatif d’adresse",
+    "locataire",
+    "jeux en ligne",
+    "jeux vidéo en streaming",
+    "fibre optique",
+    "augmentation de débit",
+    "nouveaux paliers",
+    "60 Mbps",
+    "120 Mbps",
+    "240 Mbps",
+    "480 Mbps",
+    "600 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "2800 DA/mois",
+    "3100 DA/mois",
+    "3300 DA/mois",
+    "3700 DA/mois",
+    "4300 DA/mois",
+    "4900 DA/mois",
+    "5500 DA/mois",
+    "upload 60 %",
+    "engagement 12 mois",
+    "appels gratuits fixes Algérie Télécom",
+    "restrictions appels internationaux",
+    "250 DA Idoom fixe",
+    "50 DA restrictions internationaux",
+    "modem optique",
+    "frais d’installation inclus",
+    "Algérie Télécom",
+    "cross selling accessoires gaming",
+    "عرض Gamers Locataire",
+    "Idoom Fibre Gamers للمستأجرين",
+    "عرض للمستأجرين دون إثبات عنوان",
+    "مستأجر دون وثيقة إثبات عنوان",
+    "إنترنت الألياف البصرية",
+    "إنترنت Idoom Fibre",
+    "الهاتف الثابت Idoom",
+    "باقات مسبقة الدفع",
+    "ألعاب الفيديو عبر الإنترنت",
+    "ألعاب عبر البث المباشر",
+    "ستريمنغ الألعاب",
+    "فايبر",
+    "30 ميغابت/ثانية",
+    "60 ميغابت/ثانية",
+    "120 ميغابت/ثانية",
+    "240 ميغابت/ثانية",
+    "480 ميغابت/ثانية",
+    "600 ميغابت/ثانية",
+    "1 جيجابت/ثانية",
+    "1.5 جيجابت/ثانية",
+    "2800 دج/شهر",
+    "3100 دج/شهر",
+    "3300 دج/شهر",
+    "3700 دج/شهر",
+    "4300 دج/شهر",
+    "4900 دج/شهر",
+    "5500 دج/شهر",
+    "سرعة رفع 60%",
+    "التزام 12 شهراً",
+    "اشتراك Idoom الثابت 250 دج",
+    "قيود المكالمات الدولية 50 دج",
+    "مكالمات مجانية نحو الخط الثابت لاتصالات الجزائر",
+    "مودم بصري",
+    "تكاليف التركيب مضمّنة",
+    "بيع متقاطع لملحقات الألعاب",
+    "سماعات ألعاب",
+    "لوحات مفاتيح ألعاب",
+    "فأرة ألعاب",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "العرض الجديد Idoom Fibre Gamers للمستأجرين هو عرض Gamers Locataire موجّه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان، ويقدم لهم باقات مسبقة الدفع تشمل خدمات الخط الثابت Idoom وخدمة الإنترنت Idoom Fibre. تتضمّن الباقات قيوداً على المكالمات الدولية والمكالمات نحو الهواتف النقالة، مع ضمان اتصال عالي الأداء بمستويات تدفق جديدة تصل إلى 1.5 جيجابت/ثانية وسرعة رفع تعادل 60% من سرعة التحميل. يقدّم الجدول السعري انتقال المستويات القديمة إلى مستويات جديدة مع أسعار شهرية تشمل الإنترنت والهاتف: 30 ميغابت/ثانية تصبح 60 ميغابت/ثانية مقابل 2800 دج/شهر (مودم بصري + شهر اتصال + التركيب)، 60 تصبح 120 ميغابت/ثانية بـ 3100 دج/شهر، 120 تصبح 240 ميغابت/ثانية بـ 3300 دج/شهر، 240 تصبح 480 ميغابت/ثانية بـ 3700 دج/شهر، 300 تصبح 600 ميغابت/ثانية بـ 4300 دج/شهر، 500 تصبح 1 جيجابت/ثانية بـ 4900 دج/شهر، و 1.2 تصبح 1.5 جيجابت/ثانية بـ 5500 دج/شهر. يشمل العرض اشتراك الهاتف الثابت Idoom بتكلفة 250 دج/شهر وقيود المكالمات الدولية بـ 50 دج/شهر مضمّنة، كما أن المكالمات نحو الخطوط الثابتة لاتصالات الجزائر مجانية. يشترط التزام لمدة 12 شهراً وتقديم نسخة من بطاقة الهوية ووثيقة يمكن أن تثبت عنوان التركيب. في حال وجود أي مشكل، يمكن الاتصال بالرقم 12 أو التوجه إلى الوكالة التجارية، كما أن بريد Feedback FB@algerietelecom.dz مخصص للاستفسارات التجارية.\n\nArgumentaire « Nouvelle Offre Idoom fibre Gamers LOCATAIRE ». La nouvelle offre Gamers Locataire, destinée aux clients résidentiels sans justificatif d’adresse, propose des forfaits prépayés pour les services Idoom fixe et Internet (Idoom Fibre). Ces forfaits incluent des restrictions sur les appels vers l’international et les mobiles, tout en garantissant une connectivité performante pour les utilisateurs, avec augmentation de débit et nouveaux paliers jusqu’à 1,5 Gbps et upload à 60 % du débit. L’offre s’adresse aux nouveaux clients résidentiels sans justificatif d’adresse, en particulier ceux qui jouent en ligne via ordinateur ou console aux jeux vidéo en streaming. Paliers et tarifs : l’ancien 30 Mbps passe à 60 Mbps pour 2 800 DA/mois (modem optique + 1 mois de connexion + installation), 60 Mbps passe à 120 Mbps pour 3 100 DA/mois, 120 Mbps passe à 240 Mbps pour 3 300 DA/mois, 240 Mbps passe à 480 Mbps pour 3 700 DA/mois, 300 Mbps passe à 600 Mbps pour 4 300 DA/mois, 500 Mbps passe à 1 Gbps pour 4 900 DA/mois et 1,2 Gbps passe à 1,5 Gbps pour 5 500 DA/mois. Les prix incluent simultanément les services Internet et de téléphonie, l’upload est de 60 % du débit, les débits 1 Gbps et 1,5 Gbps sont valables selon l’éligibilité, et cette offre remplace et annule l’offre précédente. Les nouveaux abonnés doivent signer un engagement de 12 mois. Dossier à fournir : copie d’une pièce d’identité (carte nationale d’identité ou passeport) et document pouvant confirmer l’adresse d’installation. L’offre comprend un accès Idoom fixe au coût mensuel inclus de 250 DA et des restrictions sur les appels internationaux avec un coût mensuel de 50 DA, inclus dans le prix du forfait. Les appels vers les lignes fixes d’Algérie Télécom (PSTN, VOIP & VOLTE) sont gratuits. En cas de problème ou pour toute information, le client doit se rapprocher de son agence commerciale ou appeler le 12 ; la messagerie Feedback FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et clarifications sur les notes ou procédures établies. Les conseillers sont invités à faire du cross selling d’accessoires gaming (casques, claviers, souris, microphones, etc.) disponibles en agences.",
+  "dense_text_primary": "يقدّم هذا المستند عرض Idoom Fibre Gamers للمستأجرين Gamers Locataire من اتصالات الجزائر، الموجّه للزبائن الخواص الذين لا يتوفرون على مستند إثبات عنوان ويرغبون في اتصال قوي للألعاب عبر الإنترنت والبث المباشر. يعتمد العرض على باقات مسبقة الدفع تجمع بين الهاتف الثابت Idoom وخدمة الإنترنت Idoom Fibre في اشتراك واحد، مع إدخال زيادات في سرعات التدفق وطرح مستويات جديدة تصل إلى 1.5 جيجابت/ثانية، وسرعة رفع تعادل 60% من سرعة التحميل، بالإضافة إلى قيود مضمّنة على المكالمات الدولية. يشترط العرض التزاماً لمدة 12 شهراً وتقديم نسخة من بطاقة الهوية ووثيقة يمكن أن تثبت عنوان التركيب، مع تضمين اشتراك الخط الثابت Idoom بقيمة 250 دج/شهر وقيود المكالمات الدولية بقيمة 50 دج/شهر ضمن السعر الإجمالي. تشمل المستويات السعريّة انتقال 30 ميغابت/ثانية إلى 60 ميغابت/ثانية مقابل 2800 دج/شهر (مع مودم بصري + شهر اتصال + التركيب)، و60 إلى 120 ميغابت/ثانية بـ 3100 دج/شهر، و120 إلى 240 ميغابت/ثانية بـ 3300 دج/شهر، و240 إلى 480 ميغابت/ثانية بـ 3700 دج/شهر، و300 إلى 600 ميغابت/ثانية بـ 4300 دج/شهر، و500 إلى 1 جيجابت/ثانية بـ 4900 دج/شهر، و1.2 إلى 1.5 جيجابت/ثانية بـ 5500 دج/شهر، مع كون المكالمات نحو الخطوط الثابتة لاتصالات الجزائر مجانية.\n\nCe document présente en parallèle la version française de la nouvelle offre Idoom fibre Gamers Locataire d’Algérie Télécom, destinée aux nouveaux clients résidentiels sans justificatif d’adresse. L’offre se compose de forfaits prépayés combinant les services Idoom fixe (téléphonie) et Idoom Fibre (internet), avec des restrictions intégrées sur les appels internationaux. Une nouvelle grille de paliers de débit est introduite, allant jusqu’à 1,5 Gbps, avec un upload fixé à 60 % du débit souscrit, ce qui est particulièrement adapté aux usages gaming et streaming. Les paliers tarifaires sont les suivants : 60 Mbps à 2 800 DA/mois (ancien 30 Mbps, modem optique + 1 mois de connexion + installation compris), 120 Mbps à 3 100 DA/mois, 240 Mbps à 3 300 DA/mois, 480 Mbps à 3 700 DA/mois, 600 Mbps à 4 300 DA/mois, 1 Gbps à 4 900 DA/mois et 1,5 Gbps à 5 500 DA/mois. Les prix incluent simultanément la fibre internet, la téléphonie fixe, et, selon le palier, le modem et les frais d’installation. Les nouveaux abonnés doivent s’engager sur 12 mois et fournir une pièce d’identité ainsi qu’un document confirmant l’adresse d’installation. L’accès Idoom fixe (250 DA/mois) et les restrictions sur les appels internationaux (50 DA/mois) sont inclus dans le forfait, tandis que les appels vers les lignes fixes d’Algérie Télécom sont gratuits. Pour tout problème ou réclamation, les clients peuvent se rapprocher de leur agence ou appeler le 12, alors que la messagerie Feedback FB@algerietelecom.dz est dédiée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures."
+}

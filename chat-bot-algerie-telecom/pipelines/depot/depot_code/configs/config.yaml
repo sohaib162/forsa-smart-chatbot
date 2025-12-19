@@ -1,0 +1,10 @@
+# RAG config example
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+top_k: 2
+sparse_threshold: 0.15
+alpha_sparse_dense: 0.5
+
+# New flags to control blocking of layers
+block_rule_layer: false  # Set to true to block the rule-based layer
+block_bm25_layer: false   # Set to true to block the BM25 layer
+block_dense_layer: false  # Set to true to block the Dense (Gemini re-ranking) layer

@@ -1,0 +1,18 @@
+# Retrieval Pipeline Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+numpy>=1.21.0
+
+# Sentence Transformers for embeddings and cross-encoder
+sentence-transformers>=2.2.0
+
+# Optional: Qdrant for vector storage (if using external vector DB)
+# qdrant-client>=1.6.0
+
+# Optional: For faster BM25
+# rank-bm25>=0.2.2
+
+# Development dependencies
+# pytest>=7.0.0
+# black>=22.0.0

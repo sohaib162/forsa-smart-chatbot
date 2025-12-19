@@ -1,0 +1,315 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "modernisation_idoom_adsl_vdsl_4g_vers_idoom_fibre",
+  "technology": [
+    "adsl",
+    "vdsl",
+    "4g_lte",
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre",
+    "title_fr": "Nouvelle offre de modernisation Idoom ADSL, VDSL et 4G LTE vers Idoom Fibre",
+    "company": "Algérie Télécom",
+    "version": "2.0",
+    "effective_date": "2025-07-15"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre",
+    "name_fr": "Nouvelle offre de modernisation Idoom ADSL, VDSL et 4G LTE vers Idoom Fibre",
+    "description_ar": "في إطار استراتيجيتها الرامية إلى عصرنة وتحسين جودة الخدمة، تطلق اتصالات الجزائر عملية خاصة لتحويل الزبائن الخواص المشتركين في عروض IDOOM ADSL وIDOOM VDSL (MSAN) وIDOOM 4G LTE نحو عرض IDOOM FIBRE (FTTH). يهدف هذا العرض إلى تعميم استعمال الألياف البصرية من خلال انتقال ميسّر للزبائن المؤهلين، مع مزايا تقنية وتسعيرية جذابة، تشمل التحويل من MSAN إلى الألياف البصرية، وكذلك التحويل من IDOOM 4G LTE إلى IDOOM Fibre مع شروط محددة تتعلق بتسديد الديون، رصيد الإنترنت الإيجابي، وإرجاع جهاز 4G LTE في بعض الحالات. :contentReference[oaicite:0]{index=0}",
+    "description_fr": "Dans le cadre de sa stratégie de modernisation et d’amélioration continue de la qualité de service, Algérie Télécom met en place une opération spéciale de basculement des abonnés résidentiels de l’offre IDOOM ADSL, VDSL (MSAN) et 4G LTE vers l’offre IDOOM Fibre (FTTH). Cette initiative vise à généraliser l’accès à la fibre optique en proposant aux clients éligibles une transition facilitée, assortie d’avantages tarifaires et techniques. L’offre couvre deux volets principaux : le basculement MSAN (ADSL/VDSL) vers Idoom Fibre et le basculement Idoom 4G LTE vers Idoom Fibre, avec des conditions spécifiques de créances, de balance internet et de restitution du CPE 4G LTE.",
+    "conditions_ar": [
+      "هذا العرض مخصّص للزبائن الخواص المشتركين في خدمات IDOOM ADSL وIDOOM VDSL (MSAN) من أجل تحويلهم إلى عرض IDOOM Fibre (FTTH). :contentReference[oaicite:1]{index=1}",
+      "للاستفادة من عملية العصرنة من MSAN إلى الألياف البصرية، يجب على الزبون تسديد ديونه أو الحصول على جدول تقسيط ساري المفعول، أو طلب جدول تقسيط على الخط الهاتفي MSAN.",
+      "يشترط أن يكون رصيد الإنترنت إيجابياً (خدمة الإنترنت مفعّلة) بتاريخ التحويل نحو الألياف البصرية.",
+      "تفاصيل عرض العصرنة من ADSL وVDSL إلى IDOOM Fibre (التدفقات، الأسعار، المزايا والشروط الخاصة بكل تدفق) مذكورة في جدول مرافق في الوثيقة الأصلية، ويتم تطبيقها حسب التدفق المختار وأهلية الخط.",
+      "العرض المذكور للعصرنة من MSAN نحو الألياف البصرية صالح فقط إذا استوفى الزبون الشروط المفصلة في الجدول؛ في حال عدم توفر هذه الشروط يُطلب مبلغ 4.500 دج لجميع التدفقات، ويضاف مبلغ 6.000 دج للزبائن الذين اختاروا تدفق 15 Mbps.",
+      "يتم تحويل رصيد الأيام المتبقية في الاشتراك القديم إلى الاشتراك الجديد حسب التدفق الجديد المختار في Idoom Fibre، بحيث لا تضيع الأيام المتبقية.",
+      "العرض الجديد للعصرنة يلغي ويعوض الاشتراك القديم للزبون على ADSL/VDSL.",
+      "عرضا 1 Gbps و1.5 Gbps في Idoom Fibre يخضعان لاختبار الأهلية التقنية للخط قبل التفعيل.",
+      "تدفق 15 Mbps في عرض Idoom Fibre يبقى مخصّصاً حصرياً لعمليات عصرنة زبائن MSAN الحاليين ولا يتم تسويقه خارج هذا الإطار.",
+      "عرض التحويل من IDOOM 4G LTE إلى IDOOM Fibre موجه للزبائن الخواص المشتركين في IDOOM 4G LTE والمؤهلين تقنياً لتغطية الألياف البصرية.",
+      "يجب على زبائن Idoom 4G LTE الذين يختارون تدفقاً من 60 Mbps فما فوق ضمن عرض Idoom Fibre إرجاع جهاز CPE 4G LTE التابع لاتصالات الجزائر وفي حالة تشغيل جيدة.",
+      "في إطار عرض العصرنة من 4G LTE إلى Idoom Fibre، توفر اتصالات الجزائر للزبائن الذين يختارون تدفقات من 60 Mbps إلى 1.5 Gbps عملية تحويل بتكلفة 0 دج، مع مودم بصري مجاني وتركيب مجاني، مع إلزامية إرجاع جهاز 4G LTE.",
+      "في حالة اختيار تدفق 15 Mbps في إطار التحويل من 4G LTE إلى Idoom Fibre، فإن إرجاع جهاز CPE 4G LTE غير مطلوب.",
+      "العرض يطبّق حصرياً على الزبائن الخواص المؤهلين تقنياً لتغطية الألياف البصرية (FTTH) ضمن شبكة اتصالات الجزائر."
+    ],
+    "conditions_fr": [
+      "L’offre de modernisation est destinée aux clients résidentiels IDOOM ADSL et VDSL (MSAN) pour le basculement vers IDOOM Fibre (FTTH).",
+      "Pour bénéficier du basculement MSAN, le client doit apurer ses créances, avoir un échéancier en cours ou demander un échéancier sur la ligne fixe MSAN.",
+      "Pour le basculement MSAN, le client doit avoir une balance internet positive (Internet actif) à la date du basculement.",
+      "Les détails tarifaires et techniques de la modernisation IDOOM ADSL/VDSL vers IDOOM Fibre sont décrits dans un tableau de correspondance des débits et des conditions (non reproduit ici).",
+      "L’offre de modernisation MSAN est valable uniquement si le client répond aux conditions détaillées dans le tableau de l’offre.",
+      "Si les conditions du tableau ne sont pas respectées, un montant de 4 500 DA est exigé pour tous les débits en cas de modernisation MSAN vers Fibre.",
+      "En plus des 4 500 DA, un montant supplémentaire de 6 000 DA est appliqué aux abonnés ayant choisi un débit de 15 Mbps en cas de non-respect des conditions.",
+      "La balance des jours restants de l’ancien abonnement est convertie en fonction du débit choisi par le client sur la nouvelle offre Idoom Fibre.",
+      "La nouvelle offre de modernisation remplace et annule la souscription actuelle de l’abonné.",
+      "Les paliers 1 Gbps et 1,5 Gbps sont proposés sous réserve d’un test d’éligibilité technique de la ligne.",
+      "Le palier 15 Mbps de Idoom Fibre reste proposé exclusivement dans le cadre des opérations de modernisation des clients existants (MSAN) et n’est pas commercialisé en dehors de ce cadre.",
+      "Le basculement Idoom 4G LTE vers Idoom Fibre est destiné aux clients résidentiels de l’offre Idoom 4G LTE.",
+      "Pour les abonnés 4G LTE choisissant un débit de 60 Mbps et plus dans l’offre Idoom Fibre, la restitution du CPE 4G LTE d’Algérie Télécom en état fonctionnel est obligatoire.",
+      "La nouvelle offre de souscription pour un basculement 4G LTE vers FTTH prévoit, pour les débits de 60 Mbps à 1,5 Gbps, un tarif de modernisation de 0 DA avec modem optique offert et installation gratuite, sous réserve de la restitution obligatoire du modem 4G LTE.",
+      "Pour un débit de 15 Mbps dans le cadre du basculement 4G LTE vers Idoom Fibre, la restitution du CPE 4G LTE n’est pas requise.",
+      "L’offre ne s’applique qu’aux clients résidentiels éligibles à la couverture FTTH (Idoom Fibre)."
+    ],
+    "benefits_ar": [
+      "تسهيل انتقال الزبائن الخواص من عروض IDOOM ADSL وIDOOM VDSL (MSAN) وIDOOM 4G LTE إلى عرض الألياف البصرية IDOOM Fibre مع الحفاظ على مزايا تسعيرية وتقنية مشجعة.",
+      "الاستفادة من تكنولوجيا الألياف البصرية (FTTH) التي توفر تدفقات أعلى وجودة خدمة أفضل من حيث الاستقرار وزمن الاستجابة مقارنة بعروض ADSL وVDSL و4G LTE.",
+      "بالنسبة لزبائن MSAN الذين يستوفون شروط العرض، يمكن الاستفادة من تخفيضات وتسهيلات محددة في جدول العصرنة، بما في ذلك منح مودم بصري وشهر إنترنت مجاني بسرعة 15 Mbps أو تركيب مجاني حسب التدفق المختار، كما هو مذكور في الجدول.",
+      "في حالة عدم استيفاء شروط جدول العرض، يمكن للزبون الاستفادة من العصرنة نحو Idoom Fibre بمبلغ ثابت قدره 4.500 دج لجميع التدفقات، مع إضافة 6.000 دج للزبائن الذين يختارون تدفق 15 Mbps، وهو مبلغ يبقى أقل تكلفة من عملية اشتراك جديدة كاملة.",
+      "تحويل رصيد الأيام المتبقية من الاشتراك القديم إلى الاشتراك الجديد حسب التدفق المختار في Idoom Fibre، مما يمنع ضياع الرصيد المتبقي للزبون.",
+      "الحفاظ على تدفق 15 Mbps في Idoom Fibre حصرياً لعمليات العصرنة، مما يوفر نقطة دخول إلى الألياف البصرية بتكلفة مناسبة لزبائن MSAN الحاليين.",
+      "بالنسبة لزبائن Idoom 4G LTE الذين يختارون تدفقات من 60 Mbps إلى 1.5 Gbps، الاستفادة من عملية عصرنة مجانية (0 دج) تشمل مودم بصري مجاني وتركيب مجاني، بشرط إرجاع جهاز CPE 4G LTE في حالة تشغيل جيدة.",
+      "بالنسبة للتحويل من 4G LTE إلى Idoom Fibre بسرعة 15 Mbps، يمكن للزبون الاحتفاظ بجهاز CPE 4G LTE دون إلزامية إرجاعه.",
+      "تعميم الوصول إلى الألياف البصرية لفائدة الزبائن الخواص IDOOM ADSL وVDSL و4G LTE عبر عملية عصرنة خاصة مهيكلة ومؤطرة على مستوى اتصالات الجزائر.",
+      "تحسين شامل لتجربة الزبون على الإنترنت (من حيث الاستقرار، السرعة، وزمن الاستجابة) بفضل الانتقال إلى شبكة Idoom Fibre."
+    ],
+    "benefits_fr": [
+      "Transition facilitée des accès ADSL/VDSL (MSAN) et 4G LTE vers la technologie Idoom Fibre (FTTH) pour les clients résidentiels éligibles.",
+      "Accès à la fibre optique, permettant des débits plus élevés et une meilleure qualité de service par rapport aux offres ADSL, VDSL et 4G LTE.",
+      "Basculement MSAN vers Idoom Fibre avec conditions de modernisation précisées dans un tableau dédié, incluant des avantages tarifaires pour les clients qui respectent les critères (créances apurées, balance positive, etc.).",
+      "Pour les clients MSAN ne remplissant pas les conditions du tableau, possibilité de modernisation moyennant un montant fixe de 4 500 DA pour tous les débits, plus 6 000 DA supplémentaires pour les clients choisissant 15 Mbps, ce qui reste plus avantageux que le coût standard d’une nouvelle installation.",
+      "Conversion de la balance des jours restants de l’ancien abonnement en fonction du nouveau débit choisi en Fibre, évitant la perte de jours d’abonnement.",
+      "Maintien d’un palier spécifique 15 Mbps en Idoom Fibre réservé aux opérations de modernisation MSAN pour permettre un point d’entrée fibre à coût maîtrisé.",
+      "Pour le basculement Idoom 4G LTE vers Idoom Fibre sur des débits de 60 Mbps à 1,5 Gbps, le tarif de modernisation est de 0 DA avec modem optique offert et installation gratuite, sous réserve de la restitution du CPE 4G LTE en état fonctionnel.",
+      "Pour un basculement 4G LTE vers Idoom Fibre en 15 Mbps, le client n’est pas obligé de restituer le CPE 4G LTE, lui permettant de conserver l’équipement tout en migrisant vers la fibre.",
+      "Généralisation de l’accès à la fibre optique pour les clients résidentiels IDOOM ADSL, VDSL et 4G LTE à travers une opération spéciale structurée et encadrée.",
+      "Amélioration globale de l’expérience utilisateur (latence, stabilité, débit) grâce au passage sur le réseau Idoom Fibre."
+    ],
+    "pricing_summary_ar": "تتضمن عملية العصرنة من IDOOM ADSL وIDOOM VDSL (MSAN) إلى IDOOM Fibre تفاصيل تسعيرية وتقنية مذكورة في جدول مرافق يحدد العلاقة بين التدفقات والشروط؛ في حال استيفاء الشروط يستفيد الزبون من مزايا خاصة مثل مودم بصري وشهر مجاني أو تركيب مجاني حسب التدفق. في حال عدم استيفاء الشروط، يُطلب مبلغ 4.500 دج لجميع التدفقات، ويضاف مبلغ 6.000 دج للزبائن الذين يختارون تدفق 15 Mbps. بالنسبة لعملية العصرنة من IDOOM 4G LTE إلى IDOOM Fibre بتدفقات من 60 Mbps إلى 1.5 Gbps، يكون سعر العصرنة 0 دج مع منح مودم بصري مجاني وتركيب مجاني، بشرط إرجاع جهاز CPE 4G LTE في حالة تشغيل جيدة، في حين أن اختيار تدفق 15 Mbps لا يفرض إرجاع جهاز 4G LTE.",
+    "pricing_summary_fr": "Les détails tarifaires de la modernisation Idoom ADSL/VDSL (MSAN) vers Idoom Fibre sont présentés dans un tableau de correspondance des débits et conditions, non reproduit ici. À défaut de répondre aux conditions détaillées, un montant de 4 500 DA est exigé pour tous les débits et 6 000 DA supplémentaires sont appliqués pour les abonnés choisissant 15 Mbps. Pour le basculement Idoom 4G LTE vers Idoom Fibre sur des débits de 60 Mbps à 1,5 Gbps, le tarif de modernisation est de 0 DA avec modem optique offert et installation gratuite, sous réserve de la restitution du CPE 4G LTE en état fonctionnel ; pour 15 Mbps, la restitution du CPE 4G LTE n’est pas requise."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من يمكنه الاستفادة من العرض الجديد لعصرنة خدمات IDOOM ADSL وVDSL إلى IDOOM Fibre؟",
+      "answer": "العرض موجّه للزبائن الخواص المشتركين في خدمات IDOOM ADSL وIDOOM VDSL (MSAN) والراغبين في التحويل إلى عرض IDOOM Fibre (FTTH)، شريطة توفّر الأهلية التقنية للخط واستيفاء شروط تسديد الديون ورصيد الإنترنت الإيجابي."
+    },
+    {
+      "question": "ما هي الشروط المطلوبة للاستفادة من عملية العصرنة من MSAN إلى الألياف البصرية؟",
+      "answer": "للاستفادة من العصرنة، يجب على الزبون تسديد جميع الديون المستحقة أو الحصول على جدول تقسيط ساري المفعول أو طلب جدول تقسيط جديد على الخط الهاتفي MSAN، بالإضافة إلى امتلاك رصيد إنترنت إيجابي (خدمة مفعّلة) في تاريخ التحويل."
+    },
+    {
+      "question": "ماذا يحدث إذا لم يستوفِ الزبون الشروط المفصلة في جدول عرض العصرنة؟",
+      "answer": "في حال عدم استيفاء الزبون للشروط المذكورة في جدول العرض، يمكنه الاستفادة من عملية العصرنة نحو Idoom Fibre مقابل مبلغ ثابت قدره 4.500 دج لجميع التدفقات، ويضاف مبلغ 6.000 دج للزبائن الذين يختارون تدفق 15 Mbps."
+    },
+    {
+      "question": "ما مصير رصيد الأيام المتبقية في الاشتراك القديم عند التحويل إلى Idoom Fibre؟",
+      "answer": "يتم تحويل رصيد الأيام المتبقية في الاشتراك القديم إلى اشتراك Idoom Fibre الجديد حسب التدفق الذي يختاره الزبون، بحيث تُحتسب الأيام المتبقية وفق التسعيرة الجديدة ولا تضيع.",
+      "answer_ar": "يتم تحويل رصيد الأيام المتبقية في الاشتراك القديم إلى اشتراك Idoom Fibre الجديد حسب التدفق الذي يختاره الزبون، بحيث تُحتسب الأيام المتبقية وفق التسعيرة الجديدة ولا تضيع."
+    },
+    {
+      "question": "هل التدفقان 1 Gbps و1.5 Gbps متاحان لكل الزبائن؟",
+      "answer": "لا، عرضا 1 Gbps و1.5 Gbps في Idoom Fibre يُقدّمان فقط للزبائن الذين تُثبت خطوطهم أهلية تقنية كافية، وذلك بعد إجراء اختبار الأهلية التقني من طرف اتصالات الجزائر."
+    },
+    {
+      "question": "هل يمكن الاشتراك بتدفق 15 Mbps في Idoom Fibre خارج عملية العصرنة؟",
+      "answer": "لا، تدفق 15 Mbps في عرض Idoom Fibre مخصّص حصرياً لعمليات عصرنة زبائن MSAN الحاليين ولا يتم تسويقه كعرض عادي خارج إطار هذه العملية."
+    },
+    {
+      "question": "من يمكنه الاستفادة من عرض العصرنة من IDOOM 4G LTE إلى IDOOM Fibre؟",
+      "answer": "هذا العرض موجّه للزبائن الخواص المشتركين في IDOOM 4G LTE والراغبين في الانتقال إلى عرض Idoom Fibre (FTTH)، بشرط توفر تغطية الألياف البصرية في منطقة سكنهم."
+    },
+    {
+      "question": "ما هي شروط العصرنة من IDOOM 4G LTE إلى IDOOM Fibre؟",
+      "answer": "على مشتركي Idoom 4G LTE الذين يختارون تدفق 60 Mbps أو أكثر في عرض Idoom Fibre إرجاع جهاز CPE 4G LTE التابع لاتصالات الجزائر في حالة تشغيل جيدة. أما في حالة اختيار تدفق 15 Mbps، فلا يُطلب من الزبون إرجاع جهاز 4G LTE."
+    },
+    {
+      "question": "ما هي تفاصيل عرض الاشتراك الجديد للتحويل من 4G LTE إلى FTTH؟",
+      "answer": "بالنسبة للتحويل من 4G LTE إلى Idoom Fibre بتدفقات تتراوح من 60 Mbps إلى 1.5 Gbps، يستفيد الزبون من عملية عصرنة بسعر 0 دج، تشمل مودم بصري مجاني وتركيب مجاني، بشرط إرجاع مودم 4G LTE في حالة تشغيل جيدة. بالنسبة لتدفق 15 Mbps، لا يُشترط إرجاع جهاز 4G LTE."
+    },
+    {
+      "question": "هل يطبق هذا العرض على كل الزبائن؟",
+      "answer": "هذا العرض موجه حصريًا للزبائن الخواص المؤهلين لتغطية FTTH، ولا يطبق على الزبائن غير المؤهلين أو غير المقيمين في مناطق مغطاة بالألياف البصرية."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Qui peut bénéficier de l’offre de modernisation MSAN vers Idoom Fibre ?",
+      "answer": "Cette nouvelle offre de modernisation est destinée aux clients résidentiels IDOOM ADSL et VDSL (MSAN) souhaitant migrer vers l’offre IDOOM Fibre (FTTH), sous réserve d’éligibilité de leur ligne et du respect des conditions de créances et de balance internet."
+    },
+    {
+      "question": "Quelles sont les conditions exigées pour bénéficier de la modernisation MSAN vers Idoom Fibre ?",
+      "answer": "Pour bénéficier de la modernisation, le client doit apurer ses créances, avoir un échéancier en cours ou demander un échéancier sur la ligne fixe MSAN, et disposer d’une balance internet positive (Internet actif) à la date du basculement. Les conditions détaillées et les avantages associés sont précisés dans un tableau de l’offre."
+    },
+    {
+      "question": "Que se passe-t-il si le client ne répond pas aux conditions détaillées dans le tableau de l’offre MSAN ?",
+      "answer": "Si le client ne répond pas aux conditions mentionnées dans le tableau de modernisation, un montant de 4 500 DA sera exigé pour tous les débits lors du basculement vers Idoom Fibre, et un montant supplémentaire de 6 000 DA sera appliqué pour les abonnés ayant choisi un débit de 15 Mbps."
+    },
+    {
+      "question": "Qu’advient-il de la balance des jours restants sur l’ancien abonnement lors de la modernisation ?",
+      "answer": "La balance des jours restants de l’ancien abonnement est convertie en fonction du débit Fibre choisi par le client. Ainsi, les jours restants sont valorisés et transférés sur la nouvelle offre Idoom Fibre, au lieu d’être perdus."
+    },
+    {
+      "question": "Les paliers 1 Gbps et 1,5 Gbps sont-ils disponibles pour tous les clients ?",
+      "answer": "Non. Les paliers 1 Gbps et 1,5 Gbps ne sont proposés qu’aux clients dont la ligne est techniquement éligible, conformément au test d’éligibilité effectué par Algérie Télécom."
+    },
+    {
+      "question": "Le palier de 15 Mbps en Idoom Fibre est-il commercialisé en dehors des opérations de modernisation ?",
+      "answer": "Non. Le palier de 15 Mbps de Idoom Fibre reste proposé exclusivement dans le cadre des opérations de modernisation des clients existants (MSAN) et n’est pas destiné à la commercialisation standard."
+    },
+    {
+      "question": "Qui peut bénéficier de l’offre de basculement Idoom 4G LTE vers Idoom Fibre ?",
+      "answer": "L’offre de basculement Idoom 4G LTE vers Idoom Fibre est destinée aux clients résidentiels IDOOM 4G LTE qui souhaitent migrer vers la technologie FTTH, sous réserve d’éligibilité Fibre."
+    },
+    {
+      "question": "Quelles sont les conditions exigées pour la modernisation des clients Idoom 4G LTE vers Idoom Fibre ?",
+      "answer": "Les abonnés Idoom 4G LTE qui choisissent un débit de 60 Mbps ou plus dans l’offre Idoom Fibre doivent restituer le CPE 4G LTE d’Algérie Télécom en état fonctionnel. Pour un débit de 15 Mbps, la restitution du CPE 4G LTE n’est pas requise."
+    },
+    {
+      "question": "Quelle est la nouvelle offre de souscription pour un basculement 4G LTE vers FTTH ?",
+      "answer": "Pour un basculement 4G LTE vers FTTH avec des débits compris entre 60 Mbps et 1,5 Gbps, l’offre prévoit un tarif de modernisation de 0 DA avec modem optique offert et installation gratuite, à condition que le client restitue le modem 4G LTE. Les détails tarifaires d’origine sont indiqués dans le tableau de l’offre."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "هام: نودّ تذكيركم بأن بريد «Feedback» على العنوان FB@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات المتعلقة بالمذكرات أو الإجراءات المعتمدة. لا تترددوا في التواصل معنا عند الضرورة. :contentReference[oaicite:2]{index=2}",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. En cas de nécessité, les clients peuvent utiliser cette adresse pour leurs questions commerciales liées à l’offre de modernisation."
+  },
+
+  "keywords_ar": [
+    "العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre",
+    "عصرنة ADSL",
+    "عصرنة VDSL",
+    "عصرنة 4G LTE",
+    "تحويل MSAN إلى الألياف البصرية",
+    "تحويل 4G LTE إلى الألياف",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom 4G LTE",
+    "Idoom Fibre",
+    "FTTH",
+    "الزبائن الخواص",
+    "MSAN",
+    "تسديد الديون",
+    "جدول تقسيط",
+    "رصيد إنترنت إيجابي",
+    "رصيد الأيام المتبقية",
+    "15 Mbps",
+    "60 Mbps",
+    "1 Gbps",
+    "1.5 Gbps",
+    "4500 دج",
+    "6000 دج",
+    "مودم بصري مجاني",
+    "تركيب مجاني",
+    "إرجاع جهاز 4G LTE",
+    "جهاز CPE 4G LTE",
+    "عرض العصرنة",
+    "التحويل إلى الألياف",
+    "اتصالات الجزائر",
+    "بريد Feedback",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "Nouvelle offre de modernisation",
+    "modernisation Idoom ADSL",
+    "modernisation Idoom VDSL",
+    "modernisation Idoom 4G LTE",
+    "basculement MSAN vers Idoom Fibre",
+    "basculement 4G LTE vers FTTH",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom 4G LTE",
+    "Idoom Fibre",
+    "FTTH",
+    "clients résidentiels",
+    "créances apurées",
+    "échéancier",
+    "balance positive",
+    "Internet actif",
+    "15 Mbps",
+    "60 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "4500 DA",
+    "6000 DA",
+    "modem optique offert",
+    "installation gratuite",
+    "restitution CPE 4G LTE",
+    "basculement 4G LTE vers fibre",
+    "offre de modernisation MSAN",
+    "palier 15 Mbps réservé modernisation",
+    "test d’éligibilité",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "Nouvelle offre de modernisation",
+    "modernisation Idoom ADSL",
+    "modernisation Idoom VDSL",
+    "modernisation Idoom 4G LTE",
+    "basculement MSAN vers Idoom Fibre",
+    "basculement 4G LTE vers FTTH",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "Idoom 4G LTE",
+    "Idoom Fibre",
+    "FTTH",
+    "clients résidentiels",
+    "créances apurées",
+    "échéancier",
+    "balance positive",
+    "Internet actif",
+    "15 Mbps",
+    "60 Mbps",
+    "1 Gbps",
+    "1,5 Gbps",
+    "4500 DA",
+    "6000 DA",
+    "modem optique offert",
+    "installation gratuite",
+    "restitution CPE 4G LTE",
+    "offre de modernisation MSAN",
+    "palier 15 Mbps réservé modernisation",
+    "test d’éligibilité",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre",
+    "عصرنة ADSL",
+    "عصرنة VDSL",
+    "عصرنة 4G LTE",
+    "تحويل MSAN إلى الألياف البصرية",
+    "تحويل 4G LTE إلى الألياف",
+    "الزبائن الخواص",
+    "MSAN",
+    "تسديد الديون",
+    "جدول تقسيط",
+    "رصيد إنترنت إيجابي",
+    "رصيد الأيام المتبقية",
+    "4500 دج",
+    "6000 دج",
+    "مودم بصري مجاني",
+    "تركيب مجاني",
+    "إرجاع جهاز 4G LTE",
+    "جهاز CPE 4G LTE",
+    "عرض العصرنة",
+    "التحويل إلى الألياف",
+    "اتصالات الجزائر",
+    "بريد Feedback"
+  ],
+
+  "search_text": "العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre، نسخة 2. تطلق اتصالات الجزائر عملية خاصة لتحويل الزبائن الخواص المشتركين في عروض IDOOM ADSL وIDOOM VDSL (MSAN) وIDOOM 4G LTE نحو عرض IDOOM Fibre (FTTH)، بهدف تعميم استعمال الألياف البصرية وتقديم انتقال ميسّر للزبائن المؤهلين مع مزايا تقنية وتسعيرية جذابة. يشترط للاستفادة من العصرنة من MSAN إلى الألياف البصرية تسديد الديون أو الحصول على جدول تقسيط ساري المفعول أو طلب جدول تقسيط على الخط الهاتفي، إضافة إلى رصيد إنترنت إيجابي يوم التحويل. تفاصيل التدفقات والأسعار والمزايا مذكورة في جدول خاص، وفي حالة عدم استيفاء الشروط يفرض مبلغ 4.500 دج لجميع التدفقات يضاف إليه 6.000 دج للزبائن الذين يختارون تدفق 15 Mbps. يتم تحويل رصيد الأيام المتبقية حسب التدفق الجديد، ويلغي عرض العصرنة الاشتراك القديم، مع عرض تدفقات تصل إلى 1 Gbps و1.5 Gbps حسب الأهلية التقنية، وبقاء تدفق 15 Mbps حصرياً لعمليات العصرنة. في ما يخص التحويل من IDOOM 4G LTE إلى Idoom Fibre، يستفيد الزبائن الخواص من عرض خاص يسمح بالتحويل إلى تدفقات من 60 Mbps إلى 1.5 Gbps بتكلفة 0 دج مع مودم بصري وتركيب مجانيين شريطة إرجاع جهاز CPE 4G LTE في حالة تشغيل جيدة، في حين لا يفرض إرجاع الجهاز عند اختيار تدفق 15 Mbps.\n\nNouvelle offre de modernisation Idoom ADSL, VDSL et 4G LTE vers Idoom Fibre, Version 2. Dans le cadre de sa stratégie de modernisation et d’amélioration continue de la qualité de service, Algérie Télécom met en place une opération spéciale de basculement des abonnés résidentiels de l’offre IDOOM ADSL, VDSL (MSAN) et 4G LTE vers l’offre IDOOM Fibre (FTTH). Cette initiative vise à généraliser l’accès à la fibre optique en proposant aux clients éligibles une transition facilitée, accompagnée d’avantages tarifaires et techniques attractifs. Basculement MSAN : l’offre est destinée aux clients résidentiels IDOOM ADSL et VDSL (MSAN). Conditions : apurer les créances, avoir un échéancier en cours ou demander un échéancier sur la ligne fixe MSAN ; avoir une balance positive (Internet actif) à la date du basculement. Les détails de l’offre de modernisation IDOOM ADSL/VDSL vers IDOOM Fibre sont précisés dans un tableau. Notes : l’offre de modernisation est valable uniquement si le client répond aux conditions du tableau ; dans le cas contraire, un montant de 4 500 DA est exigé pour tous les débits et 6 000 DA supplémentaires sont appliqués pour les abonnés ayant choisi un débit de 15 Mbps ; la balance des jours restants est convertie en fonction du débit choisi par le client ; la nouvelle offre de modernisation remplace et annule la souscription actuelle ; les paliers 1 Gbps et 1,5 Gbps sont proposés selon le test d’éligibilité ; le palier 15 Mbps de Idoom Fibre reste proposé exclusivement dans le cadre des opérations de modernisation des clients existants (MSAN). Basculement Idoom 4G LTE vers Idoom Fibre : l’offre est destinée aux clients résidentiels Idoom 4G LTE. Condition principale : pour les abonnés ayant choisi un débit de 60 Mbps et plus de l’offre Idoom Fibre, la restitution du CPE 4G LTE est obligatoire et doit être effectuée avec un équipement en état fonctionnel ; pour le débit de 15 Mbps, la restitution du CPE 4G LTE n’est pas requise. Nouvelle offre de souscription pour un basculement 4G LTE vers FTTH : pour des débits de 60 Mbps jusqu’à 1,5 Gbps, le tarif de modernisation est de 0 DA avec modem optique offert et installation gratuite, sous condition de restitution du modem 4G LTE. Important : la messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies. :contentReference[oaicite:3]{index=3}",
+
+  "dense_text_primary": "هذا المستند يقدّم «العرض الجديد لعصرنة خدمات Idoom ADSL وVDSL و4G LTE إلى Idoom Fibre» (الإصدار 2) الموجّه للزبائن الخواص. يهدف العرض إلى تحويل المشتركين في خدمات ADSL وVDSL (MSAN) و4G LTE نحو عرض الألياف البصرية Idoom Fibre (FTTH)، في إطار استراتيجية اتصالات الجزائر لعصرنة الشبكة وتحسين جودة الخدمة. للاستفادة من العصرنة من MSAN إلى الألياف، يشترط تسديد الديون أو وجود جدول تقسيط ساري أو طلب جدول تقسيط جديد، إضافة إلى رصيد إنترنت إيجابي في تاريخ التحويل. تفاصيل التدفقات والأسعار والمزايا مذكورة في جدول خاص؛ وفي حالة عدم استيفاء الشروط يفرض مبلغ 4.500 دج لجميع التدفقات، مع إضافة 6.000 دج للزبائن الذين يختارون تدفق 15 Mbps. يتم تحويل رصيد الأيام المتبقية من الاشتراك القديم إلى الاشتراك الجديد حسب التدفق المختار، كما أن العرض الجديد يلغي ويعوض الاشتراك الحالي. التدفقات العالية 1 Gbps و1.5 Gbps تخضع لاختبار أهلية تقنية، بينما يبقى تدفق 15 Mbps في Idoom Fibre مخصصاً حصرياً لعمليات عصرنة زبائن MSAN.\n\nCe document décrit la « Nouvelle offre de modernisation Idoom ADSL, VDSL et 4G LTE vers Idoom Fibre » d’Algérie Télécom (version 2), destinée aux abonnés résidentiels. L’objectif est de basculer les clients ADSL, VDSL (MSAN) et 4G LTE vers la technologie Idoom Fibre (FTTH), afin de généraliser l’accès à la fibre optique et d’améliorer la qualité de service. Pour le basculement MSAN, le client doit apurer ses créances, disposer d’un échéancier ou en demander un, et avoir une balance internet positive au moment du basculement. Les avantages tarifaires sont détaillés dans un tableau ; si les conditions ne sont pas remplies, la modernisation reste possible moyennant 4 500 DA pour tous les débits et 6 000 DA supplémentaires pour le palier 15 Mbps. La balance des jours restants est convertie en fonction du nouveau débit Fibre, et la nouvelle offre annule l’abonnement actuel. Les paliers 1 Gbps et 1,5 Gbps sont proposés sous réserve d’éligibilité technique, et le palier 15 Mbps en Fibre est réservé aux opérations de modernisation.\n\nPour la modernisation Idoom 4G LTE vers Idoom Fibre, l’offre cible les clients résidentiels Idoom 4G LTE. Les abonnés choisissant un débit de 60 Mbps à 1,5 Gbps bénéficient d’un tarif de modernisation de 0 DA, avec modem optique offert et installation gratuite, sous réserve de la restitution du CPE 4G LTE en bon état de fonctionnement. Pour un débit de 15 Mbps, la restitution du CPE 4G LTE n’est pas requise, ce qui permet au client de conserver l’équipement tout en migrant vers la fibre. L’ensemble de ces mesures permet de généraliser l’accès à la fibre optique, d’améliorer la latence, la stabilité et les débits, et d’optimiser l’expérience internet des clients résidentiels. Pour toute question commerciale ou clarification sur cette offre et les procédures associées, la messagerie « Feedback » FB@algerietelecom.dz est dédiée aux demandes d’information."
+}

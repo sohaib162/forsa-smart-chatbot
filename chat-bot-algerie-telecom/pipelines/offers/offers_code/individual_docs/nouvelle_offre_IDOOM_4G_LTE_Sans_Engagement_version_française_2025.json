@@ -1,0 +1,261 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+  "product_family": "idoom_4g_lte",
+  "technology": [
+    "4g_lte"
+  ],
+  "customer_segment": [
+    "residential",
+    "students"
+  ],
+  "commitment_type": "no_commitment",
+  "usage_focus": [
+    "internet",
+    "data",
+    "voice"
+  ],
+  "metadata": {
+    "title_ar": "العرض الجديد IDOOM 4G LTE بدون التزام",
+    "title_fr": "Nouvelle Offre IDOOM 4G LTE Sans engagement",
+    "company": "Algérie Télécom",
+    "version": "2.0",
+    "effective_date": "2025-11-09"
+  },
+  "offer_core": {
+    "name_ar": "العرض الجديد IDOOM 4G LTE بدون التزام (بيانات وصوت)",
+    "name_fr": "Nouvelle offre Idoom 4G LTE Data & Voix Sans engagement",
+    "description_ar": "تُطلِق اتصالات الجزائر عرضاً جديداً لخدمة IDOOM 4G LTE بدون التزام (بيانات وصوت)، وهو عرض أكثر مرونة موجّه للزبائن الخواص الجدد ويلغي جميع العروض القديمة. يشمل العرض مودماً مجانياً، حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً، ومكالمات غير محدودة نحو شبكة اتصالات الجزائر، بسعر 7.500 دج مع كل الرسوم.",
+    "description_fr": "Algérie Télécom lance une nouvelle offre Idoom 4G LTE sans engagement, Data et Voix, plus flexible et destinée aux nouveaux clients résidentiels. Cette offre remplace et annule toutes les anciennes offres Idoom 4G LTE. Elle inclut un modem offert, un volume de 1 To avec débit illimité, une validité de 90 jours et des appels illimités vers le réseau Algérie Télécom, au tarif de 7 500 DA TTC.",
+    "conditions_ar": [
+      "عرض IDOOM 4G LTE بدون التزام (بيانات وصوت) موجّه للزبائن الخواص الجدد.",
+      "العرض الجديد IDOOM 4G LTE بدون التزام يلغي جميع العروض القديمة الخاصة بخدمة IDOOM 4G LTE.",
+      "الاشتراك في عرض Idoom 4G LTE بيانات وصوت بدون التزام هو الشرط الأساسي للاستفادة من العرض.",
+      "يمكن إعادة التعبئة قبل نهاية مدة 90 يوماً دون الحاجة إلى انتظار انتهاء الصلاحية.",
+      "حجم الإنترنت المتبقي قبل إعادة التعبئة يُرَصَّد ويُجمع مع الحجم الجديد.",
+      "للاستفادة من العرض يجب تقديم وثيقة إثبات الإقامة سارية المفعول.",
+      "يجب تقديم نسخة من بطاقة الهوية الوطنية أو جواز السفر للزبون.",
+      "الطلبة المقيمون في الإقامة الجامعية يمكنهم الاستفادة من العرض الجديد IDOOM 4G LTE بدون التزام.",
+      "بالنسبة للطلبة المقيمين في الإقامة الجامعية، تُعتَمد بطاقة الإقامة الجامعية كإثبات عنوان، إضافة إلى نسخة من بطاقة الهوية أو جواز السفر.",
+      "يتم الدفع والاستفادة من العرض عبر الوكالة التجارية ونقاط الحضور أو عبر وسائل الدفع الإلكترونية: فضاء الزبون، تطبيق My Idoom، تطبيق Baridi-Mob، خدمة Win-Pay، الدفع الإلكتروني والموقع الإلكتروني لاتصالات الجزائر."
+    ],
+    "conditions_fr": [
+      "Offre 4G LTE Data et Voix sans engagement destinée aux nouveaux clients résidentiels.",
+      "Cette nouvelle offre remplace et annule toutes les anciennes offres Idoom 4G LTE (Pack Data et Voix 4500 DA, Pack Data Only 9500 DA, Pack Data et Voix 10 500 DA).",
+      "Condition d'accès : souscription à la nouvelle offre Idoom 4G LTE Data & Voix Sans engagement.",
+      "En tant qu'étudiant résidant en cité universitaire, il est possible de bénéficier de la nouvelle offre Idoom 4G LTE sans engagement.",
+      "Pour bénéficier de l'offre, le client doit fournir un justificatif d'adresse en cours de validité.",
+      "Pour bénéficier de l'offre, le client doit fournir une copie de la pièce d'identité ou du passeport.",
+      "Pour les étudiants résidant en cité universitaire, la carte de résidence universitaire fait office de justificatif d'adresse.",
+      "Les étudiants doivent également fournir une copie de la pièce d'identité ou du passeport.",
+      "Il est possible de recharger avant la fin des 90 jours.",
+      "Les rechargements sont cumulables avec le volume restant avant la fin des 90 jours."
+    ],
+    "benefits_ar": [
+      "مودم 4G LTE مجاني عند الاشتراك في العرض الجديد IDOOM 4G LTE بدون التزام بيانات وصوت.",
+      "حجم 1 تيرابايت من البيانات مع تدفق غير محدود.",
+      "صلاحية 90 يوماً للحجم الممنوح.",
+      "مكالمات غير محدودة نحو شبكة اتصالات الجزائر.",
+      "إمكانية إعادة التعبئة قبل نهاية مدة 90 يوماً مع تجميع الحجم المتبقي من الحجم السابق.",
+      "الاستفادة متاحة أيضاً للطلبة المقيمين في الإقامات الجامعية مع ملف مبسط.",
+      "توفّر عدة قنوات للدفع وإعادة التعبئة: الوكالة التجارية، فضاء الزبون، تطبيق My Idoom، Baridi-Mob، Win-Pay، الدفع الإلكتروني والموقع الإلكتروني لاتصالات الجزائر.",
+      "عرض أكثر مرونة مقارنة بالعروض القديمة، وبدون التزام زمني للزبون."
+    ],
+    "benefits_fr": [
+      "Modem 4G LTE offert pour la souscription à la nouvelle offre Idoom 4G LTE Data & Voix Sans engagement.",
+      "Volume de 1 To inclus, avec un débit illimité.",
+      "Validité de 90 jours pour le volume de 1 To.",
+      "Appels illimités vers le réseau Algérie Télécom (réseau AT).",
+      "Possibilité de recharger avant l'épuisement des 90 jours.",
+      "Cumul du volume rechargé avec le volume restant avant la fin des 90 jours.",
+      "Paiement possible au niveau de l'Agence Commerciale et des Points de Présence.",
+      "Paiement possible via l'espace client en ligne client.algerietelecom.dz.",
+      "Possibilité de gérer l'offre et de bénéficier des avantages via l'application My Idoom (Google Play, App Store, Huawei AppGallery).",
+      "Paiement via Baridi-mob.",
+      "Paiement via Win-paye.",
+      "Paiement via e-paiement.",
+      "Accès via le site web www.algerietelecom.dz pour plus d'informations."
+    ],
+    "pricing_summary_ar": "سعر الاشتراك في العرض الجديد IDOOM 4G LTE بدون التزام بيانات وصوت هو 7.500 دج مع الرسوم، ويتضمن مودماً مجانياً، حجم 1 تيرابايت بتدفق غير محدود، صلاحية 90 يوماً ومكالمات غير محدودة نحو شبكة اتصالات الجزائر.",
+    "pricing_summary_fr": "La souscription à la nouvelle offre Idoom 4G LTE Data & Voix Sans engagement est facturée 7 500 DA TTC, incluant un modem offert, 1 To de volume avec débit illimité, une validité de 90 jours et des appels illimités vers le réseau Algérie Télécom."
+  },
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+  "faq_ar": [
+    {
+      "question": "ما هي تفاصيل العرض الجديد؟",
+      "answer": "عرض IDOOM 4G LTE بدون التزام هو عرض بيانات وصوت موجّه للزبائن الخواص الجدد، يشمل مودماً مجانياً، حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً ومكالمات غير محدودة نحو شبكة اتصالات الجزائر، بسعر 7.500 دج مع الرسوم، ويلغي جميع العروض القديمة الخاصة بـ IDOOM 4G LTE."
+    },
+    {
+      "question": "هل يمكن إعادة التعبئة قبل انتهاء 90 يوماً؟ وهل التعبئة قابلة للتجميع؟",
+      "answer": "نعم، يمكن إعادة التعبئة قبل نهاية مدة 90 يوماً، كما يتم تجميع الحجم المتبقي من الإنترنت مع الحجم الجديد المعبأ."
+    },
+    {
+      "question": "كطالب مقيم في المدينة الجامعية، هل يمكنني الاستفادة من العرض الجديد 4G LTE بدون التزام؟",
+      "answer": "نعم، يمكن للطالب المقيم في الإقامة الجامعية الاستفادة من العرض الجديد IDOOM 4G LTE بدون التزام بنفس شروط الزبائن الخواص، مع تقديم بطاقة الإقامة الجامعية كإثبات عنوان ونسخة من بطاقة الهوية أو جواز السفر."
+    },
+    {
+      "question": "ما هو الملف المطلوب للاستفادة من العرض 4G LTE بدون التزام؟",
+      "answer": "للاستفادة من العرض 4G LTE بدون التزام، يجب تقديم وثيقة إثبات الإقامة سارية المفعول ونسخة من بطاقة الهوية أو جواز السفر."
+    },
+    {
+      "question": "ما هي الوثائق المطلوبة للطلبة المقيمين في الإقامة الجامعية؟",
+      "answer": "الطلبة المقيمون في الإقامة الجامعية مطالبون بتقديم بطاقة الإقامة الجامعية كإثبات عنوان، إضافة إلى نسخة من بطاقة الهوية أو جواز السفر للاستفادة من العرض."
+    },
+    {
+      "question": "ما هي وسائل الدفع المتوفرة؟",
+      "answer": "وسائل الدفع المتاحة هي: على مستوى الوكالة التجارية ونقاط الحضور، عبر فضاء الزبون client.algerietelecom.dz، عبر تطبيق My Idoom المتوفر على Google Play و App Store و Huawei AppGallery، عبر تطبيق Baridi-Mob، عبر Win-Pay، وعن طريق الدفع الإلكتروني عبر الموقع www.algerietelecom.dz."
+    },
+    {
+      "question": "لدي مشكلة، ماذا أفعل؟",
+      "answer": "لأي معلومات إضافية أو شكاوى، يرجى التقرب من وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو المحمول، حيث سيتكفل مستشار هاتفي بطلبكم."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Quels sont les détails de la nouvelle offre ?",
+      "answer": "La nouvelle offre Idoom 4G LTE sans engagement est une offre Data et Voix destinée aux nouveaux clients résidentiels. Elle inclut un modem offert, un volume de 1 To avec un débit illimité, une validité de 90 jours et des appels illimités vers le réseau Algérie Télécom, pour un tarif de 7 500 DA TTC. Cette offre remplace et annule toutes les anciennes offres Idoom 4G LTE."
+    },
+    {
+      "question": "Est-il possible de recharger avant l'épuisement des 90 jours ? Ce rechargement est-il cumulable ?",
+      "answer": "Oui, il est tout à fait possible de recharger avant la fin des 90 jours. Les rechargements sont cumulables avec le volume restant avant l'expiration de la période de 90 jours."
+    },
+    {
+      "question": "En tant qu’étudiant résidant en cité universitaire, puis-je bénéficier de la nouvelle offre 4G LTE sans engagement ?",
+      "answer": "Oui, en tant qu'étudiant résidant en cité universitaire, vous pouvez tout à fait bénéficier de la nouvelle offre Idoom 4G LTE sans engagement, dans les mêmes conditions que les autres nouveaux clients résidentiels."
+    },
+    {
+      "question": "Quel est le dossier à fournir pour bénéficier de la nouvelle offre 4G LTE sans engagement ?",
+      "answer": "Pour bénéficier de la nouvelle offre 4G LTE sans engagement, vous devez fournir un justificatif d'adresse en cours de validité ainsi qu'une copie de votre pièce d'identité ou de votre passeport."
+    },
+    {
+      "question": "Quel document doivent fournir les étudiants résidant en cité universitaire pour cette offre ?",
+      "answer": "Les étudiants résidant en cité universitaire doivent fournir la carte de résidence universitaire comme justificatif d'adresse, ainsi qu'une copie de leur pièce d'identité ou de leur passeport pour bénéficier de l'offre."
+    },
+    {
+      "question": "Quels sont les moyens de paiement disponibles ?",
+      "answer": "Les moyens de paiement disponibles pour cette offre sont les suivants : au niveau de l'Agence Commerciale et des Points de Présence, via l'espace client en ligne client.algerietelecom.dz, via l'application My Idoom (téléchargeable sur Google Play, App Store et Huawei AppGallery), via Baridi-mob, via Win-paye, via e-paiement, ainsi que via le site web www.algerietelecom.dz."
+    },
+    {
+      "question": "J’ai un problème, qui dois-je contacter ?",
+      "answer": "Pour toute autre information et/ou réclamation, vous devez vous rapprocher de votre agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. Un téléconseiller vous prendra en charge."
+    }
+  ],
+  "contact": {
+    "phone": "12",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "لأي معلومات إضافية أو شكاوى، يرجى التقرب من وكالتكم التجارية أو الاتصال بالرقم 12 من الهاتف الثابت أو المحمول، كما نذكّركم بأن بريد Feedback@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات المتعلقة بالملاحظات أو الإجراءات المعمول بها.",
+    "notes_fr": "Pour toute information ou réclamation, le client peut se rapprocher de son agence commerciale ou appeler le 12 à partir des lignes fixes ou mobiles. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+  "keywords_ar": [
+    "عرض IDOOM 4G LTE",
+    "العرض الجديد IDOOM 4G LTE بدون التزام",
+    "بدون التزام",
+    "بيانات وصوت",
+    "مودم مجاني",
+    "حجم 1 تيرابايت",
+    "1 تيرابايت",
+    "تدفق غير محدود",
+    "صلاحية 90 يوماً",
+    "مكالمات غير محدودة",
+    "مكالمات غير محدودة نحو شبكة اتصالات الجزائر",
+    "الزبائن الخواص",
+    "الطلبة",
+    "الإقامة الجامعية",
+    "إعادة التعبئة قبل 90 يوماً",
+    "تجميع الحجم المتبقي",
+    "فضاء الزبون",
+    "تطبيق My Idoom",
+    "Baridi-Mob",
+    "Win-Pay",
+    "الدفع الإلكتروني",
+    "الموقع www.algerietelecom.dz",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "Idoom 4G LTE",
+    "nouvelle offre",
+    "sans engagement",
+    "Data et Voix",
+    "Data & Voix",
+    "modem offert",
+    "1 To",
+    "1 téraoctet",
+    "débit illimité",
+    "90 jours",
+    "validité 90 jours",
+    "appels illimités",
+    "appels illimités réseau AT",
+    "clients résidentiels",
+    "nouveaux clients résidentiels",
+    "étudiants",
+    "cité universitaire",
+    "rechargement cumulable",
+    "recharge avant 90 jours",
+    "Baridi-mob",
+    "Win-paye",
+    "My Idoom",
+    "application My Idoom",
+    "e-paiement",
+    "espace client",
+    "client.algerietelecom.dz",
+    "Algérie Télécom"
+  ],
+  "keywords": [
+    "Idoom 4G LTE",
+    "nouvelle offre",
+    "sans engagement",
+    "Data et Voix",
+    "Data & Voix",
+    "modem offert",
+    "1 To",
+    "1 téraoctet",
+    "débit illimité",
+    "90 jours",
+    "validité 90 jours",
+    "appels illimités",
+    "appels illimités réseau AT",
+    "clients résidentiels",
+    "nouveaux clients résidentiels",
+    "étudiants",
+    "cité universitaire",
+    "rechargement cumulable",
+    "recharge avant 90 jours",
+    "Baridi-mob",
+    "Win-paye",
+    "My Idoom",
+    "application My Idoom",
+    "e-paiement",
+    "espace client",
+    "client.algerietelecom.dz",
+    "Algérie Télécom",
+    "عرض IDOOM 4G LTE",
+    "العرض الجديد IDOOM 4G LTE بدون التزام",
+    "بدون التزام",
+    "بيانات وصوت",
+    "مودم مجاني",
+    "حجم 1 تيرابايت",
+    "1 تيرابايت",
+    "تدفق غير محدود",
+    "صلاحية 90 يوماً",
+    "مكالمات غير محدودة",
+    "مكالمات غير محدودة نحو شبكة اتصالات الجزائر",
+    "الزبائن الخواص",
+    "الطلبة",
+    "الإقامة الجامعية",
+    "إعادة التعبئة قبل 90 يوماً",
+    "تجميع الحجم المتبقي",
+    "فضاء الزبون",
+    "تطبيق My Idoom",
+    "Baridi-Mob",
+    "Win-Pay",
+    "الدفع الإلكتروني",
+    "الموقع www.algerietelecom.dz",
+    "اتصالات الجزائر"
+  ],
+  "search_text": "العرض الجديد IDOOM 4G LTE بدون التزام (بيانات وصوت) موجّه للزبائن الخواص الجدد، يتضمن مودماً مجانياً، حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً ومكالمات غير محدودة نحو شبكة اتصالات الجزائر بسعر 7.500 دج مع الرسوم. يمكن إعادة التعبئة قبل نهاية 90 يوماً مع تجميع الحجم المتبقي، ويمكن للطلبة المقيمين في الإقامة الجامعية الاستفادة من العرض بتقديم بطاقة الإقامة الجامعية ووثائق الهوية. تتم عمليات الدفع عبر الوكالة التجارية أو فضاء الزبون أو تطبيق My Idoom أو Baridi-Mob أو Win-Pay أو الدفع الإلكتروني عبر موقع اتصالات الجزائر. Nouvelle Offre IDOOM 4G LTE Sans engagement. Algérie Télécom lance une nouvelle offre 4G LTE sans engagement Data et Voix, plus flexible et destinée aux nouveaux clients résidentiels. Cette offre remplace et annule toutes les anciennes offres Idoom 4G LTE (Pack Data et Voix 4500 DA, Pack Data Only 9500 DA, Pack Data et Voix 10 500 DA). Condition principale : souscription à la nouvelle offre Idoom 4G LTE Data & Voix Sans engagement, destinée aux nouveaux clients résidentiels y compris les étudiants résidant en cité universitaire. Avantages : modem 4G LTE offert, volume de 1 To avec débit illimité, validité de 90 jours, appels illimités vers le réseau Algérie Télécom, tarif de 7 500 DA TTC. Le client peut recharger avant la fin des 90 jours et le volume rechargé est cumulable avec le volume restant. Dossier à fournir : justificatif d'adresse en cours de validité et copie de la pièce d'identité ou passeport ; pour les étudiants résidant en cité universitaire, carte de résidence universitaire comme justificatif d'adresse plus copie de la pièce d'identité ou du passeport. Moyens de paiement disponibles : Agence Commerciale et Point de Présence, espace client client.algerietelecom.dz, application My Idoom (Google Play, App Store, Huawei AppGallery), Baridi-mob, Win-paye, e-paiement, site web www.algerietelecom.dz. FAQ : Quels sont les détails de la nouvelle offre ? Réponse : modem offert, 1 To de volume avec débit illimité, validité 90 jours, appels illimités vers le réseau AT, tarif 7 500 DA TTC, offre sans engagement pour nouveaux clients résidentiels. Est-il possible de recharger avant l'épuisement des 90 jours et ce rechargement est-il cumulable ? Réponse : oui, rechargement possible avant la fin des 90 jours et volume cumulable. En tant qu’étudiant résidant en cité universitaire, puis-je bénéficier de la nouvelle offre 4G LTE sans engagement ? Réponse : oui, les étudiants résidant en cité universitaire sont éligibles. Quel est le dossier à fournir pour bénéficier de la nouvelle offre 4G LTE sans engagement ? Réponse : justificatif d'adresse en cours de validité et copie de la pièce d'identité ou passeport. Quel document doivent fournir les étudiants résidant en cité universitaire pour cette offre ? Réponse : carte de résidence universitaire comme justificatif d'adresse et copie de la pièce d'identité ou passeport. Quels sont les moyens de paiement disponibles ? Réponse : Agence Commerciale, Point de Présence, espace client en ligne, application My Idoom, Baridi-mob, Win-paye, e-paiement, site web Algérie Télécom. J’ai un problème, qui dois-je contacter ? Réponse : agence commerciale ou numéro 12, un téléconseiller prend en charge la demande. La messagerie « Feedback » FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et clarifications sur les notes ou procédures établies.",
+  "dense_text_primary": "يقدم هذا المستند تفاصيل العرض التجاري الجديد IDOOM 4G LTE بدون التزام (بيانات وصوت) من اتصالات الجزائر، وهو عرض موجّه للزبائن الخواص الجدد بما فيهم الطلبة المقيمون في الإقامات الجامعية. يتضمن العرض مودماً مجانياً، حجم 1 تيرابايت مع تدفق غير محدود، صلاحية 90 يوماً، ومكالمات غير محدودة نحو شبكة اتصالات الجزائر مقابل 7.500 دج مع الرسوم، مع إمكانية إعادة التعبئة قبل نهاية 90 يوماً وتجميع الحجم المتبقي والاستفادة من عدة قنوات دفع إلكترونية.\n\nCette note décrit la nouvelle offre commerciale Idoom 4G LTE sans engagement d’Algérie Télécom, en version française, destinée aux nouveaux clients résidentiels, y compris les étudiants résidant en cité universitaire. L’offre est une formule Data et Voix 4G LTE sans engagement qui remplace et annule toutes les anciennes offres Idoom 4G LTE (Pack Data et Voix 4500 DA, Pack Data Only 9500 DA et Pack Data et Voix 10 500 DA).\n\nLa nouvelle offre Idoom 4G LTE Data & Voix Sans engagement inclut un modem 4G LTE offert, un volume data de 1 To avec un débit illimité, une validité de 90 jours et des appels illimités vers le réseau Algérie Télécom (réseau AT). Le prix de souscription est de 7 500 DA TTC. L’offre est accessible sur présentation d’un justificatif d’adresse en cours de validité et d’une copie de la pièce d’identité ou du passeport ; pour les étudiants en cité universitaire, la carte de résidence universitaire sert de justificatif d’adresse, en plus de la copie de la pièce d’identité ou du passeport.\n\nIl est possible de recharger le volume avant l’épuisement ou la fin des 90 jours, et les rechargements sont cumulables avec le volume restant. Le paiement et la gestion de l’offre peuvent se faire via plusieurs canaux : agences commerciales et points de présence, espace client en ligne (client.algerietelecom.dz), application My Idoom (Google Play, App Store, Huawei AppGallery), Baridi-mob, Win-paye, e-paiement et site web www.algerietelecom.dz. Pour toute information ou réclamation, le client peut se rapprocher de son agence commerciale ou appeler le 12, tandis que l’adresse FB@algerietelecom.dz est réservée aux demandes d’informations commerciales et aux clarifications sur les notes et procédures."
+}

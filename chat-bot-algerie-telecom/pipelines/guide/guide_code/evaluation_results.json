@@ -1,0 +1,978 @@
+{
+  "summary": {
+    "total_queries": 63,
+    "recall_at_1": 0.9047619047619048,
+    "recall_at_3": 0.9682539682539683,
+    "recall_at_5": 0.9841269841269841,
+    "mrr": 0.9404761904761905,
+    "avg_time_ms": 111.70997316875155,
+    "max_time_ms": 222.72324562072754,
+    "queries_under_1s": 63,
+    "per_guide_accuracy": {
+      "creation_enquete_pstn_gestion_ordre": 1.0,
+      "creation_nouveau_pack_idoom_fibre": 1.0,
+      "encaissement_factures_payees_bureau_poste": 1.0,
+      "saisie_facture_detaillee": 1.0,
+      "inventaire_ngbss": 1.0,
+      "reactivation_abonne_4g_lte": 1.0,
+      "retour_ressource": 1.0,
+      "gestion_payement_arrangement_echeancier": 1.0,
+      "facture_complementaire_tva_2": 1.0,
+      "ventes_par_lot_v2": 1.0,
+      "edition_facture_duplicata": 1.0,
+      "ligne_temporaire": 1.0,
+      "recharge_bon_commande_complement": 0.8
+    }
+  },
+  "results": [
+    {
+      "question": "Comment créer une demande d'enquête pour une ligne fixe (PSTN) ?",
+      "expected": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre",
+      "expected_guide_id": "creation_enquete_pstn_gestion_ordre",
+      "retrieved": [
+        "creation_enquete_pstn_gestion_ordre",
+        "ligne_temporaire"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 118.12257766723633
+    },
+    {
+      "question": "Quels sont les frais d'accès pour un nouveau Pack IDOOM Fibre ?",
+      "expected": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre",
+      "expected_guide_id": "creation_nouveau_pack_idoom_fibre",
+      "retrieved": [
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 46.94867134094238
+    },
+    {
+      "question": "Comment enregistrer un paiement effectué à la poste sur NGBSS ?",
+      "expected": "Encaissement des factures payées au niveau de bureau de Poste",
+      "expected_guide_id": "encaissement_factures_payees_bureau_poste",
+      "retrieved": [
+        "encaissement_factures_payees_bureau_poste",
+        "gestion_payement_arrangement_echeancier",
+        "recharge_bon_commande_complement",
+        "reactivation_abonne_4g_lte",
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 171.24509811401367
+    },
+    {
+      "question": "Comment extraire la facture détaillée sur NGBSS ?",
+      "expected": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée",
+      "expected_guide_id": "saisie_facture_detaillee",
+      "retrieved": [
+        "saisie_facture_detaillee",
+        "encaissement_factures_payees_bureau_poste",
+        "facture_complementaire_tva_2",
+        "edition_facture_duplicata"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 73.73166084289551
+    },
+    {
+      "question": "Comment distribuer un lot de cartes de recharge vers une ACTEL ?",
+      "expected": "Guide d'Utilisation NGBSS << Inventaire »",
+      "expected_guide_id": "inventaire_ngbss",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "inventaire_ngbss",
+        "recharge_bon_commande_complement",
+        "retour_ressource",
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.5,
+      "time_ms": 165.4987335205078
+    },
+    {
+      "question": "Comment réactiver un abonné 4G LTE pré-désactivé sur NGBSS ?",
+      "expected": "Guide NGBSS Réactivation Abonné 4G LTE",
+      "expected_guide_id": "reactivation_abonne_4g_lte",
+      "retrieved": [
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 27.794599533081055
+    },
+    {
+      "question": "Comment annuler une vente de modem pour un client sur NGBSS ?",
+      "expected": "Guide d'Utilisation NGBSS Retour ressource",
+      "expected_guide_id": "retour_ressource",
+      "retrieved": [
+        "retour_ressource",
+        "ventes_par_lot_v2",
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 95.8707332611084
+    },
+    {
+      "question": "Quelles sont les conditions pour créer un échéancier (AOD) sur NGBSS ?",
+      "expected": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-",
+      "expected_guide_id": "gestion_payement_arrangement_echeancier",
+      "retrieved": [
+        "gestion_payement_arrangement_echeancier"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 74.80430603027344
+    },
+    {
+      "question": "Que faire si l'enquête technique revient avec une réponse négative ?",
+      "expected": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre",
+      "expected_guide_id": "creation_enquete_pstn_gestion_ordre",
+      "retrieved": [
+        "creation_enquete_pstn_gestion_ordre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 54.601192474365234
+    },
+    {
+      "question": "Comment enregistrer une facture complémentaire de TVA 2% sur NGBSS ?",
+      "expected": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%",
+      "expected_guide_id": "facture_complementaire_tva_2",
+      "retrieved": [
+        "facture_complementaire_tva_2",
+        "encaissement_factures_payees_bureau_poste",
+        "edition_facture_duplicata",
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 73.86636734008789
+    },
+    {
+      "question": "Comment transformer des cartes unitaires en lot sur NGBSS ?",
+      "expected": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)",
+      "expected_guide_id": "ventes_par_lot_v2",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "retour_ressource",
+        "inventaire_ngbss",
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 166.0599708557129
+    },
+    {
+      "question": "Comment réimprimer une facture duplicata sur NGBSS ?",
+      "expected": "Guide d'utilisation NGBSS Edition facture duplicata",
+      "expected_guide_id": "edition_facture_duplicata",
+      "retrieved": [
+        "edition_facture_duplicata",
+        "encaissement_factures_payees_bureau_poste",
+        "saisie_facture_detaillee",
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 72.8759765625
+    },
+    {
+      "question": "Comment créer une ligne temporaire pour des élections ?",
+      "expected": "Guide d'Utilisation NGBSS << Ligne temporaire >>",
+      "expected_guide_id": "ligne_temporaire",
+      "retrieved": [
+        "ligne_temporaire"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 55.33885955810547
+    },
+    {
+      "question": "Comment effectuer une recharge par bon de commande pour un membre d'un groupe ?",
+      "expected": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-",
+      "expected_guide_id": "recharge_bon_commande_complement",
+      "retrieved": [
+        "recharge_bon_commande_complement",
+        "ventes_par_lot_v2",
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 98.07419776916504
+    },
+    {
+      "question": "Comment synchroniser l'ONT lors de la création d'un abonnement FTTH ?",
+      "expected": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre",
+      "expected_guide_id": "creation_nouveau_pack_idoom_fibre",
+      "retrieved": [
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 44.950246810913086
+    },
+    {
+      "question": "Quelle description mettre pour un encaissement externe (bureau de poste) ?",
+      "expected": "Encaissement des factures payées au niveau de bureau de Poste",
+      "expected_guide_id": "encaissement_factures_payees_bureau_poste",
+      "retrieved": [
+        "encaissement_factures_payees_bureau_poste"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 27.31776237487793
+    },
+    {
+      "question": "Quelle est la procédure pour ajouter l'offre FADET ?",
+      "expected": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée",
+      "expected_guide_id": "saisie_facture_detaillee",
+      "retrieved": [
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 36.81039810180664
+    },
+    {
+      "question": "Quelle est la procédure pour imprimer une note de transfert de stock ?",
+      "expected": "Guide d'Utilisation NGBSS << Inventaire »",
+      "expected_guide_id": "inventaire_ngbss",
+      "retrieved": [
+        "inventaire_ngbss",
+        "ventes_par_lot_v2",
+        "retour_ressource"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 107.26404190063477
+    },
+    {
+      "question": "Quel est le coût de la réactivation d'un abonnement 4G LTE ?",
+      "expected": "Guide NGBSS Réactivation Abonné 4G LTE",
+      "expected_guide_id": "reactivation_abonne_4g_lte",
+      "retrieved": [
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 27.8928279876709
+    },
+    {
+      "question": "Quelle est la procédure pour rembourser un non-client après un retour de marchandise ?",
+      "expected": "Guide d'Utilisation NGBSS Retour ressource",
+      "expected_guide_id": "retour_ressource",
+      "retrieved": [
+        "retour_ressource"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 47.74641990661621
+    },
+    {
+      "question": "Comment valider une demande d'arrangement de paiement ?",
+      "expected": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-",
+      "expected_guide_id": "gestion_payement_arrangement_echeancier",
+      "retrieved": [
+        "gestion_payement_arrangement_echeancier",
+        "facture_complementaire_tva_2",
+        "edition_facture_duplicata",
+        "encaissement_factures_payees_bureau_poste",
+        "recharge_bon_commande_complement"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 165.73238372802734
+    },
+    {
+      "question": "Comment utiliser la fonction Redispatch dans la gestion d'ordre ?",
+      "expected": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre",
+      "expected_guide_id": "creation_enquete_pstn_gestion_ordre",
+      "retrieved": [
+        "creation_enquete_pstn_gestion_ordre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 55.84430694580078
+    },
+    {
+      "question": "Quelle est la procédure pour forcer un débit (ajustement) sur un compte client ?",
+      "expected": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%",
+      "expected_guide_id": "facture_complementaire_tva_2",
+      "retrieved": [
+        "facture_complementaire_tva_2",
+        "gestion_payement_arrangement_echeancier",
+        "ligne_temporaire",
+        "retour_ressource",
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 222.72324562072754
+    },
+    {
+      "question": "Quelle est la procédure pour vendre des cartes à un Cybercafé (KMS) ?",
+      "expected": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)",
+      "expected_guide_id": "ventes_par_lot_v2",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "retour_ressource",
+        "inventaire_ngbss",
+        "recharge_bon_commande_complement"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 135.96701622009277
+    },
+    {
+      "question": "Où trouver le lien de téléchargement d'une facture réimprimée ?",
+      "expected": "Guide d'utilisation NGBSS Edition facture duplicata",
+      "expected_guide_id": "edition_facture_duplicata",
+      "retrieved": [
+        "edition_facture_duplicata",
+        "saisie_facture_detaillee",
+        "facture_complementaire_tva_2",
+        "encaissement_factures_payees_bureau_poste"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 74.005126953125
+    },
+    {
+      "question": "Quelle est la procédure pour prolonger la durée d'une ligne temporaire ?",
+      "expected": "Guide d'Utilisation NGBSS << Ligne temporaire >>",
+      "expected_guide_id": "ligne_temporaire",
+      "retrieved": [
+        "ligne_temporaire"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 55.14883995056152
+    },
+    {
+      "question": "Quelle est la procédure si le compte groupe est en « Paiement complet » ?",
+      "expected": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-",
+      "expected_guide_id": "recharge_bon_commande_complement",
+      "retrieved": [
+        "recharge_bon_commande_complement",
+        "gestion_payement_arrangement_echeancier",
+        "encaissement_factures_payees_bureau_poste",
+        "edition_facture_duplicata",
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 166.05830192565918
+    },
+    {
+      "question": "Quelle est la procédure pour ajouter l'offre internet FTTX après la VOIP ?",
+      "expected": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre",
+      "expected_guide_id": "creation_nouveau_pack_idoom_fibre",
+      "retrieved": [
+        "creation_nouveau_pack_idoom_fibre",
+        "creation_enquete_pstn_gestion_ordre",
+        "ligne_temporaire",
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 212.88561820983887
+    },
+    {
+      "question": "Comment finaliser un paiement après la soumission ?",
+      "expected": "Encaissement des factures payées au niveau de bureau de Poste",
+      "expected_guide_id": "encaissement_factures_payees_bureau_poste",
+      "retrieved": [
+        "encaissement_factures_payees_bureau_poste",
+        "recharge_bon_commande_complement",
+        "edition_facture_duplicata",
+        "gestion_payement_arrangement_echeancier",
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 163.63811492919922
+    },
+    {
+      "question": "Comment consulter l'historique des appels (CDR) pour un client ?",
+      "expected": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée",
+      "expected_guide_id": "saisie_facture_detaillee",
+      "retrieved": [
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 38.43235969543457
+    },
+    {
+      "question": "Comment réceptionner des ressources envoyées par le magasin ?",
+      "expected": "Guide d'Utilisation NGBSS << Inventaire »",
+      "expected_guide_id": "inventaire_ngbss",
+      "retrieved": [
+        "inventaire_ngbss",
+        "ventes_par_lot_v2",
+        "retour_ressource",
+        "creation_nouveau_pack_idoom_fibre",
+        "creation_enquete_pstn_gestion_ordre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 212.6603126525879
+    },
+    {
+      "question": "Comment encaisser les frais de réactivation 4G LTE ?",
+      "expected": "Guide NGBSS Réactivation Abonné 4G LTE",
+      "expected_guide_id": "reactivation_abonne_4g_lte",
+      "retrieved": [
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 28.13124656677246
+    },
+    {
+      "question": "Que faire si la ressource retournée est défectueuse ?",
+      "expected": "Guide d'Utilisation NGBSS Retour ressource",
+      "expected_guide_id": "retour_ressource",
+      "retrieved": [
+        "retour_ressource",
+        "inventaire_ngbss",
+        "ventes_par_lot_v2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 105.6363582611084
+    },
+    {
+      "question": "Quel est le montant minimum du premier versement pour un échéancier ?",
+      "expected": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-",
+      "expected_guide_id": "gestion_payement_arrangement_echeancier",
+      "retrieved": [
+        "gestion_payement_arrangement_echeancier"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 73.81415367126465
+    },
+    {
+      "question": "Où consulter les ordres d'enquêtes en attente ?",
+      "expected": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre",
+      "expected_guide_id": "creation_enquete_pstn_gestion_ordre",
+      "retrieved": [
+        "creation_enquete_pstn_gestion_ordre",
+        "ligne_temporaire",
+        "inventaire_ngbss",
+        "gestion_payement_arrangement_echeancier",
+        "retour_ressource"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 212.86630630493164
+    },
+    {
+      "question": "Comment encaisser une facture complémentaire après ajustement ?",
+      "expected": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%",
+      "expected_guide_id": "facture_complementaire_tva_2",
+      "retrieved": [
+        "facture_complementaire_tva_2",
+        "encaissement_factures_payees_bureau_poste",
+        "saisie_facture_detaillee",
+        "edition_facture_duplicata"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 74.60975646972656
+    },
+    {
+      "question": "Comment importer un fichier de numéros de série pour une vente par lot ?",
+      "expected": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)",
+      "expected_guide_id": "ventes_par_lot_v2",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "inventaire_ngbss",
+        "retour_ressource"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 108.0935001373291
+    },
+    {
+      "question": "Quelles sont les étapes pour éditer un duplicata de facture ?",
+      "expected": "Guide d'utilisation NGBSS Edition facture duplicata",
+      "expected_guide_id": "edition_facture_duplicata",
+      "retrieved": [
+        "edition_facture_duplicata",
+        "saisie_facture_detaillee",
+        "encaissement_factures_payees_bureau_poste",
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 74.91493225097656
+    },
+    {
+      "question": "Comment transformer une ligne temporaire en ligne permanente ?",
+      "expected": "Guide d'Utilisation NGBSS << Ligne temporaire >>",
+      "expected_guide_id": "ligne_temporaire",
+      "retrieved": [
+        "ligne_temporaire"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 55.57537078857422
+    },
+    {
+      "question": "Comment changer le compte de paiement lors d'une vente de ressource NGBSS ?",
+      "expected": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-",
+      "expected_guide_id": "recharge_bon_commande_complement",
+      "retrieved": [
+        "retour_ressource",
+        "ventes_par_lot_v2",
+        "encaissement_factures_payees_bureau_poste",
+        "gestion_payement_arrangement_echeancier",
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.16666666666666666,
+      "time_ms": 216.17674827575684
+    },
+    {
+      "question": "Faut-il ajouter une offre supplémentaire pour le FTTH ? (Non, offre primaire uniquement)",
+      "expected": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre",
+      "expected_guide_id": "creation_nouveau_pack_idoom_fibre",
+      "retrieved": [
+        "creation_nouveau_pack_idoom_fibre"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 49.172163009643555
+    },
+    {
+      "question": "Où trouver l'option pour encaisser une facture via MSISDN ?",
+      "expected": "Encaissement des factures payées au niveau de bureau de Poste",
+      "expected_guide_id": "encaissement_factures_payees_bureau_poste",
+      "retrieved": [
+        "encaissement_factures_payees_bureau_poste",
+        "saisie_facture_detaillee",
+        "facture_complementaire_tva_2",
+        "edition_facture_duplicata"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 75.4384994506836
+    },
+    {
+      "question": "Quel est le prix de l'option FADET sur demande ?",
+      "expected": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée",
+      "expected_guide_id": "saisie_facture_detaillee",
+      "retrieved": [
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 38.35797309875488
+    },
+    {
+      "question": "Comment utiliser la méthode 'Par rang' pour sélectionner des cartes ?",
+      "expected": "Guide d'Utilisation NGBSS << Inventaire »",
+      "expected_guide_id": "inventaire_ngbss",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "inventaire_ngbss",
+        "recharge_bon_commande_complement",
+        "creation_nouveau_pack_idoom_fibre",
+        "retour_ressource"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.5,
+      "time_ms": 165.53235054016113
+    },
+    {
+      "question": "Quelle est l'étape suivant la soumission de la réactivation ?",
+      "expected": "Guide NGBSS Réactivation Abonné 4G LTE",
+      "expected_guide_id": "reactivation_abonne_4g_lte",
+      "retrieved": [
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 30.29179573059082
+    },
+    {
+      "question": "Quels sont les prérequis pour effectuer un retour ressource ?",
+      "expected": "Guide d'Utilisation NGBSS Retour ressource",
+      "expected_guide_id": "retour_ressource",
+      "retrieved": [
+        "retour_ressource",
+        "inventaire_ngbss",
+        "ventes_par_lot_v2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 107.5291633605957
+    },
+    {
+      "question": "Comment encaisser une échéance d'un arrangement de paiement ?",
+      "expected": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-",
+      "expected_guide_id": "gestion_payement_arrangement_echeancier",
+      "retrieved": [
+        "gestion_payement_arrangement_echeancier",
+        "encaissement_factures_payees_bureau_poste",
+        "reactivation_abonne_4g_lte",
+        "edition_facture_duplicata",
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 164.4601821899414
+    },
+    {
+      "question": "Comment modifier l'adresse d'installation suite à un rejet OSS ?",
+      "expected": "Guide d'utilisation NGBSS Création enquête PSTN et la Gestion d'ordre",
+      "expected_guide_id": "creation_enquete_pstn_gestion_ordre",
+      "retrieved": [
+        "creation_enquete_pstn_gestion_ordre",
+        "ligne_temporaire",
+        "creation_nouveau_pack_idoom_fibre",
+        "retour_ressource",
+        "gestion_payement_arrangement_echeancier"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 212.2476100921631
+    },
+    {
+      "question": "Quel commentaire ajouter lors de l'enregistrement de la TVA 2% ?",
+      "expected": "Guide d'utilisation NGBSS - Enregistrement et encaissement Facture complémentaire TVA 2%",
+      "expected_guide_id": "facture_complementaire_tva_2",
+      "retrieved": [
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 38.59090805053711
+    },
+    {
+      "question": "Quel est le montant maximum pour un paiement en espèce lors d'une vente par lot ?",
+      "expected": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)",
+      "expected_guide_id": "ventes_par_lot_v2",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "gestion_payement_arrangement_echeancier",
+        "retour_ressource",
+        "encaissement_factures_payees_bureau_poste"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 215.09671211242676
+    },
+    {
+      "question": "Comment vérifier si une demande de duplicata a réussi ?",
+      "expected": "Guide d'utilisation NGBSS Edition facture duplicata",
+      "expected_guide_id": "edition_facture_duplicata",
+      "retrieved": [
+        "edition_facture_duplicata"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 27.904510498046875
+    },
+    {
+      "question": "Quelles sont les catégories de clients éligibles aux lignes temporaires ?",
+      "expected": "Guide d'Utilisation NGBSS << Ligne temporaire >>",
+      "expected_guide_id": "ligne_temporaire",
+      "retrieved": [
+        "ligne_temporaire",
+        "ventes_par_lot_v2",
+        "retour_ressource",
+        "creation_enquete_pstn_gestion_ordre",
+        "gestion_payement_arrangement_echeancier"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 216.16268157958984
+    },
+    {
+      "question": "Peut-on utiliser un bon de commande pour un abonné prépayé dans un groupe ?",
+      "expected": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-",
+      "expected_guide_id": "recharge_bon_commande_complement",
+      "retrieved": [
+        "recharge_bon_commande_complement",
+        "saisie_facture_detaillee",
+        "ligne_temporaire",
+        "reactivation_abonne_4g_lte",
+        "retour_ressource"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 213.8357162475586
+    },
+    {
+      "question": "Quand peut-on effectuer la première recharge FTTH ?",
+      "expected": "Guide d'Utilisation NGBSS Création nouveau Pack IDOOM Fibre",
+      "expected_guide_id": "creation_nouveau_pack_idoom_fibre",
+      "retrieved": [
+        "recharge_bon_commande_complement",
+        "creation_nouveau_pack_idoom_fibre",
+        "ventes_par_lot_v2"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.5,
+      "time_ms": 99.90096092224121
+    },
+    {
+      "question": "Comment valider le paiement d'une facture détaillée en espèces ?",
+      "expected": "Guide d'utilisation NGBSS - La Saisie de la facture détaillée",
+      "expected_guide_id": "saisie_facture_detaillee",
+      "retrieved": [
+        "saisie_facture_detaillee",
+        "edition_facture_duplicata",
+        "encaissement_factures_payees_bureau_poste",
+        "gestion_payement_arrangement_echeancier",
+        "facture_complementaire_tva_2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 186.62500381469727
+    },
+    {
+      "question": "Comment attacher la note signée dans NGBSS ?",
+      "expected": "Guide d'Utilisation NGBSS << Inventaire »",
+      "expected_guide_id": "inventaire_ngbss",
+      "retrieved": [
+        "inventaire_ngbss",
+        "retour_ressource",
+        "encaissement_factures_payees_bureau_poste",
+        "ligne_temporaire",
+        "reactivation_abonne_4g_lte"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 214.37978744506836
+    },
+    {
+      "question": "Où vérifier que l'abonné est bien repassé à l'état Actif ?",
+      "expected": "Guide NGBSS Réactivation Abonné 4G LTE",
+      "expected_guide_id": "reactivation_abonne_4g_lte",
+      "retrieved": [
+        "retour_ressource",
+        "creation_nouveau_pack_idoom_fibre",
+        "recharge_bon_commande_complement",
+        "reactivation_abonne_4g_lte",
+        "creation_enquete_pstn_gestion_ordre"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": true,
+      "mrr": 0.25,
+      "time_ms": 214.247465133667
+    },
+    {
+      "question": "Comment trouver une ressource vendue pour l'annuler ?",
+      "expected": "Guide d'Utilisation NGBSS Retour ressource",
+      "expected_guide_id": "retour_ressource",
+      "retrieved": [
+        "retour_ressource",
+        "inventaire_ngbss",
+        "ventes_par_lot_v2"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 107.64575004577637
+    },
+    {
+      "question": "Quelle est la différence entre AOD et Promesse de paiement ?",
+      "expected": "Guide d'utilisation NGBSS - Gestion de Payement Arrangement -Echéancier-",
+      "expected_guide_id": "gestion_payement_arrangement_echeancier",
+      "retrieved": [
+        "gestion_payement_arrangement_echeancier",
+        "reactivation_abonne_4g_lte",
+        "recharge_bon_commande_complement",
+        "encaissement_factures_payees_bureau_poste"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 164.7322177886963
+    },
+    {
+      "question": "Comment changer l'article d'une ressource Voucher Card ?",
+      "expected": "Guide d'Utilisation NGBSS - Ventes par lot (Version 2)",
+      "expected_guide_id": "ventes_par_lot_v2",
+      "retrieved": [
+        "ventes_par_lot_v2",
+        "retour_ressource",
+        "inventaire_ngbss"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 109.130859375
+    },
+    {
+      "question": "Peut-on réimprimer une facture pour un client postpayé ?",
+      "expected": "Guide d'utilisation NGBSS Edition facture duplicata",
+      "expected_guide_id": "edition_facture_duplicata",
+      "retrieved": [
+        "edition_facture_duplicata",
+        "encaissement_factures_payees_bureau_poste",
+        "facture_complementaire_tva_2",
+        "saisie_facture_detaillee"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 75.5164623260498
+    },
+    {
+      "question": "Comment définir le nombre de cycles pour une ligne temporaire ?",
+      "expected": "Guide d'Utilisation NGBSS << Ligne temporaire >>",
+      "expected_guide_id": "ligne_temporaire",
+      "retrieved": [
+        "ligne_temporaire"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 55.361270904541016
+    },
+    {
+      "question": "Comment sélectionner le compte spécifique d'un abonné lors de la facturation ?",
+      "expected": "Guide d'Utilisation NGBSS Recharge par Bon de commande - Complément-",
+      "expected_guide_id": "recharge_bon_commande_complement",
+      "retrieved": [
+        "saisie_facture_detaillee",
+        "facture_complementaire_tva_2",
+        "recharge_bon_commande_complement",
+        "edition_facture_duplicata",
+        "gestion_payement_arrangement_echeancier"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.3333333333333333,
+      "time_ms": 215.83962440490723
+    }
+  ]
+}

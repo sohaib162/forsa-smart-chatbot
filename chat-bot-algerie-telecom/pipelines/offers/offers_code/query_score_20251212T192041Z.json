@@ -1,0 +1,1107 @@
+{
+  "summary": {
+    "total_queries": 90,
+    "avg_query_time_ms": 2.7815553877088757,
+    "max_query_time_ms": 4.212141036987305,
+    "min_query_time_ms": 2.005338668823242,
+    "queries_under_0.2s": 90,
+    "hit@1": 0.7,
+    "hit@3": 0.7222222222222222,
+    "hit@5": 0.7222222222222222,
+    "mrr": 0.7092592592592593
+  },
+  "results": [
+    {
+      "query": "Je suis abonné Idoom Fibre 120 Mbps, comment je peux activer l’offre WEEK-END BOOST pour le week-end ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0274391174316406
+    },
+    {
+      "query": "أنا زبون Idoom Fibre 120 ميغابت/ثانية، كيفاش نقدر نفعل عرض WEEK-END BOOST غير لعطلة الأسبوع؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.007650375366211
+    },
+    {
+      "query": "Je suis sur Idoom Fibre 120 Mbps, كيف نفعل WEEK-END BOOST باش نطلع الديبي غير للويكاند ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0754337310791016
+    },
+    {
+      "query": "Est-ce que l’offre WEEK-END BOOST fonctionne seulement du vendredi soir au samedi soir ou aussi le dimanche ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.1364688873291016
+    },
+    {
+      "query": "عرض WEEK-END BOOST يخدم غير من الجمعة للعشية حتى للسبت ولا حتى الأحد داخل في المدة ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.2987594604492188
+    },
+    {
+      "query": "Si j’active WEEK-END BOOST vendredi à 22h, حتى واش من وقت يبقى الديبي المرتفع مفعل بالضبط ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.4132728576660156
+    },
+    {
+      "query": "Je suis une petite PME, je cherche une offre fibre pro avec adresse IP fixe incluse, est-ce que IDOOM Medium Business convient ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.1485557556152344
+    },
+    {
+      "query": "أنا مؤسسة صغيرة ونحتاج عرض ألياف بصرية للمحترفين مع IP ثابتة، هل عرض IDOOM Medium Business يناسبني ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0279159545898438
+    },
+    {
+      "query": "Pour ma PME, je veux un débit fibre stable avec IP fixe, واش IDOOM Medium Business هي العرض المناسب ولا كاين أحسن ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.306150436401367
+    },
+    {
+      "query": "Quels sont les débits disponibles avec la nouvelle offre IDOOM Medium Business en fibre optique ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0225048065185547
+    },
+    {
+      "query": "ما هي تدفقات الإنترنت (السرعات) المتوفرة في عرض IDOOM Medium Business عبر الألياف البصرية ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.445220947265625
+    },
+    {
+      "query": "Je suis en ADSL pro, est-ce que je peux migrer facilement vers la fibre avec IDOOM Medium Business en mode modernisation ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0193328857421875
+    },
+    {
+      "query": "Je suis un petit commerçant, quels sont les nouveaux tarifs MOOHTARIF pour Idoom ADSL 15 Mbps et 20 Mbps ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.5267601013183594
+    },
+    {
+      "query": "أنا تاجر صغير، حاب نعرف الأسعار الجديدة لعرض MOOHTARIF في ADSL 15 ميغابت و 20 ميغابت ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.005338668823242
+    },
+    {
+      "query": "Pour l’offre MOOHTARIF en ADSL, combien je paie par mois pour 15 Mbps et 20 Mbps بالضبط ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0748844146728516
+    },
+    {
+      "query": "Pour la fibre MOOHTARIF, quel est le prix mensuel pour un débit de 120 Mbps ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.3333333333333333,
+      "time_ms": 2.0875930786132812
+    },
+    {
+      "query": "في عرض MOOHTARIF للألياف البصرية، شحال حق الإشتراك الشهري إذا اخترت 120 ميغابت/ثانية ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.337932586669922
+    },
+    {
+      "query": "Je suis déjà en MOOHTARIF ADSL, est-ce que la nouvelle tarification s’applique automatiquement ou je dois faire une demande ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.026723861694336
+    },
+    {
+      "query": "Je suis commerçant mais je n’ai pas de justificatif d’adresse à mon nom, est-ce que l’offre MOOHTARIF LOCATAIRE est faite pour moi ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.0127296447753906
+    },
+    {
+      "query": "أنا تاجر ونسكن في محل كرائي وما عنديش وصل كراء باسمي، هل عرض MOOHTARIF LOCATAIRE مخصص للحالات كيما أنا ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.476858139038086
+    },
+    {
+      "query": "Je suis commerçant locataire بدون فاتورة في اسمي، هل أقدر نشترك في MOOHTARIF LOCATAIRE ولا لازم وثائق إضافية ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.0127296447753906
+    },
+    {
+      "query": "Pour la fibre MOOHTARIF LOCATAIRE, combien coûte un débit de 60 Mbps par mois ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.187490463256836
+    },
+    {
+      "query": "في عرض الألياف MOOHTARIF LOCATAIRE، شحال السعر الشهري لسرعة 60 ميغابت/ثانية ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.539562225341797
+    },
+    {
+      "query": "Est-ce que l’upload à 30 % du download est aussi valable pour les clients FTTH MOOHTARIF LOCATAIRE à partir de 30 Mbps ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/136/2025 | AT/DG/DCMI/DCGP/CQC/BI/V3.0/AR/136/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0183792114257812
+    },
+    {
+      "query": "Je suis abonné Idoom Fibre résidentiel, comment je peux parrainer un ami via l’application My Idoom ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.027677536010742
+    },
+    {
+      "query": "أنا زبون Idoom Fibre منزلي، كيف نقدر نبرونسي صاحبِي باستخدام تطبيق My Idoom ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0188560485839844
+    },
+    {
+      "query": "Je veux parrainer mon cousin à la fibre via My Idoom, شنو هي الخطوات بالتفصيل داخل التطبيق ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0177364349365234
+    },
+    {
+      "query": "Quels sont les avantages pour le parrain dans cette nouvelle offre de parrainage My Idoom ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0227432250976562
+    },
+    {
+      "query": "شنو الربح اللي يجيني أنا كـ parrain كي نجيب زبون جديد عبر My Idoom ؟ أيام مجانية ولا زيادة في الديبي ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.2155513763427734
+    },
+    {
+      "query": "Combien de jours de bonus à 1,5 Gbps je reçois si mon filleul active sa ligne fibre correctement depuis My Idoom ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.2687911987304688
+    },
+    {
+      "query": "Je suis locataire sans facture à mon nom, est-ce que je peux prendre l’offre Idoom fibre Gamers Locataire ?",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.005338668823242
+    },
+    {
+      "query": "أنا كاري وما عنديش فاتورة باسمِي، نقدر نشترك في عرض Idoom Fibre Gamers Locataire ولا لا ؟",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.576993942260742
+    },
+    {
+      "query": "Je suis gamer et locataire, واش عرض Gamers Locataire يناسبني إذا ما عنديش إثبات سكن على اسمي ؟",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0155906677246094
+    },
+    {
+      "query": "Quels sont les débits proposés avec la nouvelle offre Idoom fibre Gamers Locataire pour les joueurs en ligne ?",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/180/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/182/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.011941909790039
+    },
+    {
+      "query": "ما هي السرعات المتوفرة في عرض Idoom Fibre Gamers Locataire للـ gamers ؟ 60 Mbps, 120 Mbps, أكثر ؟",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.1337738037109375
+    },
+    {
+      "query": "Je joue beaucoup en ligne sur PS5, أي palier Gamers Locataire تنصحوني به باش ما يكونش lag ؟",
+      "expected_offer": "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0203590393066406
+    },
+    {
+      "query": "Je suis gamer sur PC, quelle est la différence entre la nouvelle offre Idoom Fibre Gamers et l’offre résidentielle classique ?",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025",
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 0.5,
+      "time_ms": 3.122091293334961
+    },
+    {
+      "query": "أنا لاعب على الحاسوب، ما الفرق بين عرض Idoom Fibre Gamers الجديد والعرض المنزلي العادي ؟",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.129243850708008
+    },
+    {
+      "query": "Pour un usage gaming + streaming, est-ce que la nouvelle offre Gamers est vraiment mieux que la fibre résidentielle classique ؟",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0110607147216797
+    },
+    {
+      "query": "Quels sont les nouveaux débits proposés dans la Nouvelle Offre Idoom Fibre Gamers ?",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0122528076171875
+    },
+    {
+      "query": "شنو هما الديبيات المتوفرة في العرض الجديد Idoom Fibre Gamers ؟ 60, 120, 240, 600 Mbps, 1 Gbps ؟",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.0537376403808594
+    },
+    {
+      "query": "Je suis déjà en ancienne offre Gamers, est-ce que la bascule vers la nouvelle grille se fait automatiquement ou je dois la demander ؟",
+      "expected_offer": "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCIM/DCGP/CQC/SR/V5.0/FR/160/2025 | AT/DG/DCIM/DCGP/CQC/BI/V5.0/AR/160/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.536296844482422
+    },
+    {
+      "query": "Je suis client résidentiel ADSL 10 Mbps, quel sera mon nouveau tarif avec la nouvelle offre résidentielle Idoom ADSL et VDSL ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.5243759155273438
+    },
+    {
+      "query": "أنا زبون ADSL 10 ميغابت منزلي، مع العرض السكني الجديد Idoom ADSL/VDSL شحال راح يولي السعر الشهري ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.5974979400634766
+    },
+    {
+      "query": "Combien coûte maintenant l’abonnement Idoom Fibre 120 Mbps pour un client résidentiel avec la nouvelle grille ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI//DCGP/CQC/SR/V3.0/FR/161/2025 | AT/DG/DCMI//DCGP/CQC/SR/V3.0/AR/161/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0183792114257812
+    },
+    {
+      "query": "Quels sont les nouveaux paliers de débit Idoom Fibre résidentielle dans cette nouvelle offre (60, 120, 240, 600 Mbps, 1 Gbps…) ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.081798553466797
+    },
+    {
+      "query": "هل سيتم تحويل زبائن Idoom Fibre الحاليين تلقائياً إلى السرعات الجديدة في العرض السكني أم يجب تقديم طلب ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.3919811248779297
+    },
+    {
+      "query": "Je veux savoir si les paliers VDSL 50 et 100 Mbps sont inclus dans la nouvelle offre résidentielle et à quel prix.",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/RA/6.0/FR/159/2025 | AT/DG/DCMI/DCGP/CQC/RA/6.0/AR/159/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0221939086914062
+    },
+    {
+      "query": "Si je paie mon abonnement Idoom Fibre 1 mois par carte Eddahabia, combien de jours gratuits je reçois avec l’offre de paiement électronique ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.116130828857422
+    },
+    {
+      "query": "إذا خلصت شهر واحد من Idoom Fibre عبر البطاقة الذهبية، شحال من يوم مجاني يعطوني في عرض الدفع الإلكتروني الجديد ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+        "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.0127296447753906
+    },
+    {
+      "query": "Pour un paiement en ligne de 6 mois de VDSL, combien de jours bonus de connexion j’obtiens exactement ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.046751022338867
+    },
+    {
+      "query": "Est-ce que ces nouveaux avantages sur le paiement électronique s’appliquent aussi aux locataires et aux clients conventionnés ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.3026466369628906
+    },
+    {
+      "query": "العرض الجديد تاع الدفع الإلكتروني يهم غير الإنترنت ADSL/VDSL/Fibre ولا حتى الفاتورة الهاتفية الثابتة ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.011941909790039
+    },
+    {
+      "query": "Je veux optimiser mon budget internet, est-ce plus intéressant de payer 1, 3, 6 ou 12 mois en électronique avec les bonus ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.2193660736083984
+    },
+    {
+      "query": "Je suis client Idoom Fibre avec un ancien ONT Wi-Fi 4, combien va me coûter le nouveau ONT GPON Wi-Fi 6 si je le remplace ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.6902427673339844
+    },
+    {
+      "query": "أنا عندي مودم ONT قديم Wi-Fi 4، شحال يخرج لي ثمن ONT GPON Wi-Fi 6 الجديد إذا نبدلو ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0155181884765625
+    },
+    {
+      "query": "Si je ramène mon ancien ONT Wi-Fi 4 à l’agence, est-ce que le nouveau GPON Wi-Fi 6 sera moins cher et quelles sont les conditions ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0188560485839844
+    },
+    {
+      "query": "Quelles sont les conditions d’éligibilité pour acheter un ONT XGS-PON Wi-Fi 6 sur ma ligne Idoom Fibre ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.1157264709472656
+    },
+    {
+      "query": "ما الفرق في السرعات بين GPON و XGS-PON للزبون المنزلي اللي يحب يطلع فوق 1 Gbps ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.5131702423095703
+    },
+    {
+      "query": "Je veux préparer ma maison pour des débits supérieurs à 1 Gbps, est-ce que l’ONT XGS-PON Wi-Fi 6 est recommandé dans ce cas ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/190/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/190/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.5893917083740234
+    },
+    {
+      "query": "Pourquoi il y a un montant \"droit de timbre\" en plus sur ma facture Algérie Télécom payée en espèces ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.3217201232910156
+    },
+    {
+      "query": "علاش كاين مبلغ إضافي باسم حق الطابع الجبائي فوق الفاتورة تاع Algérie Télécom كي نخلص كاش ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.018617630004883
+    },
+    {
+      "query": "Comment est calculé le droit de timbre si je paie 2 000 DA en espèces au guichet pour ma facture internet ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0989646911621094
+    },
+    {
+      "query": "Est-ce que le timbre fiscal s’applique aussi si je paie par carte Eddahabia ou seulement quand je paie en cash ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0908584594726562
+    },
+    {
+      "query": "كيفاش نقدر نتفادى دفع حق الطابع الجبائي على فواتير Algérie Télécom ؟ واش الحل عن طريق الدفع الإلكتروني ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.06756591796875
+    },
+    {
+      "query": "Où est-ce que je peux voir le détail du montant du droit de timbre fiscal sur mon reçu ou mon espace client ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/140/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/140/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.6824474334716797
+    },
+    {
+      "query": "Je suis locataire sans facture à mon nom, est-ce que je peux souscrire à la nouvelle offre résidentielle LOCATAIRE Idoom Fibre ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/180/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/182/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0999183654785156
+    },
+    {
+      "query": "أنا كاري وما عنديش فاتورة باسمِي، هل نقدر نشترك في العرض السكني الجديد Idoom Fibre LOCATAIRE ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025",
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.0270347595214844
+    },
+    {
+      "query": "Quels sont les débits et tarifs proposés pour la fibre locataire dans la nouvelle offre résidentielle LOCATAIRE Idoom Fibre ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/180/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/182/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.025054931640625
+    },
+    {
+      "query": "Combien coûte l’abonnement FTTH 60 Mbps pour locataire dans cette nouvelle offre et est-ce que la téléphonie est incluse ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0786991119384766
+    },
+    {
+      "query": "هل يوجد التزام 12 شهر أيضاً في عرض LOCATAIRE Idoom Fibre مثل العرض السكني العادي ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/133/2024",
+        "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/195/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/195/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.021240234375
+    },
+    {
+      "query": "Je suis déjà en ancienne offre locataire 30 Mbps, vers quel nouveau palier je serai migré automatiquement ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/4.0/FR/160/2025 | AT/DG/DCMI/DCGP/CQC/BI/4.0/AR/160/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.013683319091797
+    },
+    {
+      "query": "Je suis en Idoom ADSL résidentiel, comment profiter de la nouvelle offre de modernisation vers Idoom Fibre ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0193328857421875
+    },
+    {
+      "query": "أنا زبون ADSL منزلي، كيفاش نقدر نبدل لعرض Idoom Fibre عبر عرض العصرنة الجديد ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.444028854370117
+    },
+    {
+      "query": "Quelles sont les conditions à remplir pour basculer de l’ADSL ou VDSL vers Idoom Fibre sans payer trop de frais ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.263711929321289
+    },
+    {
+      "query": "Si je rends mon modem 4G LTE en bon état, est-ce que le basculement vers Idoom Fibre 60 Mbps est vraiment à 0 DA ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.019094467163086
+    },
+    {
+      "query": "شنو مصير الأيام المتبقية في اشتراك ADSL القديم كي ننتقل إلى عرض الألياف Idoom Fibre عبر العصرنة ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.6754608154296875
+    },
+    {
+      "query": "Est-ce que je peux directement demander un débit de 1 Gbps lors de la modernisation ou il y a des paliers imposés ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/165/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/165/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.0188560485839844
+    },
+    {
+      "query": "Je suis client Moohtarif en ADSL, comment profiter de la Nouvelle Offre Modernisation Clients MOOHTARIF vers la fibre ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.020120620727539
+    },
+    {
+      "query": "أنا زبون MOOHTARIF في ADSL، كيف نقدر نستفيد من عرض العصرنة الجديد نحو الألياف البصرية ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V3.0/FR/135/2025 | AT/DG/DCMI/DCGP/CQC/SR/V3/AR/135/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 2.676725387573242
+    },
+    {
+      "query": "Dans l’offre de modernisation MOOHTARIF, à partir de quel débit fibre les frais d’installation et l’ONT sont gratuits ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0417442321777344
+    },
+    {
+      "query": "Si je choisis 15 Mbps en fibre Moohtarif, combien dois-je payer en plusieurs mensualités pour le pack de modernisation ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.112316131591797
+    },
+    {
+      "query": "هل من الضروري تسديد كل الديون على الهاتف الثابت والإنترنت قبل الاستفادة من عرض العصرنة MOOHTARIF ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "mrr": 0.0,
+      "time_ms": 3.1054019927978516
+    },
+    {
+      "query": "Les jours restants sur mon abonnement MOOHTARIF ADSL sont-ils convertis ou perdus quand je passe à la fibre ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/SR/V1.0/FR/137/2024"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0241012573242188
+    },
+    {
+      "query": "Quels sont exactement les avantages de la Nouvelle Offre IDOOM 4G LTE Sans engagement ?",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.3970603942871094
+    },
+    {
+      "query": "ما هي المزايا الرئيسية لعرض IDOOM 4G LTE بدون التزام ؟ حجم الإنترنت، الصلاحية، المكالمات… ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 2.9566287994384766
+    },
+    {
+      "query": "Le modem 4G LTE est-il vraiment offert pour la nouvelle offre Idoom 4G LTE Data & Voix sans engagement, ou il y a des conditions spéciales ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.030061721801758
+    },
+    {
+      "query": "Je cherche une offre 4G LTE sans engagement avec beaucoup de data pour le télétravail, est-ce que cette nouvelle offre est adaptée ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.015756607055664
+    },
+    {
+      "query": "هل يمكنني استعمال عرض IDOOM 4G LTE Sans engagement كحل احتياطي للإنترنت المنزلي إذا قطعت عليا الألياف ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 3.0372142791748047
+    },
+    {
+      "query": "Si je consomme tout mon volume 1 To sur IDOOM 4G LTE Sans engagement, est-ce que le débit est réduit ou je dois recharger ؟",
+      "expected_offer": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025",
+      "retrieved_offers": [
+        "AT/DG/DCMI/DCGP/CQC/BI/V2.0/FR/191/2025 | AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/191/2025"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "mrr": 1.0,
+      "time_ms": 4.212141036987305
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/2.0/FR/187/2025 | AT/DG/DCMI/DCGP/CQC/BI/2.0/AR/187/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_medium_business",
+  "technology": [
+    "fibre_optique",
+    "voip"
+  ],
+  "customer_segment": [
+    "startup",
+    "profession_liberale",
+    "artisan",
+    "pme",
+    "pmi",
+    "tpe",
+    "association",
+    "hypermarches"
+  ],
+  "commitment_type": "12_month_commitment",
+  "usage_focus": [
+    "internet",
+    "fixed_voice",
+    "business_connectivity"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد IDOOM Medium Business لزبائن الجدد والعصرنة نحو Idoom fibre",
+    "title_fr": "Nouvelle offre IDOOM Medium Business pour nouvelle acquisition et Modernisation",
+    "company": "Algérie Télécom",
+    "version": "2.0",
+    "effective_date": "2025-09-28"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد IDOOM Medium Business",
+    "name_fr": "IDOOM Medium Business",
+    "description_ar": "تم تصميم العرض الجديد IDOOM Medium Business لفائدة المهنيين والمؤسسات المتوسطة، حيث يوفر تدفقات عالية على الألياف البصرية، اتصالاً موثوقًا وخدمات مهنية تتناسب مع احتياجات البنى الاقتصادية التي تعيش تحوّلاً رقميًا. كما تم استحداث قاعدة تسيير جديدة خاصة بترقية الزبائن المهنيين من Idoom ADSL وIdoom VDSL نحو عرض Idoom Medium Business، لتمكين المؤسسات التي تمتلك عدة خطوط هاتف ثابت من الاستفادة من خط رئيسي صوت + أنترنت حسب التدفق المختار، إضافة إلى ولوجات VoIP مخصّصة للخطوط الصوتية فقط دون إنترنت.",
+    "description_fr": "La nouvelle offre IDOOM Medium Business d’Algérie Télécom est destinée aux professionnels et entreprises de taille petite à moyenne (startups, TPE, PME, PMI, professions libérales, artisans, associations, hypermarchés). Elle propose des débits élevés de 200 Mbps à 1,6 Gbps sur fibre, une connectivité fiable et des services adaptés aux besoins des structures en pleine transformation numérique. L’offre inclut une adresse IP fixe, 30 jours de connexion et une prise en charge prioritaire en agence, avec des avantages supplémentaires pour les abonnements de 3 mois et plus ou les paiements annuels, ainsi qu’une nouvelle règle de gestion pour la modernisation des clients ADSL/VDSL vers Idoom Medium Business avec une ligne principale Voix + Data et des accès VoIP pour les lignes Voix uniquement.",
+    "conditions_ar": [
+      "العرض IDOOM Medium Business موجّه لفئة محددة من الزبائن المهنيين: الشركات الناشئة (Startups)، المهن الحرة، الحرفيون، المؤسسات الصغيرة والمتوسطة (PME)، المؤسسات الصغيرة والمتوسطة الصناعية (PMI)، المؤسسات الصغيرة جداً (TPE)، الجمعيات، والمراكز التجارية الكبرى (Hypermarchés).",
+      "يُلزم المشتركون الجدد في عرض IDOOM Medium Business بعقد التزام لمدة 12 شهراً.",
+      "عند الاشتراك الجديد أو عملية العصرنة نحو IDOOM Medium Business، يجب على الزبون تسديد سعر جهاز ONT بقيمة 14.200 دج وحقوق التثبيت بقيمة 6.000 دج، ما لم يستفد من امتياز الاشتراك لمدة 3 أشهر أو أكثر حيث تُمنح هذه التكاليف مجاناً.",
+      "التدفقات المقترحة في العرض IDOOM Medium Business هي: 200 Mbps، 400 Mbps، 800 Mbps، 1.2 Gbps و1.6 Gbps.",
+      "يستفيد الزبون من 30 يوم اتصال أنترنت شهرياً ضمن كل باقة من باقات IDOOM Medium Business.",
+      "في حالة كل اشتراك لمدة 3 أشهر أو أكثر، يتم منح جهاز ONT وحقوق التثبيت مجاناً بالنسبة للولوج إلى خدمة الأنترنت.",
+      "في حالة الدفع السنوي لمدة 12 شهراً، يستفيد الزبون من الشهر الثالث عشر مجاناً من الاتصال بالأنترنت.",
+      "خدمة الهاتف الثابت Idoom Fixe المرتبطة بالعرض يكون سعرها الشهري 250 دج، مع مكالمات محلية ووطنية ومكالمات VoLTE مجانية، في حين تُحتسب المكالمات نحو النقال بـ 8 دج للدقيقة (غير مجزأة)، أما المكالمات الدولية فحسب التعرفة المعمول بها.",
+      "الملف المطلوب للاستفادة من العرض يشمل: نسخة من بطاقة الهوية الوطنية، إثبات عنوان، ووثائق إثبات الانتماء لإحدى الفئات المستهدفة (السجل التجاري، بطاقة مهنية، اعتماد أو ترخيص، وثائق ANSEJ أو CNAC أو ANGEM، ونسخة من البطاقة الجبائية).",
+      "عنوان IP ثابت مضمّن في العرض ومجاني، حيث يُقدّم ضمن الباقة دون أي رسوم إضافية.",
+      "تدفق الرفع (Upload) يعادل 30% من تدفق التنزيل (Download) المختار من طرف الزبون.",
+      "الفئة المهنية المستهدفة في عرض IDOOM Medium Business تبقى مؤهلة أيضاً لعرض Moohtarif، ويمكن للزبون الاختيار بحرية بين عرض Moohtarif وعرض IDOOM Medium Business حسب احتياجاته واستعمالاته.",
+      "العصرنة نحو IDOOM Medium Business موجهة للزبائن المهنيين الذين يمتلكون حالياً Idoom ADSL أو Idoom VDSL ويرغبون في الترقية إلى العرض الجديد على الألياف.",
+      "في إطار الترقية، بالنسبة للخط الرئيسي (صوت + أنترنت)، يكون العرض المرتبط هو Idoom Medium Business مع ONT Wi-Fi 6، بسعر ONT قدره 14.200 دج وحقوق تثبيت قدرها 6.000 دج، إضافة إلى الاشتراك الشهري حسب التدفق المختار.",
+      "بالنسبة للخطوط الصوتية فقط، يكون العرض المرتبط هو Idoom Fixe بسعر شهري 250 دج، مع استعمال ONT Wi-Fi 4 أو Wi-Fi 5 حسب التوفر، وتُحتسب حقوق الولوج لكل خط صوتي بقيمة 3.000 دج.",
+      "عند اشتراك أنترنت لمدة 3 أشهر أو أكثر في إطار العصرنة، يكون جهاز الأنترنت (ONT) وحقوق التثبيت مجانيين، كما هو الحال في الاقتناء الجديد.",
+      "عند الدفع السنوي لمدة 12 شهراً في إطار العصرنة، يستفيد الزبون من الشهر الثالث عشر مجاناً.",
+      "قبل إنجاز عملية الترقية نحو IDOOM Medium Business، يجب على الزبون تسديد جميع الفواتير غير المدفوعة الخاصة بالهاتف الثابت.",
+      "في حال وجود أي مشكل أو استفسار بخصوص العرض أو الترقية، يتوجب على الزبون التقرب من الوكالة التجارية أو الاتصال بالرقم 101 من الهاتف الثابت أو النقال."
+    ],
+    "conditions_fr": [
+      "L’offre IDOOM Medium Business cible les clients professionnels suivants : startups, professions libérales, artisans, PME, PMI, TPE, associations et hypermarchés.",
+      "Les nouveaux abonnés à l’offre IDOOM Medium Business sont tenus de s’engager pour une période de 12 mois.",
+      "Dans le cadre d’une nouvelle souscription ou d’une opération de modernisation vers IDOOM Medium Business, le client doit s’acquitter des frais suivants : prix de l’ONT 14 200,00 DZD et frais d’installation 6 000,00 DZD, sauf avantages prévus pour les abonnements de 3 mois et plus.",
+      "Les débits proposés pour l’offre IDOOM Medium Business sont : 200 Mbps, 400 Mbps, 800 Mbps, 1,2 Gbps et 1,6 Gbps.",
+      "Pour tout abonnement de 03 mois et plus, l’équipement ONT et les frais d’installation sont offerts pour l’accès internet.",
+      "Pour tout paiement annuel (12 mois), le client bénéficie du 13ᵉ mois de connexion internet gratuitement.",
+      "Le service de téléphonie fixe associé (Idoom Fixe) a un tarif mensuel de 250 DA avec appels locaux et nationaux gratuits, appels VoLTE gratuits, appels vers mobiles facturés 8 DA/minute indivisible et appels internationaux facturés selon la grille tarifaire en vigueur.",
+      "Pour bénéficier de la nouvelle offre, le dossier à fournir comprend : une copie de la pièce d’identité nationale, un justificatif d’adresse et une preuve d’appartenance à l’une des catégories cibles (extrait de registre de commerce, carte professionnelle, agrément, convention ANSEJ, CNAC ou ANGEM, copie de la carte fiscale, etc.).",
+      "L’adresse IP fixe est incluse dans l’offre IDOOM Medium Business et est offerte sans frais supplémentaires.",
+      "Le débit en upload correspond à 30 % du débit en download choisi par le client dans le cadre de l’offre IDOOM Medium Business.",
+      "La cible de clients visée par IDOOM Medium Business reste éligible à l’offre MOOHTARIF et peut librement choisir entre les deux offres selon ses usages et besoins en bande passante.",
+      "Dans le cadre de la modernisation vers IDOOM Medium Business, la cible concerne les clients professionnels disposant déjà d’un accès Idoom ADSL ou VDSL qui souhaitent migrer vers l’offre Idoom Medium Business.",
+      "Pour les accès Voix & Data (tête de ligne) en modernisation, l’offre associée est Idoom Medium Business avec ONT Wi-Fi 6, prix ONT 14 200 DA, frais d’installation 6 000 DA et redevance mensuelle selon le débit choisi.",
+      "Pour les accès Voix uniquement, l’offre associée est Idoom Fixe 250 DA avec ONT Wi-Fi 4 ou Wi-Fi 5 (selon disponibilité) et des frais d’accès par ligne de 3 000 DA.",
+      "Pour tout abonnement internet de 03 mois ou plus dans le cadre de la modernisation, l’ONT et les frais d’installation sont offerts.",
+      "Pour tout paiement annuel (12 mois) de l’abonnement internet dans le cadre de la modernisation, le client bénéficie d’un 13ᵉ mois gratuit.",
+      "Avant la modernisation vers l’offre Idoom Medium Business, il est exigé que les clients s’acquittent préalablement de l’ensemble des factures impayées relatives à la téléphonie fixe."
+    ],
+    "benefits_ar": [
+      "توفير تدفقات أنترنت عالية على الألياف البصرية موجهة للاستخدام المهني بسرعات 200 Mbps، 400 Mbps، 800 Mbps، 1.2 Gbps و1.6 Gbps.",
+      "الاستفادة من 30 يوم اتصال أنترنت شهرياً ضمن كل باقة من باقات IDOOM Medium Business.",
+      "عنوان IP ثابت مضمّن في العرض ومجاني، مما يسهّل استضافة الخدمات والولوج عن بعد إلى أنظمة المؤسسة.",
+      "أولوية في التكفل داخل الوكالات التجارية لفائدة زبائن IDOOM Medium Business.",
+      "عند كل اشتراك لمدة 3 أشهر أو أكثر، يستفيد الزبون من جهاز ONT وحقوق التثبيت مجاناً، ما يقلّل من تكلفة الانخراط الأولية.",
+      "عند الدفع السنوي لمدة 12 شهراً، يستفيد الزبون من الشهر الثالث عشر مجاناً من الاتصال بالأنترنت.",
+      "خدمة الهاتف الثابت Idoom Fixe مدمجة مع العرض بسعر شهري 250 دج مع مكالمات محلية ووطنية ومكالمات VoLTE مجانية، وتعرَفة واضحة للمكالمات نحو النقال (8 دج/الدقيقة) والمكالمات الدولية حسب الأسعار المعمول بها.",
+      "إتاحة قاعدة تسيير جديدة للعصرنة تسمح للمؤسسات التي تمتلك عدة خطوط هاتف ثابت بالاستفادة من خط رئيسي صوت + أنترنت وفق التدفق المختار، إضافة إلى ولوجات VoIP للخطوط الصوتية فقط، مما يمنح مرونة كبيرة في تسيير الاتصالات.",
+      "إمكانية ترقية الزبائن المهنيين من Idoom ADSL أو Idoom VDSL نحو Idoom Medium Business للاستفادة من سرعات أعلى وخدمات مهيكلة للمؤسسات.",
+      "الاستفادة من نفس امتيازات المجانية (جهاز ONT وحقوق التثبيت، والشهر الثالث عشر) سواء في الاقتناء الجديد أو في العصرنة عند الاشتراك لمدة 3 أشهر أو أكثر أو الدفع السنوي."
+    ],
+    "benefits_fr": [
+      "Débits internet élevés adaptés aux besoins professionnels : 200 Mbps, 400 Mbps, 800 Mbps, 1,2 Gbps et 1,6 Gbps sur fibre optique.",
+      "30 jours de connexion inclus par mois pour chaque palier de débit IDOOM Medium Business.",
+      "Une adresse IP fixe incluse et offerte gratuitement dans le pack, facilitant l’hébergement de services ou l’accès distant.",
+      "Prise en charge prioritaire en agence commerciale pour les clients IDOOM Medium Business.",
+      "Pour tout abonnement de 3 mois et plus, l’équipement ONT et les frais d’installation internet sont offerts, ce qui réduit le coût initial de mise en service.",
+      "Pour tout paiement annuel (12 mois), le client bénéficie d’un 13ᵉ mois de connexion internet offert.",
+      "Service de téléphonie fixe Idoom Fix intégré avec abonnement mensuel de 250 DA incluant les appels locaux et nationaux gratuits, les appels VoLTE gratuits et des tarifs connus vers les mobiles et l’international.",
+      "Nouvelle règle de gestion pour la modernisation permettant aux entreprises disposant de plusieurs lignes téléphoniques de disposer d’une ligne principale voix & data selon le débit choisi, complétée par des accès VoIP voix uniquement pour les lignes sans data.",
+      "Possibilité de moderniser les accès ADSL/VDSL existants vers IDOOM Medium Business, avec offre structurée pour les accès Voix & Data et Voix uniquement.",
+      "Avantages spécifiques pour les abonnements internet longue durée (3 mois, 12 mois) tant pour les nouvelles acquisitions que pour les opérations de modernisation."
+    ],
+    "pricing_summary_ar": "في عرض IDOOM Medium Business، يدفع الزبون عند الاشتراك الجديد أو العصرنة سعر جهاز ONT بقيمة 14.200 دج وحقوق تثبيت بقيمة 6.000 دج (تُمنح مجاناً عند الاشتراك لمدة 3 أشهر أو أكثر). التسعيرات الشهرية حسب التدفق هي: 200 Mbps بسعر 16.000 دج، 400 Mbps بسعر 27.000 دج، 800 Mbps بسعر 35.000 دج، 1.2 Gbps بسعر 40.000 دج، و1.6 Gbps بسعر 45.000 دج، مع 30 يوم اتصال عنوان IP ثابت وأولوية في التكفل، بالإضافة إلى شهر 13 مجاني عند الدفع السنوي لـ 12 شهراً.",
+    "pricing_summary_fr": "Pour l’offre IDOOM Medium Business, les frais d’accès standard comprennent un ONT à 14 200 DA et des frais d’installation de 6 000 DA (offerts pour tout abonnement de 3 mois et plus). Les principaux paliers de débits et tarifs mensuels sont : 200 Mbps à 16 000 DA/mois, 400 Mbps à 27 000 DA/mois, 800 Mbps à 35 000 DA/mois, 1,2 Gbps à 40 000 DA/mois et 1,6 Gbps à 45 000 DA/mois, avec 30 jours de connexion, 1 adresse IP fixe et une prise en charge prioritaire. En cas de paiement annuel (12 mois), le 13ᵉ mois de connexion est offert."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من يمكنه الاستفادة من التسعيرة الجديدة لعرض IDOOM Medium Business؟",
+      "answer": "العرض IDOOM Medium Business موجّه لفئة محددة من الزبائن المهنيين وهم: الشركات الناشئة (Startups)، المهن الحرة، الحرفيون، المؤسسات الصغيرة والمتوسطة (PME)، المؤسسات الصغيرة والمتوسطة الصناعية (PMI)، المؤسسات الصغيرة جداً (TPE)، الجمعيات، والمراكز التجارية الكبرى (Hypermarchés)."
+    },
+    {
+      "question": "هل يجب على المشتركين الجدد توقيع عقد التزام؟",
+      "answer": "نعم، يجب على المشتركين الجدد في عرض IDOOM Medium Business الالتزام لمدة 12 شهراً ابتداءً من تاريخ الاشتراك، وذلك في إطار عقود موجهة للاستخدام المهني والمؤسساتي."
+    },
+    {
+      "question": "ما هي تفاصيل عرض IDOOM Medium Business من حيث التدفقات والأسعار؟",
+      "answer": "يتضمن عرض IDOOM Medium Business جهاز ONT بسعر 14.200 دج وحقوق تثبيت بقيمة 6.000 دج (مجانيان عند الاشتراك لمدة 3 أشهر أو أكثر). التدفقات المتاحة على الألياف هي 200 Mbps بسعر شهري 16.000 دج، 400 Mbps بسعر 27.000 دج، 800 Mbps بسعر 35.000 دج، 1.2 Gbps بسعر 40.000 دج و1.6 Gbps بسعر 45.000 دج. كل باقة تشمل 30 يوم اتصال، عنوان IP ثابت وأولوية في التكفل داخل الوكالات التجارية، مع شهر 13 مجاني عند الدفع السنوي لمدة 12 شهراً."
+    },
+    {
+      "question": "ما هو الملف المطلوب للاستفادة من العرض الجديد؟",
+      "answer": "للاستفادة من عرض IDOOM Medium Business، يجب تقديم ملف يحتوي على: نسخة من بطاقة الهوية الوطنية، إثبات عنوان (مثل فاتورة أو شهادة إقامة)، ووثائق تثبت الانتماء لإحدى الفئات المستهدفة مثل السجل التجاري، بطاقة مهنية، اعتماد أو ترخيص، وثائق ANSEJ أو CNAC أو ANGEM، ونسخة من البطاقة الجبائية."
+    },
+    {
+      "question": "هل عنوان IP ثابت مضمّن في عرض IDOOM Medium Business ومجاني؟",
+      "answer": "نعم، عنوان IP ثابت مضمّن داخل العرض ويوفر للزبون دون أي رسوم إضافية، ويشكّل جزءاً أساسياً من الباقة IDOOM Medium Business، ما يسهّل استضافة الخدمات واستعمال تطبيقات العمل عن بعد."
+    },
+    {
+      "question": "ما هو تدفق الرفع (Upload) في هذا العرض؟",
+      "answer": "تدفق الرفع في عرض IDOOM Medium Business يعادل 30% من تدفق التنزيل (Download) المختار من طرف الزبون. على سبيل المثال، إذا اختار الزبون تدفق 200 Mbps، فإن تدفق الرفع يكون 60 Mbps تقريباً."
+    },
+    {
+      "question": "هل الزبائن المستهدفون في العرض الجديد مؤهلون أيضاً لعرض Moohtarif؟",
+      "answer": "نعم، الفئة المهنية المستهدفة في عرض IDOOM Medium Business تبقى مؤهلة أيضاً لعرض Moohtarif. يمكن للزبون اختيار العرض الأنسب له بحرية بين عرض Moohtarif وعرض IDOOM Medium Business حسب طبيعة نشاطه واحتياجاته من حيث التدفق والميزات المهنية."
+    },
+    {
+      "question": "ما هي أبرز مزايا عرض IDOOM Medium Business؟",
+      "answer": "يوفر عرض IDOOM Medium Business 30 يوم اتصال أنترنت شهرياً، عنوان IP ثابت مجاني، وأولوية في التكفل داخل الوكالات التجارية. كما يستفيد الزبون من جهاز ONT وحقوق تثبيت مجانيين عند الاشتراك لمدة 3 أشهر أو أكثر، إضافة إلى شهر مجاني عند الدفع السنوي لمدة 12 شهراً، ما يجعل العرض ملائماً للمؤسسات التي تبحث عن استمرارية في الخدمة وتخفيض للتكاليف."
+    },
+    {
+      "question": "من هي الفئة المعنية بالعصرنة (Modernisation) نحو IDOOM Medium Business؟",
+      "answer": "العصرنة نحو IDOOM Medium Business موجهة للزبائن المهنيين الذين يمتلكون حالياً Idoom ADSL أو Idoom VDSL ويرغبون في الترقية إلى تدفقات أعلى وخدمات احترافية على الألياف البصرية، مع الاستفادة من القاعدة الجديدة لتسيير الخطوط الصوتية والبيانية."
+    },
+    {
+      "question": "ما هي قواعد التسيير الجديدة الخاصة بالترقية نحو IDOOM Medium Business؟",
+      "answer": "في إطار العصرنة، يتم تقسيم الولوج إلى نوعين: خط رئيسي (صوت + أنترنت) مرتبط بعرض Idoom Medium Business مع ONT من نوع Wi-Fi 6 وسعر ONT 14.200 دج وحقوق تثبيت 6.000 دج واشتراك شهري حسب التدفق المختار؛ وخطوط صوت فقط مرتبطة بعرض Idoom Fix بسعر 250 دج شهرياً مع ONT Wi-Fi 4 أو Wi-Fi 5 حسب التوفر وحقوق ولوج قدرها 3.000 دج لكل خط. عند اشتراك أنترنت لمدة 3 أشهر أو أكثر، تكون تكاليف ONT وحقوق التثبيت مجانية، وعند الدفع السنوي لمدة 12 شهراً يستفيد الزبون من شهر 13 مجاني."
+    },
+    {
+      "question": "ماذا يجب على الزبون تسديده قبل عملية الترقية نحو IDOOM Medium Business؟",
+      "answer": "قبل الاستفادة من العصرنة نحو IDOOM Medium Business، يجب على الزبون تسديد جميع الفواتير غير المدفوعة الخاصة بالهاتف الثابت، حيث يُعد تسوية الديون السابقة شرطاً أساسياً لإطلاق عملية الترقية."
+    },
+    {
+      "question": "من يجب الاتصال به في حال وجود مشكل أو استفسار بخصوص العرض؟",
+      "answer": "في حال وجود أي مشكل أو استفسار حول عرض IDOOM Medium Business أو عملية الترقية، يُنصح الزبون بالتقرب من الوكالة التجارية الأقرب إليه أو الاتصال بالرقم 101 من الهاتف الثابت أو النقال. كما يمكن استعمال بريد Feedback@algerietelecom.dz لطلب المعلومات التجارية أو الاستفسار عن المذكرات والإجراءات المعمول بها."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Qui peut bénéficier de la nouvelle tarification IDOOM Medium Business ?",
+      "answer": "La cible de la nouvelle offre IDOOM Medium Business regroupe les clients professionnels suivants : STARTUP, professions libérales, artisans, PME (Petite et Moyenne Entreprise), PMI (Petite ou moyenne entreprise industrielle), TPE (Très Petite Entreprise), associations et hypermarchés."
+    },
+    {
+      "question": "Les nouveaux abonnés doivent-ils signer un contrat d’engagement ?",
+      "answer": "Oui. Les nouveaux abonnés à l’offre IDOOM Medium Business sont tenus de s’engager pour une période de 12 mois à partir de la date de souscription."
+    },
+    {
+      "question": "Quels sont les détails de l’offre IDOOM Medium Business ?",
+      "answer": "La nouvelle offre IDOOM Medium Business propose plusieurs paliers de débit sur fibre optique : 200 Mbps, 400 Mbps, 800 Mbps, 1,2 Gbps et 1,6 Gbps. Dans le cadre d’une nouvelle souscription ou d’une modernisation, le client paie un ONT à 14 200,00 DZD et des frais d’installation de 6 000,00 DZD (offerts pour tout abonnement de 3 mois et plus). Chaque palier inclut 30 jours de connexion, une adresse IP fixe et une prise en charge prioritaire en agence commerciale. Pour tout paiement annuel (12 mois), le client bénéficie du 13ᵉ mois gratuit."
+    },
+    {
+      "question": "Quel est le dossier à fournir pour bénéficier de cette nouvelle offre ?",
+      "answer": "Le client doit fournir : une copie de la pièce d’identité nationale, un justificatif d’adresse, ainsi qu’une preuve d’appartenance à l’une des catégories cibles, par exemple un extrait de registre de commerce, une carte professionnelle, un agrément, une convention ANSEJ, CNAC ou ANGEM, ou une copie de la carte fiscale."
+    },
+    {
+      "question": "L’adresse IP fixe est-elle incluse dans la nouvelle offre et offerte gratuitement ?",
+      "answer": "Oui. L’adresse IP fixe est incluse dans l’offre IDOOM Medium Business et est offerte sans frais supplémentaires. Elle fait partie intégrante du pack proposé au client."
+    },
+    {
+      "question": "Quel est le débit en upload inclus dans cette offre ?",
+      "answer": "Le débit en upload inclus dans l’offre IDOOM Medium Business correspond à 30 % du débit en download choisi par le client. Par exemple, pour un abonnement 200 Mbps, l’upload est égal à 30 % de ces 200 Mbps."
+    },
+    {
+      "question": "La cible de clients visée par cette nouvelle offre reste-elle éligible à l’offre MOOHTARIF, ou en est-elle exclue ?",
+      "answer": "Les clients ciblés par IDOOM Medium Business restent éligibles à l’offre MOOHTARIF. Ils peuvent donc librement choisir entre l’offre MOOHTARIF et la nouvelle offre IDOOM Medium Business, en fonction de leurs usages et de leurs besoins en bande passante."
+    },
+    {
+      "question": "Quels sont les avantages proposés dans la nouvelle offre IDOOM Medium Business ?",
+      "answer": "Les principaux avantages de l’offre IDOOM Medium Business sont : 30 jours de connexion par mois, une adresse IP fixe incluse, une prise en charge prioritaire en agence commerciale, l’ONT et les frais d’installation offerts pour tout abonnement de 3 mois ou plus, et un 13ᵉ mois offert pour tout paiement effectué pour 12 mois d’abonnement internet."
+    },
+    {
+      "question": "Quelle est la cible concernée par la modernisation vers l’offre Idoom Medium Business ?",
+      "answer": "La modernisation vers l’offre Idoom Medium Business concerne les clients professionnels disposant déjà d’un accès Idoom ADSL ou VDSL et souhaitant migrer vers cette nouvelle offre sur fibre, afin de bénéficier de débits plus élevés et de services adaptés à un usage professionnel."
+    },
+    {
+      "question": "Quelles sont les nouvelles règles de gestion pour la modernisation vers l’offre Idoom Medium Business ?",
+      "answer": "Dans le cadre de la modernisation, les accès Voix & Data « tête de ligne » sont associés à l’offre Idoom Medium Business avec ONT Wi-Fi 6, ONT facturé 14 200 DA, frais d’installation 6 000 DA et redevance mensuelle selon le débit choisi. Les accès Voix uniquement sont associés à l’offre Idoom Fixe 250 DA avec ONT Wi-Fi 4 ou Wi-Fi 5 et des frais d’accès de 3 000 DA par ligne. Pour tout abonnement internet de 03 mois et plus, l’ONT et les frais d’installation sont offerts, et pour tout paiement annuel (12 mois), le 13ᵉ mois est offert."
+    },
+    {
+      "question": "Que doivent régler les clients avant la modernisation vers l’offre Idoom Medium Business ?",
+      "answer": "Avant de bénéficier de la modernisation vers l’offre Idoom Medium Business, les clients doivent s’acquitter de l’ensemble des factures impayées relatives à la téléphonie fixe. La régularisation des créances est donc une condition préalable à la modernisation."
+    },
+    {
+      "question": "Qui dois-je contacter en cas de problème ?",
+      "answer": "En cas de problème, d’information ou de réclamation concernant l’offre Idoom Medium Business, il est recommandé de se rapprocher de l’agence commerciale la plus proche ou de contacter le 101 à partir d’une ligne fixe ou mobile. La messagerie « Feedback » FB@algerietelecom.dz est quant à elle réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures."
+    }
+  ],
+
+  "contact": {
+    "phone": "101",
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهم: نذكّركم بأن بريد Feedback@algerietelecom.dz مخصّص حصرياً لطلبات المعلومات التجارية وللاستفسارات المتعلقة بالملاحظات أو الإجراءات المعمول بها. لا تترددوا في التواصل معنا عند الضرورة.",
+    "notes_fr": "Pour toute information ou réclamation relative à l’offre Idoom Medium Business, veuillez-vous rapprocher de votre agence commerciale ou contacter le 101 à partir d’une ligne fixe ou mobile. La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies."
+  },
+
+  "keywords_ar": [
+    "العرض الجديد IDOOM Medium Business",
+    "Idoom Medium Business",
+    "العصرنة نحو Idoom Fibre",
+    "الشركات الناشئة",
+    "المهن الحرة",
+    "الحرفيون",
+    "المؤسسات الصغيرة والمتوسطة",
+    "PME",
+    "PMI",
+    "TPE",
+    "الجمعيات",
+    "المراكز التجارية الكبرى",
+    "Hypermarchés",
+    "الألياف البصرية",
+    "200 Mbps",
+    "400 Mbps",
+    "800 Mbps",
+    "1.2 Gbps",
+    "1.6 Gbps",
+    "16.000 دج",
+    "27.000 دج",
+    "35.000 دج",
+    "40.000 دج",
+    "45.000 دج",
+    "14.200 دج",
+    "6.000 دج",
+    "3.000 دج",
+    "30 يوم اتصال",
+    "عنوان IP ثابت",
+    "أولوية في التكفل",
+    "Idoom Fixe",
+    "250 دج",
+    "مكالمات محلية مجانية",
+    "مكالمات وطنية مجانية",
+    "مكالمات VoLTE مجانية",
+    "8 دج / دقيقة",
+    "المكالمات الدولية حسب الأسعار المعمول بها",
+    "نسخة من بطاقة الهوية الوطنية",
+    "إثبات عنوان",
+    "السجل التجاري",
+    "بطاقة مهنية",
+    "اعتماد",
+    "ترخيص",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "البطاقة الجبائية",
+    "تدفق الرفع 30%",
+    "عرض Moohtarif",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "العصرنة",
+    "خط رئيسي صوت وأنترنت",
+    "ولوجات VoIP",
+    "Wi-Fi 6",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "فواتير الهاتف الثابت غير المدفوعة",
+    "101",
+    "Feedback@algerietelecom.dz",
+    "اتصالات الجزائر"
+  ],
+  "keywords_fr": [
+    "IDOOM Medium Business",
+    "nouvelle offre IDOOM Medium Business",
+    "nouvelle acquisition",
+    "modernisation",
+    "fibre optique",
+    "Voix & Data",
+    "Voix uniquement",
+    "VoIP",
+    "Wi-Fi 6",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "startup",
+    "profession libérale",
+    "artisan",
+    "PME",
+    "PMI",
+    "TPE",
+    "associations",
+    "hypermarchés",
+    "200 Mbps",
+    "400 Mbps",
+    "800 Mbps",
+    "1,2 Gbps",
+    "1,6 Gbps",
+    "16000 DA",
+    "27000 DA",
+    "35000 DA",
+    "40000 DA",
+    "45000 DA",
+    "14200 DA",
+    "6000 DA",
+    "3000 DA",
+    "30 jours de connexion",
+    "adresse IP fixe",
+    "prise en charge prioritaire",
+    "abonnement 3 mois",
+    "paiement annuel 12 mois",
+    "13ème mois offert",
+    "Idoom Fixe 250 DA",
+    "appels locaux gratuits",
+    "appels nationaux gratuits",
+    "appels VoLTE gratuits",
+    "appels vers mobiles 8 DA par minute",
+    "appels internationaux selon grille tarifaire",
+    "dossier administratif",
+    "pièce d'identité nationale",
+    "justificatif d'adresse",
+    "registre de commerce",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "carte fiscale",
+    "upload 30 %",
+    "offre MOOHTARIF",
+    "clients professionnels ADSL",
+    "clients professionnels VDSL",
+    "ligne principale voix et data",
+    "accès VoIP",
+    "factures impayées téléphonie fixe",
+    "101",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "IDOOM Medium Business",
+    "nouvelle offre IDOOM Medium Business",
+    "nouvelle acquisition",
+    "modernisation",
+    "fibre optique",
+    "Voix & Data",
+    "Voix uniquement",
+    "VoIP",
+    "Wi-Fi 6",
+    "Wi-Fi 4",
+    "Wi-Fi 5",
+    "startup",
+    "profession libérale",
+    "artisan",
+    "PME",
+    "PMI",
+    "TPE",
+    "associations",
+    "hypermarchés",
+    "200 Mbps",
+    "400 Mbps",
+    "800 Mbps",
+    "1,2 Gbps",
+    "1,6 Gbps",
+    "16000 DA",
+    "27000 DA",
+    "35000 DA",
+    "40000 DA",
+    "45000 DA",
+    "14200 DA",
+    "6000 DA",
+    "3000 DA",
+    "30 jours de connexion",
+    "adresse IP fixe",
+    "prise en charge prioritaire",
+    "abonnement 3 mois",
+    "paiement annuel 12 mois",
+    "13ème mois offert",
+    "Idoom Fixe 250 DA",
+    "appels locaux gratuits",
+    "appels nationaux gratuits",
+    "appels VoLTE gratuits",
+    "appels vers mobiles 8 DA par minute",
+    "appels internationaux selon grille tarifaire",
+    "dossier administratif",
+    "pièce d'identité nationale",
+    "justificatif d'adresse",
+    "registre de commerce",
+    "ANSEJ",
+    "CNAC",
+    "ANGEM",
+    "carte fiscale",
+    "upload 30 %",
+    "offre MOOHTARIF",
+    "clients professionnels ADSL",
+    "clients professionnels VDSL",
+    "ligne principale voix et data",
+    "accès VoIP",
+    "factures impayées téléphonie fixe",
+    "101",
+    "FB@algerietelecom.dz",
+    "العرض الجديد IDOOM Medium Business",
+    "Idoom Medium Business",
+    "العصرنة نحو Idoom Fibre",
+    "الشركات الناشئة",
+    "المهن الحرة",
+    "الحرفيون",
+    "المؤسسات الصغيرة والمتوسطة",
+    "الجمعيات",
+    "المراكز التجارية الكبرى",
+    "الألياف البصرية",
+    "عنوان IP ثابت",
+    "عرض Moohtarif",
+    "Idoom ADSL",
+    "Idoom VDSL",
+    "خط رئيسي صوت وأنترنت",
+    "ولوجات VoIP",
+    "اتصالات الجزائر",
+    "Feedback@algerietelecom.dz"
+  ],
+
+  "search_text": "العرض الجديد IDOOM Medium Business لزبائن الجدد والعصرنة نحو Idoom fibre موجه لفائدة المهنيين والمؤسسات المتوسطة، حيث يوفر تدفقات أنترنت عالية على الألياف البصرية، اتصالاً موثوقًا وخدمات مهنية ملائمة للبنى الاقتصادية التي تعيش تحولاً رقمياً. تم استحداث قاعدة تسيير جديدة خاصة بترقية الزبائن المهنيين من Idoom ADSL وIdoom VDSL نحو عرض Idoom Medium Business، لتمكين المؤسسات التي تمتلك عدة خطوط هاتف ثابت دون الحاجة إلى اشتراك أنترنت لكل خط، من الاستفادة من خط رئيسي صوت + أنترنت حسب التدفق المختار، إضافة إلى ولوجات VoIP مخصصة للخطوط الصوتية فقط. الفئة المستهدفة تضم الشركات الناشئة، المهن الحرة، الحرفيين، المؤسسات الصغيرة والمتوسطة، المؤسسات الصناعية الصغيرة والمتوسطة، المؤسسات الصغيرة جداً، الجمعيات والمراكز التجارية الكبرى. يشترط التزام لمدة 12 شهراً للمشتركين الجدد. سعر جهاز ONT هو 14.200 دج وحقوق التثبيت 6.000 دج مع تسعيرات شهرية حسب التدفق: 200 Mbps بـ 16.000 دج، 400 Mbps بـ 27.000 دج، 800 Mbps بـ 35.000 دج، 1.2 Gbps بـ 40.000 دج و1.6 Gbps بـ 45.000 دج، مع 30 يوم اتصال شهرياً وعنوان IP ثابت وأولوية في التكفل داخل الوكالات التجارية. عند الاشتراك لـ 3 أشهر أو أكثر، يُمنح جهاز ONT وحقوق التثبيت مجاناً، وعند الدفع السنوي لمدة 12 شهراً، يستفيد الزبون من الشهر 13 مجاناً. خدمة Idoom Fixe المرافقة للعرض بسعر شهري 250 دج مع مكالمات محلية ووطنية وVoLTE مجانية، ومكالمات نحو النقال بـ 8 دج/الدقيقة غير مجزأة، والمكالمات الدولية حسب الأسعار المعمول بها. الملف المطلوب يشمل بطاقة الهوية الوطنية، إثبات عنوان، ووثائق مهنية (سجل تجاري، بطاقة مهنية، اعتماد، وثائق ANSEJ / CNAC / ANGEM، بطاقة جبائية). عنوان IP ثابت مجاني، وتدفق الرفع يعادل 30% من تدفق التنزيل. الفئة المهنية المستهدفة مؤهلة أيضاً لعرض Moohtarif ويمكنها الاختيار بينه وبين IDOOM Medium Business حسب الاحتياجات. العصرنة موجهة لزبائن Idoom ADSL وIdoom VDSL الراغبين في الترقية إلى Idoom Medium Business. في العصرنة، الخط الرئيسي صوت + أنترنت يستفيد من Idoom Medium Business مع ONT Wi-Fi 6 (14.200 دج) وحقوق تثبيت 6.000 دج واشتراك شهري حسب التدفق، والخطوط الصوتية فقط تستفيد من Idoom Fix بسعر 250 دج شهرياً مع ONT Wi-Fi 4 أو 5 وحقوق ولوج 3.000 دج لكل خط. عند اشتراك أنترنت لمدة 3 أشهر أو أكثر في العصرنة، يكون ONT وحقوق التثبيت مجانيين، ومع الدفع السنوي لـ 12 شهراً يُمنح شهر 13 مجاناً. قبل العصرنة، يجب تسديد جميع فواتير الهاتف الثابت غير المدفوعة. للاستفسار، يمكن التقرب من الوكالة التجارية أو الاتصال بالرقم 101 أو استعمال البريد Feedback@algerietelecom.dz.\n\nNouvelle offre IDOOM Medium Business pour nouvelle acquisition et Modernisation, version 2. La nouvelle offre est conçue pour les professionnels et entreprises moyennes. IDOOM Medium Business propose des débits élevés, une connectivité fiable et des services adaptés aux besoins des structures économiques en pleine transformation numérique. Une nouvelle règle de gestion relative à la modernisation des clients professionnels vers l’offre Idoom Medium Business permet aux entreprises disposant de plusieurs lignes téléphoniques, sans nécessité d’un accès Internet sur chacune d’elles, de bénéficier d’une ligne principale voix et data selon le débit choisi, complétée par des accès VoIP réservés aux accès sans data. La cible de l’offre IDOOM Medium Business comprend les STARTUP, professions libérales, artisans, PME, PMI, TPE, associations et hypermarchés. Les nouveaux abonnés sont tenus de s’engager pour une période de 12 mois. Dans le cadre d’une nouvelle souscription ou d’une modernisation, le client doit s’acquitter du prix de l’ONT (14 200,00 DZD) et des frais d’installation (6 000,00 DZD), sauf si un abonnement de 3 mois ou plus donne droit à leur gratuité. Les paliers de débit et tarifs mensuels sont : 200 Mbps à 16 000 DA, 400 Mbps à 27 000 DA, 800 Mbps à 35 000 DA, 1,2 Gbps à 40 000 DA et 1,6 Gbps à 45 000 DA, chacun incluant 30 jours de connexion, 1 adresse IP fixe et une prise en charge prioritaire en agence commerciale. Pour tout paiement annuel (12 mois), le client bénéficie du 13ᵉ mois gratuitement. Le service de téléphonie fixe Idoom Fixe a un tarif mensuel de 250 DA avec appels locaux et nationaux gratuits, appels VoLTE gratuits, appels vers mobiles facturés 8 DA/minute indivisible, appels internationaux facturés selon la grille en vigueur. Le dossier à fournir comprend : copie de la pièce d’identité nationale, justificatif d’adresse, preuve d’appartenance à la catégorie cible (registre de commerce, carte professionnelle, agrément, convention ANSEJ, CNAC ou ANGEM, carte fiscale, etc.). L’adresse IP fixe est incluse et gratuite. Le débit en upload correspond à 30 % du débit en download choisi. La cible reste éligible à l’offre MOOHTARIF. Modernisation : la cible concerne les clients professionnels disposant d’un accès Idoom ADSL ou VDSL souhaitant migrer vers Idoom Medium Business. Pour les accès Voix & Data tête de ligne, l’offre associée est Idoom Medium Business avec ONT Wi-Fi 6 à 14 200 DA, frais d’installation 6 000 DA et redevance mensuelle selon le débit choisi. Pour les accès Voix uniquement, l’offre associée est Idoom Fixe 250 DA avec ONT Wi-Fi 4 ou Wi-Fi 5 et des frais d’accès de 3 000 DA par ligne. Pour tout abonnement internet de 3 mois et plus, l’ONT et les frais d’installation sont offerts ; pour tout paiement annuel (12 mois), le 13ᵉ mois est offert. Avant la modernisation, les clients doivent régler l’ensemble des factures impayées de téléphonie fixe. En cas de besoin, ils peuvent se rapprocher de l’agence commerciale ou appeler le 101, et utiliser la messagerie Feedback FB@algerietelecom.dz pour des demandes d’informations commerciales et des clarifications sur les notes ou procédures.",
+  "dense_text_primary": "هذا المستند يقدّم \"العرض الجديد IDOOM Medium Business لزبائن الجدد والعصرنة نحو Idoom fibre\" (الإصدار 2.0) الموجّه للمهنيين والمؤسسات المتوسطة والصغيرة. يعتمد العرض على الألياف البصرية ويوفر تدفقات أنترنت عالية (200 Mbps، 400 Mbps، 800 Mbps، 1.2 Gbps، 1.6 Gbps) مع 30 يوم اتصال شهرياً، عنوان IP ثابت مجاني وأولوية في التكفل داخل الوكالات التجارية. عند الاشتراك الجديد أو العصرنة، يدفع الزبون سعر جهاز ONT بقيمة 14.200 دج وحقوق تثبيت بقيمة 6.000 دج، غير أنه عند الاشتراك لمدة 3 أشهر أو أكثر تُمنح هذه التكاليف مجاناً، وعند الدفع السنوي لـ 12 شهراً يستفيد من شهر 13 مجاني. خدمة Idoom Fixe المرفقة بالعرض بسعر شهري 250 دج مع مكالمات محلية ووطنية وVoLTE مجانية، ومكالمات نحو النقال بـ 8 دج/الدقيقة غير مجزأة، والمكالمات الدولية حسب الأسعار المعمول بها. يشترط تقديم ملف إداري يضم بطاقة الهوية، إثبات عنوان ووثائق مهنية (سجل تجاري، بطاقة مهنية، اعتماد، وثائق ANSEJ / CNAC / ANGEM، بطاقة جبائية). عنوان IP ثابت مضمّن في الباقة، وتدفق الرفع يعادل 30% من تدفق التنزيل.\n\nالفئة المستهدفة هي الشركات الناشئة، المهن الحرة، الحرفيون، PME، PMI، TPE، الجمعيات والمراكز التجارية الكبرى، مع التزام لمدة 12 شهراً للمشتركين الجدد. الفئة تبقى مؤهلة أيضاً لعرض Moohtarif ويمكنها اختيار العرض الأنسب حسب حاجتها. على مستوى العصرنة، يتيح العرض ترقية زبائن Idoom ADSL وIdoom VDSL نحو Idoom Medium Business عبر خط رئيسي صوت + أنترنت (Voix & Data) مرتبط بـ Idoom Medium Business مع ONT Wi-Fi 6 واشتراك شهري حسب التدفق، وخطوط صوتية فقط مرتبطة بـ Idoom Fixe 250 دج مع ONT Wi-Fi 4 أو 5 وحقوق ولوج 3.000 دج لكل خط. عند اشتراك أنترنت لمدة 3 أشهر أو أكثر، يكون ONT وحقوق التثبيت مجانيين، ومع الدفع السنوي لـ 12 شهراً يُمنح شهر 13 مجاناً. قبل العصرنة، يشترط تسديد كافة فواتير الهاتف الثابت غير المدفوعة. للاستفسار، يمكن التقرب من الوكالة التجارية أو الاتصال بـ 101 أو استعمال بريد Feedback@algerietelecom.dz.\n\nCe document présente la « Nouvelle offre IDOOM Medium Business pour nouvelle acquisition et modernisation » (version 2) d’Algérie Télécom. Il s’agit d’une offre fibre professionnelle destinée aux startups, TPE, PME, PMI, professions libérales, artisans, associations et hypermarchés, visant à leur fournir des débits internet élevés et des services adaptés à la transformation numérique de leurs activités. Les paliers de débit sont de 200 Mbps, 400 Mbps, 800 Mbps, 1,2 Gbps et 1,6 Gbps, avec pour chaque palier 30 jours de connexion, une adresse IP fixe et une prise en charge prioritaire en agence. Dans le cadre d’une nouvelle souscription ou d’une modernisation, le client paie un ONT à 14 200 DA et des frais d’installation de 6 000 DA, offerts pour tout abonnement de 3 mois et plus. En cas de paiement annuel (12 mois), un 13ᵉ mois gratuit est accordé. Le service Idoom Fixe associé coûte 250 DA/mois avec appels locaux et nationaux gratuits, appels VoLTE gratuits, appels vers mobiles facturés 8 DA/minute indivisible et appels internationaux selon la grille en vigueur. Le débit en upload représente 30 % du débit en download choisi, et la cible reste éligible à l’offre MOOHTARIF.\n\nL’offre s’accompagne d’un dispositif de modernisation des clients professionnels ADSL/VDSL vers Idoom Medium Business. Les entreprises ayant plusieurs lignes téléphoniques peuvent disposer d’une ligne principale Voix & Data (tête de ligne) avec Idoom Medium Business sur ONT Wi-Fi 6 (14 200 DA, 6 000 DA de frais d’installation) et d’accès Voix uniquement avec Idoom Fixe 250 DA sur ONT Wi-Fi 4 ou 5 et frais d’accès de 3 000 DA par ligne. Les mêmes avantages de gratuité de l’ONT et des frais d’installation pour 3 mois et plus, ainsi que le 13ᵉ mois offert en cas de paiement annuel, s’appliquent aux abonnements internet dans le cadre de la modernisation. Avant toute modernisation, le client doit régulariser ses factures impayées de téléphonie fixe. Pour tout renseignement ou réclamation, il peut se rapprocher d’une agence commerciale, appeler le 101 ou utiliser la messagerie Feedback FB@algerietelecom.dz pour des demandes d’informations commerciales et des clarifications sur les notes ou procédures."
+}

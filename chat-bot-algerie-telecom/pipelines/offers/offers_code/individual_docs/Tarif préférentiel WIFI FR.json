@@ -1,0 +1,329 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V1.0/FR/180/2025 | AT/DG/DCMI/DCGP/CQC/BI/V1.0/AR/182/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_ont_wifi6",
+  "technology": [
+    "fibre_optique",
+    "wifi_6"
+  ],
+  "customer_segment": [
+    "residential",
+    "residential_locataire",
+    "gamers",
+    "gamers_locataire",
+    "conventionne"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet",
+    "equipment",
+    "wifi_upgrade"
+  ],
+
+  "metadata": {
+    "title_ar": "سعر تفضيلي على جهاز ONT Wi-Fi 6 لفائدة الزبائن الخواص والخواص المستأجرين والمتعاقدين ذات التدفقات 1 أو 1.2 أو 1.5 جيغابت/ثانية",
+    "title_fr": "Tarif préférentiel sur ONT Wi-Fi 6 au profit des clients résidentiels et conventionnés des paliers 1, 1.2 et 1.5 Gbps",
+    "company": "Algérie Télécom",
+    "version": "1",
+    "effective_date": "2025-08-31"
+  },
+
+  "offer_core": {
+    "name_ar": "سعر تفضيلي على جهاز ONT Wi-Fi 6",
+    "name_fr": "Tarif préférentiel ONT Wi-Fi 6 – clients Idoom Fibre 1, 1.2 et 1.5 Gbps",
+    "description_ar": "في إطار تحديث تجهيزاتنا، نقترح عرضًا جديدًا لتمكين زبائننا المشتركين حاليًا في خدمة Idoom Fibre من اقتناء مودم ONT Wi-Fi 6 بسعر تفضيلي مقابل إرجاع جهاز ONT Wi-Fi 4 أو 5. يكون الزبائن الخواص والخواص المستأجرون (بما فيهم Idoom Gamers وIdoom Gamers Locataire) مؤهَّلين فقط إذا كانوا مشتركين بتدفق 1.5 جيغابت/ثا، بينما يكون الزبائن المتعاقدون مؤهَّلين إذا كان السقف الأقصى لاتفاقيتهم محددًا بأحد التدفقات 1 أو 1.2 أو 1.5 جيغابت/ثا. يُطبق سعر 3.500 دج لفائدة الزبائن الخواص والخواص المستأجرين على تدفق 1.5 جيغابت/ثا وسعر 5.800 دج لفائدة الزبائن المتعاقدين المؤهلين، مع ربط الأهلية بنسبة تعبئة لا تقل عن 80% أو دفع ما يعادل ثلاثة أشهر من الاشتراك، واستعمال تطبيق WASL للتحقق من الأهلية وإدارة العرض في إطار قاعدة التسيير Up-Selling.",
+    "description_fr": "Cette offre propose aux clients déjà abonnés à Idoom Fibre de moderniser leur modem en remplaçant leur ONT Wi-Fi 4 ou 5 par un ONT Wi-Fi 6 à tarif préférentiel. Les clients résidentiels, locataires et Gamers (y compris Gamers locataires) au palier 1,5 Gbps peuvent acquérir un ONT Wi-Fi 6 à 3 500 DA TTC, sous conditions d’éligibilité et de rechargement. Les clients conventionnés dont le plafond de convention est fixé à 1 Gbps, 1,2 Gbps ou 1,5 Gbps peuvent acquérir un ONT Wi-Fi 6 à 5 800 DA TTC. L’offre est liée à l’application WASL pour le test d’éligibilité, impose la restitution de l’ancien modem Wi-Fi 4 ou 5 et ne permet qu’un seul ONT Wi-Fi 6 par ligne.",
+    "conditions_ar": [
+      "العرض موجه للزبائن المشتركين حالياً في خدمة Idoom Fibre والذين يملكون جهاز ONT من نوع Wi-Fi 4 أو Wi-Fi 5.",
+      "الزبائن الخواص والخواص المستأجرون (بما فيهم Idoom Gamers وIdoom Gamers Locataire) مؤهَّلون فقط إذا كانوا مشتركين بتدفق 1.5 جيغابت/ثانية على خدمة Idoom Fibre.",
+      "الزبائن المتعاقدون مؤهَّلون إذا كان السقف الأقصى لاتفاقيتهم محددًا بأحد التدفقات 1 جيغابت/ثا أو 1.2 جيغابت/ثا أو 1.5 جيغابت/ثا، وكان لديهم جهاز ONT Wi-Fi 4 أو 5.",
+      "العرض صالح فقط لفائدة الزبائن المجهزين بأجهزة ONT من العلامات FiberHome وHuawei وNokia وZTE.",
+      "يشترط أن يكون المشترك زبوناً خاصاً أو خاصاً مستأجراً أو متعاقداً، مع اشتراك ألياف بصرية Idoom Fibre بتدفق 1.5 جيغابت/ثا بالنسبة للخواص والخواص المستأجرين، أو بأحد التدفقات 1 أو 1.2 أو 1.5 جيغابت/ثا كحد أقصى في العقد بالنسبة للمتعاقدين.",
+      "يجب أن يكون اسم الزبون مدرجاً في الملف المدمج على تطبيق WASL للاستفادة من السعر التفضيلي.",
+      "الزبائن الذين لديهم معدل تعبئة لا يقل عن 80% منذ اشتراكهم يتم اختبار أهليتهم على تطبيق WASL.",
+      "إذا لم يكن الزبون مؤهلاً وفقاً للملف المدمج على تطبيق WASL، يتعين عليه دفع ما يعادل ثلاثة (03) أشهر من اشتراكه في خدمة الإنترنت للاستفادة من مودم Wi-Fi 6.",
+      "بالنسبة للزبائن الخواص والخواص المستأجرين (Idoom Gamers وIdoom Gamers Locataire)، يُطبق السعر التفضيلي 3.500 دج على تدفق 1.5 جيغابت/ثا بشرط بلوغ معدل تعبئة 80% على الأقل منذ الاشتراك، وإلا يجب تعبئة ثلاثة أشهر من الاشتراك.",
+      "بالنسبة للزبائن المتعاقدين، يُطبق السعر التفضيلي 5.800 دج فقط إذا كان السقف الأقصى للاتفاقية محددًا بـ 1 أو 1.2 أو 1.5 جيغابت/ثا وكان الزبون مجهزاً بجهاز ONT Wi-Fi 4 أو 5.",
+      "الزبائن المؤهلون هم المتواجدون في مناطق مجهزة بتقنيات FiberHome أو Huawei أو Nokia أو ZTE.",
+      "يجب على المستفيدين إرجاع المودم القديم Wi-Fi 4 أو 5 مع مزود الطاقة الخاص به على مستوى الوكالة التجارية التابعة لهم، مقابل التوقيع على إقرار التسليم والاستلام المرفق.",
+      "لا يمكن لصاحب الاشتراك تفويض شخص آخر لإرجاع المودم القديم، إذ يتوجب عليه الحضور شخصياً إلى الوكالة التجارية للتوقيع على العقد الجديد وإقرار التسليم والاستلام.",
+      "يمكن للزبون المؤهل الحصول على جهاز ONT Wi-Fi 6 واحد فقط لكل خط اشتراك.",
+      "على مستشار الزبائن التأكد من وجود رصيد إيجابي عند القيام بالعملية وأن حساب الزبون كان نشطاً في اليوم السابق (J-1).",
+      "على المستشار إجراء فحص أخير للتأكد من أهلية الزبون وفقاً للملف المدرج على تطبيق WASL قبل منح المودم.",
+      "في حالة عدم أهلية الزبون على تطبيق WASL، يُلزم بدفع مبلغ يعادل ثلاثة (03) أشهر من اشتراكه في خدمة الإنترنت للاستفادة من المودم Wi-Fi 6.",
+      "العرض أُطلِق وفق قاعدة التسيير للعرض الترويجي Up-Selling، وسيتم إعلام الوكالات لاحقاً بخصوص استمراره أو تعليقه."
+    ],
+    "conditions_fr": [
+      "L’offre est réservée aux clients déjà abonnés à Idoom Fibre disposant d’un modem ONT Wi-Fi 4 ou 5.",
+      "Les clients résidentiels et résidentiels locataires (y compris Gamers et Gamers locataires) sont éligibles au tarif préférentiel uniquement s’ils sont au palier 1,5 Gbps.",
+      "Les clients conventionnés sont éligibles si le plafond de leur convention est fixé à l’un des paliers 1 Gbps, 1,2 Gbps ou 1,5 Gbps et qu’ils disposent d’un modem Wi-Fi 4 ou 5.",
+      "L’offre est valable uniquement pour les abonnés équipés d’ONT des marques FiberHome, Huawei, Nokia et ZTE.",
+      "Les clients doivent être abonnés résidentiels, résidentiels locataires ou conventionnés, avec un abonnement Fibre de 1,5 Gbps pour les clients résidentiels/locataires, ou appartenir à la catégorie des clients conventionnés avec palier maximum 1, 1,2 ou 1,5 Gbps.",
+      "Pour être éligible au tarif préférentiel, le client doit figurer dans le fichier intégré sur l’application WASL.",
+      "Le test d’éligibilité des clients ayant un taux de rechargement d’au moins 80 % s’effectue via l’application WASL.",
+      "Si le client n’est pas éligible selon le fichier WASL, il doit régler un paiement équivalent à trois (03) mois de son abonnement internet pour pouvoir bénéficier du modem Wi-Fi 6.",
+      "Pour les clients résidentiels, locataires et Gamers (y compris Gamers locataires), le tarif préférentiel de 3 500 DA TTC s’applique au palier 1,5 Gbps sous réserve d’un taux de rechargement d’au moins 80 % depuis la souscription ; à défaut, un rechargement de trois mois de connexion doit être effectué.",
+      "Pour les clients conventionnés, le tarif préférentiel de 5 800 DA TTC s’applique uniquement aux clients dont le plafond de la convention est fixé à 1 Gbps, 1,2 Gbps ou 1,5 Gbps.",
+      "Les zones d’équipement concernées par ces tarifs sont celles desservies par des équipements FiberHome, Huawei, NOKIA et ZTE.",
+      "Les bénéficiaires doivent restituer leur ancien modem Wi-Fi 4 ou 5 ainsi que son adaptateur d’alimentation au sein de l’agence commerciale de leur rattachement.",
+      "La restitution du modem donne lieu à la signature d’une décharge spécifique jointe à la procédure.",
+      "Le titulaire de l’abonnement doit se présenter en personne à l’agence pour restituer l’ancien ONT, signer la décharge et finaliser l’opération ; il ne peut pas autoriser une autre personne à effectuer la restitution.",
+      "Chaque ligne éligible ne peut bénéficier que d’un seul ONT Wi-Fi 6 à tarif préférentiel.",
+      "Avant d’attribuer un ONT Wi-Fi 6, le conseiller client doit vérifier que le client a une balance positive au moment de l’opération.",
+      "Le conseiller client doit s’assurer que le compte du client était actif la veille (J-1) de l’opération.",
+      "Le conseiller client doit effectuer une dernière vérification d’éligibilité en se référant au fichier injecté sur l’application WASL avant de conclure l’opération.",
+      "Si le client n’est pas éligible lors de la vérification finale, il est tenu de régler un paiement équivalant à trois (03) mois de son abonnement internet pour pouvoir obtenir le modem Wi-Fi 6.",
+      "L’offre est lancée dans le cadre de la promotion Up-Selling comme règle de gestion, et son maintien ou sa suspension pourront être communiqués ultérieurement."
+    ],
+    "benefits_ar": [
+      "تمكين زبائن Idoom Fibre من تحديث تجهيزاتهم بالانتقال من مودم Wi-Fi 4 أو 5 إلى مودم Wi-Fi 6 بسعر تفضيلي.",
+      "سعر تفضيلي جدّ تنافسي لفائدة الزبائن الخواص والخواص المستأجرين (بما فيهم Idoom Gamers وIdoom Gamers Locataire) بتدفق 1.5 جيغابت/ثا بقيمة 3.500 دج فقط.",
+      "سعر تفضيلي خاص لفائدة الزبائن المتعاقدين الذين يكون السقف الأقصى لاتفاقيتهم محددًا بـ 1 أو 1.2 أو 1.5 جيغابت/ثا بقيمة 5.800 دج لاقتناء مودم ONT Wi-Fi 6.",
+      "الاستفادة من تغطية Wi-Fi أفضل داخل المنزل واتصال أكثر استقراراً بفضل تقنية Wi-Fi 6 مقارنةً بالأجيال السابقة.",
+      "تثمين الزبائن الملتزمين عن طريق ربط الأهلية بمعدل تعبئة لا يقل عن 80%، مما يكافئ الزبائن الذين يحافظون على اشتراكهم بشكل منتظم.",
+      "إمكانية الاستفادة من السعر التفضيلي حتى في حالة عدم الأهلية الأولية، مقابل دفع ما يعادل ثلاثة أشهر من الاشتراك في خدمة الإنترنت.",
+      "توحيد تدريجي لقواعد تجهيزات الزبائن حول مودمات Wi-Fi 6 الحديثة، مما يحسن جودة خدمة Idoom Fibre بشكل عام.",
+      "إجراءات استرجاع وتسليم المودم مؤطرة من خلال توقيع إقرار التسليم والاستلام، مما يضمن تتبع الأجهزة المسترجعة والممنوحة.",
+      "العرض يشمل زبائن مجهزين بأجهزة FiberHome وHuawei وNokia وZTE، ما يغطي عدداً واسعاً من حالات الزبائن على الشبكة."
+    ],
+    "benefits_fr": [
+      "Permet aux clients Idoom Fibre de moderniser leur modem en passant de Wi-Fi 4 ou 5 à Wi-Fi 6, offrant une meilleure couverture Wi-Fi et une connexion plus stable.",
+      "Tarif préférentiel très avantageux pour les clients résidentiels, locataires et Gamers (y compris Gamers locataires) au palier 1,5 Gbps : 3 500 DA TTC au lieu d’un tarif standard plus élevé.",
+      "Tarif préférentiel dédié aux clients conventionnés dont le plafond de la convention est de 1, 1,2 ou 1,5 Gbps : 5 800 DA TTC pour l’acquisition d’un ONT Wi-Fi 6.",
+      "Offre encadrée par un processus d’éligibilité via l’application WASL, garantissant que les clients fidèles (taux de rechargement ≥ 80 %) sont privilégiés.",
+      "Possibilité pour les clients de bénéficier du tarif préférentiel même en cas d’inéligibilité initiale, moyennant le règlement de trois mois de leur abonnement internet.",
+      "Uniformisation progressive du parc de modems vers le Wi-Fi 6, améliorant la qualité globale de service Idoom Fibre et la satisfaction client.",
+      "Processus sécurisé via restitution physique du modem et signature d’une décharge, assurant la traçabilité du matériel échangé.",
+      "Offre compatible avec plusieurs constructeurs d’ONT (FiberHome, Huawei, Nokia, ZTE), ce qui facilite la prise en charge de nombreux cas clients."
+    ],
+    "pricing_summary_ar": "بالنسبة للزبائن الخواص والخواص المستأجرين (بما فيهم Idoom Gamers وIdoom Gamers Locataire) المشتركين بتدفق 1.5 جيغابت/ثا، يبلغ السعر التفضيلي لاقتناء مودم ONT Wi-Fi 6 قيمة 3.500 دج، مع ربط الأهلية بنسبة تعبئة لا تقل عن 80% أو تعبئة ثلاثة أشهر إضافية. أما الزبائن المتعاقدون الذين يكون السقف الأقصى لاتفاقيتهم محددًا بـ 1 أو 1.2 أو 1.5 جيغابت/ثا، فيستفيدون من سعر تفضيلي قدره 5.800 دج، مع ضرورة استرجاع المودم القديم Wi-Fi 4 أو 5.",
+    "pricing_summary_fr": "Les clients résidentiels, locataires, Gamers et Gamers locataires Idoom Fibre au palier 1,5 Gbps peuvent acquérir un ONT Wi-Fi 6 au tarif préférentiel de 3 500 DA TTC, sous conditions d’éligibilité (taux de rechargement ≥ 80 % ou rechargement de 3 mois et présence dans le fichier WASL). Les clients conventionnés dont le plafond de la convention est fixé à 1 Gbps, 1,2 Gbps ou 1,5 Gbps peuvent acquérir un ONT Wi-Fi 6 au tarif préférentiel de 5 800 DA TTC, après vérification d’éligibilité via WASL et restitution de l’ancien modem Wi-Fi 4 ou 5."
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من يمكنه الاستفادة من هذا السعر التفضيلي؟",
+      "answer": "يمكن الاستفادة من هذا السعر التفضيلي لكل من الزبائن الخواص والخواص المستأجرين (بما فيهم Idoom Gamers وIdoom Gamers Locataire) المشتركين في Idoom Fibre بتدفق 1.5 جيغابت/ثا والذين يملكون جهاز ONT Wi-Fi 4 أو 5، وكذلك الزبائن المتعاقدين الذين يكون السقف الأقصى لاتفاقيتهم محددًا بأحد التدفقات 1 أو 1.2 أو 1.5 جيغابت/ثا ولديهم أيضاً جهاز ONT Wi-Fi 4 أو 5."
+    },
+    {
+      "question": "هل يمكن لزبائن عرض Gamers الاستفادة من هذا العرض؟",
+      "answer": "نعم، مشتركو Idoom Gamers وIdoom Gamers Locataires مؤهلون للاستفادة من هذا العرض، لأنهم يُعتبرون من فئة الزبائن الخواص المشتركين في Idoom Fibre بتدفق 1.5 جيغابت/ثا."
+    },
+    {
+      "question": "ما هي شروط الاستفادة من الأسعار التفضيلية؟",
+      "answer": "من شروط الاستفادة من السعر التفضيلي أن يكون المشترك زبوناً خاصاً أو خاصاً مستأجراً أو متعاقداً، وأن يتوفر على اشتراك Idoom Fibre بسرعة 1.5 جيغابت/ثا بالنسبة للخواص والخواص المستأجرين، أو باتفاقية يكون سقفها الأقصى 1 أو 1.2 أو 1.5 جيغابت/ثا بالنسبة للمتعاقدين، وأن يكون اسمه مدرجاً في الملف المدمج على تطبيق WASL. في حالة عدم الأهلية، يتعين عليه دفع ما يعادل ثلاثة (03) أشهر من اشتراكه في الإنترنت للاستفادة من المودم Wi-Fi 6."
+    },
+    {
+      "question": "ما هي تفاصيل الأسعار التفضيلية لاقتناء مودم Wi-Fi 6 لفائدة الزبائن الخواص والمتعاقدين؟",
+      "answer": "الزبائن الخواص والخواص المستأجرون (بما فيهم Idoom Gamers وIdoom Gamers Locataire) بتدفق 1.5 جيغابت/ثا يمكنهم اقتناء مودم ONT Wi-Fi 6 بسعر تفضيلي قدره 3.500 دج، بشرط تحقيق معدل تعبئة لا يقل عن 80% منذ الاشتراك، وفي حالة عدم توفر هذا الشرط يجب تعبئة ثلاثة أشهر من الاشتراك. أما الزبائن المتعاقدون الذين يكون السقف الأقصى لاتفاقيتهم محددًا بـ 1 أو 1.2 أو 1.5 جيغابت/ثا فيستفيدون من سعر تفضيلي قدره 5.800 دج لاقتناء مودم ONT Wi-Fi 6."
+    },
+    {
+      "question": "هل يشمل السعر التفضيلي بقيمة 5.800 دج لجهاز ONT Wi-Fi 6 جميع الزبائن المتعاقدين بسرعات 1 أو 1.2 أو 1.5 جيغابت/ثا؟",
+      "answer": "لا، يُطبق السعر التفضيلي 5.800 دج حصريًا على الزبائن المتعاقدين الذين يكون السقف الأقصى في اتفاقيتهم محددًا بـ 1 أو 1.2 أو 1.5 جيغابت/ثا، والذين يملكون جهاز ONT Wi-Fi 4 أو 5. أما باقي الزبائن المتعاقدين خارج هذه التدفقات فلا يشملهم هذا السعر التفضيلي."
+    },
+    {
+      "question": "ما هي المناطق المشمولة بهذا العرض؟",
+      "answer": "الزبائن المؤهلون هم المتواجدون في مناطق تجهيز شبكة الألياف البصرية بمعدات FiberHome أو Huawei أو ZTE أو Nokia، حيث يكون المودم ONT Wi-Fi 6 متوافقاً مع هذه التجهيزات."
+    },
+    {
+      "question": "كيف يمكن الحصول على مودم Wi-Fi 6؟",
+      "answer": "للحصول على مودم Wi-Fi 6، يتعين على الزبون المؤهل التوجه إلى الوكالة التجارية التابعة له، وإرجاع المودم القديم Wi-Fi 4 أو 5 مع مزود الطاقة الخاص به، والتوقيع على إقرار التسليم والاستلام المرفق، ليتم منحه مودم ONT Wi-Fi 6 بالسعر التفضيلي وفق الشروط."
+    },
+    {
+      "question": "هل يمكن لصاحب الاشتراك تفويض شخص آخر لإرجاع المودم القديم؟",
+      "answer": "لا، لا يمكن ذلك. الزبون صاحب الاشتراك ملزم بالحضور شخصياً إلى وكالته التجارية من أجل إرجاع جهاز الـ ONT القديم والتوقيع على العقد الجديد وإقرار التسليم والاستلام، ولا تُقبل أي تفويضات في إطار هذا العرض."
+    },
+    {
+      "question": "كم عدد أجهزة ONT الممنوحة للزبون؟",
+      "answer": "يمكن للزبون المؤهل الاستفادة من جهاز ONT Wi-Fi 6 واحد فقط لكل خط اشتراك في إطار هذا العرض، ولا يمكن منحه أكثر من مودم واحد لنفس الخط."
+    },
+    {
+      "question": "كمستشار زبائن، كيف يمكنني معالجة طلب منح ONT Wi-Fi 6؟",
+      "answer": "على مستشار الزبائن اتباع الخطوات التالية: التأكد من وجود رصيد إيجابي عند القيام بالعملية؛ التأكد من أن حساب الزبون كان نشطاً في اليوم السابق (J-1)؛ إجراء فحص أخير للتأكد من أهلية الزبون وفقاً للملف المدرج على تطبيق WASL؛ وفي حالة عدم أهلية الزبون على تطبيق WASL، يُلزم بدفع مبلغ يعادل ثلاثة (03) أشهر من اشتراكه في خدمة الإنترنت قبل منحه مودم Wi-Fi 6 بالسعر التفضيلي."
+    }
+  ],
+  "faq_fr": [
+    {
+      "question": "Qui peut bénéficier de ce tarif préférentiel ?",
+      "answer": "Peuvent bénéficier de ce tarif préférentiel les clients résidentiels et résidentiels locataires (y compris Gamers et Gamers locataires) titulaires d’un abonnement Idoom Fibre au débit de 1,5 Gbps et disposant d’un modem Wi-Fi 4 ou 5, ainsi que les clients conventionnés dont le plafond de la convention est fixé à l’un des paliers 1 Gbps, 1,2 Gbps ou 1,5 Gbps et qui disposent également d’un modem Wi-Fi 4 ou 5."
+    },
+    {
+      "question": "Les clients de l’offre Gamers peuvent-ils bénéficier de cette offre ?",
+      "answer": "Oui. Les abonnés Idoom Gamers et Idoom Gamers Locataires sont éligibles à cette offre, car ils font partie des clients résidentiels Idoom Fibre et sont inclus dans la catégorie « Résidentiel / Résidentiel locataire / Gamers / Gamers locataires » ciblée par le tarif préférentiel au palier 1,5 Gbps."
+    },
+    {
+      "question": "Quelles sont les conditions d’éligibilité pour bénéficier des tarifs préférentiels ?",
+      "answer": "Les conditions d’éligibilité sont les suivantes : être abonné résidentiel, résidentiel locataire ou conventionné ; disposer d’un abonnement Fibre de 1,5 Gbps pour les clients résidentiels et locataires, ou appartenir à la catégorie des clients conventionnés avec un plafond fixé à 1, 1,2 ou 1,5 Gbps ; figurer dans le fichier intégré sur l’application WASL ; et, pour le tarif de 3 500 DA, avoir un taux de rechargement d’au moins 80 % depuis la souscription, faute de quoi un rechargement de trois mois de connexion est requis. Si le client n’est pas éligible, il doit régler un paiement équivalant à trois mois de son abonnement internet."
+    },
+    {
+      "question": "Quels sont les détails des tarifs préférentiels pour l’acquisition d’un modem Wi-Fi 6 ?",
+      "answer": "Pour les clients résidentiels, résidentiels locataires, Gamers et Gamers locataires au palier 1,5 Gbps, le tarif préférentiel pour l’acquisition d’un ONT Wi-Fi 6 est de 3 500 DA TTC, à condition d’avoir un taux de rechargement d’au moins 80 %, sinon un rechargement de trois mois doit être effectué. Pour les clients conventionnés dont le plafond de convention est fixé à 1, 1,2 ou 1,5 Gbps, le tarif préférentiel pour l’ONT Wi-Fi 6 est de 5 800 DA TTC."
+    },
+    {
+      "question": "Le tarif préférentiel de 5 800 DA concerne-t-il tous les clients conventionnés de 1 Gbps, 1,2 Gbps et 1,5 Gbps ?",
+      "answer": "Le tarif de 5 800 DA TTC s’applique uniquement aux clients conventionnés dont le plafond de la convention est fixé à l’un des paliers 1 Gbps, 1,2 Gbps ou 1,5 Gbps et qui disposent d’un modem Wi-Fi 4 ou 5. Les autres clients conventionnés ne sont pas concernés par ce tarif préférentiel."
+    },
+    {
+      "question": "Quelles sont les zones d’équipement concernées par ces tarifs ?",
+      "answer": "Les tarifs préférentiels pour l’ONT Wi-Fi 6 s’appliquent aux clients Idoom Fibre situés dans des zones équipées en ONT par les fournisseurs FiberHome, Huawei, NOKIA et ZTE. Les clients en dehors de ces zones ne sont pas concernés par cette offre."
+    },
+    {
+      "question": "Comment obtenir le modem Wi-Fi 6 ?",
+      "answer": "Pour obtenir le modem Wi-Fi 6, le client éligible doit se présenter à l’agence commerciale de son rattachement, restituer son ancien modem Wi-Fi 4 ou 5 ainsi que son adaptateur d’alimentation, et signer la décharge prévue à cet effet. L’ONT Wi-Fi 6 est alors attribué conformément au tarif préférentiel et aux conditions applicables."
+    },
+    {
+      "question": "Le titulaire de l’abonnement peut-il autoriser une autre personne à restituer l’ancien ONT ?",
+      "answer": "Non. Le titulaire de l’abonnement doit se présenter en personne à l’agence commerciale pour restituer l’ancien ONT, signer la décharge et finaliser l’opération de remplacement. Aucune procuration pour la restitution n’est acceptée dans le cadre de cette offre."
+    },
+    {
+      "question": "Quel est le nombre d’ONT attribués aux clients dans le cadre de cette offre ?",
+      "answer": "Les clients éligibles à ces tarifs préférentiels peuvent bénéficier d’un seul ONT Wi-Fi 6 par ligne. Il n’est pas possible d’obtenir plusieurs modems Wi-Fi 6 pour une même ligne dans le cadre de cette offre."
+    },
+    {
+      "question": "En tant que conseiller client, comment procéder pour l’attribution d’un ONT Wi-Fi 6 ?",
+      "answer": "Le conseiller client doit s’assurer d’abord que le client a une balance positive au moment de l’opération et que son compte était actif la veille (J-1). Il doit ensuite vérifier l’éligibilité du client en se référant au fichier injecté sur l’application WASL. Si le client est éligible, la procédure de restitution de l’ancien modem et d’attribution du nouvel ONT Wi-Fi 6 peut être engagée. Si le client n’est pas éligible, celui-ci devra régler un paiement équivalant à trois mois de son abonnement internet pour bénéficier du modem Wi-Fi 6 à tarif préférentiel."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "تنويه هام: نذكّركم أن البريد الإلكتروني FB@algerietelecom.dz مخصص حصراً للاستفسارات التجارية وطلبات التوضيح المتعلقة بالمذكرات أو الإجراءات التنظيمية المعتمدة.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies relatives notamment au tarif préférentiel sur l’ONT Wi-Fi 6."
+  },
+
+  "keywords_ar": [
+    "سعر تفضيلي",
+    "جهاز ONT Wi-Fi 6",
+    "مودم Wi-Fi 6",
+    "Idoom Fibre",
+    "الزبائن الخواص",
+    "الخواص المستأجرون",
+    "الزبائن المتعاقدون",
+    "Idoom Gamers",
+    "Idoom Gamers Locataire",
+    "1 جيغابت/ثا",
+    "1.2 جيغابت/ثا",
+    "1.5 جيغابت/ثا",
+    "3500 دج",
+    "5800 دج",
+    "معدل تعبئة 80%",
+    "تعبئة ثلاثة أشهر",
+    "تطبيق WASL",
+    "ملف WASL",
+    "FiberHome",
+    "Huawei",
+    "Nokia",
+    "ZTE",
+    "مودم Wi-Fi 4",
+    "مودم Wi-Fi 5",
+    "عصرنة المودم",
+    "استرجاع جهاز ONT",
+    "إقرار التسليم والاستلام",
+    "رصيد إيجابي",
+    "حساب نشط J-1",
+    "مودم واحد لكل خط",
+    "عرض Up-Selling",
+    "اتصالات الجزائر",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords_fr": [
+    "Tarif préférentiel",
+    "ONT Wi-Fi 6",
+    "Idoom Fibre",
+    "clients résidentiels",
+    "clients résidentiels locataires",
+    "clients conventionnés",
+    "Gamers",
+    "Gamers locataires",
+    "1 Gbps",
+    "1.2 Gbps",
+    "1.5 Gbps",
+    "3 500 DA",
+    "5 800 DA",
+    "taux de rechargement 80 %",
+    "rechargement 3 mois",
+    "application WASL",
+    "fichier WASL",
+    "FiberHome",
+    "Huawei",
+    "NOKIA",
+    "ZTE",
+    "modem Wi-Fi 4",
+    "modem Wi-Fi 5",
+    "modernisation modem",
+    "restitution ONT",
+    "décharge restitution",
+    "balance positive",
+    "compte actif J-1",
+    "un seul ONT par ligne",
+    "promotion Up-Selling",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+  "keywords": [
+    "Tarif préférentiel",
+    "ONT Wi-Fi 6",
+    "Idoom Fibre",
+    "clients résidentiels",
+    "clients résidentiels locataires",
+    "clients conventionnés",
+    "Gamers",
+    "Gamers locataires",
+    "1 Gbps",
+    "1.2 Gbps",
+    "1.5 Gbps",
+    "3 500 DA",
+    "5 800 DA",
+    "taux de rechargement 80 %",
+    "rechargement 3 mois",
+    "application WASL",
+    "fichier WASL",
+    "FiberHome",
+    "Huawei",
+    "NOKIA",
+    "ZTE",
+    "modem Wi-Fi 4",
+    "modem Wi-Fi 5",
+    "modernisation modem",
+    "restitution ONT",
+    "décharge restitution",
+    "balance positive",
+    "compte actif J-1",
+    "un seul ONT par ligne",
+    "promotion Up-Selling",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "سعر تفضيلي",
+    "جهاز ONT Wi-Fi 6",
+    "مودم Wi-Fi 6",
+    "الزبائن الخواص",
+    "الخواص المستأجرون",
+    "الزبائن المتعاقدون",
+    "Idoom Gamers",
+    "Idoom Gamers Locataire",
+    "3500 دج",
+    "5800 دج",
+    "معدل تعبئة 80%",
+    "تعبئة ثلاثة أشهر",
+    "تطبيق WASL",
+    "ملف WASL",
+    "عصرنة المودم",
+    "استرجاع جهاز ONT",
+    "إقرار التسليم والاستلام",
+    "رصيد إيجابي",
+    "حساب نشط J-1",
+    "مودم واحد لكل خط",
+    "عرض Up-Selling"
+  ],
+
+  "search_text": "Tarif préférentiel sur ONT Wi-Fi 6 au profit des clients résidentiels et conventionnés des paliers 1, 1.2 et 1.5 Gbps. Version 1. Dans le cadre de la modernisation des équipements, Algérie Télécom propose une offre permettant aux clients déjà abonnés à Idoom Fibre d’acquérir un modem Wi-Fi 6 à tarif préférentiel en échange de leur ONT Wi-Fi 4 ou 5. Les clients résidentiels et locataires (y compris Gamers et Gamers locataires) sont éligibles au palier 1,5 Gbps. Les clients conventionnés sont éligibles si le plafond de la convention est fixé à 1 Gbps, 1.2 Gbps ou 1.5 Gbps. L’offre est valable pour les abonnés équipés d’ONT FiberHome, Huawei, Nokia et ZTE et est lancée dans le cadre de la promotion Up-Selling comme règle de gestion.\n\nConditions d’éligibilité : être abonnés résidentiels, résidentiels locataires ou conventionnés ; disposer d’un abonnement Fibre 1,5 Gbps pour les clients résidentiels/locataires, ou être client conventionné avec un palier maximum 1, 1.2 ou 1.5 Gbps ; figurer dans le fichier intégré sur l’application WASL ; avoir un taux de rechargement d’au moins 80 % depuis la souscription pour profiter du tarif de 3 500 DA, sinon effectuer un rechargement de trois mois de connexion. Si le client n’est pas éligible selon WASL, il doit régler un paiement équivalant à trois mois de son abonnement internet. Le test d’éligibilité des clients ayant un taux de rechargement d’au moins 80 % s’effectue via l’application WASL.\n\nDétails des tarifs préférentiels : pour les clients Résidentiel / Résidentiel locataire / Gamers / Gamers locataires au palier 1,5 Gbps, le tarif préférentiel de l’ONT Wi-Fi 6 est de 3 500,00 DA TTC, à condition d’un taux de rechargement d’au moins 80 %, sinon un rechargement de trois mois est exigé. Pour les clients conventionnés, le tarif préférentiel est de 5 800,00 DA TTC pour les paliers 1 Gbps, 1.2 Gbps et 1.5 Gbps, si le plafond de la convention est fixé à l’un de ces paliers. Le test d’éligibilité via WASL permet de vérifier si le client respecte les critères (taux de rechargement, présence dans le fichier).\n\nZones d’équipement : l’offre concerne les clients des zones FiberHome, Huawei, NOKIA et ZTE. Modalités d’obtention du modem Wi-Fi 6 : les bénéficiaires doivent restituer leur ancien modem Wi-Fi 4 ou 5 et son adaptateur d’alimentation à l’agence commerciale de rattachement et signer la décharge jointe. Le titulaire de l’abonnement doit se présenter en personne et ne peut pas mandater une autre personne pour restituer l’ONT. Le nombre d’ONT attribués est limité à un seul ONT Wi-Fi 6 par ligne.\n\nRôle du conseiller client : s’assurer que le client a une balance positive au moment de l’opération ; vérifier que le compte était actif la veille (J-1) ; effectuer une dernière vérification d’éligibilité selon le fichier injecté sur l’application WASL ; si le client est éligible, procéder à la restitution et à l’attribution du modem Wi-Fi 6 à tarif préférentiel ; si le client n’est pas éligible, demander un paiement équivalant à trois mois d’abonnement internet avant l’attribution du modem. FAQ : les Gamers sont éligibles car considérés comme clients résidentiels ; le tarif de 5 800 DA s’applique aux seuls conventionnés plafonnés à 1, 1.2 ou 1.5 Gbps ; les zones concernées sont FiberHome, Huawei, NOKIA et ZTE ; la restitution exige la présence du titulaire.\n\nImportant : la messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies pour cette offre de tarif préférentiel sur ONT Wi-Fi 6.",
+  "dense_text_primary": "Ce document décrit l’offre « Tarif préférentiel sur ONT Wi-Fi 6 » d’Algérie Télécom au profit des clients Idoom Fibre résidentiels et conventionnés. L’objectif est de moderniser le parc de modems en permettant aux clients déjà abonnés à Idoom Fibre et possédant un ONT Wi-Fi 4 ou 5 de le remplacer par un ONT Wi-Fi 6 à tarif préférentiel. Les clients résidentiels, locataires et Gamers (y compris Gamers locataires) au palier 1,5 Gbps peuvent acquérir un ONT Wi-Fi 6 au tarif de 3 500 DA TTC, à condition notamment d’avoir un taux de rechargement d’au moins 80 % depuis la souscription ou, à défaut, de recharger trois mois de connexion. Les clients conventionnés dont le plafond de convention est fixé à 1, 1.2 ou 1.5 Gbps peuvent acquérir un ONT Wi-Fi 6 au tarif préférentiel de 5 800 DA TTC.\n\nL’éligibilité est contrôlée via l’application WASL, dans laquelle un fichier des clients éligibles est intégré. Le test d’éligibilité, incluant la vérification du taux de rechargement (≥ 80 %) et la présence dans le fichier WASL, conditionne l’accès au tarif préférentiel. En cas de non-éligibilité, le client peut tout de même bénéficier de l’offre en réglant un montant équivalent à trois mois de son abonnement internet. L’offre concerne les clients situés dans des zones équipées d’ONT des marques FiberHome, Huawei, NOKIA et ZTE. La modernisation est réalisée en restituant l’ancien modem Wi-Fi 4 ou 5 et son adaptateur d’alimentation au niveau de l’agence commerciale, contre signature d’une décharge. Le titulaire de la ligne doit obligatoirement être présent et ne peut pas mandater un tiers.\n\nUn seul ONT Wi-Fi 6 est attribué par ligne dans le cadre de cette offre. Les conseillers clients doivent vérifier que le client a une balance positive et que son compte était actif la veille (J-1), puis confirmer son éligibilité dans l’application WASL avant d’attribuer le modem. L’offre s’inscrit dans la promotion Up-Selling et vise à améliorer la qualité de service en remplaçant progressivement les anciens équipements par des modems Wi-Fi 6 plus performants. Pour les questions commerciales ou les clarifications sur les notes et procédures liées à ce tarif préférentiel, les équipes peuvent utiliser la messagerie « Feedback » FB@algerietelecom.dz."
+}

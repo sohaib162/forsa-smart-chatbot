@@ -1,0 +1,353 @@
+{
+  "document_id": "AT/DG/DCMI/DCGP/CQC/BI/V2.0/AR/159/2025 | AT/DG/DCMI/DCGP/CQC/SR/V2.0/FR/159/2025",
+  "language": "bilingual",
+  "doc_type": "offer",
+
+  "product_family": "idoom_fibre_weekend_boost",
+  "technology": [
+    "fibre_optique"
+  ],
+  "customer_segment": [
+    "residential"
+  ],
+  "commitment_type": null,
+  "usage_focus": [
+    "internet",
+    "speed_boost",
+    "weekend",
+    "streaming",
+    "gaming",
+    "downloads"
+  ],
+
+  "metadata": {
+    "title_ar": "العرض الجديد WEEK-END BOOST من Idoom Fibre",
+    "title_fr": "Nouvelle offre WEEK-END BOOST de Idoom Fibre",
+    "company": "Algérie Télécom",
+    "version": "2.0",
+    "effective_date": "2025-07-14"
+  },
+
+  "offer_core": {
+    "name_ar": "العرض الجديد WEEK-END BOOST من Idoom Fibre",
+    "name_fr": "Offre WEEK-END BOOST Idoom Fibre",
+    "description_ar": "تقوم اتصالات الجزائر بإثراء تجربة مشتركي خدمة Idoom Fibre من خلال منحهم إمكانية رفع تدفق الإنترنت الخاص بهم بشكل فوري خلال عطلة نهاية الأسبوع عبر خدمة WEEK-END BOOST. يمكن للمشتركين الذين يملكون تدفقات أولية بين 120 Mbps و 1 Gbps تفعيل BOOST نحو تدفقات أعلى تصل إلى 1.5 Gbps، عبر الفضاء الزبون أو تطبيق My Idoom، للاستفادة من اتصال محسَّن لمدة 48 ساعة من لحظة التفعيل. مقابل هذا الرفع المؤقت في التدفق، يتم خصم عدد من الأيام يتراوح بين 3 و 6 أيام من مدة صلاحية الاشتراك، حسب التدفق الأصلي والتدفق النهائي المختار. هذا الخيار مثالي لمشاهدة المحتوى عبر الأنترنت، الألعاب الإلكترونية والتحميلات المكثفة، كما يسمح بتجربة تدفقات أعلى قبل اتخاذ قرار بتغيير العرض بشكل دائم.",
+    "description_fr": "L’offre WEEK-END BOOST d’Algérie Télécom permet aux clients résidentiels Idoom Fibre d’augmenter temporairement leur débit internet pendant le week-end. Les abonnés avec un débit initial compris entre 120 Mbps et 1 Gbps peuvent activer, via l’Espace Client ou l’application My Idoom, un BOOST vers des débits supérieurs allant jusqu’à 1,5 Gbps, valable 48 heures à compter de l’activation. En contrepartie, un nombre de jours (entre 3 et 6) est déduit de la durée de validité de leur abonnement, en fonction du débit initial et du débit final choisi. Cette option est particulièrement recommandée pour le streaming, le gaming et les téléchargements intensifs, et permet de tester des débits plus élevés avant un éventuel changement d’offre.",
+    "conditions_ar": [
+      "تستهدف خدمة WEEK-END BOOST مشتركي Idoom Fibre من الزبائن الخواص الذين يملكون تدفقات أولية تتراوح بين 120 Mbps و 1 Gbps.",
+      "المشتركون الذين يملكون تدفق Idoom Fibre يساوي أو يقل عن 60 Mbps غير معنيين بهذه الخدمة.",
+      "المشتركون الخواص المندمجون في اتفاقيات غير مؤهلين للاستفادة من خدمة WEEK-END BOOST.",
+      "المشتركون بصيغة الإيجار (Locataire) غير مؤهلين للاستفادة من العرض.",
+      "مشتركو عرض Idoom Gamer Fibre غير معنيين بخدمة WEEK-END BOOST.",
+      "يمكن تفعيل عرض WEEK-END BOOST كل يوم جمعة ابتداءً من الساعة 00:01 إلى غاية السبت على الساعة 23:59.",
+      "يتم تفعيل العرض حصرياً عبر الفضاء الزبون على موقع اتصالات الجزائر أو عبر تطبيق My Idoom.",
+      "التدفقات المتاحة لرفع التدفق الأصلي في إطار العرض هي: 240 Mbps، 480 Mbps، 600 Mbps، 1 Gbps، و 1.5 Gbps.",
+      "مدة صلاحية BOOST هي 48 ساعة ابتداءً من لحظة التفعيل، وهي صلاحية زمنية وليست تقويمية.",
+      "خدمة WEEK-END BOOST عبارة عن رفع مؤقت لتدفق الإنترنت مع تطبيق خصم في مدة صلاحية الاشتراك يتراوح بين 3 و 6 أيام حسب التدفق الأصلي والتدفق النهائي المختار.",
+      "يبين جدول الخصم المرفق عدد الأيام المخصومة من مدة صلاحية الاشتراك حسب كل تركيبة بين التدفق الأصلي والتدفق النهائي، حيث يُخصم مثلاً لمشترك 120 Mbps ما بين 3 و 6 أيام حسب التدفق النهائي المختار، ويُخصم لمشترك 1 Gbps ثلاثة (03) أيام عند اختيار 1.5 Gbps.",
+      "لا يُسمح في إطار عرض WEEK-END BOOST باختيار تدفق مماثل للتدفق الأصلي أو أقل منه، حيث إن الرفع يكون دائماً نحو تدفق أعلى ضمن السلم المتاح.",
+      "الخدمة موجهة فقط للزبائن الخواص غير المتعاقدين وغير المستأجرين وغير مشتركي عرض Idoom Gamer Fibre، وفق شروط الأهلية المحددة."
+    ],
+    "conditions_fr": [
+      "La cible de l’offre WEEK-END BOOST est constituée des clients résidentiels abonnés à Idoom Fibre avec un débit initial compris entre 120 Mbps et 1 Gbps.",
+      "Les abonnés disposant d’un débit Idoom Fibre égal ou inférieur à 60 Mbps ne sont pas éligibles à l’offre WEEK-END BOOST.",
+      "Les clients résidentiels conventionnés de l’offre Idoom Fibre ne bénéficient pas de l’offre WEEK-END BOOST.",
+      "Les clients résidentiels locataires de Idoom Fibre ne sont pas éligibles à l’offre WEEK-END BOOST.",
+      "Les abonnés de l’offre Idoom Gamer Fibre ne sont pas éligibles à l’offre WEEK-END BOOST.",
+      "L’offre WEEK-END BOOST est disponible chaque vendredi à partir de 00h01 jusqu’au samedi à 23h59.",
+      "L’activation de l’offre WEEK-END BOOST se fait exclusivement via l’Espace Client sur le site web d’Algérie Télécom ou via l’application My Idoom.",
+      "Les débits disponibles pour l’augmentation de débit sont les paliers suivants : 240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps et 1,5 Gbps.",
+      "Le BOOST de débit est valable pendant 48 heures à compter de son activation ; il s’agit d’une validité temporelle et non calendaire.",
+      "L’offre WEEK-END BOOST consiste en une augmentation temporaire de débit avec une déduction de jours de validité de l’abonnement Internet en fonction du débit initial et du débit final choisi.",
+      "Le nombre de jours déduits de la durée de validité de l’abonnement est déterminé par le tableau suivant, en fonction du débit initial et du débit final choisi : pour un débit initial de 120 Mbps, une augmentation vers 240 Mbps entraîne une déduction de 3 jours, vers 480 Mbps une déduction de 3 jours, vers 600 Mbps une déduction de 4 jours, vers 1 Gbps une déduction de 5 jours et vers 1,5 Gbps une déduction de 6 jours ; pour un débit initial de 240 Mbps, une augmentation vers 480 Mbps entraîne une déduction de 3 jours, vers 600 Mbps une déduction de 3 jours, vers 1 Gbps une déduction de 4 jours et vers 1,5 Gbps une déduction de 5 jours ; pour un débit initial de 480 Mbps, une augmentation vers 600 Mbps entraîne une déduction de 3 jours, vers 1 Gbps une déduction de 4 jours et vers 1,5 Gbps une déduction de 4 jours ; pour un débit initial de 600 Mbps, une augmentation vers 1 Gbps entraîne une déduction de 3 jours et vers 1,5 Gbps une déduction de 3 jours ; pour un débit initial de 1 Gbps, une augmentation vers 1,5 Gbps entraîne une déduction de 3 jours.",
+      "Les augmentations vers un débit identique au débit initial ou vers un palier inférieur ne sont pas prévues dans le cadre de l’offre WEEK-END BOOST (cases marquées par \"/\" dans le tableau des déductions).",
+      "L’offre WEEK-END BOOST est recommandée pour les usages intensifs pendant le week-end, notamment le streaming, le gaming et les téléchargements volumineux.",
+      "L’offre WEEK-END BOOST s’applique uniquement aux clients éligibles conformément aux conditions d’éligibilité de débit et de segment (résidentiel non conventionné, non locataire, non Gamer)."
+    ],
+    "benefits_ar": [
+      "تمكين مشتركي Idoom Fibre المؤهلين من الاستفادة من تدفقات إنترنت أعلى تصل إلى 1.5 Gbps لمدة 48 ساعة خلال عطلة نهاية الأسبوع.",
+      "توفير مرونة لتكييف الاتصال بالإنترنت مع حاجيات عطلة نهاية الأسبوع مثل مشاهدة المحتوى عبر الأنترنت، الألعاب الإلكترونية والتحميلات المكثفة والاستخدام العائلي المتزامن.",
+      "إتاحة الفرصة لتجربة تدفقات أعلى قبل اتخاذ قرار نهائي بتغيير مستوى الاشتراك الأساسي في Idoom Fibre.",
+      "يعتمد العرض على خصم عدد من الأيام (من 3 إلى 6 أيام) من مدة صلاحية الاشتراك بدلاً من دفع مبلغ مالي إضافي مباشر، ما يسهل على الزبون إدارة ميزانيته.",
+      "الاستفادة من تجربة إنترنت معززة خلال عطلة نهاية الأسبوع دون تغيير دائم لعقد الاشتراك أو التدفق الأصلي.",
+      "إمكانية تفعيل الخدمة بكل سهولة وسرعة عبر الفضاء الزبون أو تطبيق My Idoom دون الحاجة للتنقل إلى الوكالة التجارية."
+    ],
+    "benefits_fr": [
+      "Permet aux clients Idoom Fibre éligibles de bénéficier temporairement de débits internet plus rapides, jusqu’à 1,5 Gbps, pendant 48 heures.",
+      "Offre une flexibilité pour adapter la connexion Internet aux besoins spécifiques du week-end (streaming, jeux en ligne, téléchargements intensifs, usage familial simultané).",
+      "Donne la possibilité aux abonnés de tester des débits supérieurs afin de mieux choisir un éventuel futur changement de palier d’abonnement Idoom Fibre.",
+      "Le mécanisme de l’offre repose sur une déduction de jours (entre 3 et 6 jours) de la durée de l’abonnement plutôt que sur un paiement direct, ce qui peut faciliter la gestion budgétaire du client.",
+      "Propose une expérience internet optimisée le week-end sans modifier définitivement le contrat de base du client.",
+      "Permet une activation simple et rapide via l’Espace Client ou l’application My Idoom, sans déplacement en agence."
+    ],
+    "pricing_summary_ar": "لا توجد رسوم نقدية إضافية مباشرة لتفعيل خدمة WEEK-END BOOST، بل يتم \"دفع\" الرفع المؤقت للتدفق عن طريق خصم عدد من الأيام يتراوح بين 3 و 6 أيام من مدة صلاحية الاشتراك، وذلك حسب التدفق الأصلي والتدفق النهائي المختار.",
+    "pricing_summary_fr": null
+  },
+
+  "policy_summary": {
+    "summary_ar": null,
+    "summary_fr": null
+  },
+
+  "faq_ar": [
+    {
+      "question": "من هي الفئة المستهدفة في عرض WEEK-END BOOST Idoom Fibre ؟",
+      "answer": "تستهدف خدمة WEEK-END BOOST مشتركي Idoom Fibre من الزبائن الخواص الذين يملكون تدفقات أولية تتراوح بين 120 Mbps و 1 Gbps. المشتركون بتدفق 60 Mbps أو أقل غير معنيين بهذا العرض."
+    },
+    {
+      "question": "ما هي قنوات تفعيل عرض WEEK-END BOOST ؟",
+      "answer": "يمكن تفعيل عرض WEEK-END BOOST حصرياً عبر القنوات الرقمية التالية: الفضاء الزبون عبر موقع اتصالات الجزائر، وتطبيق الهاتف المحمول My Idoom."
+    },
+    {
+      "question": "ما هي التفاصيل الرئيسية لعرض WEEK-END BOOST ؟",
+      "answer": "عرض WEEK-END BOOST متاح كل يوم جمعة ابتداءً من الساعة 00:01 إلى غاية السبت على الساعة 23:59، ويسمح برفع التدفق الأصلي نحو أحد التدفقات التالية: 240 Mbps، 480 Mbps، 600 Mbps، 1 Gbps أو 1.5 Gbps، لمدة 48 ساعة من لحظة التفعيل. مقابل ذلك، يتم خصم عدد من الأيام يتراوح بين 3 و 6 أيام من مدة صلاحية الاشتراك، حسب التدفق الأصلي والتدفق النهائي المختار. العرض موجه للاستخدامات المكثفة مثل مشاهدة المحتوى، الألعاب الإلكترونية والتحميلات الكبيرة."
+    },
+    {
+      "question": "هل يستفيد المشتركون الخواص المندمجون في اتفاقيات من خدمة WEEK-END BOOST ؟",
+      "answer": "لا، المشتركون الخواص المندمجون في اتفاقيات غير مؤهلين للاستفادة من خدمة WEEK-END BOOST، حيث إن العرض موجه حصرياً للزبائن الخواص غير المتعاقدين المستفيدين من Idoom Fibre بتدفقات بين 120 Mbps و 1 Gbps."
+    },
+    {
+      "question": "هل يمكن للمشتركين بصيغة الإيجار (Locataire) الاستفادة من عرض WEEK-END BOOST ؟",
+      "answer": "لا، المشتركون بصيغة الإيجار (Locataire) غير مؤهلين للاستفادة من عرض WEEK-END BOOST. العرض مخصص فقط للمشتركين الخواص أصحاب الاشتراكات المباشرة في Idoom Fibre، ضمن التدفقات المحددة."
+    },
+    {
+      "question": "هل مشتركو عرض Idoom Gamer Fibre معنيون بخدمة WEEK-END BOOST ؟",
+      "answer": "لا، مشتركو عرض Idoom Gamer Fibre غير مؤهلين للاستفادة من خدمة WEEK-END BOOST. هذه الخدمة موجهة للمشتركين الخواص في Idoom Fibre الكلاسيكي الذين تتراوح تدفقاتهم بين 120 Mbps و 1 Gbps."
+    },
+    {
+      "question": "متى يمكن تفعيل عرض WEEK-END BOOST ؟",
+      "answer": "يمكن تفعيل عرض WEEK-END BOOST خلال عطلة نهاية الأسبوع من الجمعة على الساعة 00:01 إلى غاية السبت على الساعة 23:59. أي تفعيل ضمن هذه الفترة يمنح المشترك تدفقاً أعلى لمدة 48 ساعة من وقت التفعيل."
+    },
+    {
+      "question": "هل صلاحية العرض زمنية أم تعتمد على التقويم ؟",
+      "answer": "صلاحية عرض WEEK-END BOOST زمنية، حيث يبقى الرفع في التدفق صالحاً لمدة 48 ساعة ابتداءً من لحظة التفعيل، بغض النظر عن منتصف الليل. بالمقابل، الصلاحية التقويمية تعني انتهاء العرض عند منتصف الليل مهما كان وقت التفعيل، وهو ما لا ينطبق على هذه الخدمة."
+    },
+    {
+      "question": "ما هي تدفقات الرفع المتاحة لزيادة التدفق الأصلي ؟",
+      "answer": "التدفقات المتاحة ضمن عرض WEEK-END BOOST هي: 240 Mbps، 480 Mbps، 600 Mbps، 1 Gbps و 1.5 Gbps. يختار المشترك تدفقاً أعلى من تدفقه الأصلي ضمن هذه السلسلة، ويتم احتساب عدد الأيام المخصومة وفقاً للجدول المحدد."
+    },
+    {
+      "question": "هل المشتركون بتدفق 60 Mbps أو أقل مؤهلون للاستفادة من عرض WEEK-END BOOST ؟",
+      "answer": "لا، المشتركون الذين يملكون تدفق Idoom Fibre يساوي أو يقل عن 60 Mbps غير مؤهلين للاستفادة من عرض WEEK-END BOOST. تبدأ الأهلية من تدفق 120 Mbps فما فوق."
+    },
+    {
+      "question": "ما هي الميزة الأساسية لعرض WEEK-END BOOST ؟",
+      "answer": "الميزة الأساسية لعرض WEEK-END BOOST هي تمكين مشترك Idoom Fibre من رفع تدفق الإنترنت الخاص به مؤقتاً لمدة 48 ساعة خلال عطلة نهاية الأسبوع، مقابل خصم يتراوح بين 3 و 6 أيام من مدة صلاحية الاشتراك، حسب التدفق النهائي المختار. هذا يسمح بتكييف تجربة الإنترنت مع ذروة الاستهلاك خلال نهاية الأسبوع."
+    },
+    {
+      "question": "ما هي الاستخدامات الموصى بها لعرض WEEK-END BOOST ؟",
+      "answer": "يُنصح باستخدام عرض WEEK-END BOOST في الحالات التي تتطلب تدفقاً عالياً للبيانات، مثل مشاهدة المحتوى عبر منصات البث (Streaming)، اللعب عبر الإنترنت (Gaming)، والتحميلات المكثفة، إضافة إلى الاستخدام العائلي المتزامن حيث يتصل عدة مستخدمين بالشبكة في نفس الوقت."
+    }
+  ],
+
+  "faq_fr": [
+    {
+      "question": "Quelle est la cible visée dans cette offre WEEK-END BOOST Idoom Fibre ?",
+      "answer": "La cible visée par l’offre WEEK-END BOOST comprend les clients résidentiels abonnés à Idoom Fibre avec un débit initial compris entre 120 Mbps et 1 Gbps. Les abonnés disposant d’un débit égal ou inférieur à 60 Mbps ne sont pas éligibles à cette offre."
+    },
+    {
+      "question": "Quels sont les canaux d’activation dans cette offre ?",
+      "answer": "L’activation de l’offre WEEK-END BOOST se fait exclusivement via les canaux digitaux suivants : l’Espace Client accessible depuis le site web d’Algérie Télécom et l’application mobile My Idoom."
+    },
+    {
+      "question": "Quels sont les détails principaux de l’offre WEEK-END BOOST ?",
+      "answer": "L’offre WEEK-END BOOST est disponible chaque vendredi à partir de 00h01 jusqu’au samedi à 23h59. Elle permet d’augmenter le débit initial vers un palier supérieur (240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps ou 1,5 Gbps) pour une durée de 48 heures à compter de l’activation. En contrepartie, un nombre de jours (de 3 à 6 jours) est déduit de la durée de validité de l’abonnement Internet, selon le débit initial et le débit final sélectionné. L’offre est particulièrement adaptée aux usages intensifs comme le streaming, le gaming et les téléchargements importants."
+    },
+    {
+      "question": "Les clients résidentiels conventionnés de l’offre Idoom Fibre bénéficient-ils de l’offre WEEK-END BOOST ?",
+      "answer": "Non. Les clients résidentiels conventionnés de l’offre Idoom Fibre ne sont pas concernés par cette offre et ne peuvent pas bénéficier du WEEK-END BOOST."
+    },
+    {
+      "question": "L’offre WEEK-END BOOST est-elle accessible aux clients résidentiels locataires de Idoom Fibre ?",
+      "answer": "Non. Les clients locataires de Idoom Fibre ne peuvent pas bénéficier de l’offre WEEK-END BOOST, celle-ci étant réservée uniquement aux clients résidentiels non locataires répondant aux critères de débit."
+    },
+    {
+      "question": "Les abonnés de l’offre Idoom Gamer Fibre sont-ils éligibles à l’offre WEEK-END BOOST ?",
+      "answer": "Non. Les abonnés de l’offre Idoom Gamer Fibre ne sont pas éligibles à l’offre WEEK-END BOOST. Cette offre est limitée aux clients résidentiels Idoom Fibre classiques disposant d’un débit compris entre 120 Mbps et 1 Gbps."
+    },
+    {
+      "question": "Quand peut-on activer l’offre WEEK-END BOOST ?",
+      "answer": "L’offre WEEK-END BOOST peut être activée chaque week-end, du vendredi à 00h01 jusqu’au samedi à 23h59. Toute activation effectuée dans cette plage horaire déclenche un BOOST de débit valable 48 heures à compter de l’heure d’activation."
+    },
+    {
+      "question": "La validité de l’offre est-elle calendaire ou temporelle ?",
+      "answer": "La validité de l’offre WEEK-END BOOST est temporelle. Cela signifie que le BOOST est valable pendant 48 heures à compter de l’heure d’activation, et non pas uniquement jusqu’à minuit. À titre de comparaison, une validité calendaire ferait expirer l’offre à minuit quelle que soit l’heure d’activation."
+    },
+    {
+      "question": "Quels sont les paliers de débit disponibles pour effectuer une augmentation de mon débit initial ?",
+      "answer": "Les paliers de débit disponibles dans le cadre de l’offre WEEK-END BOOST sont les suivants : 240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps et 1,5 Gbps. Le client choisit un débit supérieur à son débit initial, dans la limite de ces paliers, et la déduction de jours est calculée en fonction du couple débit initial / débit final."
+    },
+    {
+      "question": "Les abonnés ayant un débit Idoom Fibre égal ou inférieur à 60 Mbps peuvent-ils bénéficier de cette offre ?",
+      "answer": "Non. Les abonnés dont le débit Idoom Fibre est égal ou inférieur à 60 Mbps ne sont pas éligibles à l’offre WEEK-END BOOST. L’éligibilité commence à partir d’un débit initial de 120 Mbps."
+    },
+    {
+      "question": "Quel est l’avantage principal de l’offre WEEK-END BOOST ?",
+      "answer": "L’avantage principal de l’offre WEEK-END BOOST est de permettre aux clients Idoom Fibre d’augmenter temporairement leur débit internet pour une durée de 48 heures, afin de profiter de débits plus rapides lors des week-ends. En contrepartie, une déduction de 3 à 6 jours est appliquée sur la durée de leur abonnement initial en fonction du débit choisi. Cette formule offre un BOOST de débit temporaire et ajustable selon les besoins."
+    },
+    {
+      "question": "À quels usages l’offre WEEK-END BOOST est-elle recommandée ?",
+      "answer": "L’offre WEEK-END BOOST est particulièrement recommandée pour les usages intensifs qui nécessitent beaucoup de bande passante, tels que le streaming de contenus vidéo en haute qualité, le gaming en ligne et les téléchargements volumineux. Elle convient également aux foyers où plusieurs utilisateurs se connectent simultanément pendant le week-end."
+    }
+  ],
+
+  "contact": {
+    "phone": null,
+    "email": "FB@algerietelecom.dz",
+    "notes_ar": "مهمّ جدًا : نذكركم بأن البريد الإلكتروني FB@algerietelecom.dz مخصص حصريًا لطلبات المعلومات التجارية والاستفسارات المتعلقة بالمذكرات أو الإجراءات المعتمدة. لا تترددوا في التواصل معنا عند الحاجة.",
+    "notes_fr": "La messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies, y compris celles relatives à la nouvelle offre WEEK-END BOOST de Idoom Fibre."
+  },
+
+  "keywords_ar": [
+    "عرض WEEK-END BOOST",
+    "العرض الجديد WEEK-END BOOST",
+    "Idoom Fibre",
+    "تدفق 120 Mbps",
+    "تدفق 240 Mbps",
+    "تدفق 480 Mbps",
+    "تدفق 600 Mbps",
+    "تدفق 1 Gbps",
+    "تدفق 1.5 Gbps",
+    "رفع مؤقت للتدفق",
+    "BOOST 48 ساعة",
+    "صلاحية 48 ساعة",
+    "الجمعة 00:01",
+    "السبت 23:59",
+    "الزبائن الخواص",
+    "مشتركو Idoom Fibre",
+    "مشتركون غير مؤهلين 60 Mbps أو أقل",
+    "المشتركون المندمجون في اتفاقيات غير مؤهلين",
+    "المشتركون بصيغة الإيجار غير مؤهلين",
+    "مشتركو Idoom Gamer Fibre غير مؤهلين",
+    "البث المباشر",
+    "Streaming",
+    "الألعاب الإلكترونية",
+    "Gaming",
+    "التحميلات المكثفة",
+    "خصم 3 أيام",
+    "خصم 4 أيام",
+    "خصم 5 أيام",
+    "خصم 6 أيام",
+    "الفضاء الزبون",
+    "تطبيق My Idoom",
+    "صلاحية زمنية",
+    "تدفق أصلي",
+    "تدفق نهائي",
+    "تدفقات عالية جدًا",
+    "عطلة نهاية الأسبوع",
+    "اتصالات الجزائر",
+    "FB@algerietelecom.dz"
+  ],
+
+  "keywords_fr": [
+    "WEEK-END BOOST",
+    "Nouvelle offre WEEK-END BOOST",
+    "Idoom Fibre",
+    "débit 120 Mbps",
+    "débit 240 Mbps",
+    "débit 480 Mbps",
+    "débit 600 Mbps",
+    "débit 1 Gbps",
+    "débit 1,5 Gbps",
+    "augmentation de débit",
+    "BOOST 48 heures",
+    "48 heures de validité",
+    "vendredi 00h01",
+    "samedi 23h59",
+    "clients résidentiels Idoom Fibre",
+    "clients conventionnés exclus",
+    "clients locataires exclus",
+    "Idoom Gamer Fibre non éligible",
+    "streaming",
+    "gaming",
+    "téléchargements intensifs",
+    "déduction de 3 jours",
+    "déduction de 4 jours",
+    "déduction de 5 jours",
+    "déduction de 6 jours",
+    "Espace Client",
+    "My Idoom",
+    "validité temporelle",
+    "débit initial",
+    "débit final",
+    "débits ultra-rapides",
+    "week-end",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz"
+  ],
+
+  "keywords": [
+    "WEEK-END BOOST",
+    "Nouvelle offre WEEK-END BOOST",
+    "Idoom Fibre",
+    "débit 120 Mbps",
+    "débit 240 Mbps",
+    "débit 480 Mbps",
+    "débit 600 Mbps",
+    "débit 1 Gbps",
+    "débit 1,5 Gbps",
+    "augmentation de débit",
+    "BOOST 48 heures",
+    "48 heures de validité",
+    "vendredi 00h01",
+    "samedi 23h59",
+    "clients résidentiels Idoom Fibre",
+    "clients conventionnés exclus",
+    "clients locataires exclus",
+    "Idoom Gamer Fibre non éligible",
+    "streaming",
+    "gaming",
+    "téléchargements intensifs",
+    "déduction de 3 jours",
+    "déduction de 4 jours",
+    "déduction de 5 jours",
+    "déduction de 6 jours",
+    "Espace Client",
+    "My Idoom",
+    "validité temporelle",
+    "débit initial",
+    "débit final",
+    "débits ultra-rapides",
+    "week-end",
+    "Algérie Télécom",
+    "FB@algerietelecom.dz",
+    "عرض WEEK-END BOOST",
+    "العرض الجديد WEEK-END BOOST",
+    "تدفق 120 Mbps",
+    "تدفق 240 Mbps",
+    "تدفق 480 Mbps",
+    "تدفق 600 Mbps",
+    "تدفق 1 Gbps",
+    "تدفق 1.5 Gbps",
+    "رفع مؤقت للتدفق",
+    "BOOST 48 ساعة",
+    "صلاحية 48 ساعة",
+    "الجمعة 00:01",
+    "السبت 23:59",
+    "الزبائن الخواص",
+    "مشتركو Idoom Fibre",
+    "مشتركون غير مؤهلين 60 Mbps أو أقل",
+    "المشتركون المندمجون في اتفاقيات غير مؤهلين",
+    "المشتركون بصيغة الإيجار غير مؤهلين",
+    "مشتركو Idoom Gamer Fibre غير مؤهلين",
+    "البث المباشر",
+    "الألعاب الإلكترونية",
+    "التحميلات المكثفة",
+    "خصم 3 أيام",
+    "خصم 4 أيام",
+    "خصم 5 أيام",
+    "خصم 6 أيام",
+    "الفضاء الزبون",
+    "تطبيق My Idoom",
+    "صلاحية زمنية",
+    "تدفق أصلي",
+    "تدفق نهائي",
+    "تدفقات عالية جدًا",
+    "عطلة نهاية الأسبوع",
+    "اتصالات الجزائر"
+  ],
+
+  "search_text": "Nouvelle offre WEEK-END BOOST de Idoom Fibre. Algérie Télécom enrichit l’expérience Idoom Fibre en offrant à ses clients résidentiels la possibilité d’augmenter instantanément leur débit internet pendant les week-ends.  La cible comprend les clients résidentiels abonnés à Idoom Fibre avec un débit initial allant de 120 Mbps jusqu’à 1 Gbps. Les abonnés disposant d’un débit Idoom Fibre égal ou inférieur à 60 Mbps ne sont pas éligibles.  Les clients résidentiels conventionnés, les clients locataires et les abonnés de l’offre Idoom Gamer Fibre ne bénéficient pas de l’offre WEEK-END BOOST. L’activation se fait via l’Espace Client ou l’application My Idoom.  L’offre est disponible chaque vendredi à partir de 00h01 jusqu’au samedi à 23h59. Les débits disponibles pour augmentation sont : 240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps et 1,5 Gbps.  Le BOOST est valable pendant 48 heures à compter de l’activation, ce qui correspond à une validité temporelle. L’avantage principal est de faire profiter les clients de débits ultra-rapides avec une déduction de 3 à 6 jours de la durée de l’abonnement selon le débit choisi.  Tableau des déductions : en fonction du débit initial et du débit final choisi, un certain nombre de jours est déduit de la durée de validité de l’abonnement Internet.  Pour un débit initial de 120 Mbps, une augmentation vers 240 Mbps déduit 3 jours, vers 480 Mbps 3 jours, vers 600 Mbps 4 jours, vers 1 Gbps 5 jours et vers 1,5 Gbps 6 jours.  Pour un débit initial de 240 Mbps, une augmentation vers 480 Mbps déduit 3 jours, vers 600 Mbps 3 jours, vers 1 Gbps 4 jours et vers 1,5 Gbps 5 jours.  Pour un débit initial de 480 Mbps, une augmentation vers 600 Mbps déduit 3 jours, vers 1 Gbps 4 jours et vers 1,5 Gbps 4 jours.  Pour un débit initial de 600 Mbps, une augmentation vers 1 Gbps ou 1,5 Gbps déduit 3 jours.  Pour un débit initial de 1 Gbps, une augmentation vers 1,5 Gbps déduit 3 jours.  Exemple : si un client bénéficie d’un débit initial de 120 Mbps et qu’il opte pour un BOOST à 1,5 Gbps, une déduction de 6 jours est appliquée sur la durée de son abonnement.  L’offre WEEK-END BOOST est décrite comme une option flexible pour personnaliser l’expérience internet Idoom Fibre durant le week-end, permettant aux clients de tester des débits plus élevés tout en gardant la structure de leur abonnement.  Les Q&R précisent que l’offre est recommandée pour le streaming, le gaming, les téléchargements intensifs, qu’elle est valable 48 heures à partir de l’activation et qu’elle repose sur une validité temporelle (et non calendaire).  Pour toute question ou clarification, la messagerie « Feedback » FB@algerietelecom.dz est exclusivement réservée aux demandes d’informations commerciales et aux clarifications sur les notes ou procédures établies.\n\nالعرض الجديد WEEK-END BOOST من Idoom Fibre من اتصالات الجزائر يمنح مشتركي Idoom Fibre من الزبائن الخواص إمكانية رفع تدفق الإنترنت مؤقتاً خلال عطلة نهاية الأسبوع.  تستهدف الخدمة المشتركين الذين يملكون تدفقاً أولياً بين 120 Mbps و 1 Gbps، بينما المشتركون بتدفق 60 Mbps أو أقل غير مؤهلين.  لا يستفيد المشتركون الخواص المندمجون في اتفاقيات، ولا المشتركون بصيغة الإيجار (Locataire)، ولا مشتركو عرض Idoom Gamer Fibre من هذه الخدمة.  يتم تفعيل العرض حصرياً عبر الفضاء الزبون أو تطبيق My Idoom، وذلك من الجمعة 00:01 إلى السبت 23:59.  تتيح الخدمة رفع التدفق نحو أحد التدفقات التالية: 240 Mbps، 480 Mbps، 600 Mbps، 1 Gbps أو 1.5 Gbps، لمدة 48 ساعة من لحظة التفعيل، وهي صلاحية زمنية وليست تقويمية.  مقابل هذا الرفع المؤقت للتدفق، يتم خصم عدد من الأيام يتراوح بين 3 و 6 أيام من مدة صلاحية الاشتراك، حسب التدفق الأصلي والتدفق النهائي المختار كما هو مبين في جدول الخصم.  مثال توضيحي: إذا كان المشترك يستفيد من تدفق 120 Mbps واختار BOOST بتدفق 1.5 Gbps، سيتم خصم 6 أيام من مدة اشتراكه.  العرض WEEK-END BOOST مثالي لمشاهدة المحتوى (Streaming)، الألعاب الإلكترونية (Gaming) والتحميلات المكثفة، ويوفر خياراً مرناً لتخصيص تجربة الإنترنت خلال عطلة نهاية الأسبوع.  في نهاية المستند، تُذكّر اتصالات الجزائر بأن البريد الإلكتروني FB@algerietelecom.dz مخصص لطلبات المعلومات التجارية والاستفسارات حول المذكرات أو الإجراءات المعتمدة.",
+
+  "dense_text_primary": "Ce document présente la « Nouvelle offre WEEK-END BOOST de Idoom Fibre » d’Algérie Télécom, une option d’augmentation temporaire de débit destinée aux clients résidentiels Idoom Fibre dont le débit initial est compris entre 120 Mbps et 1 Gbps. Chaque week-end, du vendredi à 00h01 au samedi à 23h59, les clients éligibles peuvent activer via l’Espace Client ou l’application My Idoom un BOOST de débit vers des paliers supérieurs (240 Mbps, 480 Mbps, 600 Mbps, 1 Gbps ou 1,5 Gbps) pour une durée de 48 heures à compter de l’activation. En contrepartie, un nombre de jours (entre 3 et 6 jours) est déduit de la durée de validité de l’abonnement Internet, en fonction du couple débit initial / débit final choisi. Les abonnés disposant d’un débit égal ou inférieur à 60 Mbps, les clients résidentiels conventionnés, les clients locataires et les abonnés à Idoom Gamer Fibre ne sont pas éligibles. Le tableau des déductions précise l’impact exact sur la durée de l’abonnement : par exemple, pour un débit initial de 120 Mbps, un BOOST vers 240 ou 480 Mbps déduit 3 jours, vers 600 Mbps 4 jours, vers 1 Gbps 5 jours et vers 1,5 Gbps 6 jours. Pour 240 Mbps, un passage à 480 ou 600 Mbps déduit 3 jours, à 1 Gbps 4 jours et à 1,5 Gbps 5 jours ; pour 480 Mbps, un passage à 600 Mbps déduit 3 jours, à 1 Gbps ou 1,5 Gbps déduit 4 jours ; pour 600 Mbps, un BOOST vers 1 Gbps ou 1,5 Gbps déduit 3 jours ; pour 1 Gbps, un BOOST vers 1,5 Gbps déduit 3 jours. L’offre WEEK-END BOOST est recommandée pour les usages intensifs (streaming, gaming, téléchargements volumineux) et permet de tester un débit plus élevé sans modifier définitivement le contrat, la contrepartie étant exprimée en jours d’abonnement et non en frais directs.\n\nعلى الجانب العربي، يوضح المستند أن خدمة WEEK-END BOOST من اتصالات الجزائر تعزز تجربة مشتركي Idoom Fibre من خلال رفع مؤقت لتدفق الإنترنت خلال عطلة نهاية الأسبوع. تستهدف الخدمة الزبائن الخواص الذين يملكون تدفقات بين 120 Mbps و 1 Gbps، في حين يُستثنى المشتركون بتدفق 60 Mbps أو أقل، والمشتركون المندمجون في اتفاقيات، والمشتركون بصيغة الإيجار، إضافة إلى مشتركي عرض Idoom Gamer Fibre. يتم تفعيل الخدمة حصرياً عبر الفضاء الزبون أو تطبيق My Idoom ضمن الفترة الممتدة من الجمعة 00:01 إلى السبت 23:59، ويستفيد المشترك من تدفق أعلى من بين التدفقات المتاحة (240 Mbps إلى 1.5 Gbps) لمدة 48 ساعة من لحظة التفعيل. مقابل هذا الرفع في التدفق، يُخصم من مدة صلاحية الاشتراك بين 3 و 6 أيام حسب التدفق الأصلي والتدفق النهائي المختار، ما يجعل العرض مناسباً لمشاهدة المحتوى، الألعاب الإلكترونية والتحميلات المكثفة دون تغيير دائم لعقد الاشتراك الأساسي."
+}
