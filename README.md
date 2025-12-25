@@ -10,6 +10,21 @@ This chatbot provides instant answers about:
 -  **Produits** - Products and equipment
 -  **Offres** - Commercial offers and pricing
 
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](assets/landing-page.png)
+
+### Chat Interface
+![Chat Interface](assets/chat-interface2.png)
+![Chat Interface](assets/chat-interface.png)
+
+
+### Chat History
+![Chat History](assets/historique-page.png)
+
+### Document Library
+![Document Library](assets/document-library.png)
 
 ##  Architecture
 
