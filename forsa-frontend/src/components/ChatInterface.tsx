@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Send, Paperclip, Bot, User, Download, Calendar, Loader2, FileText, BookOpen, Package, Tag, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { useTypingEffect } from "@/hooks/use-typing-effect";
+import { TypingMarkdownMessage } from "@/components/TypingMarkdownMessage";
 import { processQuestion, type ChatResponse } from "@/lib/chatApi";
 import { openDocument, downloadDocument } from "@/lib/api";
 import { toast } from "sonner";
@@ -277,7 +277,7 @@ export function ChatInterface({ debugMode, sidebarCollapsed }: { debugMode: bool
                   ) : (
                     <>
                       {message.role === "assistant" ? (
-                        <TypingMessage content={message.content} isTyping={message.isTyping} />
+                        <TypingMarkdownMessage content={message.content} isTyping={message.isTyping} />
                       ) : (
                         <>
                           <p className="whitespace-pre-wrap">{message.content}</p>
@@ -433,22 +433,7 @@ export function ChatInterface({ debugMode, sidebarCollapsed }: { debugMode: bool
   );
 }
 
-function TypingMessage({ content, isTyping }: { content: string; isTyping?: boolean }) {
-  const { displayedText, isTyping: currentlyTyping } = useTypingEffect({
-    text: content,
-    speed: 15,
-    enabled: isTyping || false
-  });
-
-  return (
-    <div className="relative">
-      <p className="whitespace-pre-wrap inline">{displayedText}</p>
-      {currentlyTyping && (
-        <span className="inline-block w-0.5 h-4 bg-primary ml-0.5 animate-pulse align-middle" />
-      )}
-    </div>
-  );
-}
+// TypingMessage has been replaced by TypingMarkdownMessage for proper markdown rendering
 
 function OfferCard({ offer }: { offer: Offer }) {
   return (

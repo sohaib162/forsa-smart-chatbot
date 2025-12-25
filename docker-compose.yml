@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   minio:
     image: minio/minio:latest
@@ -49,22 +47,33 @@ services:
         condition: service_healthy
     networks: [forsa-net]
 
-  chatbot-api:
-    build:
-      context: ./chat-bot-algerie-telecom
-      dockerfile: Dockerfile
-    container_name: forsa-chatbot-api
-    ports:
-      - "8001:8000"
-    environment:
-      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
-      - DEEPSEEK_API_URL=${DEEPSEEK_API_URL:-https://api.modelarts-maas.com/v2/chat/completions}
-      - S3_INDEX_PATH=/app/s3_index.json
-    volumes:
-      - ./chat-bot-algerie-telecom:/app:Z
-      - ./forsa-endpoints/S3_Storage/s3_index.json:/app/s3_index.json:ro
-    depends_on: [retrieval-api]
-    networks: [forsa-net]
+  # chatbot-api runs on host machine with GPU (see run-chatbot-local.sh)
+  # chatbot-api:
+  #   build:
+  #     context: ./chat-bot-algerie-telecom
+  #     dockerfile: Dockerfile
+  #   container_name: forsa-chatbot-api
+  #   ports:
+  #     - "8001:8000"
+  #   environment:
+  #     # Local LLM Configuration
+  #     - LOCAL_MODEL_NAME=${LOCAL_MODEL_NAME:-Qwen/Qwen2.5-3B-Instruct}
+  #     - S3_INDEX_PATH=/app/s3_index.json
+  #   volumes:
+  #     - ./chat-bot-algerie-telecom:/app:Z
+  #     - ./forsa-endpoints/S3_Storage/s3_index.json:/app/s3_index.json:ro
+  #     # Mount local HuggingFace cache to use already downloaded models
+  #     - ${HOME}/.cache/huggingface:/root/.cache/huggingface
+  #   depends_on: [retrieval-api]
+  #   networks: [forsa-net]
+  #   # GPU support enabled
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #           count: 1
+  #           capabilities: [gpu]
 
   frontend:
     build:
@@ -80,7 +89,7 @@ services:
     volumes:
       - ./forsa-frontend:/app:Z
       - /app/node_modules
-    depends_on: [retrieval-api, chatbot-api]
+    depends_on: [retrieval-api]
     networks: [forsa-net]
 
 networks:

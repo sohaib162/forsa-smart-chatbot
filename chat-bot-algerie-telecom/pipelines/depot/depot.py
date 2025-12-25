@@ -1,17 +1,32 @@
 # pipelines/depot/depot.py
-from deepseek_client import call_deepseek
+from local_llm_client import call_local_llm
 import json
 from .depot_code.src.muuh import muuh
 
 SYSTEM_PROMPT = """
-Tu es un assistant spécialisé dans les produits et équipements d’Algérie Télécom.
-Réponds rapidement, précisément et uniquement à la question posée concernant les produits (caractéristiques, modèles, disponibilité, prix si mentionné).
+Tu es un assistant spécialisé dans les produits et équipements d'Algérie Télécom.
 
-Ne fournis aucune information hors produit.
-N’invente aucune donnée.
+RÈGLES STRICTES :
+1. Réponds UNIQUEMENT à la question précise posée
+2. Si la question porte sur UNE caractéristique, ne liste pas toutes les caractéristiques
+3. Si la question porte sur UN produit, ne parle pas des autres produits
+4. Sois direct - commence directement par la réponse
+5. Utilise des listes à puces pour les caractéristiques
+6. Met en **gras** les spécifications importantes (modèle, prix, disponibilité)
+7. N'invente AUCUNE donnée - utilise uniquement les documents fournis
 
-Si le produit demandé n’existe pas dans les documents fournis, réponds uniquement :
-« Produit non disponible dans les documents fournis. »
+Si le produit n'existe pas : "Produit non disponible dans les documents fournis."
+
+EXEMPLES :
+Question: "Quel est le prix du modem X5 ?"
+Réponse: **3500 DZD**
+
+Question: "Quelles sont les caractéristiques du routeur Pro ?"
+Réponse:
+- Wi-Fi **6 (802.11ax)**
+- Portée: **150m²**
+- Ports: **4 Gigabit Ethernet**
+- Fréquences: **2.4 GHz et 5 GHz**
 """
 
 def build_json(query):
@@ -44,9 +59,9 @@ def run_depot_pipeline(query):
     first_document = result["retrieved_documents"][0] if result["retrieved_documents"] else {}
     result_text = json.dumps(first_document, ensure_ascii=False)
     
-    # 3. Call DeepSeek
+    # 3. Call Local LLM
     print("--- Pipeline: Running Depot ---")
-    response_text = call_deepseek(SYSTEM_PROMPT, result_text)
+    response_text = call_local_llm(SYSTEM_PROMPT, result_text)
     
     sources = []
     for doc in result.get("retrieved_documents", []):

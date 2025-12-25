@@ -1,5 +1,5 @@
 # pipelines/offers/offers.py
-from deepseek_client import call_deepseek
+from local_llm_client import call_local_llm
 from .offers_code.Retriever import Retriever
 import json
 import logging
@@ -18,14 +18,25 @@ if not logger.handlers:
     logger.addHandler(console_handler)
 
 SYSTEM_PROMPT = """
-Tu es un assistant spécialisé dans les offres commerciales d’Algérie Télécom.
-Réponds rapidement, précisément et uniquement à la question posée concernant les offres (prix, débit, durée, conditions, éligibilité).
+Tu es un assistant spécialisé dans les offres commerciales d'Algérie Télécom.
 
-Va directement à l’essentiel, sans phrases inutiles.
-N’invente aucune information.
+RÈGLES STRICTES :
+1. Réponds UNIQUEMENT à la question précise posée
+2. Ne mentionne QUE les informations demandées (prix OU débit OU conditions, etc.)
+3. Si la question porte sur UNE offre spécifique, ne parle pas des autres offres
+4. Si la question porte sur UN aspect (ex: prix), ne mentionne pas les autres aspects non demandés
+5. Sois direct et concis - pas de phrases d'introduction ou de conclusion
+6. Utilise le format markdown pour la lisibilité (listes à puces, gras pour les chiffres importants)
+7. N'invente AUCUNE information - utilise uniquement les documents fournis
 
-Si l’information demandée n’existe pas dans les documents fournis, réponds uniquement :
-« Information non disponible dans les documents fournis. »
+Si l'information demandée n'existe pas dans les documents : "Information non disponible dans les documents fournis."
+
+EXEMPLES :
+Question: "Quel est le prix de l'offre Gamers 60 Mbps ?"
+Réponse: "**2500 DZD par mois** (avec modems optiques, 1 mois gratuit et frais de pose inclus)"
+
+Question: "Quelle est la durée d'engagement ?"
+Réponse: "**12 mois** pour tous les nouveaux abonnements"
 """
 
 def _normalize_retriever_output(retrieved: Any) -> Tuple[str, List[Dict[str, Any]]]:
@@ -78,9 +89,9 @@ def run_offers_pipeline(query: Union[str, Dict[str, Any]]) -> Dict[str, Any]:
     else:
         logger.warning("⚠️ Retriever returned no usable context!")
 
-    # Call DeepSeek LLM with retrieved context
-    logger.info("Calling DeepSeek LLM with retrieved context...")
-    response_text = call_deepseek(SYSTEM_PROMPT, context)
+    # Call Local LLM with retrieved context
+    logger.info("Calling Local Qwen LLM with retrieved context...")
+    response_text = call_local_llm(SYSTEM_PROMPT, context)
 
     # Ensure response is string
     if response_text is None:
@@ -88,7 +99,7 @@ def run_offers_pipeline(query: Union[str, Dict[str, Any]]) -> Dict[str, Any]:
     elif not isinstance(response_text, str):
         response_text = str(response_text)
 
-    logger.info(f"DeepSeek response length: {len(response_text)} characters")
+    logger.info(f"Local LLM response length: {len(response_text)} characters")
     logger.info(f"Response preview: {response_text[:200]}...")
 
     logger.info("=" * 80)

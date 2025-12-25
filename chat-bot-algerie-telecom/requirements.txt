@@ -9,8 +9,9 @@ requests
 # --- AI & Embeddings ---
 torch>=2.0.0
 sentence-transformers>=2.2.2
-transformers>=4.19.0
+transformers>=4.36.0
 numpy>=1.21.0
+accelerate>=0.25.0
 
 # --- Retrieval Algorithms ---
 rank-bm25>=0.2.2

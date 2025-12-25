@@ -1,57 +1,147 @@
-# Forsa smart chat bot 
+# Forsa Smart Chatbot
 
-This is a chatbot application for Algeria Telecom that provides assistance with telecom-related queries using a document-based knowledge system. It was developed during the **Forsa hackathon organized by Algeria Telecom.**
+An intelligent chatbot system for Algérie Télécom, powered by **local AI** (Qwen 2.5 3B) and RAG (Retrieval-Augmented Generation) for accurate document-based responses.
 
-## Features
+##  Overview
 
-- Interactive chat interface for user queries
-- Document library with categorized telecom guides, conventions, offers, and products
-- Search dashboard for document discovery
-- History tracking for conversations
-- Multi-language support (Arabic and French)
-
-## Screenshots
-
-### Landing Page
-![Landing Page](assets/landing-page.png)
-
-### Chat Interface
-![Chat Interface](assets/chat-interface2.png)
-![Chat Interface](assets/chat-interface.png)
-
-### chat history
-![Search Dashboard](assets/historique-page.png)
-
-### Document Library
-![Document Library](assets/document-library.png)
+This chatbot provides instant answers about:
+-  **Guides** - Internal procedures and processes
+-  **Conventions** - Partnership agreements
+-  **Produits** - Products and equipment
+-  **Offres** - Commercial offers and pricing
 
 
-## Architecture
+##  Architecture
 
-The project consists of three main components:
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Docker Services                      │
+│  ┌──────────┐  ┌──────────────┐  ┌─────────────────┐    │
+│  │  MinIO   │  │ Retrieval    │  │   Frontend      │    │
+│  │  S3      │  │ API          │  │   React + Vite  │    │
+│  │  :9010   │  │ :8000        │  │   :5173         │    │ 
+│  └──────────┘  └──────────────┘  └─────────────────┘    │
+└─────────────────────────────────────────────────────────┘
+                         ↓ ↑
+┌─────────────────────────────────────────────────────────┐
+│              Host Machine (with GPU)                    │
+│  ┌───────────────────────────────────────────────────┐  │
+│  │  Chatbot API (FastAPI + Qwen 2.5 3B)              │  │
+│  │  • RAG Pipelines (Guides, Offers, etc.)           │  │
+│  │  • Local LLM Inference with GPU                   │  │
+│  │  • Port: 8001                                     │  │
+│  └───────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────┘
+```
 
-- **chat-bot-algerie-telecom**: Python-based chatbot backend with processing pipelines
-- **forsa-endpoints**: Document storage and API endpoints using S3
-- **forsa-frontend**: React-based web interface
+##  Quick Start
 
-## Installation
+### Prerequisites
 
-1. Ensure Docker and Docker Compose are installed
-2. Clone the repository
-3. Copy `.env.example` to `.env` and configure environment variables
-4. Run `docker-compose up` to start all services
+- **Docker & Docker Compose**
+- **NVIDIA GPU** with CUDA support (6GB+ VRAM recommended)
+- **Conda** or Python 3.10+ environment
+- **Node.js** (for frontend development)
 
-## Usage
 
-Access the web interface at `http://localhost:3000` after starting the services. The chatbot can answer questions about Algeria Telecom services, guides, and offers based on the indexed documents.
+### Installation Steps
 
-## Development
+#### 1. Clone the Repository
 
-- Frontend: `cd forsa-frontend && npm install && npm run dev`
-- Backend: Refer to individual service READMEs for setup
+```bash
+git clone https://github.com/sohaib162/forsa-smart-chatbot
+cd forsa-smart-chatbot
+```
 
-## License
 
-© 2025 Algérie Télécom. Tous droits réservés.
+#### 2. Start Docker Services
 
-Développé pour Forsa TIC Hackathon 2025
+```bash
+# Start MinIO, Retrieval API, and Frontend
+sudo docker compose up -d
+
+# Check services are running
+sudo docker compose ps
+```
+
+This starts:
+- **MinIO** (S3 storage) - http://localhost:9011
+- **Retrieval API** - http://localhost:8000
+- **Frontend** - http://localhost:5173
+
+#### 3. Setup Python Environment for Chatbot API
+
+
+**Create new conda environment**
+
+```bash
+# Create environment
+conda create -n forsa-chatbot python=3.10 -y
+conda activate forsa-chatbot
+
+# Install dependencies
+cd chat-bot-algerie-telecom
+pip install -r requirements.txt
+```
+
+
+#### 4. Start the Chatbot API with GPU
+
+```bash
+# From project root
+./run-chatbot-local.sh
+```
+
+#### 5. Access the Application
+
+- **Frontend UI**: http://localhost:5173
+- **Chatbot API**: http://localhost:8001
+- **Retrieval API**: http://localhost:8000
+- **MinIO Console**: http://localhost:9011 (minioadmin/minioadmin)
+
+
+
+##  Development
+
+### Running Frontend in Development Mode
+
+```bash
+cd forsa-frontend
+npm install
+npm run dev
+```
+
+
+
+
+##  Project Structure
+
+```
+forsa-smart-chatbot/
+├── chat-bot-algerie-telecom/      # Chatbot API (FastAPI)
+│   ├── pipelines/                 # RAG pipelines by category
+│   │   ├── offers/               # Commercial offers
+│   │   ├── guide/                # Internal guides
+│   │   ├── conventions/          # Conventions
+│   │   └── depot/                # Products
+│   ├── local_llm_client.py       # Local Qwen LLM interface
+│   ├── main.py                   # FastAPI application
+│   └── requirements.txt
+├── forsa-endpoints/              # Retrieval API
+│   ├── S3_Storage/              # S3 integration
+│   └── main.py
+├── forsa-frontend/              # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ChatInterface.tsx
+│   │   │   ├── MarkdownMessage.tsx
+│   │   │   └── TypingMarkdownMessage.tsx
+│   │   └── lib/
+│   └── package.json
+├── docker-compose.yml           # Docker services
+├── run-chatbot-local.sh        # Start chatbot with GPU
+└── README.md
+```
+
+
+
