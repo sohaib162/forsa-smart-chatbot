@@ -10,7 +10,7 @@ This chatbot provides instant answers about:
 -  **Produits** - Products and equipment
 -  **Offres** - Commercial offers and pricing
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Landing Page
 ![Landing Page](assets/landing-page.png)
