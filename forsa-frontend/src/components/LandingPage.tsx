@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bot, Search, FileText, MessageSquare, Sparkles } from "lucide-react";
+import { ArrowRight, Bot, Search, FileText, MessageSquare } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import algerieTelecomLogo from "@/assets/algerie-telecom-logo.png";
 import forsaTicLogo from "@/assets/forsa-tic-logo.png";
@@ -113,11 +113,4 @@ function FeatureCard({ icon, title, description }: { icon: React.ReactNode; titl
   );
 }
 
-function StatCard({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="text-center">
-      <div className="text-3xl md:text-4xl font-bold text-primary mb-2">{value}</div>
-      <div className="text-sm text-muted-foreground">{label}</div>
-    </div>
-  );
-}
+

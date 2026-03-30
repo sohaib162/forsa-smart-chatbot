@@ -70,6 +70,22 @@ import numpy as np
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
+# RAG ENHANCEMENTS — SemanticCache + ContextCompressor
+# ---------------------------------------------------------------------------
+try:
+    import sys as _sys
+    _rag_root = str(Path(__file__).resolve().parents[1])
+    if _rag_root not in _sys.path:
+        _sys.path.insert(0, _rag_root)
+    from rag_enhancements import SemanticCache as _SemanticCache
+    from rag_enhancements import ContextCompressor as _ContextCompressor
+    _ENHANCEMENTS_AVAILABLE = True
+except ImportError:
+    _ENHANCEMENTS_AVAILABLE = False
+    _SemanticCache = None
+    _ContextCompressor = None
+
+# ---------------------------------------------------------------------------
 # 1. ENUMERATIONS & CONSTANTS
 # ---------------------------------------------------------------------------
 
@@ -953,29 +969,52 @@ def _build_citation_context_block(
     - A numbered list of source citations the model is ALLOWED to use
     - The content of each node / passage
     - Argument fragments tagged by type (PENALTY, OBLIGATION, etc.)
+    - **Raw retrieved passages** (always included as fallback so the LLM
+      always has document content to work with, even when KG is empty)
     """
     lines: List[str] = []
     lines.append(f"=== QUESTION ===\n{kg_context.query}\n")
-    lines.append("=== SOURCES DISPONIBLES (utilise UNIQUEMENT ces sources) ===\n")
 
-    # Numbered citation index
-    cite_index: Dict[str, int] = {}
+    # --- KG-sourced nodes (may be empty for pipelines without KG data) ---
     all_nodes = kg_context.direct_nodes + kg_context.expanded_nodes
-    for i, node in enumerate(all_nodes, start=1):
-        meta     = node.metadata
-        doc_name = meta.get("doc_name", node.label)
-        page     = meta.get("page", "?")
-        article  = meta.get("article_ref") or meta.get("article_num") or ""
-        art_str  = f", Article {article}" if article else ""
-        cite_key = f"[Source: {doc_name}, Page {page}{art_str}]"
-        cite_index[node.node_id] = i
 
-        lines.append(f"[{i}] {cite_key}")
-        lines.append(f"    Type: {node.node_type}")
-        if meta.get("arg_type"):
-            lines.append(f"    Rôle logique: {meta['arg_type']}")
-        lines.append(f"    Contenu: {node.content[:600]}")
-        lines.append("")
+    if all_nodes:
+        lines.append("=== SOURCES DISPONIBLES (utilise UNIQUEMENT ces sources) ===\n")
+
+        # Limit to top 10 nodes to stay within token budget
+        # Direct nodes come first (most relevant), then expanded
+        show_nodes = all_nodes[:10]
+
+        # Numbered citation index
+        cite_index: Dict[str, int] = {}
+        for i, node in enumerate(show_nodes, start=1):
+            meta     = node.metadata
+            doc_name = meta.get("doc_name", node.label)
+            page     = meta.get("page", "?")
+            article  = meta.get("article_ref") or meta.get("article_num") or ""
+            art_str  = f", Article {article}" if article else ""
+            cite_key = f"[Source: {doc_name}, Page {page}{art_str}]"
+            cite_index[node.node_id] = i
+
+            lines.append(f"[{i}] {cite_key}")
+            lines.append(f"    Type: {node.node_type}")
+            if meta.get("arg_type"):
+                lines.append(f"    Rôle logique: {meta['arg_type']}")
+            lines.append(f"    Contenu: {node.content[:400]}")
+            lines.append("")
+
+    # --- Always include raw retrieved passages so LLM has document content ---
+    if retrieved_raw:
+        lines.append("=== DOCUMENTS RÉCUPÉRÉS ===\n")
+        for idx, passage in enumerate(retrieved_raw[:3], start=1):  # max 3 passages
+            doc_name = passage.get("doc_name") or passage.get("doc_id") or f"Document {idx}"
+            text = passage.get("text", "")
+            # Truncate to keep total prompt manageable for 3B model
+            if len(text) > 2000:
+                text = text[:2000] + "… [tronqué]"
+            lines.append(f"--- Document {idx}: {doc_name} ---")
+            lines.append(text)
+            lines.append("")
 
     # Argument fragments grouped by type
     if kg_context.argument_fragments:
@@ -1159,6 +1198,14 @@ class AdvancedPipeline:
         self._system_prompt = _build_citation_faithful_system_prompt(domain)
         self._is_ready    = False
 
+        # ── RAG enhancements ────────────────────────────────────────────────
+        if _ENHANCEMENTS_AVAILABLE:
+            self._cache      = _SemanticCache(max_size=256, ttl_seconds=3600.0)
+            self._compressor = _ContextCompressor(max_sentences=8)
+        else:
+            self._cache      = None
+            self._compressor = None
+
     # ------------------------------------------------------------------
     # Lifecycle
     # ------------------------------------------------------------------
@@ -1211,24 +1258,60 @@ class AdvancedPipeline:
                 "AdvancedPipeline not ready. Call build_graph() first."
             )
 
+        # ── Semantic cache check (sub-ms for repeated / paraphrase queries) ──
+        if self._cache is not None:
+            cache_key    = f"{self.domain}::{query}"
+            cached_result = self._cache.get(cache_key)
+            if cached_result is not None:
+                logger.info("AdvancedPipeline [%s] cache HIT for query", self.domain)
+                return cached_result
+
         t0 = time.time()
 
-        # Step 1: KG-augmented retrieval
-        kg_context = self.retriever.enrich(
-            query=query,
-            retrieved_passages=retrieved_passages,
-            hop_depth=2,
-        )
+        # ── Context compression — fewer tokens, same information ─────────────
+        if self._compressor is not None and retrieved_passages:
+            retrieved_passages = self._compressor.compress(retrieved_passages, query)
+
+        # --- Speed optimisation: skip KG enrichment if graph is trivially small ---
+        kg_has_data = len(self.kg_builder.G.nodes) > 5
+
+        if kg_has_data:
+            # Step 1: KG-augmented retrieval (2-hop for rich graphs, 1-hop for speed)
+            hop_depth = 2 if len(self.kg_builder.G.nodes) < 500 else 1
+            kg_context = self.retriever.enrich(
+                query=query,
+                retrieved_passages=retrieved_passages,
+                hop_depth=hop_depth,
+            )
+            t_kg = time.time()
+            logger.debug("KG enrichment: %.0fms", (t_kg - t0) * 1000)
+        else:
+            # Fast path: no KG data — create an empty KGRetrievalContext
+            kg_context = KGRetrievalContext(
+                query=query,
+                direct_nodes=[],
+                expanded_nodes=[],
+                argument_fragments=[],
+                citation_map={},
+                provenance_chain=[],
+            )
+            t_kg = time.time()
+            logger.debug("KG skipped (empty graph): %.0fms", (t_kg - t0) * 1000)
 
         # Step 2: Build the context block injected into the prompt
         context_block = _build_citation_context_block(kg_context, retrieved_passages)
 
         # Step 3: LLM generation (citation-faithful prompt)
-        response_text = llm_client.generate(
+        # Use generate_with_citations for lower temperature, retry logic,
+        # and stricter decoding — critical for legal/admin accuracy.
+        response_text = llm_client.generate_with_citations(
             system_prompt=self._system_prompt,
             user_content=context_block,
             max_new_tokens=max_new_tokens,
+            require_citations=True,
         )
+        t_llm = time.time()
+        logger.debug("LLM generation: %.0fms", (t_llm - t_kg) * 1000)
 
         # Step 4: Validate citations & amounts
         report = self.validator.validate(response_text, kg_context)
@@ -1244,8 +1327,13 @@ class AdvancedPipeline:
         })
 
         latency_ms = (time.time() - t0) * 1000
+        logger.info(
+            "AdvancedPipeline [%s] | total=%.0fms | kg=%.0fms | llm=%.0fms | faith=%.2f",
+            self.domain, latency_ms, (t_kg - t0) * 1000, (t_llm - t_kg) * 1000,
+            report.faithfulness_score,
+        )
 
-        return AdvancedPipelineResult(
+        result = AdvancedPipelineResult(
             query=query,
             answer=final_answer,
             sources=sources or [],
@@ -1255,6 +1343,12 @@ class AdvancedPipeline:
             faithfulness_score=report.faithfulness_score,
             latency_ms=round(latency_ms, 1),
         )
+
+        # ── Store in semantic cache for future identical/similar queries ──────
+        if self._cache is not None:
+            self._cache.put(f"{self.domain}::{query}", result)
+
+        return result
 
     # ------------------------------------------------------------------
     # Convenience: run without a pre-built graph (builds on first call)

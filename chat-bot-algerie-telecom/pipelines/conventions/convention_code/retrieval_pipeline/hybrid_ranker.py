@@ -6,13 +6,26 @@ Inclut le Numeric Hard Boost (CRITIQUE).
 
 import re
 import math
+import sys
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass
 from collections import defaultdict
 
 from .intent_classifier import Intent, get_hybrid_weights
 from .normalizer import parse_price, parse_speed, Normalizer
+
+# Shared RAG enhancements (RRF + parallel search)
+try:
+    _rag_root = str(Path(__file__).resolve().parents[4])
+    if _rag_root not in sys.path:
+        sys.path.insert(0, _rag_root)
+    from rag_enhancements import rrf_fusion
+except ImportError:
+    # Fallback: plain weighted average (original behaviour preserved)
+    rrf_fusion = None
 
 
 def normalize_accents(text: str) -> str:
@@ -352,64 +365,81 @@ class HybridRanker:
         top_k: int = 30
     ) -> List[ScoredPassage]:
         """
-        Recherche hybride avec scoring basé sur l'intent.
-        
-        Args:
-            query: Requête textuelle
-            intent: Intent classifié de la requête
-            query_prices: Prix extraits de la requête
-            query_speeds: Débits extraits de la requête
-            top_k: Nombre de passages à retourner
-            
-        Returns:
-            Liste de ScoredPassage triée par score final
+        Hybrid search with RRF fusion and parallel BM25 + dense retrieval.
+
+        Improvements over original:
+        - BM25 and dense retrieval run **concurrently** (ThreadPoolExecutor)
+        - Scores fused with **Reciprocal Rank Fusion** instead of weighted average
+          (RRF is more robust: no score normalisation artefacts, no weight tuning)
+        - Numeric Hard Boost preserved unchanged
+
+        Falls back to original weighted-average if rag_enhancements unavailable.
         """
         query_prices = query_prices or []
         query_speeds = query_speeds or []
-        
-        # 1. Récupère les poids selon l'intent
+
         dense_weight, sparse_weight = get_hybrid_weights(intent)
-        
-        # 2. Recherche BM25
-        bm25_results = self.bm25.search(query, top_k=top_k * 2)
-        bm25_scores = self._normalize_scores(bm25_results)
-        
-        # 3. Recherche Dense (si disponible)
-        dense_scores = {}
-        if self.use_dense and self.dense and self.dense.embeddings is not None:
-            dense_results = self.dense.search(query, top_k=top_k * 2)
-            dense_scores = self._normalize_scores(dense_results)
-        
-        # 4. Fusionne les résultats
-        all_doc_ids = set(bm25_scores.keys()) | set(dense_scores.keys())
-        
-        scored_passages = []
-        for doc_id in all_doc_ids:
-            bm25_score = bm25_scores.get(doc_id, 0)
-            dense_score = dense_scores.get(doc_id, 0)
-            
-            # Score hybride pondéré par intent
-            hybrid_score = (sparse_weight * bm25_score + dense_weight * dense_score)
-            
-            # Numeric Hard Boost
-            numeric_boost = self._apply_numeric_boost(doc_id, query_prices, query_speeds)
-            
-            # Score final (signature boost sera appliqué plus tard)
-            final_score = hybrid_score * numeric_boost
-            
-            scored_passages.append(ScoredPassage(
-                passage=self.documents[doc_id],
-                bm25_score=bm25_score,
-                dense_score=dense_score,
-                hybrid_score=hybrid_score,
-                numeric_boost=numeric_boost,
-                signature_boost=1.0,  # Sera mis à jour par SignatureBooster
-                final_score=final_score
-            ))
-        
-        # 5. Trie par score final
+        dense_available = self.use_dense and self.dense and self.dense.embeddings is not None
+
+        # ── 1. Parallel BM25 + Dense retrieval ──────────────────────────────
+        fetch_k = top_k * 2
+
+        if dense_available:
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                bm25_future  = pool.submit(self.bm25.search,  query, fetch_k)
+                dense_future = pool.submit(self.dense.search, query, fetch_k)
+                bm25_results  = bm25_future.result()
+                dense_results = dense_future.result()
+        else:
+            bm25_results  = self.bm25.search(query, fetch_k)
+            dense_results = []
+
+        # ── 2. Hybrid scoring: RRF (preferred) or weighted average (fallback) ─
+        if rrf_fusion is not None and (bm25_results or dense_results):
+            rrf_scores = rrf_fusion([bm25_results, dense_results])
+            bm25_raw   = dict(bm25_results)
+            dense_raw  = dict(dense_results)
+            all_ids    = set(rrf_scores)
+
+            scored_passages = []
+            for doc_id in all_ids:
+                b_score  = bm25_raw.get(doc_id, 0.0)
+                d_score  = dense_raw.get(doc_id, 0.0)
+                hybrid   = rrf_scores[doc_id]
+                boost    = self._apply_numeric_boost(doc_id, query_prices, query_speeds)
+                scored_passages.append(ScoredPassage(
+                    passage=self.documents[doc_id],
+                    bm25_score=b_score,
+                    dense_score=d_score,
+                    hybrid_score=hybrid,
+                    numeric_boost=boost,
+                    signature_boost=1.0,
+                    final_score=hybrid * boost,
+                ))
+        else:
+            # Original weighted-average path (unchanged)
+            bm25_scores  = self._normalize_scores(bm25_results)
+            dense_scores = self._normalize_scores(dense_results) if dense_results else {}
+            all_ids      = set(bm25_scores) | set(dense_scores)
+
+            scored_passages = []
+            for doc_id in all_ids:
+                b_score = bm25_scores.get(doc_id, 0.0)
+                d_score = dense_scores.get(doc_id, 0.0)
+                hybrid  = sparse_weight * b_score + dense_weight * d_score
+                boost   = self._apply_numeric_boost(doc_id, query_prices, query_speeds)
+                scored_passages.append(ScoredPassage(
+                    passage=self.documents[doc_id],
+                    bm25_score=b_score,
+                    dense_score=d_score,
+                    hybrid_score=hybrid,
+                    numeric_boost=boost,
+                    signature_boost=1.0,
+                    final_score=hybrid * boost,
+                ))
+
+        # ── 3. Sort and return top_k ─────────────────────────────────────────
         scored_passages.sort(key=lambda x: x.final_score, reverse=True)
-        
         return scored_passages[:top_k]
     
     def get_boost_fields_for_intent(self, intent: Intent) -> Dict[str, float]:

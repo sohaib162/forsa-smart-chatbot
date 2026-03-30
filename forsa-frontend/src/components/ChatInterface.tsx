@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Send, Paperclip, Bot, User, Download, Calendar, Loader2, FileText, BookOpen, Package, Tag, ExternalLink } from "lucide-react";
+import { Send, Bot, User, Download, Calendar, Loader2, FileText, BookOpen, Package, Tag, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { TypingMarkdownMessage } from "@/components/TypingMarkdownMessage";
@@ -56,22 +56,7 @@ const categories: { id: CategoryType; label: string; icon: any }[] = [
   { id: "offres", label: "Offres", icon: Tag },
 ];
 
-const mockOffers: Offer[] = [
-  {
-    id: "1",
-    title: "Pack Entreprise Premium",
-    validityDate: "31/12/2024",
-    description: "Solution complète pour grandes entreprises avec fibre optique dédiée",
-    type: "B2B"
-  },
-  {
-    id: "2",
-    title: "Offre PME Connect",
-    validityDate: "30/06/2025",
-    description: "Internet haut débit pour PME avec support prioritaire 24/7",
-    type: "B2B"
-  }
-];
+
 
 export function ChatInterface({ debugMode, sidebarCollapsed }: { debugMode: boolean; sidebarCollapsed?: boolean }) {
   const [messages, setMessages] = useState<Message[]>([]);

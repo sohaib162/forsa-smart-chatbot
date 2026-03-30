@@ -9,10 +9,14 @@ Extended with:
     direct reminder.
 """
 import os
+import logging
 import re
+import time
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from typing import Optional
+
+logger = logging.getLogger("forsa.llm")
 
 # Pattern to detect at least one citation block in the response
 _CITATION_PRESENT = re.compile(r"\[Source:", re.IGNORECASE)
@@ -45,15 +49,15 @@ class LocalLLMClient:
     def _initialize_model(self):
         model_name = os.getenv("LOCAL_MODEL_NAME", "Qwen/Qwen2.5-3B-Instruct")
 
-        print(f"Loading model: {model_name}")
-        print("This may take a moment on first run...")
+        logger.info("Loading model: %s", model_name)
+        t0 = time.perf_counter()
 
         if torch.cuda.is_available():
             self._device = "cuda"
-            print(f"Using GPU: {torch.cuda.get_device_name(0)}")
+            logger.info("Using GPU: %s", torch.cuda.get_device_name(0))
         else:
             self._device = "cpu"
-            print("Using CPU (inference will be slower)")
+            logger.warning("No GPU detected — using CPU (inference will be slower)")
 
         self._tokenizer = AutoTokenizer.from_pretrained(
             model_name, trust_remote_code=True
@@ -77,7 +81,8 @@ class LocalLLMClient:
             )
 
         self._model.eval()
-        print(f"Model loaded successfully on {self._device}")
+        load_time = time.perf_counter() - t0
+        logger.info("Model loaded on %s in %.1fs", self._device, load_time)
 
     # ------------------------------------------------------------------
     # Original generation method (unchanged for backward compatibility)
@@ -179,6 +184,7 @@ class LocalLLMClient:
         top_k: int = 50,
         repetition_penalty: float = 1.1,
     ) -> str:
+        t0 = time.perf_counter()
         try:
             messages = [
                 {"role": "system", "content": system_prompt},
@@ -190,6 +196,7 @@ class LocalLLMClient:
             model_inputs = self._tokenizer([text], return_tensors="pt").to(
                 self._device
             )
+            input_len = model_inputs.input_ids.shape[-1]
 
             with torch.no_grad():
                 generated_ids = self._model.generate(
@@ -208,12 +215,21 @@ class LocalLLMClient:
                     model_inputs.input_ids, generated_ids
                 )
             ]
+            output_len = len(generated_ids[0])
             response = self._tokenizer.batch_decode(
                 generated_ids, skip_special_tokens=True
             )[0]
+
+            elapsed = time.perf_counter() - t0
+            logger.info(
+                "LLM inference | in=%d tok | out=%d tok | temp=%.2f | %.1fs",
+                input_len, output_len, temperature, elapsed,
+            )
             return response.strip()
 
         except Exception as e:
+            elapsed = time.perf_counter() - t0
+            logger.exception("LLM inference failed after %.1fs", elapsed)
             return f"ERROR: Failed to generate response - {str(e)}"
 
 
@@ -230,6 +246,18 @@ def get_llm_client() -> LocalLLMClient:
     if _llm_client is None:
         _llm_client = LocalLLMClient()
     return _llm_client
+
+
+def preload_llm() -> LocalLLMClient:
+    """Eagerly load the LLM model at application startup.
+
+    Call this from main.py at import time or in lifespan so the model
+    is already on the GPU when the first query arrives.
+    """
+    logger.info("Pre-loading LLM model for instant first-query response...")
+    client = get_llm_client()
+    logger.info("LLM pre-loaded and ready.")
+    return client
 
 
 def call_local_llm(

@@ -1,0 +1,68 @@
+# ============================================================
+# Forsa Smart Chatbot — Git Ignore
+# ============================================================
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build Output ===
+forsa-frontend/dist/
+forsa-frontend/.vite/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Environment & Secrets ===
+# .env files are tracked for reference; for PRODUCTION, use
+# a secrets manager or mount secrets at runtime.
+# Uncomment below to ignore .env files:
+# .env
+# .env.local
+# .env.production
+
+# === Backup Files ===
+*.bak
+*.orig
+*.tmp
+
+# === Logs ===
+*.log
+logs/
+
+# === Knowledge Graph Cache ===
+# These are rebuilt at runtime; no need to track in git.
+**/kg/graph.pkl
+**/kg/nodes.json
+**/kg/edges.json
+
+# === MinIO Data ===
+minio_data/
+
+# === HuggingFace Cache ===
+.cache/

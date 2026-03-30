@@ -21,6 +21,18 @@ from dataclasses import dataclass
 import sys
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# Shared RAG enhancements (RRF + parallel search)
+try:
+    _rag_root = str(Path(__file__).resolve().parents[4])
+    if _rag_root not in sys.path:
+        sys.path.insert(0, _rag_root)
+    from rag_enhancements import rrf_fusion, parallel_search as _parallel_search
+    _RRF_AVAILABLE = True
+except ImportError:
+    _RRF_AVAILABLE = False
+    rrf_fusion = None
+    _parallel_search = None
 from config.settings import (
     TAG_KEYWORDS, DENSE_WEIGHT, BM25_WEIGHT,
     BM25_TOP_K, DENSE_TOP_K, FINAL_TOP_K, RERANK_TOP_K,
@@ -252,73 +264,72 @@ class QueryPipeline:
         title_boost: float = TITLE_BOOST
     ) -> List[RetrievalResult]:
         """
-        Fuse BM25 and dense results using weighted combination
-        
-        Normalization + weighted sum approach with title boosting
+        Fuse BM25 and dense results.
+
+        Uses **Reciprocal Rank Fusion (RRF)** when available — proven to
+        outperform weighted normalised-score combination without requiring
+        per-corpus weight tuning.  Falls back to the original weighted-sum
+        approach if the rag_enhancements module is unavailable.
+
+        Title boosting is preserved in both paths.
         """
-        # Collect all unique documents
-        all_docs = {}
         query_lower = query.lower()
-        
-        # Process BM25 results
-        bm25_scores = [r.get('bm25_score', 0) for r in bm25_results]
-        normalized_bm25 = self.normalize_scores(bm25_scores)
-        
-        for i, result in enumerate(bm25_results):
+
+        # Collect per-doc data & raw scores
+        all_docs: Dict[str, Dict] = {}
+        for result in bm25_results:
             doc_id = result['doc_id']
-            if doc_id not in all_docs:
-                all_docs[doc_id] = {
-                    'data': result,
-                    'bm25_score': result.get('bm25_score', 0),
-                    'bm25_norm': normalized_bm25[i],
-                    'dense_score': 0,
-                    'dense_norm': 0
-                }
-            else:
-                all_docs[doc_id]['bm25_score'] = result.get('bm25_score', 0)
-                all_docs[doc_id]['bm25_norm'] = normalized_bm25[i]
-        
-        # Process dense results
-        dense_scores = [r.get('dense_score', 0) for r in dense_results]
-        normalized_dense = self.normalize_scores(dense_scores)
-        
-        for i, result in enumerate(dense_results):
+            all_docs.setdefault(doc_id, {
+                'data': result, 'bm25_score': 0, 'dense_score': 0
+            })
+            all_docs[doc_id]['bm25_score'] = result.get('bm25_score', 0)
+
+        for result in dense_results:
             doc_id = result['doc_id']
-            if doc_id not in all_docs:
-                all_docs[doc_id] = {
-                    'data': result,
-                    'bm25_score': 0,
-                    'bm25_norm': 0,
-                    'dense_score': result.get('dense_score', 0),
-                    'dense_norm': normalized_dense[i]
-                }
-            else:
-                all_docs[doc_id]['dense_score'] = result.get('dense_score', 0)
-                all_docs[doc_id]['dense_norm'] = normalized_dense[i]
-        
-        # Calculate hybrid scores with title boosting
+            all_docs.setdefault(doc_id, {
+                'data': result, 'bm25_score': 0, 'dense_score': 0
+            })
+            all_docs[doc_id]['dense_score'] = result.get('dense_score', 0)
+            if 'data' not in all_docs[doc_id] or not all_docs[doc_id].get('data'):
+                all_docs[doc_id]['data'] = result
+
+        # ── Hybrid scoring ──────────────────────────────────────────────────
+        if _RRF_AVAILABLE and rrf_fusion is not None:
+            # RRF: build ranked lists (already sorted by score)
+            bm25_ranked  = [(r['doc_id'], r.get('bm25_score', 0))  for r in bm25_results]
+            dense_ranked = [(r['doc_id'], r.get('dense_score', 0)) for r in dense_results]
+            base_scores  = rrf_fusion([bm25_ranked, dense_ranked])
+        else:
+            # Original weighted-average fallback
+            bm25_raw  = [r.get('bm25_score', 0)  for r in bm25_results]
+            dense_raw = [r.get('dense_score', 0) for r in dense_results]
+            norm_bm25  = self.normalize_scores(bm25_raw)
+            norm_dense = self.normalize_scores(dense_raw)
+            base_scores = {}
+            for i, r in enumerate(bm25_results):
+                doc_id = r['doc_id']
+                base_scores[doc_id] = base_scores.get(doc_id, 0) + bm25_weight * norm_bm25[i]
+            for i, r in enumerate(dense_results):
+                doc_id = r['doc_id']
+                base_scores[doc_id] = base_scores.get(doc_id, 0) + dense_weight * norm_dense[i]
+
+        # Build results with title boost
         results = []
         for doc_id, doc_info in all_docs.items():
-            data = doc_info['data']
-            
-            # Base hybrid score
-            hybrid_score = (
-                dense_weight * doc_info['dense_norm'] +
-                bm25_weight * doc_info['bm25_norm']
-            )
-            
-            # Title boost: if query terms appear in guide title, boost the score
+            data        = doc_info['data']
+            hybrid_score = base_scores.get(doc_id, 0.0)
+
+            # Title boost (preserved from original)
             guide_title = (data.get('guide_title') or '').lower()
             if query_lower and guide_title:
-                # Check for keyword overlap
-                query_words = set(query_lower.split())
-                title_words = set(guide_title.split())
-                overlap = query_words & title_words
-                if len(overlap) >= 2:  # At least 2 words match
+                q_words = set(query_lower.split())
+                t_words = set(guide_title.split())
+                overlap = q_words & t_words
+                if len(overlap) >= 2:
                     hybrid_score += title_boost
-                elif len(overlap) == 1 and len(query_words) <= 3:
+                elif len(overlap) == 1 and len(q_words) <= 3:
                     hybrid_score += title_boost * 0.5
-            
+
             results.append(RetrievalResult(
                 doc_id=doc_id,
                 doc_type=data.get('doc_type', ''),
@@ -338,8 +349,7 @@ class QueryPipeline:
                 date=data.get('date', ''),
                 s3_key=data.get('s3_key', '')
             ))
-        
-        # Sort by hybrid score
+
         results.sort(key=lambda x: x.hybrid_score, reverse=True)
         return results
     
@@ -496,29 +506,40 @@ class QueryPipeline:
             tag_filter, _ = self.extract_filters(clean_query)
         timing['filter_extract_ms'] = (time.time() - t0) * 1000
         
-        # Stage 3: BM25 retrieval
-        t0 = time.time()
-        bm25_results = self.sparse_retrieve(
-            clean_query,
-            top_k=BM25_TOP_K,
-            doc_type=doc_type,
-            tag_filter=tag_filter if tag_filter else None
-        )
-        timing['bm25_ms'] = (time.time() - t0) * 1000
-        
-        # Stage 4: Dense retrieval (if available)
-        dense_results = []
-        if getattr(self, '_dense_available', False):
+        # Stages 3 & 4: BM25 + Dense retrieval (parallel when both available)
+        tag_arg = tag_filter if tag_filter else None
+        if _RRF_AVAILABLE and _parallel_search and getattr(self, '_dense_available', False):
             t0 = time.time()
-            dense_results = self.dense_retrieve(
-                clean_query,
-                top_k=DENSE_TOP_K,
-                doc_type=doc_type,
-                tag_filter=tag_filter if tag_filter else None
-            )
-            timing['dense_ms'] = (time.time() - t0) * 1000
+            _results = _parallel_search({
+                "bm25": lambda: self.sparse_retrieve(
+                    clean_query, top_k=BM25_TOP_K, doc_type=doc_type,
+                    tag_filter=tag_arg),
+                "dense": lambda: self.dense_retrieve(
+                    clean_query, top_k=DENSE_TOP_K, doc_type=doc_type,
+                    tag_filter=tag_arg),
+            })
+            bm25_results  = _results.get("bm25")  or []
+            dense_results = _results.get("dense") or []
+            elapsed = (time.time() - t0) * 1000
+            timing['bm25_ms']  = elapsed  # parallel: reported as combined
+            timing['dense_ms'] = elapsed
         else:
-            timing['dense_ms'] = 0
+            # Sequential fallback (original behaviour)
+            t0 = time.time()
+            bm25_results = self.sparse_retrieve(
+                clean_query, top_k=BM25_TOP_K, doc_type=doc_type,
+                tag_filter=tag_arg)
+            timing['bm25_ms'] = (time.time() - t0) * 1000
+
+            dense_results = []
+            if getattr(self, '_dense_available', False):
+                t0 = time.time()
+                dense_results = self.dense_retrieve(
+                    clean_query, top_k=DENSE_TOP_K, doc_type=doc_type,
+                    tag_filter=tag_arg)
+                timing['dense_ms'] = (time.time() - t0) * 1000
+            else:
+                timing['dense_ms'] = 0
         
         # Stage 5: Hybrid fusion (or BM25-only if dense unavailable)
         t0 = time.time()

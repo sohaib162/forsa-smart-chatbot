@@ -1,8 +1,22 @@
+import sys
+from pathlib import Path
 from typing import Optional, Tuple
 from ..models.product_doc import ProductDoc
 from .rules import rule_based_filter
 from .sparse import SparseRetriever
 from .dense import DenseRetriever
+
+# Shared RAG enhancements (RRF + parallel search)
+try:
+    _rag_root = str(Path(__file__).resolve().parents[5])
+    if _rag_root not in sys.path:
+        sys.path.insert(0, _rag_root)
+    from rag_enhancements import rrf_fusion, parallel_search as _parallel_search
+    _RRF_AVAILABLE = True
+except ImportError:
+    _RRF_AVAILABLE = False
+    rrf_fusion = None
+    _parallel_search = None
 
 class ThreeLayerRetriever:
     """
@@ -80,84 +94,136 @@ class ThreeLayerRetriever:
             if self.verbose:
                 print("\n📋 Layer 1 (Rule-based) - BLOCKED")
         
-        # ---- Layer 2: BM25 sparse retrieval ----
-        if not self.block_bm25_layer:
+        # ---- Layers 2 + 3: BM25 and Dense run in PARALLEL then RRF-fused ----
+        #
+        # Original design was strictly sequential (BM25 → Dense).
+        # New design:
+        #   - Both retrievers run concurrently (saves ~50 % of layer-2/3 latency)
+        #   - Scores merged with Reciprocal Rank Fusion (more robust than
+        #     thresholding individual scores)
+        #   - Individual thresholds still checked so we can label which layer "won"
+        #   - Falls back to original sequential cascading if rag_enhancements
+        #     is unavailable.
+
+        run_bm25  = not self.block_bm25_layer
+        run_dense = not self.block_dense_layer
+
+        if not run_bm25 and not run_dense:
+            if self.verbose:
+                print("\n🔤 Layer 2 (BM25) - BLOCKED")
+                print("\n🧠 Layer 3 (Dense/Semantic) - BLOCKED")
+                print("\n❌ No document found in any layer")
+            return None
+
+        # ── Parallel retrieval (RRF path) ────────────────────────────────────
+        if _RRF_AVAILABLE and _parallel_search and run_bm25 and run_dense:
+            if self.verbose:
+                print("\n⚡ Layers 2+3: parallel BM25 + Dense with RRF fusion")
+
+            tasks = {
+                "bm25":  lambda: self.sparse.search(query, k=5, candidates=None),
+                "dense": lambda: self.dense.search(query, k=5, candidates=None),
+            }
+            fetched      = _parallel_search(tasks)
+            bm25_pairs   = fetched.get("bm25")  or []
+            dense_pairs  = fetched.get("dense") or []
+
+            # Build ranked lists using doc.id as identifier
+            bm25_ranked  = [(doc.id, score) for doc, score in bm25_pairs]
+            dense_ranked = [(doc.id, score) for doc, score in dense_pairs]
+
+            rrf_scores   = rrf_fusion([bm25_ranked, dense_ranked])
+
+            # Quick score maps for threshold checking
+            bm25_score_map  = {doc.id: score for doc, score in bm25_pairs}
+            dense_score_map = {doc.id: score for doc, score in dense_pairs}
+            id_to_doc       = {doc.id: doc for doc, _ in bm25_pairs + dense_pairs}
+
+            if not rrf_scores:
+                if self.verbose:
+                    print("\n❌ No document found in any layer")
+                return None
+
+            best_id    = max(rrf_scores, key=rrf_scores.__getitem__)
+            best_rrf   = rrf_scores[best_id]
+            best_doc   = id_to_doc[best_id]
+
+            bm25_ok  = bm25_score_map.get(best_id, 0) >= self.bm25_score_threshold
+            dense_ok = dense_score_map.get(best_id, 0) >= self.dense_score_threshold
+
+            if not bm25_ok and not dense_ok:
+                if self.verbose:
+                    print(f"\n   ⚠️ Best RRF doc below both thresholds "
+                          f"(bm25={bm25_score_map.get(best_id,0):.3f}, "
+                          f"dense={dense_score_map.get(best_id,0):.3f})")
+                    print("\n❌ No document found in any layer")
+                return None
+
+            layer_name  = "Layer 2+3 (BM25+Dense/RRF)"
+            doc_title   = best_doc.raw.get('metadata', {}).get('document_title', 'No Title')
+            doc_fr_link = best_doc.raw.get('metadata', {}).get('doc_french_link', 'no link')
+            doc_ar_link = best_doc.raw.get('metadata', {}).get('doc_arabic_link', 'no link')
+            doc_json    = best_doc.raw
+
+            if self.verbose:
+                print(f"   ✅ {layer_name} found match: {doc_title} "
+                      f"(rrf={best_rrf:.4f}, "
+                      f"bm25={bm25_score_map.get(best_id,0):.3f}, "
+                      f"dense={dense_score_map.get(best_id,0):.3f})")
+
+            return (doc_title, layer_name, best_rrf, doc_ar_link, doc_fr_link, doc_json)
+
+        # ── Sequential fallback (original behaviour) ─────────────────────────
+        if run_bm25:
             if self.verbose:
                 print(f"\n🔤 Layer 2 (BM25) - Starting...")
                 print(f"   Score threshold: {self.bm25_score_threshold}")
-            
-            sparse_results = self.sparse.search(
-                query,
-                k=1,  # Only need top 1 result
-                candidates=None,
-            )
-            
+
+            sparse_results = self.sparse.search(query, k=1, candidates=None)
             if sparse_results:
                 doc, score = sparse_results[0]
-                
                 if self.verbose:
                     print(f"   Best score: {score:.3f}")
-                
                 if score >= self.bm25_score_threshold:
-                    doc_title = doc.raw.get('metadata', {}).get('document_title', 'No Title')
-                    doc_french_link = doc.raw.get('metadata', {}).get('doc_french_link', 'no link')
-                    doc_arabic_link = doc.raw.get('metadata', {}).get('doc_arabic_link', 'no link')
-                    doc_jason = doc.raw
-                    
+                    doc_title   = doc.raw.get('metadata', {}).get('document_title', 'No Title')
+                    doc_fr_link = doc.raw.get('metadata', {}).get('doc_french_link', 'no link')
+                    doc_ar_link = doc.raw.get('metadata', {}).get('doc_arabic_link', 'no link')
                     if self.verbose:
-                        print(f"   ✅ Layer 2 found match: {doc_title} (score: {score:.3f})")
-                        print(f"   🎯 Returning result from Layer 2")
-                    
-                    return (doc_title, "Layer 2 (BM25)", score, doc_arabic_link, doc_french_link, doc_jason)
-                else:
-                    if self.verbose:
-                        print(f"   ⚠️ Score {score:.3f} below threshold {self.bm25_score_threshold} - moving to Layer 3")
-            else:
-                if self.verbose:
-                    print("   ⚠️ Layer 2 found nothing - moving to Layer 3")
+                        print(f"   ✅ Layer 2 match: {doc_title}")
+                    return (doc_title, "Layer 2 (BM25)", score, doc_ar_link, doc_fr_link, doc.raw)
+                elif self.verbose:
+                    print(f"   ⚠️ Score below threshold — moving to Layer 3")
+            elif self.verbose:
+                print("   ⚠️ Layer 2 found nothing — moving to Layer 3")
         else:
             if self.verbose:
                 print("\n🔤 Layer 2 (BM25) - BLOCKED")
-        
-        # ---- Layer 3: Dense semantic search ----
-        if not self.block_dense_layer:
+
+        if run_dense:
             if self.verbose:
                 print(f"\n🧠 Layer 3 (Dense/Semantic) - Starting...")
                 print(f"   Score threshold: {self.dense_score_threshold}")
-            
-            dense_results = self.dense.search(
-                query,
-                k=1,  # Only need top 1 result
-                candidates=None,
-            )
-            
+
+            dense_results = self.dense.search(query, k=1, candidates=None)
             if dense_results:
                 doc, score = dense_results[0]
-                
                 if self.verbose:
                     print(f"   Best score: {score:.3f}")
-                
                 if score >= self.dense_score_threshold:
-                    doc_title = doc.raw.get('metadata', {}).get('document_title', 'No Title')
-                    doc_french_link = doc.raw.get('metadata', {}).get('doc_french_link', 'no link')
-                    doc_arabic_link = doc.raw.get('metadata', {}).get('doc_arabic_link', 'no link')
-                    doc_jason = doc.raw
+                    doc_title   = doc.raw.get('metadata', {}).get('document_title', 'No Title')
+                    doc_fr_link = doc.raw.get('metadata', {}).get('doc_french_link', 'no link')
+                    doc_ar_link = doc.raw.get('metadata', {}).get('doc_arabic_link', 'no link')
                     if self.verbose:
-                        print(f"   ✅ Layer 3 found match: {doc_title} (score: {score:.3f})")
-                        print(f"   🎯 Returning result from Layer 3")
-                    
-                    return (doc_title, "Layer 3 (Dense)", score,doc_arabic_link, doc_french_link, doc_jason)
-                else:
-                    if self.verbose:
-                        print(f"   ⚠️ Score {score:.3f} below threshold {self.dense_score_threshold}")
-            else:
-                if self.verbose:
-                    print("   ⚠️ Layer 3 found nothing")
+                        print(f"   ✅ Layer 3 match: {doc_title}")
+                    return (doc_title, "Layer 3 (Dense)", score, doc_ar_link, doc_fr_link, doc.raw)
+                elif self.verbose:
+                    print(f"   ⚠️ Score below threshold")
+            elif self.verbose:
+                print("   ⚠️ Layer 3 found nothing")
         else:
             if self.verbose:
                 print("\n🧠 Layer 3 (Dense/Semantic) - BLOCKED")
-        
+
         if self.verbose:
             print("\n❌ No document found in any layer")
-        
         return None
