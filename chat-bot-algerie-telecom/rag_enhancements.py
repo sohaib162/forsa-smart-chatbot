@@ -11,6 +11,8 @@ Techniques
 4. MMRSelector                        — diverse passage selection (Maximal Marginal Relevance)
 5. HyDEExpander                       — Hypothetical Document Embeddings for better dense recall
 6. parallel_search()                  — concurrent BM25 + dense via ThreadPoolExecutor
+7. LostInMiddleReorderer              — mitigate attention sink (Liu et al., 2023)
+8. CrossEncoderReranker               — precision reranking with multilingual cross-encoder
 
 All components are drop-in augmentations — zero breaking API changes.
 """
@@ -442,3 +444,167 @@ def parallel_search(
         if name not in output:
             output[name] = None
     return output
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. LOST IN THE MIDDLE REORDERER
+# ─────────────────────────────────────────────────────────────────────────────
+
+class LostInMiddleReorderer:
+    """
+    Mitigates the "Lost in the Middle" phenomenon (Liu et al., 2023).
+
+    LLMs attend most to the *beginning* and *end* of the context window,
+    often ignoring information in the middle.  This reorderer interleaves
+    passages so the most relevant ones occupy positions 1, N, 2, N-1, …
+    ensuring the best evidence is never buried.
+    """
+
+    @staticmethod
+    def reorder(passages: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Reorder *passages* (assumed sorted best-first) into a
+        start-end-interleaved arrangement.
+
+        Position mapping for 5 passages ranked [0,1,2,3,4]:
+          → [0, 2, 4, 3, 1]
+          Pos 0 (start) = rank 0 (best)
+          Pos 4 (end)   = rank 1 (2nd best)
+          Pos 1         = rank 2
+          Pos 3         = rank 3
+          Pos 2 (middle)= rank 4 (worst)
+        """
+        if len(passages) <= 2:
+            return list(passages)
+
+        reordered = [None] * len(passages)
+        left, right = 0, len(passages) - 1
+
+        for i, p in enumerate(passages):
+            if i % 2 == 0:
+                reordered[left] = p
+                left += 1
+            else:
+                reordered[right] = p
+                right -= 1
+
+        return reordered
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 8. CROSS-ENCODER RERANKER (shared, lazy-loaded singleton)
+# ─────────────────────────────────────────────────────────────────────────────
+
+class SharedCrossEncoderReranker:
+    """
+    Thin wrapper around sentence-transformers CrossEncoder.
+
+    Lazy-loads the model on first use and caches it for the process lifetime.
+    Uses the multilingual mMiniLMv2 model by default — excellent
+    French/Arabic support with only ~134 MB VRAM.
+
+    Falls back to heuristic scoring when sentence-transformers is unavailable.
+    """
+
+    _instance = None  # singleton
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._initialized = False
+        return cls._instance
+
+    def __init__(
+        self,
+        model_name: str = "nreimers/mmarco-mMiniLMv2-L12-H384-v1",
+        batch_size: int = 16,
+    ):
+        if self._initialized:
+            return
+        self.model_name = model_name
+        self.batch_size = batch_size
+        self._model = None
+        self._available = None
+        self._initialized = True
+
+    def _load(self):
+        if self._model is not None:
+            return self._model
+        try:
+            from sentence_transformers import CrossEncoder
+
+            logger.info("Loading cross-encoder: %s", self.model_name)
+            self._model = CrossEncoder(self.model_name, max_length=512)
+            self._available = True
+            logger.info("Cross-encoder ready")
+        except Exception as exc:
+            logger.warning("Cross-encoder unavailable: %s", exc)
+            self._model = None
+            self._available = False
+        return self._model
+
+    @property
+    def is_available(self) -> bool:
+        if self._available is None:
+            self._load()
+        return self._available
+
+    def rerank(
+        self,
+        query: str,
+        passages: List[Dict[str, Any]],
+        text_field: str = "text",
+        top_k: int = 5,
+    ) -> List[Dict[str, Any]]:
+        """
+        Rerank *passages* by cross-encoder relevance to *query*.
+
+        Returns up to *top_k* passages (dicts), enriched with a
+        ``_ce_score`` key containing the cross-encoder score.
+
+        Falls back to BM25-style heuristic when the model is unavailable.
+        """
+        if not passages:
+            return []
+
+        model = self._load()
+
+        if model is None:
+            # Heuristic fallback: token overlap scoring
+            return self._heuristic_rerank(query, passages, text_field, top_k)
+
+        pairs = []
+        for p in passages:
+            text = (p.get(text_field) or "")[:500]
+            pairs.append([query, text])
+
+        scores = model.predict(pairs, batch_size=self.batch_size, show_progress_bar=False)
+
+        scored = []
+        for p, s in zip(passages, scores):
+            enriched = dict(p)
+            enriched["_ce_score"] = float(s)
+            scored.append(enriched)
+
+        scored.sort(key=lambda x: x["_ce_score"], reverse=True)
+        return scored[:top_k]
+
+    @staticmethod
+    def _heuristic_rerank(
+        query: str,
+        passages: List[Dict[str, Any]],
+        text_field: str,
+        top_k: int,
+    ) -> List[Dict[str, Any]]:
+        q_tokens = set(query.lower().split())
+        scored = []
+        for p in passages:
+            text = (p.get(text_field) or "").lower()
+            p_tokens = set(text.split())
+            overlap = len(q_tokens & p_tokens) / max(len(q_tokens), 1)
+            exact_bonus = 0.2 if query.lower() in text else 0.0
+            enriched = dict(p)
+            enriched["_ce_score"] = overlap + exact_bonus
+            scored.append(enriched)
+        scored.sort(key=lambda x: x["_ce_score"], reverse=True)
+        return scored[:top_k]
