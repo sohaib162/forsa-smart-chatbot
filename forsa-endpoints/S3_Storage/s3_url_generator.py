@@ -87,7 +87,9 @@ def generate_presigned_url(
         response_headers = {}
         if inline:
             filename = s3_key.split('/')[-1]
-            response_headers["response-content-disposition"] = f"inline; filename=\"{filename}\""
+            safe_filename = filename.encode('latin-1', 'replace').decode('latin-1')
+            encoded_filename = quote(filename, safe='')
+            response_headers["response-content-disposition"] = f"inline; filename=\"{safe_filename}\"; filename*=UTF-8''{encoded_filename}"
 
         url = client.presigned_get_object(
             bucket,

@@ -94,7 +94,9 @@ async def get_document(s3_key: str):
 
         # RFC 5987: filename*=UTF-8''encoded_filename
         encoded_filename = quote(filename, safe='')
-        disposition = f"{disposition_type}; filename=\"{filename}\"; filename*=UTF-8''{encoded_filename}"
+        # The regular filename must be ascii/latin-1. Fallback to a safe string if it's entirely non-ascii.
+        safe_filename = filename.encode('latin-1', 'replace').decode('latin-1')
+        disposition = f"{disposition_type}; filename=\"{safe_filename}\"; filename*=UTF-8''{encoded_filename}"
 
         # Stream response
         return StreamingResponse(
